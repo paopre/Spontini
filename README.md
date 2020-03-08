@@ -10,7 +10,6 @@ Spontini is written in Javascript; it is portable on all Desktop operating syste
 
 Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com)
 
-<br/>
 ## INSTALLATION
 
 Just install:
