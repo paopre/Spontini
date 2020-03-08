@@ -196,6 +196,7 @@ In both cases just write the objects in the desired order (left to right == top 
 \include "path/to/lib/OSOPadding.ly"
 
 {
+  \resetOSPositions
   % 1) articulation 2) dynamic 3) text
   c' \jsOSOPadder "1" "pads" #'() _\mf \jsOSOPadder "2" "pads" #'() _> \jsOSOPadder "3" "pads" #'() _"text"
 }
@@ -206,6 +207,7 @@ In both cases just write the objects in the desired order (left to right == top 
 \include "path/to/lib/OSOPadding.ly"
 
 {
+  \resetOSPositions
   % 1) text 2) articulation 3) dynamic
   c' \jsOSOPadder "6" "pads" #'() _"text" \jsOSOPadder "4" "pads" #'() _> \jsOSOPadder "5" "pads" #'() _\mf
 }
