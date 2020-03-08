@@ -139,7 +139,7 @@ The cross-staff table can also be inserted using **Ctrl-1** keys. In this case i
 #'( - \CS )
 ```
 
-The block of text above the table allows you to automatically create and insert layout variables, grouping table objects, so to prevent the table from becoming too long horizontally and so to have a clearer view of the score from the text. To create a layout variable, select with the mouse a part of the text of the table, for example the group of objects **\sustainOn\mf_"expressivo"** (and \sustainOff) as in the following code
+The block of text above the table allows you to automatically create and insert layout variables, grouping table objects, so to prevent the table from becoming too long horizontally and so to have a clearer view of the score from the text. To create a layout variable, select with the mouse a part of the text of the table, for example the group of objects **\sustainOn\mf_"espressivo"** (and \sustainOff) as in the following code
 
 ```
 %%% __LAYOUT__ %%%
