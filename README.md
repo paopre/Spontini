@@ -26,9 +26,9 @@ Just install:
 <br/>
 ## RUNNING LOCALLY
 
-  * Run SpontiniCompileHelper.py, choose a workspace directory (the place where the input and output lilypond files will be placed) and press "Start". If you choose the "" examples "directory included in the project, the examples referenced by the following documentation can be tested
+  * Run **SpontiniCompileHelper.py**, choose a workspace directory (the place where the input and output lilypond files will be placed) and press "Start". If you choose the "" examples "directory included in the project, the examples referenced by the following documentation can be tested
 
-  * Open the file "Spontini.html" with the browser. The editor will appear and it will allow to edit and compile files in the chosen workspace.
+  * Open the file **Spontini.html** with your browser. The editor will appear and it will allow to edit and compile files in the chosen workspace.
 
   * You can check the Lilypond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)<br/>
 
