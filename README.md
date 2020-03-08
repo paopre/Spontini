@@ -78,7 +78,7 @@ Try **[THIS](examples/SetPropertiesExample1.ly)** and **[THIS](examples/SetPrope
 
 *NOTE 1*: For beam and curves (Slur, PhrasingSlur and Tie) the respective commands to be used are <span style="background-color:lightgrey">**\jsOnceOffset**</span> and <span style="background-color:lightgrey">**\jsShape**</span>, available in the drop-down menu, which map respectively <span style="background-color:lightgrey">**\once \offset**</span> and <span style="background-color:lightgrey">**\shape**</span> commands.
 
-*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](h)** and **[THIS](h)** examples (being updated).
+*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/SetPropertiesExample2.ly)** and **[THIS](examples/paddingOnBracketsExample.ly)** examples (being updated).
 
 ### <br/>2) Easy Cross-Staff
 
