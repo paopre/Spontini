@@ -35,7 +35,7 @@ Just install:
 
 ### 1) Tweaking/Overriding a music property
 
-![Alt text](file:///home/paolo/programmi/nuove-composizioni/Spontini-master/videos/tweakOverride.gif)
+![Alt text](https://github.com/paolo-prete/Spontini-master/videos/tweakOverride.gif)
 
 
 Spontini maps Lilypond's <span style="background-color:lightgrey">**\once \override**</span> and <span style="background-color:lightgrey">**\tweak**</span> commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: <span style="background-color:lightgrey">**\jsOnceOverride**</span> and <span style="background-color:lightgrey">**\jsTweak**</span>. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
