@@ -1,0 +1,203 @@
+<!--Created (14/02/2020) by Paolo-Prete.
+This file is part of Spontini project.
+
+Spontini is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+Spontini is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Spontini.  If not, see If not, see < http://www.gnu.org/licenses/ >-->
+
+<html>
+<head><meta charset="utf-8"/></head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/codemirror.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/codemirror.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/mode/stex/stex.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/addon/search/search.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/addon/search/searchcursor.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.51.0/addon/edit/matchbrackets.min.js"></script>
+<style>
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#flexgrid {
+  display: flex;
+  height: 97%;
+  width: 100%;
+}
+
+#svgpanelcontainer {
+  width: 50%;
+  overflow: auto;
+}
+
+#svgpaneldraw {
+  height: 100%;
+  width: 100%;  
+  overflow: none;
+  transform-origin: 0% 0%;	
+}
+
+#textscorepanel {
+  width: 50%;
+  height: 100%;
+}
+
+#lilyinputfilecontainer {
+  height: 100%;  
+  overflow: hidden;
+}
+
+#dragbar {
+  background-color: black;
+  height: 100%;
+  width: 3px;
+  cursor: col-resize;
+}
+
+#lilyinputfile {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  white-space: pre;
+  resize: none;
+  overflow-wrap: normal;
+}
+
+#header {
+  height: 3%; 
+  background-color: #233022;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#header > * {
+  vertical-align: middle;
+}
+
+.CodeMirror {
+/*  font-family: "Ubuntu Mono";
+  line-height: 1.2em;*/
+  height: 100%;
+}
+
+dialog {
+    z-index: 10000;
+    transition: transform 200ms;
+}
+
+.pageinput {
+ height: 80%;
+ width: 4%;
+}
+
+button {
+  height: 80%;
+  display: table-cell;
+  line-height: 80%;
+  font-size : 12px;
+  vertical-align: middle;
+}
+
+.menubutton {
+  width: 7%;
+}
+
+.slider {
+  width: 12%;
+}
+
+.plusminusbutton {
+  width: 2%;
+}
+
+#lyfilename {
+ color: white;
+ width: 15%;
+ text-align: center;
+}
+
+</style>
+
+<body onresize="onBodyResize()">
+<div id="header">
+
+  <img src="lib/logo.svg" >
+  &nbsp;
+  <button class="menubutton" id="newlilypondfile">NEW</button>
+  &nbsp;
+  <button class="menubutton" id="openlilypondfile">OPEN</button>
+  &nbsp;
+  <button class="menubutton" onclick='sendSaveLyFileCmdToPythonHelper(false)' >SAVE</button>
+  &nbsp;
+  <button class="menubutton" onclick='sendSaveLyFileCmdToPythonHelper(true)' >SAVE AS</button>
+  &nbsp;
+  <button class="menubutton" onclick='deleteLyFile()' >DELETE</button>  
+  <div id="lyfilename"></div>  
+  &nbsp;&nbsp;
+  <button class="menubutton" onclick='sendLyFileToPythonHelperForCompiling(this)' locked='false'>COMPILE</button>   
+  &nbsp;&nbsp;  
+  <input type="range" min="1" max="300" value="1" 
+         class="slider" id="zoomSlider" oninput="zoom(this.value)" />
+  &nbsp;&nbsp;
+  <input class="pageinput" type="number" id="pageNumTxt" min="1" max="1"
+         onchange='goToPage(this.value)' size="2" value='1'>
+</div>
+<div id="flexgrid">
+  <div id="textscorepanel">
+      <div id="lilyinputfilecontainer">
+        <textarea onmousedown="onMouseDownLilyInputFile(this)" 
+                  onselect="onSelectLilyInputFile(this)" 
+                  spellcheck="false" id="lilyinputfile" >
+        </textarea>
+      </div>     
+  </div>
+  <div id="dragbar">&nbsp;</div>
+  <div id="svgpanelcontainer">
+    <div id="svgpaneldraw">
+    </div>
+  </div>
+  <div>
+    <dialog id="openlyfiledialog">
+    <form method="dialog">
+      <p><label>Select file:
+        <select id="selectlyfile">
+        </select>
+      </label></p>
+      <menu>
+        <button value="" id="cancelopenlilypondfilebutton" >Cancel</button>
+        <button id="doopenlilypondfilebutton" value="">Open</button>
+      </menu>
+    </form>
+  </dialog>
+  </div>
+  <div>
+    <dialog id="namelyfiledialog">
+    <form method="dialog">
+      <p><label>Choose a name:
+        <input id="filenametxtinput" type="text">&nbsp;</input>
+      </label></p>
+      <menu>
+        <button value="" id="cancelnamelilypondfilebutton" >Cancel</button>
+        <button id="donamelilypondlilebutton" value="">OK</button>
+      </menu>
+    </form>
+  </dialog>
+  </div>  
+</div>
+<div id="footer">
+</div>
+<script type='text/javascript' src='lib/js/JSSVG.js'></script>
+</body>
+</html>
