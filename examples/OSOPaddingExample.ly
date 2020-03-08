@@ -33,11 +33,13 @@ c'\mf_"text"_>
 
 % (top -> bottom) 1) dynamic 2) articulation 3) text
 % NOTE: the object's direction must be explicitly written (we set it with "_")
+\resetOSPositions
 c' \jsOSOPadder "1" "pads" #'() _\mf \jsOSOPadder "2" "pads" #'(0 0 1.553 0) _> \jsOSOPadder "3" "pads" #'() _"text"
 \break
 
 % (top -> bottom) 1) text 2) articulation 3) dynamic
 % NOTE: the object's direction must be explicitly written (we set it with "_")
+\resetOSPositions
 c' \jsOSOPadder "6" "pads" #'(2.947 0 1.848 0) _"text" \jsOSOPadder "4" "pads" #'(0 0 1.526 0) _> \jsOSOPadder "5" "pads" #'() _\mf
 \break
 
@@ -51,6 +53,7 @@ c' \jsOSOPadder "6" "pads" #'(2.947 0 1.848 0) _"text" \jsOSOPadder "4" "pads" #
 % NOTE: for objects declared *before* the corresponding note (tuplet and ottava brackets)
 % we must *explicitly* set their positions (and their OSOPadders) as follows
 \time 3/4
+\resetOSPositions
 \setOSPosition #UP 1 Staff.OttavaBracket
 \setOSPosition #UP 3 TupletBracket
 \jsOSOPadder "7" "pads" #'(0.897 0 2.629 0) Staff.OttavaBracket
