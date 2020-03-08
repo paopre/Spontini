@@ -226,4 +226,4 @@ You can add a jsOSOPadder in two ways:
 Try **[THIS](examples/OSOPaddingExample.ly)** and **[THIS](examples/OSOPaddingExample2.ly)** example to better understand.
 Look at **[THIS](examples/EasyCrossStaffExample3.ly)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.
 
-Thanks to Aaron Hill and Thomas Morley for the support in doing this!
+Thanks to [Aaron Hill](https://github.com/seraku24) and Thomas Morley for the support in doing this!
