@@ -23,9 +23,9 @@ $(set! showEditorStuff "true")
 
 {
 
-	% Dynamics (works for pedal spanners too)
+    % Dynamics (works for pedal spanners too)
     \time 6/4
-	c' \jsTweak "1" "Y-offset" #'(-7.4) DynamicLineSpanner \mf 
+    c' \jsTweak "1" "Y-offset" #'(-7.4) DynamicLineSpanner \mf 
     c' \jsTweak "2" "X-offset" #'(-4.2) \mf 
     c' \jsTweak "3" "padding" #'(3.209) DynamicLineSpanner \mf  
     c' \jsTweak "4" "outside-staff-padding" #'(3.088) DynamicLineSpanner \mf 
@@ -40,8 +40,8 @@ $(set! showEditorStuff "true")
     
     % Scripts
     \time 6/4
-	c'4 \jsTweak "8" "Y-offset" #'(-6.3) _> 
-	c'4 \jsTweak "9" "X-offset" #'(-0.1) _> 
+    c'4 \jsTweak "8" "Y-offset" #'(-6.3) _> 
+    c'4 \jsTweak "9" "X-offset" #'(-0.1) _> 
     c'4 \jsTweak "10" "padding" #'(2.300) _> 
     % Give an outside-staff-priority to the script in order to make
     % outside-staff-padding property work for this
@@ -83,8 +83,8 @@ $(set! showEditorStuff "true")
     
     % TextScripts
     \time 6/4
-	c'4 \jsTweak "20" "Y-offset" #'(-8.6) _"text" 
-	c'4 \jsTweak "21" "X-offset" #'(2.100) _"text"  
+    c'4 \jsTweak "20" "Y-offset" #'(-8.6) _"text" 
+    c'4 \jsTweak "21" "X-offset" #'(2.100) _"text"  
     c'4 \jsTweak "22" "padding" #'(5.100) _"text"  
     c'4 \jsTweak "23" "outside-staff-padding" #'(3.600) _"text"
     c'4 \jsTweak "24" "staff-padding" #'(6.600) _"text"  
