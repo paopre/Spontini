@@ -35,6 +35,8 @@ Just install:
 
 ### 1) Tweaking/Overriding a music property
 
+<img src="https://github.com/paolo-prete/Spontini/tree/master/videos/tweakOverride.gif" style="float: left; margin-right: 10px;" />
+
 ![](https://github.com/paolo-prete/Spontini/tree/master/videos/tweakOverride.gif)
 
 
