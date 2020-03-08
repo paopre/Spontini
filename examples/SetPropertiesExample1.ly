@@ -19,10 +19,10 @@
 \include "../lib/JSSVG.ly"
 
 {
-	% Lilypond standard
+    % Lilypond standard
     %
     % Tweak
-	c' c'\tweak extra-offset #'(0.71 . -3.539) \mf c' c'
+    c' c'\tweak extra-offset #'(0.71 . -3.539) \mf c' c'
     % Override
     c' \once \override DynamicText.extra-offset = #'(1.806 . -2.388) c'\mf c' c'
 }
@@ -30,7 +30,7 @@
     % Spontini's map
     %
     % Tweak
-	c' c'\jsTweak "1" "extra-offset" #'(0.71 . -3.539) \mf c' c'
+    c' c'\jsTweak "1" "extra-offset" #'(0.71 . -3.539) \mf c' c'
     % Override
     c' \jsOnceOverride "2" "extra-offset" #'(1.806 . -2.388) DynamicText c'\mf c' c'
 }
