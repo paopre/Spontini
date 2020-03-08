@@ -29,9 +29,8 @@ Just install:
 
   * Open the file "Spontini.html" with the browser. The editor will appear and it will allow to edit and compile files in the chosen workspace.
 
-  * You can check the Lilypond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)
+  * You can check the Lilypond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)<br/>
 
-<br/>
 ## BASIC DOCUMENTATION
 
 ### 1) Tweaking/Overriding a music property
