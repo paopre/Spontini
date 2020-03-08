@@ -105,7 +105,7 @@ The first row of the table defines the notes of the upper staff, the second row 
   * The 'N' character disables cross-staff
   * The '-' character maintains the behavior of the previous character
 
-Look at **[THIS](d)** and **[THIS](d)** example to understand better
+Look at **[THIS](examples/EasyCrossStaffExample.ly)** and **[THIS](examples/EasyCrossStaffExample2.ly)** example to understand better
 
 **IMPORTANT!** in order to use EasyCrossStaff, not only must the EasyCrossStaff.ly file be included; the following piano template must also be used, with the tables inserted in the upper staff
 
@@ -220,7 +220,7 @@ You can add a jsOSOPadder in two ways:
  1. By clicking on the corresponding object, in the SVG panel, with the right mouse button, and choosing the "OSOPadder" item
  2. By pressing the Ctrl-4 keys in the text panel
 
-Try **[THIS](d)** and **[THIS](d)** example to better understand.
-Look at **[THIS](d)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.
+Try **[THIS](examples/OSOPaddingExample.ly)** and **[THIS](examples/OSOPaddingExample2.ly)** example to better understand.
+Look at **[THIS](examples/EasyCrossStaffExample3.ly)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.
 
 Thanks to Aaron Hill and Thomas Morley for the support in doing this!
