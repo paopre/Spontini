@@ -35,7 +35,7 @@ Just install:
 
 ### 1) Tweaking/Overriding a music property
 
-![Alt text](https://github.com/paolo-prete/Spontini-master/videos/tweakOverride.gif)
+![Alt text](https://github.com/paolo-prete/Spontini/tree/master/videos/tweakOverride.gif)
 
 
 Spontini maps Lilypond's <span style="background-color:lightgrey">**\once \override**</span> and <span style="background-color:lightgrey">**\tweak**</span> commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: <span style="background-color:lightgrey">**\jsOnceOverride**</span> and <span style="background-color:lightgrey">**\jsTweak**</span>. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
@@ -82,7 +82,7 @@ Try **[THIS](h)** and **[THIS](h)** example to better understand.
 
 ### <br/>2) Easy Cross-Staff
 
-![Alt text](file:///home/paolo/programmi/nuove-composizioni/Spontini-master/videos/easyCrossStaff.gif)
+![Alt text](https://github.com/paolo-prete/Spontini/tree/master/videos/easyCrossStaff.gif)
 
 The \EasyCrossStaff function is particularly useful for creating piano scores; it allows you to insert the notes of both staves of the piano part into a table that is automatically formatted during insertion.
 
@@ -172,7 +172,7 @@ The block of text above the table allows you to automatically create and insert 
 
 ### <br/>3) Outside-Staff-Ordered (OSO) Padding
 
-![Alt text](file:///home/paolo/programmi/nuove-composizioni/Spontini-master/videos/OSOPadding.gif)
+![Alt text](https://github.com/paolo-prete/Spontini/tree/master/videos/OSOPadding.gif)
 
 In addition to the standard Lilypond avoid-collision positioning properties (X/Y-offset, padding, staff-padding and outside-staff-padding) Spontini supports vertical and horizontal padding done with boxed barriers around graphic objects. These boxes, made with the <span style="background-color:lightgrey">\jsOSOPadder</span> command, can be edited using the mouse. They also allow you to vertically sort the enclosed objects.
 
