@@ -124,7 +124,7 @@ lower = { }
 \include "path/to/lib/PianoTemplate.ly"
 ```
 
-Note: if you want to avoid automatic formatting, remove the string "% TMODE"
+*NOTE*: if you want to avoid automatic formatting, remove the string "%TMODE"
 
 The cross-staff table can also be inserted using **Ctrl-1** keys. In this case it will appear in the following form:
 
