@@ -86,7 +86,7 @@ Try **[THIS](examples/SetPropertiesExample1.ly)** and **[THIS](examples/SetPrope
 
 ![img](videos/easyCrossStaff.gif)
 
-The \EasyCrossStaff function is particularly useful for creating piano scores; it allows you to insert the notes of both staves of the piano part into a table that is automatically formatted during insertion.
+The **\easyCrossStaff** function is particularly useful for creating piano scores; it allows you to insert the notes of both staves of the piano part into a table that is automatically formatted during insertion.
 
 By pressing **Ctrl-2** keys, the following object will be inserted in the text editor, which defines the above table:
 
