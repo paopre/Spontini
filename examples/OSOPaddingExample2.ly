@@ -48,14 +48,14 @@
 
 %-----------ABOVE STAFF------------ (bottom -> top order)
 \jsOSOPadder "3" "pads" #'(3.03 1 0 3.685) ^\OSBox
-\jsOSOPadder "4"  "pads" #'(5 1 1 1) ^\OSBox
-\jsOSOPadder "5"  "pads" #'(5 1 1 1) ^\OSBox
+\jsOSOPadder "4" "pads" #'(5 1 1 1) ^\OSBox
+\jsOSOPadder "5" "pads" #'(5 1 1 1) ^\OSBox
 \jsOSOPadder "6" "pads" #'(2.427 1 1 1) ^\OSBox
 \jsOSOPadder "7" "pads" #'(0 0.066 0 0.396) ^\fermata
 
 %-----------BELOW STAFF------------ (top -> bottom order)
-\jsOSOPadder "8"  "pads" #'(1 1 1 1) _\OSBox
-\jsOSOPadder "9"  "pads" #'(1 1 1 1) _>
+\jsOSOPadder "8" "pads" #'(1 1 1 1) _\OSBox
+\jsOSOPadder "9" "pads" #'(1 1 1 1) _>
 \jsOSOPadder "10" "pads" #'(4 1 1 1) _\OSBox
 \jsOSOPadder "11" "pads" #'(0 0 0 0) _\p\<
 \jsOSOPadder "12" "pads" #'(1 0.027 1 0) _\sostenutoOn
