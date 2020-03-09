@@ -20,7 +20,7 @@ Just install:
 
 *Note for **Linux** users*: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
 
-*Note for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on [this](https://lilypond.org/windows.html) page.
+*Note for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on **[THIS](https://lilypond.org/windows.html)** page.
 
 *Note if you use **Firefox** browser*: visit "about:config" page and set "dom.dialog_element.enabled" preference to "true".
 <br/>
