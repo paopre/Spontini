@@ -6,9 +6,9 @@ Spontini (FKA "LilyJSSVG") is a text-combined-with-graphic music editor that str
 
   * It assists in the creation of piano music by inserting notes in tabular and formatted form. It also supports cross-staff scores through a set of work-arounds (invisible to the user) that solve many issues of the native cross-staff functions.
 
-Spontini is written in Javascript; it is portable on all Desktop operating systems and is compatible (and tested) with the Firefox and Chrome (Chromium) browsers.
-
 *Please note that Spontini is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by Lilypond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure Lilypond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini functions into native Lilypond code can be obtained by changing simple strings in the corresponding musical expressions.*
+
+Spontini is written in Javascript; it is portable on all Desktop operating systems and is compatible (and tested) with the Firefox and Chrome (Chromium) browsers.
 
 Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com)
 
