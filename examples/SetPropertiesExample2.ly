@@ -79,7 +79,7 @@ $(set! showEditorStuff "true")
     c'''' \ottava #0 r
     \break
     
-    %NOTE: "shorten-pair" works for pedal spanners too
+    %NOTE: "shorten-pair" works for pedal brackets too
     
     % TextScripts
     \time 6/4
