@@ -82,7 +82,7 @@ Once the Spontini commands have been created, and after compiling the file, the 
 
 Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-properties-example-2.ly)** example to better understand.
 
-*NOTE 1*: For beam and curves (Slur, PhrasingSlur and Tie) the respective commands to be used are **\jsOnceOffset** and **\jsShape**, available in the drop-down menu, which map respectively **\once \offset** and **\shape** commands.
+*NOTE 1*: For beam and curves (Slur, PhrasingSlur and Tie) the respective commands to be used are **\jsOnceOffset** and **\jsShape**, available in the drop-down menu, which map respectively **\once \offset** and **\shape** commands. Refer to **[THIS](examples/set-properties-example-2.ly)** so to see how they must be set
 
 *NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/set-properties-example-2.ly)** and **[THIS](examples/padding-on-brackets-example.ly)** examples (being updated).
 
