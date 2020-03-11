@@ -20,22 +20,20 @@ Just install:
 
   * **[Python 3.x](https://www.python.org/downloads/)**
 
-*NOTE for **Linux** users*: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
+*Note for **Linux** users*: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
 
-*NOTE for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on **[THIS](https://lilypond.org/windows.html)** page.
+*Note for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on **[THIS](https://lilypond.org/windows.html)** page.
 
-*NOTE if you use **Firefox** browser*: visit "about:config" page and set "dom.dialog_element.enabled" preference to "true".
+*Note if you use **Firefox** browser*: visit "about:config" page and set "dom.dialog_element.enabled" preference to "true".
 <br/>
 ## RUNNING LOCALLY
 
-  * Run **SpontiniHelper.py**, choose a workspace directory (the place where input and output lilypond files will be placed) and press "Start". If you choose the "examples" directory included in the project, the examples referenced by the following documentation can be tested
+  * Run **SpontiniCompileHelper.py**, choose a workspace directory (the place where input and output lilypond files will be placed) and press "Start". If you choose the "examples" directory included in the project, the examples referenced by the following documentation can be tested
 
   * Open the file **Spontini.html** with your browser. The editor will appear and it will allow to edit and compile files in the chosen workspace.
 
-  * You can check the Lilypond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)
+  * You can check the Lilypond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)<br/>
 
-*NOTE*: SpontiniHelper's options can be permanently set in the file named "SpontiniHelperConfig.txt"
-<br/>
 ## BASIC DOCUMENTATION
 
 ### 1) Tweaking/Overriding a music property
@@ -60,7 +58,7 @@ For example, if we want to modify the extra-offset of a dynamic, the standard Li
 The above code, translated into the respective Spontini commands, becomes:
 
 ```
-\include "path/to/lib/jssvg.ly"
+\include "path/to/lib/JSSVG.ly"
 
 {
     % Spontini's map
@@ -80,11 +78,11 @@ Where "ID1/2" are unique numbers associated with each of the properties to be mo
 
 Once the Spontini commands have been created, and after compiling the file, the corresponding objects will be highlighted by the editor and you can edit them with the mouse.
 
-Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-properties-example-2.ly)** example to better understand.
+Try **[THIS](examples/SetPropertiesExample1.ly)** and **[THIS](examples/SetPropertiesExample2.ly)** example to better understand.
 
-*NOTE 1*: For **beams** and **curves** (Slur, PhrasingSlur and Tie) the respective commands to be used are **\jsOnceOffset** and **\jsShape**, available in the drop-down menu, which map respectively **\once \offset** and **\shape** commands. Refer to **[THIS](examples/set-properties-example-2.ly)** so to see how they must be set
+*NOTE 1*: For beam and curves (Slur, PhrasingSlur and Tie) the respective commands to be used are **\jsOnceOffset** and **\jsShape**, available in the drop-down menu, which map respectively **\once \offset** and **\shape** commands.
 
-*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/set-properties-example-2.ly)** and **[THIS](examples/padding-on-brackets-example.ly)** examples (being updated).
+*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/SetPropertiesExample2.ly)** and **[THIS](examples/PaddingOnBracketsExample.ly)** examples (being updated).
 
 ### <br/>2) Easy Cross-Staff
 
@@ -111,13 +109,13 @@ The first row of the table defines the notes of the upper staff, the second row 
   * The 'N' character disables cross-staff
   * The '-' character maintains the behavior of the previous character
 
-Look at **[THIS](examples/easy-cross-staff-example-1.ly)** and **[THIS](examples/easy-cross-staff-example-2.ly)** example to understand better
+Look at **[THIS](examples/EasyCrossStaffExample.ly)** and **[THIS](examples/EasyCrossStaffExample2.ly)** example to understand better
 
 **IMPORTANT!** in order to use EasyCrossStaff, not only must the EasyCrossStaff.ly file be included; the following piano template must also be used, and the tables must be inserted in the upper staff:
 
 ```
-\include "path/to/lib/jssvg.ly"
-\include "path/to/lib/easy-cross-staff.ly"
+\include "path/to/lib/JSSVG.ly"
+\include "path/to/lib/EasyCrossStaff.ly"
 
 upper = {
    % insert cross-staff tables here!
@@ -199,8 +197,8 @@ For example, if we have a note with a dynamic, a text markup and an articulation
 In both cases just write the objects in the desired order (left to right == top to bottom for objects below the staff, and bottom to top for objects above the staff), and add to each of them the respective jsOSOPadder object:
 
 ```
-\include "path/to/lib/jssvg.ly"
-\include "path/to/lib/oso-padding.ly"
+\include "path/to/lib/JSSVG.ly"
+\include "path/to/lib/OSOPadding.ly"
 
 {
   \resetOSPositions
@@ -210,8 +208,8 @@ In both cases just write the objects in the desired order (left to right == top 
 ```
 
 ```
-\include "path/to/lib/jssvg.ly"
-\include "path/to/lib/oso-padding.ly"
+\include "path/to/lib/JSSVG.ly"
+\include "path/to/lib/OSOPadding.ly"
 
 {
   \resetOSPositions
@@ -227,7 +225,7 @@ You can add a jsOSOPadder in two ways:
  1. By clicking on the corresponding object, in the SVG panel, with the right mouse button, and choosing the "OSOPadder" item
  2. By pressing **Ctrl-4** keys in the text panel
 
-Try **[THIS](examples/oso-padding-example-1.ly)** and **[THIS](examples/oso-padding-example-2.ly)** example to better understand.
-Look at **[THIS](examples/easy-cross-staff-example-3.ly)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.
+Try **[THIS](examples/OSOPaddingExample.ly)** and **[THIS](examples/OSOPaddingExample2.ly)** example to better understand.
+Look at **[THIS](examples/EasyCrossStaffExample3.ly)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.
 
-Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley and Martin Tarenskeen for the support in doing this!
+Thanks to [Aaron Hill](https://github.com/seraku24) and Thomas Morley for the support in doing this!
