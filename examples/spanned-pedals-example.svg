@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0 0 119.5016 169.0094">
+<style text="style/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<!-- Page: 1/1 -->
+<text transform="translate(5.6906, 2.8453)" font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan/>
+</text>
+<g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="4">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(22.2311, 18.8782)" x="-0.2000" y="-0.2000" width="3.6095" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(25.4406, 20.0732)" x="0" y="-1.1950" width="0.2000" height="3.5745" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(22.2311, 22.6526)" x="-0.2000" y="-0.2000" width="3.6095" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(22.0311, 20.0732)" x="0" y="-1.1950" width="0.2000" height="3.5745" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(22.2311, 20.0732)" >
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.7413, 0.0000) scale(0.0040, -0.0040)" d="M233 243c-56 0 -102 -107 -102 -173c0 -22 8 -38 30 -38c64 0 97 126 97 178c0 18 -7 33 -25 33zM112 -146c-38 0 -78 5 -116 5c-39 0 -78 -5 -115 -5c-9 0 -14 7 -14 14c0 18 31 15 48 16c22 1 47 5 54 25l102 300c2 7 4 14 4 20c0 8 -2 14 -11 14
+c-33 0 -63 -60 -79 -97c-5 -12 -15 -17 -24 -17c-8 0 -14 4 -14 12c0 2 1 5 2 8c30 68 72 143 132 143c35 0 59 -21 66 -52c29 31 67 52 103 52c69 0 107 -49 107 -114c0 -21 -4 -44 -12 -67c-20 -58 -91 -119 -147 -119c-27 0 -52 5 -73 17c-4 2 -7 3 -11 3
+c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 -14c0 -7 -4 -14 -13 -14z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="3">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(23.1472, 31.2275)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(27.1419, 31.2275)" x="0" y="-0.0000" width="0.2000" height="3.4890" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(23.1472, 34.9165)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(22.9472, 31.2275)" x="0" y="-0.0000" width="0.2000" height="3.4890" ry="0.0000" fill="currentColor"/>
+</g>
+<text transform="translate(23.1472, 31.2275)" font-family="monospace" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>   </tspan>
+</text>
+</a>
+</g>
+<g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="5">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(23.1472, 25.5026)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(27.1419, 25.9176)" x="0" y="-0.4150" width="0.2000" height="2.6750" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(23.1472, 28.3776)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(22.9472, 25.9176)" x="0" y="-0.4150" width="0.2000" height="2.6750" ry="0.0000" fill="currentColor"/>
+</g>
+<text transform="translate(23.1472, 25.9176)" font-family="monospace" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>   </tspan>
+</text>
+</a>
+</g>
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<line transform="translate(14.2264, 9.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 8.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 7.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 6.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 5.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+</g>
+<rect transform="translate(113.5948, 3.8453)" x="0.0000" y="5.8329" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(113.5948, 16.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(113.5948, 7.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(81.6013, 3.8453)" x="0.0000" y="5.8329" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(81.6013, 16.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(81.6013, 7.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(49.6079, 3.8453)" x="0.0000" y="5.8329" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(49.6079, 16.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(49.6079, 7.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<line transform="translate(14.2264, 18.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 17.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 16.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 15.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+<line transform="translate(14.2264, 14.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="99.5277" y2="-0.0000"/>
+</g>
+<rect transform="translate(5.6906, 10.6213)" x="81.0992" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(5.6906, 10.6213)" x="49.1057" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(5.6906, 10.6213)" x="17.1123" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(88.4375, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<line transform="translate(26.1446, 24.7857)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="87.6665" y1="-0.0000" x2="87.6665" y2="-0.0000"/>
+<line transform="translate(26.1446, 24.7857)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+<line transform="translate(26.1446, 24.7857)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="87.6665" y2="-0.0000"/>
+</a>
+<rect transform="translate(88.4375, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:25:26">
+<path transform="translate(87.1341, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:25:26">
+<path transform="translate(87.1341, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<line transform="translate(27.4761, 30.5106)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="86.3349" y1="-0.0000" x2="86.3349" y2="-0.0000"/>
+<line transform="translate(27.4761, 30.5106)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+<line transform="translate(27.4761, 30.5106)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="86.3349" y2="-0.0000"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<text transform="translate(19.8182, 30.5106)" font-family="monospace" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>S Ped</tspan>
+</text>
+</a>
+<rect transform="translate(24.4505, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<rect transform="translate(24.4505, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<text transform="translate(21.1498, 24.7857)" font-family="monospace" font-weight="bold" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Ped</tspan>
+</text>
+</a>
+<path transform="translate(19.2947, 16.6213) scale(0.0040, -0.0040)" d="M23 11c-1 -7 -6 -11 -11 -11c-6 0 -12 4 -12 11c0 175 235 165 235 344c0 60 -18 122 -70 122c-26 0 -51 -14 -51 -37c0 -27 35 -41 35 -68c0 -38 -30 -69 -68 -69s-69 31 -69 69c0 76 72 128 153 128c96 0 187 -56 187 -145c0 -153 -151 -159 -249 -220c9 2 17 3 26 3
+c33 0 70 -11 105 -36c21 -15 46 -23 66 -23c21 0 39 9 44 29c2 6 6 9 11 9c6 0 12 -5 12 -12c0 -67 -90 -105 -138 -105c-36 0 -71 14 -96 44c-13 16 -31 22 -48 22c-30 0 -59 -20 -62 -55z" fill="currentColor"/>
+<path transform="translate(19.2264, 18.6699) scale(0.0040, -0.0040)" d="M204 307c22 14 44 29 60 50c11 15 19 33 27 50c2 4 5 6 9 6c6 0 13 -5 13 -14v-245h72c10 0 15 -7 15 -14s-5 -15 -15 -15h-72v-8c0 -48 27 -94 72 -94c8 0 12 -5 12 -11s-4 -12 -12 -12c-44 0 -87 13 -131 13s-87 -13 -131 -13c-8 0 -12 6 -12 12s4 11 12 11
+c45 0 73 46 73 94v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207 138 330c0 9 6 16 13 16h3c23 -7 47 -13 71 -13s48 6 71 13c2 1 3 1 5 1c11 0 18 -10 12 -17l-284 -330h167v131c0 8 1 17 8 22z" fill="currentColor"/>
+<path transform="translate(15.0264, 17.6213) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<rect transform="translate(14.1443, 12.1213)" x="0.0000" y="-6.5569" width="0.1821" height="13.1138" ry="0.0569" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:26:0:1">
+<path transform="translate(19.2947, 7.6213) scale(0.0040, -0.0040)" d="M23 11c-1 -7 -6 -11 -11 -11c-6 0 -12 4 -12 11c0 175 235 165 235 344c0 60 -18 122 -70 122c-26 0 -51 -14 -51 -37c0 -27 35 -41 35 -68c0 -38 -30 -69 -68 -69s-69 31 -69 69c0 76 72 128 153 128c96 0 187 -56 187 -145c0 -153 -151 -159 -249 -220c9 2 17 3 26 3
+c33 0 70 -11 105 -36c21 -15 46 -23 66 -23c21 0 39 9 44 29c2 6 6 9 11 9c6 0 12 -5 12 -12c0 -67 -90 -105 -138 -105c-36 0 -71 14 -96 44c-13 16 -31 22 -48 22c-30 0 -59 -20 -62 -55z" fill="currentColor"/>
+<path transform="translate(19.2264, 9.6699) scale(0.0040, -0.0040)" d="M204 307c22 14 44 29 60 50c11 15 19 33 27 50c2 4 5 6 9 6c6 0 13 -5 13 -14v-245h72c10 0 15 -7 15 -14s-5 -15 -15 -15h-72v-8c0 -48 27 -94 72 -94c8 0 12 -5 12 -11s-4 -12 -12 -12c-44 0 -87 13 -131 13s-87 -13 -131 -13c-8 0 -12 6 -12 12s4 11 12 11
+c45 0 73 46 73 94v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207 138 330c0 9 6 16 13 16h3c23 -7 47 -13 71 -13s48 6 71 13c2 1 3 1 5 1c11 0 18 -10 12 -17l-284 -330h167v131c0 8 1 17 8 22z" fill="currentColor"/>
+</a>
+<path transform="translate(15.0264, 8.6213) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:4:5">
+<path transform="translate(23.1472, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:4:5">
+<path transform="translate(23.1472, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<text transform="translate(4.5570, 12.9066)" font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Piano  </tspan>
+</text>
+<path transform="translate(13.8443, 12.1213) scale(0.0040, -0.0040)" d="M-15 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c3 -3 3 -9 3 -12c0 -9 -6 -18 -15 -18c-3 0 -9 3 -12 6c-132 135 -177 312 -177 501c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360
+c0 252 -108 513 -108 780c0 189 45 366 177 501c3 3 9 6 12 6c9 0 15 -9 15 -18c0 -3 0 -9 -3 -12c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765c0 -186 -45 -363 -174 -498c129 -135 174 -312 174 -498z" fill="currentColor"/>
+<rect transform="translate(56.4440, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<rect transform="translate(56.4440, 7.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:18:19">
+<path transform="translate(55.1406, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:51:18:19">
+<path transform="translate(55.1406, 10.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="6">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:57:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(12.1792, 72.8782)" x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(13.0792, 73.3782)" x="0" y="-0.5000" width="0.2000" height="1.0000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(12.1792, 74.0782)" x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(11.0792, 73.3782)" x="0" y="-0.5000" width="0.2000" height="1.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<path transform="translate(12.1792, 73.3782) scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 10 9 19 19 19c2 0 3 -1 4 -1l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-1 0 -2 -1 -4 -1c-10 0 -19 9 -19 19c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
+</a>
+</g>
+<g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="7">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:57:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(10.6769, 74.2782)" x="-0.2000" y="-0.2000" width="3.4046" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(13.6815, 76.1902)" x="0" y="-1.9120" width="0.2000" height="2.6290" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(10.6769, 77.1072)" x="-0.2000" y="-0.2000" width="3.4046" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(10.4769, 76.1902)" x="0" y="-1.9120" width="0.2000" height="2.6290" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(10.6769, 76.1902)" >
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.7413, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g thickness="0.20000000" editableclass="Padder" spontinieditable="true" y-direction="-1" pads-propid="8">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:57:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(11.4906, 83.8529)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(15.4853, 83.8529)" x="0" y="-0.0000" width="0.2000" height="5.6320" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(11.4906, 89.6849)" x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(11.2906, 83.8529)" x="0" y="-0.0000" width="0.2000" height="5.6320" ry="0.0000" fill="currentColor"/>
+</g>
+<text transform="translate(11.4906, 83.8529)" font-family="monospace" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>   </tspan>
+</text>
+</a>
+</g>
+<g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:57:1:2">
+<g color="rgb(91.2000%, 93.4000%, 95.6000%)">
+<rect transform="translate(11.4906, 77.3072)" x="-0.2000" y="-0.2000" width="31.0655" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(42.1561, 78.9802)" x="0" y="-1.6730" width="0.2000" height="5.1119" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(11.4906, 82.6191)" x="-0.2000" y="-0.2000" width="31.0655" height="0.2000" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(11.2906, 78.9802)" x="0" y="-1.6730" width="0.2000" height="5.1119" ry="0.0000" fill="currentColor"/>
+</g>
+<text transform="translate(11.4906, 78.9802)" font-family="monospace" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Handle pedals with care</tspan>
+</text>
+</a>
+</g>
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<line transform="translate(5.6906, 63.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 62.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 61.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 60.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 59.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+</g>
+<rect transform="translate(41.4723, 61.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(41.4723, 70.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(41.4723, 57.2738)" x="0.0000" y="6.4044" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(77.5335, 61.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(77.5335, 70.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(77.5335, 57.2738)" x="0.0000" y="6.4044" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(113.5948, 61.6213)" x="0.0000" y="-2.0000" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(113.5948, 70.6213)" x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<line transform="translate(5.6906, 72.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 71.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 70.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 69.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+<line transform="translate(5.6906, 68.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="-0.0000" x2="108.0636" y2="-0.0000"/>
+</g>
+<rect transform="translate(5.6906, 64.6213)" x="77.5781" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(5.6906, 64.6213)" x="41.5169" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(5.6906, 64.6213)" x="5.4557" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
+<rect transform="translate(113.5948, 57.2738)" x="0.0000" y="6.4044" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
+<rect transform="translate(84.9164, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<rect transform="translate(84.9164, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:32:33">
+<path transform="translate(83.6130, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:32:33">
+<path transform="translate(83.6130, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<text transform="translate(4.5638, 58.5713)" font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+<path transform="translate(6.4906, 71.6213) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<path transform="translate(6.4906, 62.6213) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+<rect transform="translate(5.6085, 66.1213)" x="0.0000" y="-6.5569" width="0.1821" height="13.1138" ry="0.0569" fill="currentColor"/>
+<path transform="translate(5.3085, 66.1213) scale(0.0040, -0.0040)" d="M-15 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c3 -3 3 -9 3 -12c0 -9 -6 -18 -15 -18c-3 0 -9 3 -12 6c-132 135 -177 312 -177 501c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360
+c0 252 -108 513 -108 780c0 189 45 366 177 501c3 3 9 6 12 6c9 0 15 -9 15 -18c0 -3 0 -9 -3 -12c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765c0 -186 -45 -363 -174 -498c129 -135 174 -312 174 -498z" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<line transform="translate(9.0556, 83.1360)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="38.4962" y1="-0.0000" x2="38.4962" y2="-1.0000"/>
+<line transform="translate(9.0556, 83.1360)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+<line transform="translate(9.0556, 83.1360)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="38.4962" y2="-0.0000"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:40:1:2">
+<line transform="translate(9.0556, 90.2018)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="74.5575" y1="-0.0000" x2="74.5575" y2="-1.0000"/>
+<line transform="translate(9.0556, 90.2018)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+<line transform="translate(9.0556, 90.2018)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="74.5575" y2="-0.0000"/>
+</a>
+<rect transform="translate(48.8552, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:14:15">
+<path transform="translate(47.5518, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:14:15">
+<path transform="translate(47.5518, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<rect transform="translate(48.8552, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<rect transform="translate(12.7939, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<rect transform="translate(12.7939, 61.6213)" x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:4:5">
+<path transform="translate(11.4906, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/nuove-composizioni/Spontini-test/examples/spanned-pedals-example.ly:70:4:5">
+<path transform="translate(11.4906, 64.6213) scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
+c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
+</a>
+<a transform="translate(28.9194, 165.1170)" xlink:href="http://lilypond.org/">
+<rect x="0.0000" y="-0.4780" width="61.6628" height="2.1510" fill="none" stroke="none" stroke-width="0.0"/>
+</a>
+<text transform="translate(28.9194, 165.1170)" font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Music engraving by LilyPond 2.20.0—www.lilypond.org</tspan>
+</text>
+</svg>
