@@ -10,15 +10,15 @@ Spontini (FKA "LilyJSSVG") is a text-combined-with-graphic music editor that str
 
 Spontini is written in Javascript; it is portable on all Desktop operating systems and is compatible (and tested) with Firefox and Chrome (Chromium) browsers.
 
-Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com)
+Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
 ## INSTALLATION
 
 Just install:
 
-  * **[Lilypond 2.19.84 or newer](http://lilypond.org/download.html)**.
+  * **[Lilypond 2.19.84 or newer](http://lilypond.org/download.html).**
 
-  * **[Python 3.x](https://www.python.org/downloads/)**
+  * **[Python 3.x](https://www.python.org/downloads/).**
 
 ***IMPORTANT*** NOTE for **Linux** users: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
 
