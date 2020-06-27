@@ -20,11 +20,11 @@ Just install:
 
   * **[Python 3.x](https://www.python.org/downloads/)**
 
-*NOTE for **Linux** users*: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
+***IMPORTANT NOTE*** for **Linux** users*: make sure that Tkinter support for Python 3 is also installed (on Ubuntu: sudo apt-get install python3-tk).
 
-*NOTE for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on **[THIS](https://lilypond.org/windows.html)** page.
+***IMPORTANT NOTE*** for **Windows** users*: make sure that the "Path" variable is set, both for Lilypond and for Python 3, as explained on **[THIS](https://lilypond.org/windows.html)** page.
 
-*NOTE if you use **Firefox** browser*: visit "about:config" page and set "dom.dialog_element.enabled" preference to "true".
+***IMPORTANT NOTE*** if you use **Firefox** browser*: visit "about:config" page and set "dom.dialog_element.enabled" preference to "true".
 <br/>
 ## RUNNING LOCALLY
 
