@@ -16,7 +16,7 @@ Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** 
 
 Just install:
 
-  * **[Lilypond 2.19.20](http://lilypond.org/download.html)** (or 2.19.84; it may also work on some previous 2.19.x versions, but has not been tested for them).
+  * **[Lilypond 2.19.84 or newer](http://lilypond.org/download.html)**.
 
   * **[Python 3.x](https://www.python.org/downloads/)**
 
