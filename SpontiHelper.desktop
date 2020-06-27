@@ -2,4 +2,4 @@
 Type=Application
 Terminal=false
 Name=SpontiniHelper
-Exec=bash -c '"$(dirname "$1")"/./SpontiniHelper.py' dummy %k
+Exec=bash -c 'python3 "$(dirname "$1")"/SpontiniHelper.py' dummy %k
