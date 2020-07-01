@@ -24,7 +24,7 @@
 upper = {
 
 \time 2/4
-\set Staff.pedalSustainStyle = #'mixed
+\set Score.pedalSustainStyle = #'mixed
 \override Score.TextScript.font-family = #'typewriter
 
 #(define l1 #{
