@@ -566,7 +566,7 @@ makeCrossStaffUDStepTwo = #(define-scheme-function (parser location mus) (ly:mus
       (cond 
         ((and (eq? mustCrossStaff 'T) (or (eq? name 'NoteEvent)(eq? name 'EventChord))
                                       (or (eq? beamPos 'U)(eq? beamPos 'D)))      
-          (set! evt #{ \crossStaff $evt #} )
+          (set! evt #{ \once \override Dots.stencil = ##f \crossStaff $evt #} )
           evt) 
         (else #f)))) 
   mus))
