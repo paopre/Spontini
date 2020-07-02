@@ -1,4 +1,9 @@
-# SPONTINI
+<p align="center">
+    <img src="images/logo.svg" width="318px" alt="Spontini logo" />
+</p>
+<h3 align="center">An advanced GUI assistant for Lilypond</h3>
+<p align="center">Complex music engraving made possible and fast</p>
+<br />
 
 Spontini is a text-combined-with-graphic music editor that strongly speeds up the creation and fine graphic tuning of complex scores edited with **[Lilypond](https://lilypond.org/)** through two main features:
 
@@ -40,7 +45,7 @@ Just install:
 
 ### 1) Tweaking/Overriding a music property
 
-![img](videos/tweakOverride.gif)
+![img](images/tweakOverride.gif)
 
 
 Spontini maps Lilypond's **\once \override** and **\tweak** commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: **\jsOnceOverride** and **\jsTweak**. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
@@ -90,7 +95,7 @@ Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-p
 
 <span style="background-color:yellow"> **IMPORTANT!** Keyboard shortcuts are changed! Please refer to the new shortcuts listed in this doc.</span>
 
-![img](videos/easyCrossStaff.gif)
+![img](images/easyCrossStaff.gif)
 
 The **\easyCrossStaff[...]**, and **\tabularTwoStavesPoly[...]** functions are particularly useful for creating piano scores, or any score for instruments with two staves; they allow you to insert the notes of both staves of the instrument into a table that is automatically formatted during insertion.
 
@@ -178,7 +183,7 @@ This block allows you to automatically create and insert layout variables, group
 
 ### <br/>3) Outside-Staff-Ordered (OSO) Padding
 
-![img](videos/OSOPadding.gif)
+![img](images/OSOPadding.gif)
 
 In addition to the standard Lilypond avoid-collision positioning properties (X/Y-offset, padding, staff-padding and outside-staff-padding) Spontini supports vertical and horizontal padding done with boxed barriers around graphic objects. These boxes, made with the **\jsOSOPadder** command, can be edited using the mouse. They also allow you to vertically sort the enclosed objects.
 
