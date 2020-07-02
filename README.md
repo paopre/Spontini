@@ -2,7 +2,7 @@
     <img src="images/logo.svg" width="318px" alt="Spontini logo" />
 </p>
 <h3 align="center">An advanced GUI assistant for Lilypond</h3>
-<p align="center">Complex music engraving made possible and fast</p>
+<p align="center"><i>Complex music engraving made possible and fast</i></p>
 <br />
 
 Spontini is a text-combined-with-graphic music editor that strongly speeds up the creation and fine graphic tuning of complex scores edited with **[Lilypond](https://lilypond.org/)** through two main features:
