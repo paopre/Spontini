@@ -34,7 +34,7 @@ The first six bars of Debussy's prelude were made in **[THIS](easy-cross-staff-e
 Here's the result:
 
 <p align="center">
-  <img src="debussy-frag-4.png" />
+  <img src="debussy-frag-1-lily.png" />
 </p>
 
 When the notes of the two staves are in polyphony, but without cross-staff, you can also use the functions **\tabularTwoStavesPolyI/II/III/IV**
