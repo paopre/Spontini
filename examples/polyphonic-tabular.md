@@ -25,7 +25,7 @@ The function to use will be \easyCrossStaffPolyB. This can be obtained by pressi
   {} {} {} {}
 ```
 The first two { s \CS } expressions under "\easyCrossStaffB %TMODE" are reserved for the Cross-staff layer.
-The four {} expressions under the "UPPER STAFF" and "LOWER STAFF" allow you to enter as many additional voices in polyphony for each staff.
+The four {} expressions under "UPPER STAFF" and "LOWER STAFF" allow you to enter as many additional voices in polyphony for each staff.
 The first six bars of Debussy's prelude were made in **[THIS](easy-cross-staff-example-4.ly)** example. As you can see, given the complexity of the score, it was necessary to make further tuning of the graphic objects (curves, beams, dots, dynamics and accidentals).
 
 Here's the result:
