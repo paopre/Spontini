@@ -5,14 +5,14 @@ Here we examine a fragment of a prelude to Debussy ("Danseuses de Delphes"), whi
 
 ![img](debussy-frag-1.jpeg)
 
-Spontini allows you to combine voices in polyphony with the cross-staff using the functions **\easyCrossStaffB**, which adds up to 4 levels of polyphony, both to the upper and lower staff, in addition to the cross-staff layer.
+Spontini allows you to combine voices in polyphony with the cross-staff using the **\easyCrossStaffB** function, which adds up to 4 levels of polyphony, both to the upper and lower staff, in addition to the cross-staff layer.
 
 In Debussy's prelude we can generally identify, in addition to a cross-staff layer, a polyphony layer on the lower staff and another layer on the upper staff.
 For example, in the bar that follows, we identify the cross-staff layer with blue color, with red the additional voice on the upper staff and with green the additional voice on the lower staff.
 
 ![img](debussy-frag-2.jpeg)
 
-The function to use will be \easyCrossStaffPolyB. This can be obtained by pressing the **"Ctrl-2"** keys, adding the letter **"B"** to the word "\easyCrossStaff", positioning the cursor on the next line and pressing the **"Ctrl-3"** keys. The following expression will be generated:
+The \easyCrossStaffB function can be obtained by pressing the **"Ctrl-2"** keys, adding the letter **"B"** to the word "\easyCrossStaff", positioning the cursor on the next line and pressing the **"Ctrl-3"** keys. The following expression will be generated:
 
 ```
 \easyCrossStaffB %TMODE
