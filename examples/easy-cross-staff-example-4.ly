@@ -73,7 +73,7 @@ $(set! cpDiameter 0.4)
   {}{}{}
 
 \easyCrossStaffB %TMODE
-  { <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS re'^.    \CS re'^.    \CS mib'^.   \CS mi'4      \CS fa'8      \CS <re' fa' sib' re''> \CS <la re' fa' la'> \CS s                 \CS s             \CS s                \CS s \CS s   \CS s \CS s \CS s     \CS }
+  { <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS re'      \CS re'      \CS mib'     \CS mi'4      \CS fa'8      \CS <re' fa' sib' re''> \CS <la re' fa' la'> \CS s                 \CS s             \CS s                \CS s \CS s   \CS s \CS s \CS s     \CS }
   { fa4             \CS sol           \CS la            \CS <fa sol> \CS <fa sol> \CS <fa sol> \CS <fa sol>4 \CS <fa sib>8 \CS s[_._\(             \CS s_.              \CS <fa la re' fa'>_. \CS <re la re'>_. \CS <sol sib re'>]_. \CS s \CS s\> \CS s \CS s \CS s\!\) \CS }
 #'( U               \CS -             \CS -             \CS -        \CS -        \CS -        \CS -         \CS -         \CS D                   \CS -                \CS -                 \CS -             \CS -                \CS - \CS -   \CS - \CS - \CS -     \CS )
   %% UPPER STAFF %%
@@ -87,7 +87,7 @@ $(set! cpDiameter 0.4)
   %% LOWER STAFF %%  
   { 
     \stemDown <sib, sib,,>4_._\( <la, la,,>_. <fa, fa,,>_.\) 
-    <sib, sib,,>4_._\( <si, si,,> <do do,>_.\) 
+    <sib, sib,,>4_._\( <si, si,,>_. <do do,>_.\) 
     <dod dod,>_._\( <re re,>2_.\) s4 
     <do sol do'>8[_. <re la>_. <sib, fa sib>_. <do sol>]_. <fa, do fa>4_-
   } 
@@ -102,7 +102,7 @@ $(set! cpDiameter 0.4)
   { sib4 }
   {}{}
   %% LOWER STAFF %%
-  { r8 <fa sib re'>4 <sol si mib'> <la dod' fa'>8 }
+  { r8 <fa sib re'>4^. <sol si mib'>^. <la dod' fa'>8^. }
   { \stemDown <sib, sib,,>4_._\(\p <la, la,,>_. <fa, fa,,>_.\) }   
   {}{}
   
@@ -124,7 +124,7 @@ $(set! cpDiameter 0.4)
   {}{}{}
 
 \easyCrossStaffB %TMODE
-  { <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS re'^.    \CS re'^.    \CS mib'^.   \CS mi'4      \CS fa'8      \CS <re' fa' sib' re''>                                                                                                            \CS <la re' fa' la'> \CS s                 \CS s             \CS s                \CS s \CS s   \CS s \CS s \CS s     \CS }
+  { <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS re'      \CS re'      \CS mib'     \CS mi'4      \CS fa'8      \CS <re' fa' sib' re''>                                                                                                            \CS <la re' fa' la'> \CS s                 \CS s             \CS s                \CS s \CS s   \CS s \CS s \CS s     \CS }
   { fa4             \CS sol           \CS la            \CS <fa sol> \CS <fa sol> \CS <fa sol> \CS <fa sol>4 \CS <fa sib>8 \CS s\jsOnceOffset "6" "positions" #'(0 . -1.754) [_.\jsShape "7" "cpts" #'((0 . 0) (0 . 0) (-13.54 . -0.458) (0.261 . 1.771)) _\( \CS s_.              \CS <fa la re' fa'>_. \CS <re la re'>_. \CS <sol sib re'>]_. \CS s \CS s\> \CS s \CS s \CS s\!\) \CS } 
 #'( U               \CS -             \CS -             \CS -        \CS -        \CS -        \CS -         \CS -         \CS D                                                                                                                              \CS -                \CS -                 \CS -             \CS -                \CS - \CS -   \CS - \CS - \CS -     \CS )
   %% UPPER STAFF %%
@@ -138,7 +138,7 @@ $(set! cpDiameter 0.4)
   %% LOWER STAFF %%  
   { 
     \stemDown <sib, sib,,>4_._\( <la, la,,>_. <fa, fa,,>_.\) 
-    <sib, sib,,>4_._\( <si, si,,> <do do,>_.\) 
+    <sib, sib,,>4_._\( <si, si,,>_. <do do,>_.\) 
     <dod dod,>_._\( <re re,>2_.\) s4 
     <do sol do'>8\jsOnceOffset "16" "positions" #'(0 . -0.877) [_. <re la>_. <sib, fa sib>_. <do sol>]_. <fa, do fa>4_- 
   }
@@ -153,7 +153,7 @@ $(set! cpDiameter 0.4)
   { sib4 }
   {}{}
   %% LOWER STAFF %%
-  { r8 <fa sib re'>4 <sol si mib'> <la dod' fa'>8 }
+  { r8 <fa sib re'>4^. <sol si mib'>^. <la dod' fa'>8^. }
   { \stemDown <sib, sib,,>4_._\(\p \CS <la, la,,>_. <fa, fa,,>_.\) } 
   {}{}
 
