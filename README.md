@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/logo.svg" width="518px" alt="Spontini-Editor logo" />
+    <img src="images/logo.svg" width="618px" alt="Spontini-Editor logo" />
 </p>
 <h3 align="center">An advanced GUI assistant for Lilypond</h3>
 <p align="center"><i>Complex music engraving made possible and fast</i></p>
