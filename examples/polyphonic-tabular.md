@@ -1,13 +1,13 @@
 <h1 align="center">WRITING COMPLEX PIANO SCORES</h3>
 
-With the Spontini editor it is possible to write complex scores for piano, combining polyphony and cross-staff, which is very common in music from (at least) the end of XIX century onwards.
+With Spontini-Editor it is possible to write complex scores for piano, combining polyphony and cross-staff, which is very common in music from (at least) the end of XIX century onwards.
 Here we examine a fragment of a prelude to Debussy ("Danseuses de Delphes"), which can be downloaded from the **[IMSLP](https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1_(Debussy%2C_Claude))** website.
 
 <p align="center">
   <img src="debussy-frag-1.jpeg" />
 </p>
 
-Spontini allows you to combine voices in polyphony with the cross-staff using the **\easyCrossStaffB** function, which adds up to 4 levels of polyphony, both to the upper and lower staff, in addition to the cross-staff layer.
+Spontini-Editor allows you to combine voices in polyphony with the cross-staff using the **\easyCrossStaffB** function, which adds up to 4 levels of polyphony, both to the upper and lower staff, in addition to the cross-staff layer.
 
 In Debussy's prelude we can generally identify, in addition to a cross-staff layer, a polyphony layer on the lower staff and another layer on the upper staff.
 For example, in the bar that follows, we identify the cross-staff layer with blue color, with red the additional voice on the upper staff and with green the additional voice on the lower staff.
