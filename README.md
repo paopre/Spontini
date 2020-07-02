@@ -92,7 +92,7 @@ Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-p
 
 ![img](videos/easyCrossStaff.gif)
 
-The **\easyCrossStaff[...]**, and **\tabularTwoStaves[...]** functions are particularly useful for creating piano scores, or any score for instruments with two staves; they allow you to insert the notes of both staves of the instrument into a table that is automatically formatted during insertion.
+The **\easyCrossStaff[...]**, and **\tabularTwoStavesPoly[...]** functions are particularly useful for creating piano scores, or any score for instruments with two staves; they allow you to insert the notes of both staves of the instrument into a table that is automatically formatted during insertion.
 
 By pressing **Ctrl-2** keys, followed by **Ctrl-3**, the following object will be inserted in the text editor, which defines the above table:
 
@@ -115,7 +115,7 @@ The first row of the table defines the notes of the upper staff, the second row 
 
 Look at **[THIS](examples/easy-cross-staff-example-1.ly)** and **[THIS](examples/easy-cross-staff-example-2.ly)** example to understand better
 
-**[THIS](examples/polyphonic-tabular.ly)** page shows with a fragment of a Debussy's prelude how to edit a **complex** and **polyphonic** piano score. 
+**[THIS](examples/polyphonic-tabular.md)** page shows with a fragment of a Debussy's prelude how to edit a **complex** and **polyphonic** piano score. 
 
 **IMPORTANT!** in order to use EasyCrossStaff, not only must the easy-cross-staff.ly file be included; the following piano template must also be used, and the tables must be inserted in the upper staff:
 
