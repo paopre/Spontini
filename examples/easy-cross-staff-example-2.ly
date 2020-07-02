@@ -15,7 +15,6 @@
 % along with Spontini. If not, see <http://www.gnu.org/licenses/>.
 %
 
-\include "../lib/jssvg.ly"
 \include "../lib/easy-cross-staff.ly"
 \version "2.19.84"
 
@@ -23,7 +22,7 @@ upper = {
 
 % Use a combination of "\hiddenTuplet" and "\tupletDown/Up"
 \easyCrossStaff %TMODE
-  { \hiddenTuplet 3/2 { s8 \CS c' \CS s }   \CS }
+  { \hiddenTuplet 3/2 { s8 \CS d' \CS s }   \CS }
   { \tupletDown 3/2 { c'8[ \CS c' \CS d'] } \CS }
 #'( D                      \CS -  \CS -     \CS )
 

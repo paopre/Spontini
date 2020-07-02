@@ -1,5 +1,5 @@
 %
-% Created (24/01/2020) by Paolo-Prete.
+% Created (24/06/2020) by Paolo-Prete.
 % This file is part of Spontini project.
 % 
 % Spontini is free software: you can redistribute it and/or modify
@@ -15,15 +15,17 @@
 % along with Spontini. If not, see <http://www.gnu.org/licenses/>.
 %
 
+\include "../lib/jssvg.ly"
 \include "../lib/easy-cross-staff.ly"
 \version "2.19.84"
 
 upper = {
 
-\easyCrossStaff %TMODE
-  { c'8\mf[ \CS c'] \CS }
-  { s8      \CS c'  \CS }
-#'( U       \CS -   \CS )
+\tabularTwoStavesPolyII %TMODE
+  { \stemUp c'''4 \CS d'''4 \CS e''' \CS f''' \CS }
+  { \stemDown a'2 \CS       \CS b'2  \CS      \CS }%_
+  { c'1           \CS       \CS      \CS      \CS }%
+  { \stemUp g'4   \CS a'2.  \CS      \CS      \CS }
 
 } %end upper                                                                                                                                                                                                                                                                            
 lower = { }

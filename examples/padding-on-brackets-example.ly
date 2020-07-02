@@ -130,7 +130,7 @@ r
 \once \override TupletBracket.outside-staff-priority = 10000
 \once \override Staff.OttavaBracket.direction = #DOWN
 \jsOnceOverride "21" "staff-padding" #'(3) Staff.OttavaBracket
-\jsOnceOverride "22" "outside-staff-padding" #'(2.3) TupletBracket 
+\jsOnceOverride "22" "outside-staff-padding" #'(2.600) TupletBracket 
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4  "staff-padding + outside-staff-padding"} c''' c''' \ottava #0 } r2 
 
 \once \override TupletBracket.outside-staff-priority = 10000

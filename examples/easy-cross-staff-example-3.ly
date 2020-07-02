@@ -27,6 +27,8 @@ upper = {
 \override Score.DynamicLineSpanner.outside-staff-padding = 0
 \override Score.TextScript.font-family = #'typewriter
 \override Score.TextScript.avoid-slur = #'ignore
+\set Score.pedalSustainStyle = #'mixed    
+\override Score.SostenutoPedal #'font-family = #'typewriter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

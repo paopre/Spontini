@@ -573,22 +573,66 @@ makeCrossStaffUDStepTwo = #(define-scheme-function (parser location mus) (ly:mus
 
 easyCrossStaff = #(define-music-function (parser location music1 music2 beamPositions) 
             (ly:music? ly:music? list?)
-#{ \easyCrossStaffAll #music1 #music2 #beamPositions {} {} #'() #})
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions {} {} {} {} {} {} {} {} #'() #})
 
 easyCrossStaffII = #(define-music-function (parser location music1 music2 beamPositions music3 music4) 
             (ly:music? ly:music? list? ly:music? ly:music?)
-#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 #'() #})
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 {} {} {} {} {} {} #'() #})
+
+easyCrossStaffB = #(define-music-function (parser location music1 music2 beamPositions music3 music5 music7 music9 music4 music6 music8 music10) 
+            (ly:music? ly:music? list? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music?)
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 #music5 #music6 #music7 #music8 #music9 #music10 #'() #})
 
 easyCrossStaffIII = #(define-music-function (parser location music1 music2 beamPositions midiMusic) 
             (ly:music? ly:music? list? ly:music?)
-#{ \easyCrossStaffAll #music1 #music2 #beamPositions {} {} #midiMusic #})
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions {} {} {} {} {} {} {} {} #midiMusic #})
 
 easyCrossStaffIV = #(define-music-function (parser location music1 music2 beamPositions music3 music4 midiMusic) 
             (ly:music? ly:music? list? ly:music? ly:music? ly:music?)
-#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 #midiMusic  #})            
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 {} {} {} {} {} {} #midiMusic  #})
+
+easyCrossStaffPolyI = #(define-music-function (parser location musicUpV1 musicUpCS musicDownCS musicDownV1 beamPositions) 
+            (ly:music? ly:music? ly:music? ly:music? list?)
+#{ \easyCrossStaffAll #musicUpCS #musicDownCS #beamPositions 
+                      #musicUpV1 #musicDownV1 {} {} {} {} {} {} #'() #})
+easyCrossStaffPolyII = #(define-music-function (parser location musicUpV1 musicUpV2 musicUpCS musicDownCS musicDownV1 musicDownV2 beamPositions) 
+            (ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? list?)
+#{ \easyCrossStaffAll #musicUpCS #musicDownCS #beamPositions 
+                      #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 {} {} {} {} #'() #})
             
-easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamPositions music3 music4 midiMusic) 
-            (ly:music? ly:music? list? ly:music? ly:music? scheme?)            
+easyCrossStaffPolyIII = #(define-music-function (parser location musicUpV1 musicUpV2 musicUpV3 musicUpCS 
+                                                 musicDownCS musicDownV1 musicDownV2 musicDownV3 beamPositions) 
+            (ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? list?)
+#{ \easyCrossStaffAll #musicUpCS #musicDownCS #beamPositions 
+                      #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 #musicUpV3 #musicDownV3 {} {} #'() #})
+
+easyCrossStaffPolyIV = #(define-music-function (parser location musicUpV1 musicUpV2 musicUpV3 musicUpV4 musicUpCS 
+                                                 musicDownCS musicDownV1 musicDownV2 musicDownV3 musicDownV4 beamPositions) 
+            (ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? list?)
+#{ \easyCrossStaffAll #musicUpCS #musicDownCS #beamPositions 
+                      #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 #musicUpV3 #musicDownV3 #musicUpV4 #musicDownV4 #'() #})
+
+tabularTwoStavesPolyI = #(define-music-function (parser location musicUpV1 musicDownV1) 
+            (ly:music? ly:music?)
+#{ \easyCrossStaffAll {} {} #'( - ) #musicUpV1 #musicDownV1 {} {} {} {} {} {} #'() #})
+
+tabularTwoStavesPolyII = #(define-music-function (parser location musicUpV1 musicUpV2 musicDownV1 musicDownV2) 
+            (ly:music? ly:music? ly:music? ly:music?)
+#{ \easyCrossStaffAll {} {} #'( - ) #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 {} {} {} {} #'() #})
+            
+tabularTwoStavesPolyIII = #(define-music-function (parser location musicUpV1 musicUpV2 musicUpV3 musicDownV1 musicDownV2 musicDownV3) 
+            (ly:music? ly:music? ly:music? ly:music? ly:music? ly:music?)
+#{ \easyCrossStaffAll {} {} #'( - ) #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 #musicUpV3 #musicDownV3 {} {} #'() #})
+
+tabularTwoStavesPolyIV = #(define-music-function (parser location musicUpV1 musicUpV2 musicUpV3 musicUpV4 musicDownV1 musicDownV2 musicDownV3 musicDownV4) 
+            (ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? )
+#{ \easyCrossStaffAll {} {} #'( - ) #musicUpV1 #musicDownV1 #musicUpV2 #musicDownV2 #musicUpV3 #musicDownV3 #musicUpV4 #musicDownV4 #'() #})
+
+shiftVoice =  #(define-music-function (parser location num) (number?)
+#{ \override Voice.NoteColumn.force-hshift = #num #})
+
+easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamPositions music3 music4 music5 music6 music7 music8 music9 music10 midiMusic) 
+            (ly:music? ly:music? list? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? scheme?)            
 (let
   ((counter 0) 
    (music1Voice1 '())
@@ -712,14 +756,84 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
       \autoBeamOff 
       $music2Voice2
     }   
+    
+    % Additional voices
     \new Voice {  
       \change Staff = "upper"
+      \voiceOne
       $music3
     } 
     \new Voice { 
       \change Staff = "lower" 
+      \voiceOne
       $music4
     }    
+    \new NullVoice ="hidden" {  
+      \change Staff = "upper"
+      $music4
+    } 
+    \new NullVoice ="hidden" {  
+      \change Staff = "lower" 
+      $music3
+    }    
+    
+    \new Voice {  
+      \change Staff = "upper"
+      \voiceOne
+      $music5
+    } 
+    \new Voice { 
+      \change Staff = "lower" 
+      \voiceOne
+      $music6
+    }
+    \new NullVoice ="hidden" {  
+      \change Staff = "upper"
+      $music6
+    } 
+    \new NullVoice ="hidden" {  
+      \change Staff = "lower" 
+      $music5
+    }      
+    
+    
+    \new Voice {  
+      \change Staff = "upper"
+      \voiceOne
+      $music7
+    } 
+    \new Voice { 
+      \change Staff = "lower"
+      \voiceOne
+      $music8
+    }
+    \new NullVoice ="hidden" {  
+      \change Staff = "upper"
+      $music8
+    } 
+    \new NullVoice ="hidden" {  
+      \change Staff = "lower" 
+      $music7
+    }      
+    
+    \new Voice {  
+      \change Staff = "upper"
+      \voiceOne
+      $music9
+    } 
+    \new Voice { 
+      \change Staff = "lower" 
+      \voiceOne
+      $music10
+    }
+    \new NullVoice ="hidden" {  
+      \change Staff = "upper"
+      $music10
+    } 
+    \new NullVoice ="hidden" {  
+      \change Staff = "lower" 
+      $music9
+    }      
     
   >>
   \tag #'midi   
@@ -732,6 +846,18 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
     $music3
     \\
     $music4 
+    \\
+    $music5 
+    \\
+    $music6  
+    \\
+    $music7
+    \\
+    $music8 
+    \\
+    $music9 
+    \\
+    $music10    
   >>
   #}
   ;else

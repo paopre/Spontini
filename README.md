@@ -86,13 +86,15 @@ Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-p
 
 *NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/set-properties-example-2.ly)** and **[THIS](examples/padding-on-brackets-example.ly)** examples (being updated).
 
-### <br/>2) Easy Cross-Staff
+### <br/>2) Tabular piano functions
+
+<span style="background-color:yellow"> **IMPORTANT!** Keyboard shortcuts are changed! Please refer to the new shortcuts listed in this doc.</span>
 
 ![img](videos/easyCrossStaff.gif)
 
-The **\easyCrossStaff** function is particularly useful for creating piano scores; it allows you to insert the notes of both staves of the piano part into a table that is automatically formatted during insertion.
+The **\easyCrossStaff[...]**, and **\tabularTwoStaves[...]** functions are particularly useful for creating piano scores, or any score for instruments with two staves; they allow you to insert the notes of both staves of the instrument into a table that is automatically formatted during insertion.
 
-By pressing **Ctrl-2** keys, the following object will be inserted in the text editor, which defines the above table:
+By pressing **Ctrl-2** keys, followed by **Ctrl-3**, the following object will be inserted in the text editor, which defines the above table:
 
 ```
 \easyCrossStaff %TMODE
@@ -101,7 +103,7 @@ By pressing **Ctrl-2** keys, the following object will be inserted in the text e
 #'( - \CS )
 ```
 
-The **\CS** marker separates the columns of the table. Press **Ctrl-3** keys to add a column to the table. To delete a column, use the block-selection mode by holding down the **Alt** key and selecting the column with the mouse.
+The **\CS** marker separates the columns of the table. Move the cursor on the first row of the table and press **Ctrl-3** keys to add a column. To delete a column, use the block-selection mode by holding down the **Alt** key and selecting the column with the mouse.
 
 The first row of the table defines the notes of the upper staff, the second row the notes of the lower staff. The last line defines the position of the cross-staff beams:
 
@@ -112,6 +114,8 @@ The first row of the table defines the notes of the upper staff, the second row 
   * The '-' character maintains the behavior of the previous character
 
 Look at **[THIS](examples/easy-cross-staff-example-1.ly)** and **[THIS](examples/easy-cross-staff-example-2.ly)** example to understand better
+
+**[THIS](examples/polyphonic-tabular.ly)** page shows with a fragment of a Debussy's prelude how to edit a **complex** and **polyphonic** piano score. 
 
 **IMPORTANT!** in order to use EasyCrossStaff, not only must the easy-cross-staff.ly file be included; the following piano template must also be used, and the tables must be inserted in the upper staff:
 
@@ -130,20 +134,15 @@ lower = { }
 
 *NOTE*: if you want to avoid automatic formatting, remove the string "%TMODE"
 
-The cross-staff table can also be inserted using **Ctrl-1** keys. In this case it will appear in the following form:
+The cross-staff table can also be coupled with a layout block of code. When pressing **Ctrl-4** keys, the following block will appear:
 
 ```
 %%% __LAYOUT__ %%%
 
 %%%%%%%%%%%%%%%%%%
-
-\easyCrossStaff %TMODE
-  { s \CS }
-  { s \CS }
-#'( - \CS )
 ```
 
-The block of text above the table allows you to automatically create and insert layout variables, grouping table objects, so to prevent the table from becoming too long horizontally and so to have a clearer view of the score from the text. To create a layout variable, select with the mouse a part of the text of the table, for example the group of objects **\sustainOn\mf_"espressivo"** (and \sustainOff) as in the following code
+This block allows you to automatically create and insert layout variables, grouping table objects, so to prevent the table from becoming too long horizontally and so to have a clearer view of the score from the text. To create a layout variable, select with the mouse a part of the text of a cross-staff table, for example the group of objects **\sustainOn\mf_"espressivo"** (and \sustainOff) as in the following code
 
 ```
 %%% __LAYOUT__ %%%
@@ -225,7 +224,7 @@ Once the code has been compiled, not only will the three objects be ordered as d
 You can add a jsOSOPadder in two ways:
 
  1. By clicking on the corresponding object, in the SVG panel, with the right mouse button, and choosing the "OSOPadder" item
- 2. By pressing **Ctrl-4** keys in the text panel
+ 2. By pressing **Ctrl-6** keys in the text panel
 
 Try **[THIS](examples/oso-padding-example-1.ly)** and **[THIS](examples/oso-padding-example-2.ly)** example to better understand.
 Look at **[THIS](examples/easy-cross-staff-example-3.ly)** example as well, in order to see how OSOPadding can be used together with EasyCrossStaff.

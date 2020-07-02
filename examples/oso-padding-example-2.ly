@@ -27,6 +27,7 @@
 \set Staff.pedalSustainStyle = #'mixed
 \once \override TupletBracket.direction = #UP
 \override Score.TextScript.font-family = #'typewriter
+\override Score.SostenutoPedal.font-family = #'typewriter
 
 #(define OSSLayoutA  #{
 
