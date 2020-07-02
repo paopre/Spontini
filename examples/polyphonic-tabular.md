@@ -1,6 +1,6 @@
 # WRITING COMPLEX PIANO SCORES
 
-With the Spontini editor it is possible to write a complex score for piano, combining polyphony and cross-staff, which is very common in music from the 1900s onwards.
+With the Spontini editor it is possible to write complex scores for piano, combining polyphony and cross-staff, which is very common in music from the 1900s onwards.
 Here we examine a fragment of a prelude to Debussy ("Danseuses de Delphes"), which can be downloaded from the **[IMSLP](https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1_(Debussy%2C_Claude))** website.
 
 ![img](debussy-frag-1.jpeg)
