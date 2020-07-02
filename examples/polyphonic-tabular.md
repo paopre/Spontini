@@ -3,7 +3,9 @@
 With the Spontini editor it is possible to write complex scores for piano, combining polyphony and cross-staff, which is very common in music from (at least) the end of XIX century onwards.
 Here we examine a fragment of a prelude to Debussy ("Danseuses de Delphes"), which can be downloaded from the **[IMSLP](https://imslp.org/wiki/Pr%C3%A9ludes%2C_Livre_1_(Debussy%2C_Claude))** website.
 
-![img](debussy-frag-1.jpeg)
+<p align="center">
+  <img src="debussy-frag-1.jpeg" />
+</p>
 
 Spontini allows you to combine voices in polyphony with the cross-staff using the **\easyCrossStaffB** function, which adds up to 4 levels of polyphony, both to the upper and lower staff, in addition to the cross-staff layer.
 
