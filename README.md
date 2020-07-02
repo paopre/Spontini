@@ -1,21 +1,21 @@
 <p align="center">
-    <img src="images/logo.svg" width="518px" alt="Spontini logo" />
+    <img src="images/logo.svg" width="518px" alt="Spontini-Editor logo" />
 </p>
 <h3 align="center">An advanced GUI assistant for Lilypond</h3>
 <p align="center"><i>Complex music engraving made possible and fast</i></p>
 <br />
 
-Spontini is a text-combined-with-graphic music editor that strongly speeds up the creation and fine graphic tuning of complex scores edited with **[Lilypond](https://lilypond.org/)** through two main features:
+Spontini-Editor is a text-combined-with-graphic music editor that strongly speeds up the creation and fine graphic tuning of complex scores edited with **[Lilypond](https://lilypond.org/)** through two main features:
 
   * It allows the positioning of musical objects (articulations, texts, pedals, curves, brackets etc.) with the mouse, both for "avoid-collisions" properties (X/Y-offset, staff-padding, outside-staff-padding, padding) and for extra-offset property. Once the positioning is graphically done, the text editor reports the corresponding changes on the input file: these changes are written in standard Lilypond code and do not require any additional software to be compiled.
 
   * It assists in the creation of piano music by inserting notes in tabular and formatted form. It also supports cross-staff scores through a set of work-arounds (invisible to the user) that solve many issues of the native cross-staff functions.
 
-*Note that Spontini is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by Lilypond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure Lilypond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini functions into native Lilypond code can be obtained by changing simple strings in the corresponding musical expressions.*
+*Note that Spontini-Editor is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by Lilypond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure Lilypond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini-Editor functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini-Editor functions into native Lilypond code can be obtained by changing simple strings in the corresponding musical expressions.*
 
-Spontini is written in Javascript (with a bit of Python 3 code); it is portable on all Desktop operating systems and is compatible (and tested) with Firefox and Chrome (Chromium) browsers.
+Spontini-Editor is written in Javascript (with a bit of Python 3 code); it is portable on all Desktop operating systems and is compatible (and tested) with Firefox and Chrome (Chromium) browsers.
 
-Spontini's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
+Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
 ## INSTALLATION
 
@@ -48,7 +48,7 @@ Just install:
 ![img](images/tweakOverride.gif)
 
 
-Spontini maps Lilypond's **\once \override** and **\tweak** commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: **\jsOnceOverride** and **\jsTweak**. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
+Spontini-Editor maps Lilypond's **\once \override** and **\tweak** commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: **\jsOnceOverride** and **\jsTweak**. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
 
 For example, if we want to modify the extra-offset of a dynamic, the standard Lilypond code will be:
 
@@ -62,13 +62,13 @@ For example, if we want to modify the extra-offset of a dynamic, the standard Li
     c' \once \override DynamicText.extra-offset = #'(1.806 . -2.388) c'\mf c' c'
 }
 ```
-The above code, translated into the respective Spontini commands, becomes:
+The above code, translated into the respective Spontini-Editor commands, becomes:
 
 ```
 \include "path/to/lib/jssvg.ly"
 
 {
-    % Spontini's map
+    % Spontini-Editor's map
     %
     % Tweak
     c' c' \jsTweak "ID1" "extra-offset" #'(0.71 . -3.539) \mf c' c'
@@ -83,13 +83,13 @@ Where "ID1/2" are unique numbers associated with each of the properties to be mo
 
  2. By pressing **Ctrl-F1** (\jsTweak) and **Ctrl-F2** (\jsOnceOverride) keys. A string in the form **\jsTweak(Override) "ID" " " # '()** will be generated by the editor; in this string, the property to be modified must be entered manually.
 
-Once the Spontini commands have been created, and after compiling the file, the corresponding objects will be highlighted by the editor and you can edit them with the mouse.
+Once the Spontini-Editor commands have been created, and after compiling the file, the corresponding objects will be highlighted by the editor and you can edit them with the mouse.
 
 Try **[THIS](examples/set-properties-example-1.ly)** and **[THIS](examples/set-properties-example-2.ly)** example to better understand.
 
 *NOTE 1*: For **beams** and **curves** (Slur, PhrasingSlur and Tie) the respective commands to be used are **\jsOnceOffset** and **\jsShape**, available in the drop-down menu, which map respectively **\once \offset** and **\shape** commands. Refer to **[THIS](examples/set-properties-example-2.ly)** so to see how they must be set
 
-*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini for the various objects, refer to **[THIS](examples/set-properties-example-2.ly)** and **[THIS](examples/padding-on-brackets-example.ly)** examples (being updated).
+*NOTE 2*: For a (non-exhaustive) list of the properties supported by Spontini-Editor for the various objects, refer to **[THIS](examples/set-properties-example-2.ly)** and **[THIS](examples/padding-on-brackets-example.ly)** examples (being updated).
 
 ### <br/>2) Tabular piano functions
 
@@ -185,7 +185,7 @@ This block allows you to automatically create and insert layout variables, group
 
 ![img](images/OSOPadding.gif)
 
-In addition to the standard Lilypond avoid-collision positioning properties (X/Y-offset, padding, staff-padding and outside-staff-padding) Spontini supports vertical and horizontal padding done with boxed barriers around graphic objects. These boxes, made with the **\jsOSOPadder** command, can be edited using the mouse. They also allow you to vertically sort the enclosed objects.
+In addition to the standard Lilypond avoid-collision positioning properties (X/Y-offset, padding, staff-padding and outside-staff-padding) Spontini-Editor supports vertical and horizontal padding done with boxed barriers around graphic objects. These boxes, made with the **\jsOSOPadder** command, can be edited using the mouse. They also allow you to vertically sort the enclosed objects.
 
 For example, if we have a note with a dynamic, a text markup and an articulation:
 
