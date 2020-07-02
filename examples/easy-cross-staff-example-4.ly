@@ -145,9 +145,9 @@ $(set! cpDiameter 0.4)
   {}{}{}
 
 \easyCrossStaffB %TMODE
-  { s4 \CS si8.\jsOnceOffset "10" "positions" #'(2.598 . 3.1) [ \CS do'16] \CS s \CS }
-  { s4 \CS \jsTweak "17" "extra-offset" #'(-1.044 . 0.103) Dots si,8.         \CS do16   \CS s \CS } 
-#'( -  \CS U                                                    \CS -      \CS - \CS )
+  { s4 \CS si8.\jsOnceOffset "10" "positions" #'(2.598 . 3.1) [       \CS do'16] \CS s \CS }
+  { s4 \CS \jsTweak "17" "extra-offset" #'(-1.044 . 0.103) Dots si,8. \CS do16   \CS s \CS } 
+#'( -  \CS U                                                          \CS -      \CS - \CS )
   %% UPPER STAFF %%
   { r8 <fa' sib' re'' fa''>4^\(^. <sol' si' mib'' sol''>^. <la' dod'' fa'' la''>8^.\) }  
   { sib4 }
