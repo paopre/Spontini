@@ -113,14 +113,14 @@ $(set! cpDiameter 0.4)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \easyCrossStaffB %TMODE
-  { \key sib \major \clef treble <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS }
-  { fa4                                          \CS sol           \CS la            \CS }
-#'( U                                            \CS -             \CS -             \CS )
+  { <re' fa'>4^.^\( \CS <mib' sol'>^. \CS <fa' la'>^.\) \CS }
+  { fa4             \CS sol           \CS la            \CS }
+#'( U               \CS -             \CS -             \CS )
   %% UPPER STAFF %%
   { \shiftVoice 1.4 \stemDown sib4_\(^"Same score with jsTweaks " \jsTweak "1" "extra-offset" #'(0.992 . -0.73) Accidental si8. do'16 \jsTweak "2" "extra-offset" #'(0.994 . -0.738) Accidental dod'4\) }
   {}{}{}
   %% LOWER STAFF %%
-  { \stemDown \key sib \major \clef bass < sib, sib,,>4_._\(\p \CS <la, la,,>_. <fa, fa,,>_.\) } 
+  { \stemDown \clef bass < sib, sib,,>4_._\(\p \CS <la, la,,>_. <fa, fa,,>_.\) } 
   {}{}{}
 
 \easyCrossStaffB %TMODE
@@ -131,7 +131,7 @@ $(set! cpDiameter 0.4)
   { 
     \shiftVoice 1.4 \stemDown sib4\jsShape "5" "cpts" #'((0.255 . -0.348) (0 . 0) (-0.532 . -1.33) (-0.677 . 0.561)) _\( \jsTweak "3" "extra-offset" #'(0.809 . -0.553) Accidental si8. do'16 \jsTweak "4" "extra-offset" #'(1.034 . -0.885) Accidental dod'8. fa'16 
     \shiftVoice -0.4 \stemUp \jsTweak "11" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\)^\(\p\< la'16^.\)\! \jsTweak "12" "extra-offset" #'(0.7 . 0) Dots sol'8.^-^\(\jsTweak "9" "Y-offset" #'(-4.5) DynamicLineSpanner \< \p la'16^.\)\! \once \override DynamicLineSpanner.Y-offset = -4.3 \jsTweak "13" "extra-offset" #'(0.7 . 0) Dots sol'8.^-^\( \<\p la'16^.\) \break 
-    \time 4/4 \jsTweak "14" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\jsShape "15" "cpts" #'((0 . 0) (0.968 . -0.19) (0.369 . -0.894) (-0.121 . -3.299)) ^\( sib'16\! r8\)\jsTweak "8" "extra-offset" #'(2.877 . 1.098) \pp \shiftVoice 0 <fa'' sib'' fa'''>[^.^\( <re'' la'' re'''>^. \CS <la' re'' la''>^. <fa' la' re'' fa''>^. <sol' sib' re'' sol''>]^. 
+    \time 4/4 \jsTweak "14" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\jsShape "15" "cpts" #'((0 . 0) (0.968 . -0.19) (0.369 . -0.894) (0.199 . -2.389)) ^\( sib'16\! \jsTweak "18" "extra-offset-y" #'(1.029) r8\)\jsTweak "8" "extra-offset" #'(2.877 . 1.098) \pp \shiftVoice 0 <fa'' sib'' fa'''>[^.^\( <re'' la'' re'''>^. \CS <la' re'' la''>^. <fa' la' re'' fa''>^. <sol' sib' re'' sol''>]^. 
     \time 3/4 <mi' sol' do'' mi''>[-. <re' fa' la' re''>-. <re' fa' sib' re''>-. <do' mi' sol' do''>]-. <fa' la' do'' fa''>4--\) \bar "||" 
   }
   {}{}{}
