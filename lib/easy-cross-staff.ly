@@ -583,6 +583,10 @@ easyCrossStaffB = #(define-music-function (parser location music1 music2 beamPos
             (ly:music? ly:music? list? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music?)
 #{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 #music5 #music6 #music7 #music8 #music9 #music10 #'() #})
 
+easyCrossStaffC = #(define-music-function (parser location music1 music2 beamPositions music3 music5 music7 music9 music4 music6 music8 music10 midiMusic) 
+            (ly:music? ly:music? list? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music?)
+#{ \easyCrossStaffAll #music1 #music2 #beamPositions #music3 #music4 #music5 #music6 #music7 #music8 #music9 #music10 #midiMusic #})
+
 easyCrossStaffIII = #(define-music-function (parser location music1 music2 beamPositions midiMusic) 
             (ly:music? ly:music? list? ly:music?)
 #{ \easyCrossStaffAll #music1 #music2 #beamPositions {} {} {} {} {} {} {} {} #midiMusic #})
@@ -630,6 +634,11 @@ tabularTwoStavesPolyIV = #(define-music-function (parser location musicUpV1 musi
 
 shiftVoice =  #(define-music-function (parser location num) (number?)
 #{ \override Voice.NoteColumn.force-hshift = #num #})
+
+transfMusIntoOneSkip =
+#(define-music-function (parser location note) (ly:music?)
+   (make-music 'SkipEvent
+               'length (ly:music-length note)))
 
 easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamPositions music3 music4 music5 music6 music7 music8 music9 music10 midiMusic) 
             (ly:music? ly:music? list? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? ly:music? scheme?)            
@@ -769,12 +778,12 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
       $music4
     }    
     \new NullVoice ="hidden" {  
-      \change Staff = "upper"
-      $music4
+      \change Staff = "upper"  
+      \transfMusIntoOneSkip $music4
     } 
     \new NullVoice ="hidden" {  
-      \change Staff = "lower" 
-      $music3
+      \change Staff = "lower"   
+      \transfMusIntoOneSkip $music3 
     }    
     
     \new Voice {  
@@ -789,11 +798,11 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
     }
     \new NullVoice ="hidden" {  
       \change Staff = "upper"
-      $music6
+      \transfMusIntoOneSkip $music6
     } 
     \new NullVoice ="hidden" {  
       \change Staff = "lower" 
-      $music5
+      \transfMusIntoOneSkip $music5
     }      
     
     
@@ -809,11 +818,11 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
     }
     \new NullVoice ="hidden" {  
       \change Staff = "upper"
-      $music8
+      \transfMusIntoOneSkip $music8
     } 
     \new NullVoice ="hidden" {  
       \change Staff = "lower" 
-      $music7
+      \transfMusIntoOneSkip $music7
     }      
     
     \new Voice {  
@@ -828,11 +837,11 @@ easyCrossStaffAll = #(define-music-function (parser location music1 music2 beamP
     }
     \new NullVoice ="hidden" {  
       \change Staff = "upper"
-      $music10
+      \transfMusIntoOneSkip $music10
     } 
     \new NullVoice ="hidden" {  
       \change Staff = "lower" 
-      $music9
+      \transfMusIntoOneSkip $music9
     }      
     
   >>
