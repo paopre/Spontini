@@ -131,7 +131,7 @@ $(set! cpDiameter 0.4)
   { 
     \shiftVoice 1.4 \stemDown sib4\jsShape "5" "cpts" #'((0.255 . -0.348) (0 . 0) (-0.532 . -1.33) (-0.677 . 0.561)) _\( \jsTweak "3" "extra-offset" #'(0.809 . -0.553) Accidental si8. do'16 \jsTweak "4" "extra-offset" #'(1.034 . -0.885) Accidental dod'8. fa'16 
     \shiftVoice -0.4 \stemUp \jsTweak "11" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\)^\(\p\< la'16^.\)\! \jsTweak "12" "extra-offset" #'(0.7 . 0) Dots sol'8.^-^\(\jsTweak "9" "Y-offset" #'(-4.5) DynamicLineSpanner \< \p la'16^.\)\! \once \override DynamicLineSpanner.Y-offset = -4.3 \jsTweak "13" "extra-offset" #'(0.7 . 0) Dots sol'8.^-^\( \<\p la'16^.\) \break 
-    \time 4/4 \jsTweak "14" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\jsShape "15" "cpts" #'((0 . 0) (0.968 . -0.19) (0.369 . -0.894) (0.199 . -2.389)) ^\( sib'16\! \jsTweak "18" "extra-offset-y" #'(1.029) r8\)\jsTweak "8" "extra-offset" #'(2.877 . 1.098) \pp \shiftVoice 0 <fa'' sib'' fa'''>[^.^\( <re'' la'' re'''>^. \CS <la' re'' la''>^. <fa' la' re'' fa''>^. <sol' sib' re'' sol''>]^. 
+    \time 4/4 \jsTweak "14" "extra-offset" #'(0.7 . 0) Dots sol'8.^-\jsShape "15" "cpts" #'((0 . 0) (0.968 . -0.19) (0.369 . -0.894) (0.199 . -2.389)) ^\( sib'16\! \jsTweak "18" "extra-offset-y" #'(1.029) r8\)\jsTweak "8" "extra-offset" #'(2.938 . -3.656) \pp \shiftVoice 0 <fa'' sib'' fa'''>[^.^\( <re'' la'' re'''>^. \CS <la' re'' la''>^. <fa' la' re'' fa''>^. <sol' sib' re'' sol''>]^. 
     \time 3/4 <mi' sol' do'' mi''>[-. <re' fa' la' re''>-. <re' fa' sib' re''>-. <do' mi' sol' do''>]-. <fa' la' do'' fa''>4--\) \bar "||" 
   }
   {}{}{}
