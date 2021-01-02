@@ -1,3 +1,0 @@
-port=8764
-workspace=.
-autostart=yes

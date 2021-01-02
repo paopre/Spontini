@@ -1,5 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=false
-Name=SpontiniHelper
-Exec=bash -c 'python3 "$(dirname "$1")"/SpontiniHelper.py' dummy %k
