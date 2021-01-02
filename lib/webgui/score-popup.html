@@ -1,0 +1,102 @@
+<!--Created (02/11/2020) by Paolo-Prete.
+This file is part of Spontini-Editor project.
+
+Spontini-Editor is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+Spontini-Editor is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/licenses/ >-->
+
+<html>
+<head>
+  <link rel="icon" href="images/logo.svg">
+  <meta charset="utf-8"/>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="spontini.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/hint/show-hint.css">
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/mode/stex/stex.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/search/search.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/search/searchcursor.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/active-line.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/active-line.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/edit/matchbrackets.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/hint/show-hint.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/mark-selection.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.3.2/dist/panzoom.min.js"></script>
+
+<body>
+  <div id="graphscorepanel" tabindex="-1">
+  </div>
+</body>
+<script type='text/javascript' src='js/autocompletion.js'></script>
+<script type='text/javascript' src='js/symbols.js'></script>
+<script type='text/javascript' src='js/global-stuff.js'></script>
+<script type='text/javascript' src='js/global-custom-vars.js'></script>
+<script type='text/javascript' src='js/midi-functions.js'></script>
+<script type='text/javascript' src='js/texteditor-functions.js'></script>
+<script type='text/javascript' src='js/cm-wrap.js'></script>
+<script type='text/javascript' src='js/widgets-functions.js'></script>
+<script type='text/javascript' src='js/tabular-functions.js'></script>
+<script type='text/javascript' src='js/svg-functions.js'></script>
+<script>
+
+baseCtx = window.opener
+svgContainerCtx = this
+
+function switchWindowForSVGPanel(from, to) {
+
+  // TODO  FIXME: find an alternative for innerHTML copy so to avoid to
+  // init all the following objs
+  var graphscorepanel = document.getElementById("graphscorepanel")
+  var defaultimg = document.getElementById("defaultimg")
+  var svgcontainer = document.getElementById("svgcontainer")
+  var svgdraw = document.getElementById("svgdraw")
+  var scrLeft = from.graphscorepanel.scrollLeft
+  var scrTop = from.graphscorepanel.scrollTop
+  copySVGNode(from.svgdraw, to.svgdraw)
+  to.graphscorepanel.style.background = from.graphscorepanel.style.background
+  to.defaultimg.style.display = from.defaultimg.style.display
+  to.svgcontainer.style.display = from.svgcontainer.style.display
+  from.svgdraw.innerHTML = ""
+  to.linkSVGElementsToSVGMenu()
+  if(from.panzoomInstance != null) {
+    to.initPanZoom(from.panZoomOn())
+    to.setTimeout(() => {
+    to.panzoomInstance.zoom(from.panzoomInstance.getScale());
+    to.setTimeout(() => {
+      to.panzoomInstance.pan(from.panzoomInstance.getPan().x,
+                              from.panzoomInstance.getPan().y)
+      to.setTimeout(() => {
+        to.graphscorepanel.scrollLeft = scrLeft
+        to.graphscorepanel.scrollTop = scrTop
+      })
+    })
+    })
+  }
+}
+
+window.onbeforeunload = function() {
+  switchWindowForSVGPanel(this, window.opener)
+  baseCtx.editorMustClosePopup = false
+  baseCtx.dockScore()
+}
+
+var graphscorepanel = document.getElementById("graphscorepanel")
+graphscorepanel.innerHTML = baseCtx.graphscorepanel.innerHTML
+switchWindowForSVGPanel(window.opener, this)
+initSVGPanel()
+
+document.title = "Score"
+
+</script>
+</html>

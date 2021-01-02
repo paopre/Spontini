@@ -1,0 +1,9 @@
+version=dev snapshot
+debug=no
+cairosvg-enabled=no
+midi-enabled=yes
+soundfont-url=
+can-config-from-non-localhost=yes
+fork-access-only=no
+workspace=
+lilypond-exec=

@@ -1,0 +1,551 @@
+/*
+ * Created (28/10/2020) by Paolo-Prete.
+ * This file is part of Spontini-Editor project.
+ *
+ * Spontini-Editor is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * Spontini-Editor is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*
+ * TODO: there is MUUUUCH noise in this file!
+*/
+
+:root {
+  --spontiniheader-item-padding: 0px 2px 0px 2px;
+  --spontiniheader-lastitem-padding: 0px 2px 0px 6px;
+  --lyfilename-padding: 0px 10px 0px 10px;
+  --spontiniheader-item-height: 20px;
+  --spontiniheader-widg-max-width: 70px;
+  /* --widg-fontsize-small-screen: calc(4px + 1vw) */
+  --widg-fontsize: 12px;
+  --widg-fontfamily: 'Roboto', sans-serif;
+  --slider-padding: 0px 5px 0px 5px;
+  --svgmenufontsize: 12px;
+  --svgmenufontweight: normal;
+  --svgmenuwidth: 140px;
+  --svgmenuitemheight: 26px;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* this avoids a border when we focus on a div with tabindex
+ * (used for adding keydown to svg panel div) */
+div:focus {outline: none;}
+
+.blinkingCursor {
+  background-color: red;
+}
+.dummyTableCell { color: lightgrey; }
+.normalCursor { background-color: none; }
+
+/************************************
+*************************************
+*
+* HEADER
+*
+*************************************
+*************************************/
+
+button,
+select,
+#pagenumtxt
+{
+  border-radius: 0px;
+  border-style: none;
+  text-align-last: center;
+  padding: 0;
+}
+
+input {
+  border-radius: 0px;
+}
+
+select {
+  -moz-appearance: none;
+}
+
+button, .editorselect {
+  background-color: DodgerBlue;
+  color: white;
+  transition: 0.3s;
+}
+
+#spontiniheader {
+  overflow: hidden;
+  width: 100%;
+  background-color: #051321;
+  height: 3%;
+  display: inline-block;
+  min-width: 1000px;
+}
+
+.halfspontiniheader {
+  height: 100%;
+  width: 50%;
+  display: table;
+}
+
+#lefthalfspontiniheader  {
+  width: 50%;
+  table-layout: fixed;
+  float: left;
+}
+
+#righthalfspontiniheader {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.halfspontiniheader > *
+{
+  display: table-cell;
+  padding: var(--spontiniheader-item-padding);
+  height: 100%;
+  vertical-align: middle;
+}
+
+.halfspontiniheader div button,
+.editorselect,
+.halfspontiniheader div div,
+#pagenumtxt,
+#zoomslider
+{
+  height: var(--spontiniheader-item-height);
+  width: 100%;
+  font-weight: bold;
+  padding: 2px;
+  font-size: var(--widg-fontsize);
+  font-family: var(--widg-fontfamily);
+}
+
+optgroup {
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  width: 200px;
+}
+
+#hiddenoptgroup {
+}
+
+#logodiv {
+  width: var(--spontiniheader-item-height);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.menudiv {
+  width: 13%;
+}
+
+#undockscorebtn img:hover,
+#rotatelbtn img:hover,
+#rotaterbtn img:hover,
+#ptzbtn img:hover,
+#fittopanelbtn img:hover,
+#onetoonebtn img:hover,
+.halfspontiniheader div img:hover,
+.halfspontiniheader div button:hover,
+.editorselect:hover {
+  background-color: #0771db;
+  cursor: pointer;
+}
+
+/*
+@media screen and (min-width: 220px) {
+  .halfspontiniheader div button,
+  .halfspontiniheader div select,
+  .halfspontiniheader div div {
+    font-size: var(--widg-fontsize-small-screen);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .halfspontiniheader div button,
+  .halfspontiniheader div select,
+  .halfspontiniheader div div {
+    font-size: var(--widg-fontsize);
+  }
+}
+*/
+
+#lyfilename {
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: var(--widg-fontfamily);
+  text-overflow: ellipsis;
+  text-align: center;
+  word-break: break-all;
+  word-wrap: break-word;
+  padding: var(--lyfilename-padding);
+}
+
+#midi-player-container {
+}
+
+#pagenumdiv {
+  width: 0.5%;
+  padding: 0;
+}
+
+#prevpagebtn {
+  width: 10px;
+  padding: 0;
+}
+
+#nextpagebtn {
+  width: 14px;
+  padding: 0px 5px 0px 0px;
+}
+
+#prevpagebtn img,
+#nextpagebtn img {
+  height: var(--spontiniheader-item-height);
+  background-color: white;
+}
+
+#undockscorebtn img,
+#fittopanelbtn img,
+#onetoonebtn img,
+#ptzbtn img,
+#rotatelbtn img,
+#rotaterbtn img {
+  height: var(--spontiniheader-item-height);
+  width: var(--spontiniheader-item-height);
+  background-color: DodgerBlue;
+}
+
+#undockscorebtn,
+#fittopanelbtn,
+#onetoonebtn,
+#ptzbtn,
+#rotatelbtn,
+#rotaterbtn {
+  width: var(--spontiniheader-item-height);
+  min-width: var(--spontiniheader-item-height);
+  padding: var(--spontiniheader-item-padding);
+}
+
+#sliderdiv {
+  width: 30%;
+  padding: var(--slider-padding);
+}
+
+#zoomslider {
+  min-width: 28px;
+}
+
+#pagenumtxt {
+  border-radius: 0px;
+  border-style: none;
+  font-size: 12px;
+  min-width: 28px;
+  padding: 0;
+}
+
+midi-player {
+  height: var(--spontiniheader-item-height);
+  width: 100%;
+  font-size: var(--widg-fontsize);
+  font-family: var(--widg-fontfamily);
+}
+
+midi-player::part(control-panel) {
+  background: lightgrey;
+  border-radius: 0px;
+}
+
+/************************************
+*************************************
+*
+* BODY
+*
+*************************************
+*************************************/
+
+#spontinibody {
+  display: flex;
+  flex-direction: row;
+  height: 97%;
+  width: 100%;
+}
+
+#graphscorepanel {
+  width: 100%;
+  height: 100%;
+  background: lightgrey;
+  overflow: auto;
+  text-align: center;
+}
+
+svg {
+  position: relative;
+}
+
+#defaultimg {
+  margin: auto auto;
+  display: none;
+}
+
+#svgcontainer {
+  width: 0px;
+  height: 0px;
+}
+
+#dragbar {
+  background-color: black;
+  display: block;
+}
+
+#dragbar:hover {
+  background-color: #0771db;
+}
+
+#textscorepanel {
+  width: 50%;
+  height: 100%;
+
+}
+
+#symbolscontainer {
+  box-sizing: border-box;
+  border-bottom: 2px solid #233022;
+  height: 0%;
+  display: none;
+}
+
+#symbolstab {
+  display: flex;
+  height: 32px;
+  overflow: hidden;
+  background-color: white;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+#symbolstab div select,
+#symbolstab div input,
+#symbolstab > * {
+  font-size: var(--widg-fontsize);
+  font-family: var(--widg-fontfamily);
+  margin: var(--spontiniheader-item-padding);
+  padding: var(--spontiniheader-item-padding);
+  font-weight: bold;
+  height: var(--spontiniheader-item-height);
+  background-color: darkgrey;
+  color: white;
+}
+
+#symbolstab div {
+  display: flex;
+  padding: 0px 6px 0px 6px;
+  align-items: center;
+}
+
+#symbolstab #shortdiv > *{
+  margin: var(--spontiniheader-item-padding);
+  padding: var(--spontiniheader-item-padding);
+}
+
+#symbolstab button {
+  width: 70px;
+}
+
+.symbolsspan {
+  padding: 2px 0px 2px 0px;
+  cursor: pointer;
+}
+
+#symbolstab select:hover,
+#symbolstab button:hover {
+  height: var(--spontiniheader-item-height);
+  background-color: grey;
+  cursor: pointer;
+}
+
+/* ff ?? */
+#symbolstab button:hover {
+  width: 70px;
+}
+
+#symbolsdirection {
+
+}
+
+#symbolscontent {
+  border: 1px solid #ccc;
+  border-top: none;
+  display: grid;
+  grid-auto-flow: column dense;
+  grid-template-rows: 38px 38px;
+  grid-auto-columns: 38px;
+  overflow: auto;
+  height: 7%;
+  height: 80%;cddd
+}
+
+#lilyinputfile {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  white-space: pre;
+  resize: none;
+  overflow-wrap: normal;
+}
+
+.CodeMirror {
+/*  font-family: "Ubuntu Mono";
+  line-height: 1.2em;*/
+  height: 100%;
+}
+
+.CodeMirror-cursor {
+  border-left: 2px solid black;
+  border-right: none;
+  width: 0;
+}
+
+.CodeMirror-linenumber {
+  text-align: right;
+  padding: 0px 12px 0px 6px;
+}
+
+.CodeMirror-gutters {
+  border-right: none;
+}
+
+dialog {
+  z-index: 100000;
+  transition: transform 200ms;
+  font-family: var(--widg-fontfamily);
+}
+
+.dialogbutton {
+  width: 80px;
+  height: 25px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: darkgrey;
+  margin: var(--spontiniheader-item-padding);
+  border-radius: 0px;
+  border-style: none;
+  padding: 2px;
+}
+
+.editorselect {
+
+}
+
+.dialogbutton:hover {
+  width: 80px;
+  height: 25px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.dialogwidgs {
+text-align: center;
+}
+
+:not(.cm-fat-cursor) .CodeMirror-cursor {
+  width: 1px !important;
+  height: 18px !important;
+}
+
+.svgsubmenu {
+  position: absolute;
+  top: -1px;
+  right: calc(0px - var(--svgmenuwidth));
+  width: var(--svgmenuwidth);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.svgsubmenu > li {
+  height: var(--svgmenuitemheight);
+  background: darkgrey;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.svgsubmenu > li:hover {
+  background: lightgrey;
+  transition: 0.1s;
+}
+
+/* TODO Clean what follows! */
+
+#svgmenu {
+  position: absolute;
+  width: var(--svgmenuwidth);
+  list-style: none;
+  display: none;
+  margin: 0;
+  padding: 15px 10px 10px 10px;
+}
+
+#svgmenu > li {
+  position: relative;
+  height: var(--svgmenuitemheight);
+  background: darkgrey;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+#svgmenu > li:hover {
+  background: lightgrey;
+  transition: 0.1s;
+}
+
+#svgmenucontainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: var(--svgmenufontsize);
+  font-family: var(--widg-fontfamily);
+  line-height: calc(var(--svgmenuitemheight) - 2px);
+  text-align: center;
+  display: none;
+  width: 2px;
+}
+
+#svgmenucontainer > li {
+  width: calc(20px + var(--svgmenuwidth));
+  height: 0px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#svgmenucontainer li:hover > ul {
+  display: block;
+}
