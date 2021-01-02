@@ -89,7 +89,7 @@ In addition to the above tags, the following variables can be used as well:
   * **%%VENVEDPYTHON3%%**
    <br/>Will be replaced with the python 3 executable (including its path) created by the Spontini server in its virtual environment (spontinivenv).  
   
-A plugin can be **not only** an executable called with the **&lt;command-win&gt;** tag: refer to **[THIS](../plugins/python/testPlugin.py)** example as a template for writing a Python 3 script embedded into Spontni-Editor.
+A plugin can be **not only** an executable called with the **&lt;command&gt;** tag: refer to **[THIS](../plugins/python/testPlugin.py)** example as a template for writing a Python 3 script embedded into Spontni-Editor.
 
 
 ### [TABLE OF CONTENTS](toc.md)
