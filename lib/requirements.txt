@@ -1,9 +1,0 @@
-wheel==0.36.1
-httpx==0.16.1
-colorlog==4.6.2
-testresources==2.0.1
-fastapi==0.62.0
-aiofiles==0.6.0
-colorama==0.4.4
-asgiref==3.3.1
-#CairoSVG==2.5.0
