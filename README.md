@@ -14,17 +14,17 @@ Spontini-Editor is a text-combined-with-graphic music editor that strongly speed
 Other main features:
 
   * Multi-platform (written in Javascript and Python 3)
-  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently tested on: Chrome, Chromium, Firefox, Brave), thus allowing to edit Lilypond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**.
-  * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers.
-  * Plugin engine that can interface to **any** library/utility suitable for Lilypond; implemented plugins currently support: **[Abjad](https://github.com/Abjad/abjad)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts).
+  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently tested on: Chrome, Chromium, Firefox, Brave), thus allowing to edit Lilypond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**
+  * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers
+  * Plugin engine that can interface to **any** library/utility suitable for Lilypond; implemented plugins currently support: **[Abjad](https://github.com/Abjad/abjad)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts)
   * Python 3 scripting interface
-  * A ***pure HTML midi player*** is included (**[Magenta](https://github.com/magenta/magenta)** through **[html-midi-player](https://github.com/cifkao/html-midi-player)**, ready to be used on the browser).
-  * Pan-zoom advanced interface.
-  * Multiple layouts.
-  * "Fork-mode" for **collaborative remote editing**.
+  * A ***pure HTML midi player*** is included (**[Magenta](https://github.com/magenta/magenta)** through **[html-midi-player](https://github.com/cifkao/html-midi-player)**, ready to be used on the browser)
+  * Pan-zoom advanced interface
+  * Multiple layouts
+  * "Fork-mode" for **collaborative remote editing**
   * Code completion
-  * Quick insert for a set of notation symbols.
-  * Self-installable in embedded environment (venv).
+  * Quick insert for a set of notation symbols
+  * Self-installable in embedded environment (venv)
 
 *Note that Spontini-Editor is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by Lilypond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure Lilypond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini-Editor functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini-Editor functions into native Lilypond code can be obtained by changing simple strings in the corresponding musical expressions.*
 
@@ -41,9 +41,9 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
     Just install (use the default installation settings!):
 
-    **1) [Lilypond 2.19.84 or newer](http://lilypond.org/download.html)** (tested with 2.19.84 and 2.20.0).
+    **1) [Lilypond 2.19.84 or newer](http://lilypond.org/download.html)** (tested with 2.19.84 and 2.20.0)
 
-    **2) [Python 3.6 or newer](https://www.python.org/downloads/).**
+    **2) [Python 3.6 or newer](https://www.python.org/downloads/)**
 
 * **Debian based distros (Ubuntu, Mint etc.)**
 
