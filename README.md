@@ -21,7 +21,7 @@ Other main features:
   * A ***pure HTML midi player*** is included (**[Magenta](https://github.com/magenta/magenta)** through **[html-midi-player](https://github.com/cifkao/html-midi-player)**, ready to be used on the browser).
   * Pan-zoom advanced interface.
   * Multiple layouts.
-  * "Fork-mode" for **collaborative** remote editing.
+  * "Fork-mode" for **collaborative remote editing**.
   * Code completion
   * Quick insert for a set of notation symbols.
   * Self-installable in embedded environment (venv).
