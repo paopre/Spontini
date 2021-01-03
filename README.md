@@ -45,7 +45,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
     **2) [Python 3.6 or newer](https://www.python.org/downloads/).**
 
-* **Debian based distros**
+* **Debian based distros (Ubuntu, Mint etc.)**
 
     ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
 <br></br><br></br>
