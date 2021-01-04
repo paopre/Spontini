@@ -57,6 +57,7 @@ A minimal skin, which is good for a MIDI player (it doesn't show the default vid
   
 ### PAN-ZOOM
 
-You can activate it by pressing the len button on the menu, or by keeping SHIFT key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
+You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
+Note that you can't do point and click, nor edit the svg score while panning/zooming.
 
 ### [TABLE OF CONTENTS](toc.md)
