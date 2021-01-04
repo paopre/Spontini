@@ -327,7 +327,9 @@ def setPip3AndVenvParams(logFunc = mute):
         venvCmdExists = os.path.isfile(venvedPip)
         if not venvCmdExists:
           logFunc("Could not find pip executable inside "+getVenvName(), "E")
-          logFunc("Make sure that both pip and venv are installed and run again the server", "E")
+          logFunc("Make sure that both pip and venv are installed. If they are already installed, a broken installation", "E")
+          logFunc("of the Spontini-Server could have been made. Spontini-Server will try to fix it at its next start.", "E")
+          logFunc("Please run again the server and if the problem persists, report a bug.", "E")
           try:
             shutil.rmtree(venvDir)
             #we force an error so to have information on how to install venv

@@ -104,7 +104,7 @@ We can make the above bar with the following template:
 >>
 ```
 
-*(The color parameter in \crossStaffTableVoice and \easyCrossStaff is optional and can be omitted. also look at **[THIS](easy-cross-staff-example-4.ly)** example in order to see how layers can be basically combined).*
+*(The color parameter in \crossStaffTableVoice and \easyCrossStaff is optional and can be omitted. also look at **[THIS](../examples/easy-cross-staff-example-4.ly)** example in order to see how layers can be basically combined).*
 
 The first six bars of Debussy's prelude were made with the multi-layer template (check **[THIS](../examples/easy-cross-staff-example-7.ly)** example). As you can see, given the complexity of the score, it was necessary to make further tuning of **many** graphic objects (curves, beams, dots, dynamics and accidentals: 19 objects to be adjusted are shown with red color in the below picture):
 

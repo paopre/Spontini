@@ -30,7 +30,7 @@ Other main features:
 
 Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
-Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen and all the #regex irc channel (freenode) for the support in doing this!
+Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
 
 ## 
 ![img](documentation/images/intro.gif)

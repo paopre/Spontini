@@ -1089,17 +1089,17 @@ log("-- Version: " + version, "I")
 log("-- Workspace: " + wsDirPath, "I")
 
 if lilyExecutableCmd:
-  log("-- Lilypond executable: " + lilyExecutableCmd, "S")
+  log("-- Lilypond executable: " + lilyExecutableCmd, "I")
 else:
   log("-- Lilypond executable not found/set", "E")
 
 if pip3Exists:
-  log("-- Pip3 found", "S")
+  log("-- Pip3 found", "I")
 else:
   log("-- Pip3 not found", "W")
   log("   Python embedded scripts that require pip3 won't work!", "W")
 if venvExists:
-  log("-- Python virtual env found/set", "S")
+  log("-- Python virtual env found/set", "I")
 else:
   log("-- Python virtual env not set", "W")
   log("   Python embedded plugins won't work!", "W")

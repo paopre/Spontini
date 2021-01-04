@@ -5,5 +5,5 @@ testresources==2.0.1
 fastapi==0.62.0
 aiofiles==0.6.0
 colorama==0.4.4
-#CairoSVG==2.5.0
 asgiref==3.3.1
+#CairoSVG==2.5.0
