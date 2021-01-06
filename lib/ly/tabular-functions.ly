@@ -161,9 +161,17 @@ leaveOnlyNotesRestsAndBeamsII = {
 \override VoltaBracketSpanner.stencil = ##f
 }
 
-staffUp = \change Staff = "upper"
-staffDown = \change Staff = "lower"
+#(define upperStaffName "upper")
+#(define lowerStaffName "lower")
+
+staffUp = \change Staff = $upperStaffName
+staffDown = \change Staff = $lowerStaffName
 CS = {}
+
+setCrossStaves = #(define-scheme-function (parser location upperName lowerName) (string? string?)
+  (set! upperStaffName upperName)
+  (set! lowerStaffName lowerName)
+)
 
 tupletUp = #(define-music-function (parser location frac vis mus) (pair? (boolean? #t) ly:music?)
 #{ \once \override TupletBracket.direction = #UP
@@ -788,14 +796,14 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
   \tag #'display
   <<
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       % Articolazioni, dinamiche e note senza staff change
       #(if (not (string=? cstVoice ""))
            #{ \context Voice = $cstVoice { \displayColoredMusic #musColor \autoBeamOff $music1Voice1 } #}
         #{ \displayColoredMusic #musColor \autoBeamOff $music1Voice1 #} )
     }
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       % Articolazioni, dinamiche e note senza staff change
       #(if (not (string=? cstVoice ""))
            #{ \context Voice = $cstVoice { \displayColoredMusic #musColor \autoBeamOff  $music2Voice1 } #}
@@ -803,8 +811,9 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     }
     #(if (not (eq? (getNumOfElems music1Voice2) 0)) #{
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \override NoteColumn.ignore-collision = ##t
+      \override Flag.stencil = ##f
       %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
@@ -813,8 +822,9 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music2Voice2) 0)) #{
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \override NoteColumn.ignore-collision = ##t
+      \override Flag.stencil = ##f
       %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
@@ -824,7 +834,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     % Additional voices
     #(if (not (eq? (getNumOfElems music3) 0)) #{
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music3
@@ -832,7 +842,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music4) 0)) #{
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music4
@@ -840,19 +850,19 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music4) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \transfMusIntoOneSkip $music4
     }
     #})
     #(if (not (eq? (getNumOfElems music3) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \transfMusIntoOneSkip $music3
     }
     #})
     #(if (not (eq? (getNumOfElems music5) 0)) #{
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music5
@@ -860,7 +870,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music6) 0)) #{
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music6
@@ -868,19 +878,19 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music6) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \transfMusIntoOneSkip $music6
     }
     #})
     #(if (not (eq? (getNumOfElems music5) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \transfMusIntoOneSkip $music5
     }
     #})
     #(if (not (eq? (getNumOfElems music7) 0)) #{
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music7
@@ -888,7 +898,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music8) 0)) #{
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music8
@@ -896,19 +906,19 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music8) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \transfMusIntoOneSkip $music8
     }
     #})
     #(if (not (eq? (getNumOfElems music7) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \transfMusIntoOneSkip $music7
     }
     #})
     #(if (not (eq? (getNumOfElems music9) 0)) #{
     \new Voice {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music9
@@ -916,7 +926,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music10) 0)) #{
     \new Voice {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \voiceOne
       \displayColoredMusic #musColor
       $music10
@@ -924,13 +934,13 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     #})
     #(if (not (eq? (getNumOfElems music10) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "upper"
+      \change Staff = $upperStaffName
       \transfMusIntoOneSkip $music10
     }
     #})
     #(if (not (eq? (getNumOfElems music9) 0)) #{
     \new NullVoice ="hidden" {
-      \change Staff = "lower"
+      \change Staff = $lowerStaffName
       \transfMusIntoOneSkip $music9
     }
     #})
