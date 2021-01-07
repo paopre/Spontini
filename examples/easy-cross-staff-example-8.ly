@@ -35,7 +35,8 @@ upper = {
   { \CS s     \CS c'   \CS }
 #'( \CS U     \CS -    \CS )
 
-\\ \crossStaffTableVoice "upper"
+\\
+\crossStaffTableVoice "upper"
 { s4 }
 >>
 
@@ -46,7 +47,8 @@ upper = {
   { \CS s     \CS c'   \CS }
 #'( \CS U     \CS -    \CS )
 
-\\ \crossStaffTableVoice "lower"
+\\
+\crossStaffTableVoice "lower"
 { s4 }
 >>
 
@@ -57,7 +59,8 @@ upper = {
   { \CS s8    \CS c'   \CS }
 #'( \CS U     \CS -    \CS )
 
-\\ \crossStaffTableVoice "middleI"
+\\
+\crossStaffTableVoice "middleI"
 { s4 }
 >>
 

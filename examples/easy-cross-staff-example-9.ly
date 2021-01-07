@@ -29,6 +29,10 @@
 % START __JSSVG__ %
 %-----------------%
 
+"j15" = #(define-music-function (parser location mus) (ly:music?) #{
+\jsShape "16" "cpts" #'((0.194 . 0.778) (9.085 . -1.102) (0.053 . 4.318) (-0.124 . 15.465)) $mus
+#})
+
 "j14" = #(define-music-function (parser location mus) (ly:music?) #{
 \jsShape "14" "cpts" #'((-1.655 . 1.995) (-2.481 . -2.251) (1.089 . -3.881) (3.92 . -2.439)) $mus
 #})
@@ -200,6 +204,7 @@ $(set! cpDiameter 0.3)
 \override Score.Hairpin.rotation = #'(20 0 0)
 
 <<
+
 \setCrossStaves "middleI" "lower"
 \easyCrossStaff %TMODE
   { \CS <d'? e'?>8   \CS \hiddenTuplet 4/3{ c'                 \CS s   \CS s          \CS s }           \CS d'16[ \CS g' \CS <c' d' g' as'>8]_>~ \CS \stemDown <c' d' g' as'>4 \CS }
@@ -217,9 +222,9 @@ $(set! cpDiameter 0.3)
 \\
 \setCrossStaves "upper" "middleI"
 \easyCrossStaff %TMODE
-  { \CS s8 \CS s32[ \CS s     \CS s   \CS s   \CS s  \CS  s   \CS s   \CS s   \CS g' \CS c'' \CS d'' \CS g''] \CS $v1 \tupletUp 6/4 {  <c'' g'' c'''>8[^>\"j9" \ff~ \CS <c'' g'' c'''>16 \CS <b'' b'>\"j8" \exprMark "dim." \CS <as'' as'> \CS <g'' g'>] } \CS <des'' des'>[ \CS <c'' c'> \CS s           \CS s]       \CS }
-  { \CS r8 \CS g'32 \CS c''\< \CS d'' \CS g'' \CS g' \CS  c'' \CS d'' \CS g'' \CS s  \CS s   \CS s   \CS s\!  \CS \hiddenTuplet 6/4{ s8                             \CS s16              \CS s                              \CS s          \CS s}          \CS s             \CS s        \CS <as'' as'?> \CS <g'' g'> \CS }
-#'( \CS U  \CS -    \CS -     \CS -   \CS -   \CS -  \CS -    \CS -   \CS -   \CS -  \CS -   \CS -   \CS -    \CS U                                                 \CS -                \CS -                              \CS -          \CS -           \CS -             \CS -        \CS -           \CS -        \CS )
+  { \CS s8 \CS s32[         \CS s     \CS s   \CS s   \CS s  \CS  s   \CS s   \CS s   \CS g' \CS c'' \CS d'' \CS g''] \CS $v1 \tupletUp 6/4 {  <c'' g'' c'''>8[^>\"j9" \ff~ \CS <c'' g'' c'''>16 \CS <b'' b'>\"j8" \exprMark "dim." \CS <as'' as'> \CS <g'' g'>] } \CS <des'' des'>[ \CS <c'' c'> \CS s           \CS s]       \CS }
+  { \CS r8 \CS g'32\"j15" ( \CS c''\< \CS d'' \CS g'' \CS g' \CS  c'' \CS d'' \CS g'' \CS s  \CS s   \CS s   \CS s)\! \CS \hiddenTuplet 6/4{ s8                             \CS s16              \CS s                              \CS s          \CS s}          \CS s             \CS s        \CS <as'' as'?> \CS <g'' g'> \CS }
+#'( \CS U  \CS -            \CS -     \CS -   \CS -   \CS -  \CS -    \CS -   \CS -   \CS -  \CS -   \CS -   \CS -    \CS U                                                 \CS -                \CS -                              \CS -          \CS -           \CS -             \CS -        \CS -           \CS -        \CS )
 
 \\
 \crossStaffTableVoice "upper"
