@@ -170,4 +170,10 @@ To create a layout variable, select the a "\jsXXX" part of the text of a cross-s
 <br></br><br></br>
 ![img](images/layoutBlock.gif)
 
+<br></br>
+### 4) Piano scores with more than two staves
+
+Look at **[THIS](../examples/easy-cross-staff-example-8.ly)** and **[THIS (Sorabji fragment)](../examples/easy-cross-staff-example-9.ly)** examples.
+
+
 ### [TABLE OF CONTENTS](toc.md)

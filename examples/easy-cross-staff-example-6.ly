@@ -95,7 +95,7 @@ agogicMark =  #(define-music-function (parser location str) (string?)
 %-----------------%
 
 "j9" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "10" "extra-offset" #'(0.545 . -1.299)  $mus
+\jsTweak "10" "extra-offset" #'(0.545 . -1.299) $mus
 #})
 
 "j8" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -103,7 +103,7 @@ agogicMark =  #(define-music-function (parser location str) (string?)
 #})
 
 "j7" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsOnceOverride "8" "X-offset" #'(0.800)  NoteColumn $mus
+\jsOnceOverride "8" "X-offset" #'(0.800) NoteColumn $mus
 #})
 
 "j6" = #(define-music-function (parser location mus) (ly:music?) #{

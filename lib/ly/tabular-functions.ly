@@ -17,6 +17,12 @@
 
 \version "2.19.84"
 
+#(define crossStaffTrash #{
+  \override Flag.stencil = ##f
+  \override TupletBracket.stencil = ##f
+  \override TupletNumber.stencil = ##f
+#})
+
 %TODO DEPRECATED remove this, if possible
 leaveOnlyNotesRestsAndBeamsII = {
 
@@ -813,7 +819,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     \new Voice {
       \change Staff = $upperStaffName
       \override NoteColumn.ignore-collision = ##t
-      \override Flag.stencil = ##f
+      $crossStaffTrash
       %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
@@ -824,7 +830,7 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
     \new Voice {
       \change Staff = $lowerStaffName
       \override NoteColumn.ignore-collision = ##t
-      \override Flag.stencil = ##f
+      $crossStaffTrash
       %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
@@ -974,8 +980,15 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
 
 #}))
 
+%BAD NAME, will be deprecated
 crossStaffTableVoice = #(define-music-function (parser location musColor staff ctx mus)
             ((boolean-or-color? #f) string? (string? "") ly:music?)
+#{
+  \layeredVoice $musColor $staff $ctx $mus
+#})
+
+layeredVoice = #(define-music-function (parser location musColor staff ctx mus)
+                ((boolean-or-color? #f) string? (string? "") ly:music?)
 #{
   <<
     \tag #'display

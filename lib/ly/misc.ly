@@ -33,3 +33,24 @@ volatina = #(define-music-function (parser location frac mus) (pair? ly:music?)
 
 shClefAtLeft = #(define-music-function (parser location num) (number?)
 #{ \once\override Staff.Clef.X-extent = #(cons num num) #})
+
+% Thanks to Harm, see: http://lilypond.1069038.n5.nabble.com/angle-of-a-tuplet-bracket-td55019.html
+tupletAngles =
+#(define-music-function (parser location y-off angl)(number? number?)
+"
+ angl is supposed to be the angle of the TupletBracket in degrees,
+ y-off a (possible) offset in Y-direction
+ "
+#{
+\once\override TupletBracket  #'after-line-breaking =
+#(lambda (grob)
+  (let* ((pos (ly:grob-property grob 'positions))
+         (y-length (interval-length pos))
+         (st (ly:tuplet-bracket::print grob))
+         (st-x-ext (ly:stencil-extent st X))
+         (st-x-length (interval-length st-x-ext))
+         (alpha (degrees->radians angl))
+         (new-start (+ (car pos) y-off))
+         (new-y (* st-x-length (tan alpha))))
+  (ly:grob-set-property! grob 'positions (cons new-start (+ new-start new-y)))))
+#})
