@@ -204,7 +204,8 @@ controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
                         \markup \draw-line #'(0 . 1)
                       #}))
 
-                  (set! outprops-x-parent (cons (cons "spontinimarker" "true") outprops-x-parent ))
+                  (if (not (member (cons "spontinimarker" "true") outprops-x-parent))
+                    (set! outprops-x-parent (cons (cons "spontinimarker" "true") outprops-x-parent )))
                   (set! outprops-x-parent (cons (cons (string-append "x-ref-of-" (cdr x)) "true") outprops-x-parent))
                   (ly:grob-set-property! x-parent 'output-attributes outprops-x-parent)))))
 
@@ -217,7 +218,8 @@ controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
                         \markup \draw-line #'(1 . 0)
                       #}))
 
-                  (set! outprops-y-parent (cons (cons "spontinimarker" "true") outprops-y-parent ))
+                  (if (not (member (cons "spontinimarker" "true") outprops-y-parent))
+                    (set! outprops-y-parent (cons (cons "spontinimarker" "true") outprops-y-parent )))
                   (set! outprops-y-parent (cons (cons (string-append "y-ref-of-" (cdr x)) "true") outprops-y-parent))
                   (ly:grob-set-property! y-parent 'output-attributes outprops-y-parent))))
           ;; Thanks to Haaron Hill for the *great* support!

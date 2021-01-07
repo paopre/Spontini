@@ -19,6 +19,7 @@
 \include "../lib/ly/jssvg.ly"
 \include "../lib/ly/misc.ly"
 \version "2.19.84"
+\language "nederlands"
 
 \paper {
   indent = 0\cm
@@ -202,9 +203,9 @@ $(set! cpDiameter 0.3)
 <<
 \setCrossStaves "middleI" "lower"
 \easyCrossStaff %TMODE
-  { \CS <d'? e'?>8   \CS \hiddenTuplet 4/3{ c'                 \CS s   \CS s          \CS s }           \CS d'16[ \CS g' \CS <c' d' g' as'>8]_>~ \CS \stemDown <c' d' g' as'>4 \CS }
-  { \CS s8[\"j12" _( \CS $v2 \"j10" \"j11" \tupletDown 4/3 { s \CS ges \CS as,)\"j4"( \CS as,,])}\"j7"( \CS s16)  \CS s  \CS s8                  \CS s4                        \CS }
-#'( \CS D            \CS -                                     \CS -   \CS -          \CS N             \CS U     \CS -  \CS -                   \CS N                         \CS )
+  { \CS <d'? e'?>8 \CS \hiddenTuplet 4/3{ c'                \CS s    \CS s           \CS s }            \CS d'16[ \CS g' \CS <c' d' g' as'>8]_>~ \CS \stemDown <c' d' g' as'>4 \CS }
+  { \CS s8[\"j12" _( \CS $v2 \"j10" \"j11" \tupletDown 4/3 { s \CS ges \CS as,)\"j4"( \CS as,,])}\"j7"( \CS s16)   \CS s    \CS s8                       \CS s4                             \CS }
+#'( \CS D            \CS -                                     \CS -    \CS -           \CS N              \CS U      \CS -    \CS -                        \CS N                              \CS )
 
 \\
 \crossStaffTableVoice "lower"
@@ -217,9 +218,9 @@ $(set! cpDiameter 0.3)
 \\
 \setCrossStaves "upper" "middleI"
 \easyCrossStaff %TMODE
-  { \CS s8 \CS s32[ \CS s     \CS s   \CS s   \CS s  \CS  s   \CS s   \CS s   \CS g' \CS c'' \CS d'' \CS g''] \CS $v1 \tupletUp 6/4 {  <c'' g'' c'''>8[^>\"j9" \ff~ \CS <c'' g'' c'''>16 \CS <b'' b'>\"j8" \exprMark "dim." \CS <as'' as'> \CS <g'' g'>] } \CS <des'' des'>[ \CS <c'' c'> \CS s           \CS s]       \CS }
-  { \CS r8 \CS g'32 \CS c''\< \CS d'' \CS g'' \CS g' \CS  c'' \CS d'' \CS g'' \CS s  \CS s   \CS s   \CS s\!  \CS \hiddenTuplet 6/4{ s8                             \CS s16              \CS s                              \CS s          \CS s}          \CS s             \CS s        \CS <as'' as'?> \CS <g'' g'> \CS }
-#'( \CS U  \CS -    \CS -     \CS -   \CS -   \CS -  \CS -    \CS -   \CS -   \CS -  \CS -   \CS -   \CS -    \CS U                                                 \CS -                \CS -                              \CS -          \CS -           \CS -             \CS -        \CS -           \CS -        \CS )
+  { \CS s8 \CS s32[   \CS s      \CS s    \CS s     \CS s    \CS  s    \CS s    \CS s     \CS g' \CS c'' \CS d'' \CS g''] \CS $v1 \tupletUp 6/4 {  <c'' g'' c'''>8[^>\"j9" \ff~ \CS <c'' g'' c'''>16 \CS <b'' b'>\"j8" \exprMark "dim." \CS <as'' as'> \CS <g'' g'>] } \CS <des'' des'>[ \CS <c'' c'> \CS s             \CS s]           \CS }
+  { \CS r8 \CS g'32 \CS c''\< \CS d'' \CS g'' \CS g' \CS  c'' \CS d'' \CS g'' \CS s    \CS s    \CS s    \CS s\!    \CS \hiddenTuplet 6/4{ s8                                 \CS s16                  \CS s                                \CS s            \CS s}              \CS s             \CS s          \CS <as'' as'?> \CS <g'' g'> \CS }
+#'( \CS U  \CS -      \CS -      \CS -    \CS -     \CS -    \CS -     \CS -    \CS -     \CS -    \CS -    \CS -    \CS -      \CS U                                                     \CS -                    \CS -                                \CS -            \CS -               \CS -             \CS -          \CS -             \CS -            \CS )
 
 \\
 \crossStaffTableVoice "upper"
