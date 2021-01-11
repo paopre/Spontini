@@ -14,7 +14,7 @@ Spontini-Editor is a text-combined-with-graphic music editor that strongly speed
 Other main features:
 
   * Multi-platform (written in Javascript and Python 3)
-  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently compatible and tested on: Chrome, Chromium, Firefox, Brave. Not fully compatible with Pale Moon), thus allowing to edit Lilypond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**
+  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox**, **Brave**. Not compatible with **Pale Moon**), thus allowing to edit Lilypond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**
   * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers
   * Plugin engine that can interface to **any** library/utility suitable for Lilypond; implemented plugins currently support: **[Abjad](https://github.com/Abjad/abjad)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts)
   * Python 3 scripting interface
