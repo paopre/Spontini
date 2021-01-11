@@ -34,6 +34,8 @@ import time
 import signal
 import logging
 import sys
+import re
+
 sys.path.insert(1, os.path.dirname(__file__))
 from spontini_server_utils import *
 
@@ -791,8 +793,8 @@ def doPostSync(message, request):
       for currFile in sorted(os.listdir(wsDirPath)):
         if ((currFile == fileNameWOSuffix + ".svg") or
             (currFile.startswith(fileNameWOSuffix+"-") and currFile.endswith(".svg"))):
-          svgList.append(os.path.join(wsDirPath, currFile))
-          log(clientInfo + os.path.join(wsDirPath, currFile), "I")
+          svgList.append(os.path.abspath(os.path.join(wsDirPath, currFile)))
+          log(clientInfo + "[generating PDF] appending: " + os.path.join(wsDirPath, currFile), "I")
 
       if len(svgList) == 0:
         return sendCompleteResponse("KO", "Missing SVG associated files")

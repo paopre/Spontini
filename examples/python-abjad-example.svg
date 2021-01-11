@@ -15,7 +15,7 @@ tspan { white-space: pre; }
 <line transform="translate(14.2264, 5.6213)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="-0.0000" x2="22.1261" y2="-0.0000"/>
 <rect transform="translate(28.5244, 7.6213)" x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 <rect transform="translate(36.2125, 7.6213)" x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
-<a style="color:inherit;" xlink:href="textedit://Z:/home/paolo/programmi/nuove-composizioni/SPONTINI/Spontini-master/examples/../examples/../examples/python-abjad-example.ly:67:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/python-abjad-example.ly:67:0:1">
 <path transform="translate(22.9264, 6.6213) scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </a>
 <path transform="translate(15.0264, 8.6213) scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
@@ -25,13 +25,13 @@ c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <path transform="translate(19.2264, 7.6213) scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
 c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -64 175 -150c1 -5 1 -9 1 -13c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
-<a style="color:inherit;" xlink:href="textedit://Z:/home/paolo/programmi/nuove-composizioni/SPONTINI/Spontini-master/examples/../examples/../examples/python-abjad-example.ly:69:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/python-abjad-example.ly:69:0:1">
 <path transform="translate(30.6144, 6.6213) scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </a>
-<a transform="translate(31.6850, 165.1512)" xlink:href="http://lilypond.org/">
-<rect x="0.0000" y="-0.4439" width="56.1316" height="2.0827" fill="none" stroke="none" stroke-width="0.0"/>
+<a transform="translate(28.9194, 165.1170)" xlink:href="http://lilypond.org/">
+<rect x="0.0000" y="-0.4780" width="61.6628" height="2.1510" fill="none" stroke="none" stroke-width="0.0"/>
 </a>
-<text transform="translate(31.6850, 165.1512)" font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<text transform="translate(28.9194, 165.1170)" font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>Music engraving by LilyPond 2.20.0—www.lilypond.org</tspan>
 </text>
 </svg>

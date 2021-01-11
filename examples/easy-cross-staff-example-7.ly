@@ -139,7 +139,7 @@ upper = {
 % (NOTE: If it is set to "true", jstweaks can't be modified)
 #(showColoredLayers "false")
 
-#(set! showEditorStuff "false")
+#(set! showEditorStuff "true")
 
 \override Staff.VerticalAxisGroup #'staff-staff-spacing =
 #'((basic-distance . 9)

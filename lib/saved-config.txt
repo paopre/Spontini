@@ -1,4 +1,4 @@
-version=dev snapshot
+version=0.7
 debug=no
 cairosvg-enabled=no
 midi-enabled=yes

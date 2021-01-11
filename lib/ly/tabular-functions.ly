@@ -23,150 +23,6 @@
   \override TupletNumber.stencil = ##f
 #})
 
-%TODO DEPRECATED remove this, if possible
-leaveOnlyNotesRestsAndBeamsII = {
-
-%% MEMO
-%\override Beam.stencil = ##t
-%\override NoteHead.stencil = ##t
-%\override Rest.stencil = ##t
-%\override Stem.stencil = ##t
-%\override Dots.stencil = ##t
-
-% \override Accidental.stencil = ##f
-% \override AccidentalCautionary.stencil = ##f
-% \override AccidentalPlacement.stencil = ##f
-\override AccidentalSuggestion.stencil = ##f
-\override Ambitus.stencil = ##f
-\override AmbitusAccidental.stencil = ##f
-\override AmbitusLine.stencil = ##f
-\override AmbitusNoteHead.stencil = ##f
-\override Arpeggio.stencil = ##f
-\override BalloonTextItem.stencil = ##f
-\override BarLine.stencil = ##f
-\override BarNumber.stencil = ##f
-\override BassFigure.stencil = ##f
-\override BassFigureAlignment.stencil = ##f
-\override BassFigureAlignmentPositioning.stencil = ##f
-\override BassFigureBracket.stencil = ##f
-\override BassFigureContinuation.stencil = ##f
-\override BassFigureLine.stencil = ##f
-\override BendAfter.stencil = ##f
-\override BreakAlignGroup.stencil = ##f
-\override BreakAlignment.stencil = ##f
-\override BreathingSign.stencil = ##f
-\override ChordName.stencil = ##f
-\override Clef.stencil = ##f
-\override ClefModifier.stencil = ##f
-\override ClusterSpanner.stencil = ##f
-\override ClusterSpannerBeacon.stencil = ##f
-\override CombineTextScript.stencil = ##f
-\override CueClef.stencil = ##f
-\override CueEndClef.stencil = ##f
-\override Custos.stencil = ##f
-\override DotColumn.stencil = ##f
-\override DoublePercentRepeat.stencil = ##f
-\override DoublePercentRepeatCounter.stencil = ##f
-\override DoubleRepeatSlash.stencil = ##f
-\override DynamicLineSpanner.stencil = ##f
-\override DynamicText.stencil = ##f
-\override DynamicTextSpanner.stencil = ##f
-\override Episema.stencil = ##f
-\override Fingering.stencil = ##f
-\override FingeringColumn.stencil = ##f
-\override Flag.stencil = ##f
-\override FootnoteItem.stencil = ##f
-\override FootnoteSpanner.stencil = ##f
-\override FretBoard.stencil = ##f
-\override Glissando.stencil = ##f
-\override GraceSpacing.stencil = ##f
-\override GridLine.stencil = ##f
-\override GridPoint.stencil = ##f
-\override Hairpin.stencil = ##f
-\override HorizontalBracket.stencil = ##f
-\override InstrumentName.stencil = ##f
-\override InstrumentSwitch.stencil = ##f
-\override KeyCancellation.stencil = ##f
-\override KeySignature.stencil = ##f
-\override KievanLigature.stencil = ##f
-\override LaissezVibrerTie.stencil = ##f
-\override LaissezVibrerTieColumn.stencil = ##f
-\override LedgerLineSpanner.stencil = ##f
-\override LeftEdge.stencil = ##f
-\override LigatureBracket.stencil = ##f
-\override LyricExtender.stencil = ##f
-\override LyricHyphen.stencil = ##f
-\override LyricSpace.stencil = ##f
-\override LyricText.stencil = ##f
-\override MeasureCounter.stencil = ##f
-\override MeasureGrouping.stencil = ##f
-\override MelodyItem.stencil = ##f
-\override MensuralLigature.stencil = ##f
-\override MetronomeMark.stencil = ##f
-\override MultiMeasureRest.stencil = ##f
-\override MultiMeasureRestNumber.stencil = ##f
-\override MultiMeasureRestText.stencil = ##f
-\override NonMusicalPaperColumn.stencil = ##f
-\override NoteCollision.stencil = ##f
-\override NoteColumn.stencil = ##f
-\override NoteName.stencil = ##f
-\override NoteSpacing.stencil = ##f
-%\override OttavaBracket.stencil = ##f
-\override PaperColumn.stencil = ##f
-\override ParenthesesItem.stencil = ##f
-\override PercentRepeat.stencil = ##f
-\override PercentRepeatCounter.stencil = ##f
-%%REMOVED EVENT PhrasingSlur
-\override PianoPedalBracket.stencil = ##f
-\override RehearsalMark.stencil = ##f
-\override RepeatSlash.stencil = ##f
-\override RepeatTie.stencil = ##f
-\override RepeatTieColumn.stencil = ##f
-\override RestCollision.stencil = ##f
-\override Script.stencil = ##f
-\override ScriptColumn.stencil = ##f
-\override ScriptRow.stencil = ##f
-%%REMOVED EVENT Slur
-\override SostenutoPedal.stencil = ##f
-\override SostenutoPedalLineSpanner.stencil = ##f
-\override SpacingSpanner.stencil = ##f
-\override SpanBar.stencil = ##f
-\override SpanBarStub.stencil = ##f
-\override StaffGrouper.stencil = ##f
-\override StaffSpacing.stencil = ##f
-\override StaffSymbol.stencil = ##f
-\override StanzaNumber.stencil = ##f
-\override StemStub.stencil = ##f
-\override StemTremolo.stencil = ##f
-\override StringNumber.stencil = ##f
-\override StrokeFinger.stencil = ##f
-\override System.stencil = ##f
-\override SystemStartBar.stencil = ##f
-\override SystemStartBrace.stencil = ##f
-\override SystemStartBracket.stencil = ##f
-\override SystemStartSquare.stencil = ##f
-\override TabNoteHead.stencil = ##f
-\override TextScript.stencil = ##f
-\override TextSpanner.stencil = ##f
-%%REMOVED EVENT Tie
-\override TieColumn.stencil = ##f
-\override TimeSignature.stencil = ##f
-\override TrillPitchAccidental.stencil = ##f
-\override TrillPitchGroup.stencil = ##f
-\override TrillPitchHead.stencil = ##f
-\override TrillSpanner.stencil = ##f
-\override TupletBracket.stencil = ##f
-\override TupletNumber.stencil = ##f
-\override UnaCordaPedal.stencil = ##f
-\override UnaCordaPedalLineSpanner.stencil = ##f
-\override VaticanaLigature.stencil = ##f
-\override VerticalAlignment.stencil = ##f
-\override VerticalAxisGroup.stencil = ##f
-\override VoiceFollower.stencil = ##f
-\override VoltaBracket.stencil = ##f
-\override VoltaBracketSpanner.stencil = ##f
-}
-
 #(define upperStaffName "upper")
 #(define lowerStaffName "lower")
 
@@ -820,7 +676,6 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
       \change Staff = $upperStaffName
       \override NoteColumn.ignore-collision = ##t
       $crossStaffTrash
-      %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
       $music1Voice2
@@ -831,7 +686,6 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
       \change Staff = $lowerStaffName
       \override NoteColumn.ignore-collision = ##t
       $crossStaffTrash
-      %\leaveOnlyNotesRestsAndBeamsII
       \autoBeamOff
       \displayColoredMusic #musColor
       $music2Voice2

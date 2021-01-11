@@ -68,7 +68,7 @@ tspan { white-space: pre; }
 </a>
 <rect transform="translate(85.2279, 20.5003)" x="-0.0313" y="-3.6833" width="0.0626" height="2.6942" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(84.8279, 8.5003)" x="-0.0313" y="-2.3781" width="0.0626" height="3.0890" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="11" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="11" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(85.8380, 8.9253) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:249:32:33">
@@ -104,7 +104,7 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 <rect transform="translate(84.2339, 20.5003)" x="-0.0313" y="0.9892" width="0.0626" height="4.9608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(85.2279, 3.8453)" x="-0.0313" y="3.8051" width="0.0626" height="11.8608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(72.0053, 20.5003)" x="-0.0313" y="-3.9667" width="0.0626" height="2.1275" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="4" editcommand="Tweak" editableclass="Accidental" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="4" editcommand="Tweak" editableclass="Accidental" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(70.6444, 11.8026) scale(0.0032, -0.0032)" d="M198 -329c-12 0 -21 9 -21 21v138l-79 -30v-154c0 -12 -9 -21 -21 -21s-21 9 -21 21v138l-22 -8c-3 -1 -6 -2 -9 -2c-13 0 -25 11 -25 25v54c0 10 6 20 16 24l40 15v155l-22 -9c-3 -1 -6 -1 -9 -1c-13 0 -25 11 -25 25v54c0 10 6 19 16 23l40 15v154c0 12 9 21 21 21
 s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c13 0 25 -11 25 -25v-54c0 -10 -6 -20 -16 -24l-40 -15v-155l22 9c3 1 6 1 9 1c13 0 25 -11 25 -25v-54c0 -10 -6 -19 -16 -23l-40 -15v-154c0 -12 -9 -21 -21 -21zM98 62v-154l79 30v154z
 " fill="currentColor"/>
@@ -212,8 +212,29 @@ c-68 0 -137 20 -184 70c-49 51 -66 123 -66 194s17 143 66 194c47 50 116 70 184 70c
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:216:18:19">
 <path transform="translate(49.3895, 8.5003)" stroke-width="0.0626" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.0115 -2.9989C3.2331 -4.6605 20.2566 -5.3307 22.6019 -3.8489L22.6019 -3.8489C20.2593 -5.2619 3.2358 -4.5917 1.0115 -2.9989z"/>
 </a>
-<g cpts-propid="5" editcommand="Shape" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g cpts-propid="5" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:223:45:46">
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(51.4864, 12.6973)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="2.5455" y2="4.2384"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(54.0319, 16.9357)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="27.4303" y2="0.0022"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(81.4622, 16.9379)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="2.6073" y2="-6.7011"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(51.4864, 12.6973)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(54.0319, 16.9357)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(81.4622, 16.9379)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(84.0696, 10.2368)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
 <path transform="translate(50.8688, 8.5003)" stroke-width="0.0626" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.6176 4.1969C3.1657 8.4697 30.5961 8.4719 33.2008 1.7364L33.2008 1.7364C30.5909 8.4032 3.1605 8.4010 0.6176 4.1969z"/>
 </a>
 </g>
@@ -240,7 +261,8 @@ c-68 0 -137 20 -184 70c-49 51 -66 123 -66 194s17 143 66 194c47 50 116 70 184 70c
 </a>
 <polygon transform="translate(84.7966, 6.1230)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.3908 -0.3367 6.3908 -0.0087 0.0400 0.1640 0.0400 -0.1640"/>
 <polygon transform="translate(90.0961, 6.6580)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.0913 -0.1944 1.0913 0.1336 0.0400 0.1640 0.0400 -0.1640"/>
-<g y-offset-propid="20" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false" staffspace="0.85000000">
+<g y-offset-propid="20" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" staffspace="0.85000000">
+<line transform="translate(92.7109, 13.1003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:250:38:39">
 <path transform="translate(101.8600, 8.5003)" stroke-width="0.0626" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.9925 -3.4321C2.1567 -4.7721 5.9681 -5.1288 7.3607 -4.0282L7.3607 -4.0282C5.9745 -5.0602 2.1632 -4.7035 0.9925 -3.4321z"/>
@@ -254,7 +276,7 @@ c-68 0 -137 20 -184 70c-49 51 -66 123 -66 194s17 143 66 194c47 50 116 70 184 70c
 <path transform="translate(92.3257, 21.3503) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
 <rect transform="translate(93.2626, 20.5003)" x="-0.0313" y="0.9892" width="0.0626" height="4.9608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(93.8566, 8.5003)" x="-0.0313" y="-2.3781" width="0.0626" height="3.0890" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="12" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="12" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(94.8667, 8.9253) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:256:64:65">
@@ -267,7 +289,7 @@ c-68 0 -137 20 -184 70c-49 51 -66 123 -66 194s17 143 66 194c47 50 116 70 184 70c
 <path transform="translate(103.2853, 19.2253) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
 <rect transform="translate(102.8853, 8.5003)" x="-0.0313" y="-2.3781" width="0.0626" height="3.0890" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="13" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="13" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(103.8954, 8.9253) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:256:73:74">
@@ -314,7 +336,7 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 </a>
 <rect transform="translate(94.2566, 3.8453)" x="-0.0313" y="3.8051" width="0.0626" height="11.8608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(26.7737, 20.5003)" x="-0.0313" y="-3.6833" width="0.0626" height="2.2692" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="1" editcommand="Tweak" editableclass="Accidental" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="1" editcommand="Tweak" editableclass="Accidental" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(25.8753, 12.1103) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
 </g>
 <rect transform="translate(27.2590, 8.5003)" x="-0.0313" y="3.1142" width="0.0626" height="2.4097" ry="0.0313" fill="currentColor"/>
@@ -448,6 +470,9 @@ c79 97 144 199 144 324c0 53 -4 76 -20 124z" fill="currentColor"/>
 <rect transform="translate(5.6085, 14.5003)" x="0.0000" y="-7.7313" width="0.1821" height="15.4626" ry="0.0569" fill="currentColor"/>
 <path transform="translate(5.3085, 14.5003) scale(0.0040, -0.0040)" d="M-16 -584c0 -312 -116 -612 -116 -908c0 -160 36 -308 144 -428c4 -4 4 -8 4 -12c0 -8 -8 -16 -16 -16c-4 0 -8 0 -12 4c-148 160 -196 368 -196 584c0 316 124 628 124 928c0 156 -40 304 -148 424v8v8c108 120 148 268 148 424c0 300 -124 612 -124 928
 c0 216 48 424 196 584c4 4 8 4 12 4c8 0 16 -8 16 -16c0 -4 0 -8 -4 -12c-108 -120 -144 -268 -144 -428c0 -296 116 -596 116 -908c0 -216 -48 -424 -192 -584c144 -160 192 -368 192 -584z" fill="currentColor"/>
+<g y-ref-of-20="true" y-ref-of-19="true" spontinimarker="true">
+<line transform="translate(5.6906, 8.5003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
 <rect transform="translate(17.4058, 3.8453)" x="-0.0313" y="2.9551" width="0.0626" height="12.7108" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(16.4118, 20.5003)" x="-0.0313" y="0.9892" width="0.0626" height="4.9608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(17.4058, 20.5003)" x="-0.0313" y="-3.4000" width="0.0626" height="2.4108" ry="0.0313" fill="currentColor"/>
@@ -489,7 +514,7 @@ c0 216 48 424 196 584c4 4 8 4 12 4c8 0 16 -8 16 -16c0 -4 0 -8 -4 -12c-108 -120 -
 <rect transform="translate(59.7828, 3.8453)" x="-0.0313" y="2.5301" width="0.0626" height="12.7108" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(58.7888, 20.5003)" x="-0.0313" y="1.4142" width="0.0626" height="4.9608" ry="0.0313" fill="currentColor"/>
 <rect transform="translate(59.7828, 20.5003)" x="-0.0313" y="-3.6833" width="0.0626" height="2.2692" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="3" editcommand="OnceOverride" editableclass="Accidental" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="3" editcommand="OnceOverride" editableclass="Accidental" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(58.9447, 12.1732) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
 </g>
 <rect transform="translate(60.2681, 8.5003)" x="-0.0313" y="3.1142" width="0.0626" height="2.4097" ry="0.0313" fill="currentColor"/>
@@ -523,7 +548,7 @@ c0 216 48 424 196 584c4 4 8 4 12 4c8 0 16 -8 16 -16c0 -4 0 -8 -4 -12c-108 -120 -
 <path transform="translate(49.3895, 19.6503) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
 <rect transform="translate(38.9962, 20.5003)" x="-0.0313" y="-3.9667" width="0.0626" height="2.1275" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="2" editcommand="OnceOverride" editableclass="Accidental" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="2" editcommand="OnceOverride" editableclass="Accidental" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(37.6013, 11.6776) scale(0.0032, -0.0032)" d="M198 -329c-12 0 -21 9 -21 21v138l-79 -30v-154c0 -12 -9 -21 -21 -21s-21 9 -21 21v138l-22 -8c-3 -1 -6 -2 -9 -2c-13 0 -25 11 -25 25v54c0 10 6 20 16 24l40 15v155l-22 -9c-3 -1 -6 -1 -9 -1c-13 0 -25 11 -25 25v54c0 10 6 19 16 23l40 15v154c0 12 9 21 21 21
 s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c13 0 25 -11 25 -25v-54c0 -10 -6 -20 -16 -24l-40 -15v-155l22 9c3 1 6 1 9 1c13 0 25 -11 25 -25v-54c0 -10 -6 -19 -16 -23l-40 -15v-154c0 -12 -9 -21 -21 -21zM98 62v-154l79 30v154z
 " fill="currentColor"/>
@@ -697,8 +722,29 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:297:53:54">
 <path transform="translate(65.9256, 51.7753) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
-<g cpts-propid="15" editcommand="Shape" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g cpts-propid="15" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:276:31:32">
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(17.5195, 47.5712)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="2.2400" y2="-1.3891"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(19.7595, 46.1821)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="4.9747" y2="-0.3494"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(24.7342, 45.8328)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="1.5905" y2="2.5010"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(17.5195, 47.5712)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(19.7595, 46.1821)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(24.7342, 45.8328)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(26.3247, 48.3338)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
 <path transform="translate(16.5597, 50.5003)" stroke-width="0.0626" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.9598 -2.9291C3.2028 -4.3525 8.1775 -4.7019 9.7650 -2.1665L9.7650 -2.1665C8.1715 -4.6333 3.1968 -4.2839 0.9598 -2.9291z"/>
 </a>
 </g>
@@ -804,12 +850,12 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 <path transform="translate(107.8619, 50.0753) scale(0.0032, -0.0032)" d="M198 -329c-12 0 -21 9 -21 21v138l-79 -30v-154c0 -12 -9 -21 -21 -21s-21 9 -21 21v138l-22 -8c-3 -1 -6 -2 -9 -2c-13 0 -25 11 -25 25v54c0 10 6 20 16 24l40 15v155l-22 -9c-3 -1 -6 -1 -9 -1c-13 0 -25 11 -25 25v54c0 10 6 19 16 23l40 15v154c0 12 9 21 21 21
 s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c13 0 25 -11 25 -25v-54c0 -10 -6 -20 -16 -24l-40 -15v-155l22 9c3 1 6 1 9 1c13 0 25 -11 25 -25v-54c0 -10 -6 -19 -16 -23l-40 -15v-154c0 -12 -9 -21 -21 -21zM98 62v-154l79 30v154z
 " fill="currentColor"/>
-<g positions-propid="16" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g positions-propid="16" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:304:16:17">
 <polygon transform="translate(57.0999, 65.4753)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="13.2613 0.5814 13.2613 0.9094 0.0400 0.1640 0.0400 -0.1640"/>
 </a>
 </g>
-<g positions-propid="10" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g positions-propid="10" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:316:37:38">
 <polygon transform="translate(94.7535, 45.0647)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="8.1570 -0.7634 8.1570 -0.4354 0.0400 0.1640 0.0400 -0.1640"/>
 <polygon transform="translate(101.8193, 45.2254)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.0913 -0.2467 1.0913 0.0813 0.0400 0.1640 0.0400 -0.1640"/>
@@ -824,12 +870,33 @@ s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:297:28:29">
 <polygon transform="translate(58.0939, 46.6753)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="13.2613 0.2610 13.2613 0.5890 0.0400 0.1640 0.0400 -0.1640"/>
 </a>
-<g cpts-propid="7" editcommand="Shape" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g cpts-propid="7" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:270:52:53">
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(30.6683, 65.5191)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="2.7370" y2="2.4884"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(33.4052, 68.0075)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="36.5090" y2="3.3370"/>
+</g>
+<g color="rgb(100%, 50.0000%, 0%)">
+<line transform="translate(69.9143, 71.3445)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="5.0752" y2="-5.2472"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(30.6683, 65.5191)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(33.4052, 68.0075)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(69.9143, 71.3445)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
+<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<circle transform="translate(74.9894, 66.0973)" stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
+</g>
 <path transform="translate(30.6453, 62.5003)" stroke-width="0.0626" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.0230 3.0188C2.7595 5.5416 39.2686 8.8785 44.3442 3.5969L44.3442 3.5969C39.2695 8.8097 2.7604 5.4727 0.0230 3.0188z"/>
 </a>
 </g>
-<g positions-propid="6" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g positions-propid="6" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:270:42:43">
 <polygon transform="translate(30.6453, 64.0276)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="17.5637 2.3496 17.5637 2.6776 0.0400 0.1640 0.0400 -0.1640"/>
 </a>
@@ -850,9 +917,11 @@ s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c
 <path transform="translate(107.8619, 59.9503) scale(0.0032, -0.0032)" d="M198 -329c-12 0 -21 9 -21 21v138l-79 -30v-154c0 -12 -9 -21 -21 -21s-21 9 -21 21v138l-22 -8c-3 -1 -6 -2 -9 -2c-13 0 -25 11 -25 25v54c0 10 6 20 16 24l40 15v155l-22 -9c-3 -1 -6 -1 -9 -1c-13 0 -25 11 -25 25v54c0 10 6 19 16 23l40 15v154c0 12 9 21 21 21
 s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c13 0 25 -11 25 -25v-54c0 -10 -6 -20 -16 -24l-40 -15v-155l22 9c3 1 6 1 9 1c13 0 25 -11 25 -25v-54c0 -10 -6 -19 -16 -23l-40 -15v-154c0 -12 -9 -21 -21 -21zM98 62v-154l79 30v154z
 " fill="currentColor"/>
-<g x-offset-propid="22" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="false" staffspace="0.85000000">
+<g x-offset-propid="22" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<line transform="translate(93.7595, 62.5003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
-<g x-offset-propid="22" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="false" staffspace="0.85000000">
+<g x-offset-propid="22" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<line transform="translate(93.7595, 62.5003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
 <rect transform="translate(95.0908, 62.5003)" x="-0.0313" y="1.4142" width="0.0626" height="4.9608" ry="0.0313" fill="currentColor"/>
 <path transform="translate(92.8603, 63.3503) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
@@ -873,16 +942,17 @@ s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:334:45:46">
 <path transform="translate(95.0908, 69.3741) scale(0.0032, -0.0032)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
 </a>
-<g extra-offset-propid="23" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="23" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(95.1637, 53.4813) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:322:30:31">
 <path transform="translate(99.6158, 51.3503) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
-<g x-offset-propid="21" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="false" staffspace="0.85000000">
+<g x-offset-propid="21" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<line transform="translate(93.7595, 50.5003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
 <path transform="translate(92.8603, 53.4753) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
-<g extra-offset-propid="17" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="17" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(95.1458, 62.8718) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <rect transform="translate(94.7848, 62.5003)" x="-0.0313" y="-2.1250" width="0.0626" height="2.8358" ry="0.0313" fill="currentColor"/>
@@ -939,12 +1009,12 @@ s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:284:36:37">
 <path transform="translate(26.1667, 68.0991) scale(0.0032, -0.0032)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
 </a>
-<g extra-offset-y-propid="18" editcommand="Tweak" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-y-propid="18" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:276:51:52">
 <path transform="translate(25.7354, 46.2257) scale(0.0036, -0.0036)" d="M69 -250l118 326c-33 -12 -68 -22 -103 -22c-46 0 -87 33 -87 79c0 40 33 72 73 72c25 0 49 -14 57 -38c10 -27 4 -59 33 -59c15 0 52 45 59 59c6 13 26 13 31 0l-121 -417c-9 -7 -19 -11 -30 -11s-21 4 -30 11z" fill="currentColor"/>
 </a>
 </g>
-<g extra-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:276:62:63">
 <g transform="translate(27.8508, 55.3311)" >
 <path transform="scale(0.0036, -0.0036)" d="M233 243c-56 0 -102 -108 -102 -174c0 -22 8 -38 30 -38c63 0 97 127 97 179c0 18 -7 33 -25 33zM111 -146c-37 0 -76 5 -114 5s-79 -5 -115 -5c-9 0 -14 8 -14 15c0 19 30 16 48 17c23 1 47 7 54 27l101 296c2 7 5 14 5 20c0 8 -3 14 -11 14c-33 0 -61 -60 -77 -97
@@ -1051,6 +1121,9 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:284:13:14">
 <path transform="translate(16.9597, 62.9253) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
+<g y-ref-of-19="true" spontinimarker="true">
+<line transform="translate(5.6906, 50.5003)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
 <path transform="translate(5.3085, 56.5003) scale(0.0040, -0.0040)" d="M-16 -584c0 -312 -116 -612 -116 -908c0 -160 36 -308 144 -428c4 -4 4 -8 4 -12c0 -8 -8 -16 -16 -16c-4 0 -8 0 -12 4c-148 160 -196 368 -196 584c0 316 124 628 124 928c0 156 -40 304 -148 424v8v8c108 120 148 268 148 424c0 300 -124 612 -124 928
 c0 216 48 424 196 584c4 4 8 4 12 4c8 0 16 -8 16 -16c0 -4 0 -8 -4 -12c-108 -120 -144 -268 -144 -428c0 -296 116 -596 116 -908c0 -216 -48 -424 -192 -584c144 -160 192 -368 192 -584z" fill="currentColor"/>
 <rect transform="translate(5.6085, 56.5003)" x="0.0000" y="-7.7313" width="0.1821" height="15.4626" ry="0.0569" fill="currentColor"/>
@@ -1094,11 +1167,11 @@ s21 -9 21 -21v-138l79 30v154c0 12 9 21 21 21s21 -9 21 -21v-138l22 8c3 1 6 2 9 2c
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/../examples/../examples/easy-cross-staff-example-7.ly:284:23:24">
 <path transform="translate(16.9910, 68.5241) scale(0.0032, -0.0032)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
 </a>
-<g extra-offset-propid="14" editcommand="Tweak" editableclass="Dots" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="14" editcommand="Tweak" editableclass="Dots" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(18.5951, 50.9253) scale(0.0034, -0.0034)" d="M0 0c0 31 25 56 56 56s55 -25 55 -56s-24 -56 -55 -56s-56 25 -56 56z" fill="currentColor"/>
 </g>
 <rect transform="translate(17.5850, 50.5003)" x="-0.0313" y="-1.8751" width="0.0626" height="2.5859" ry="0.0313" fill="currentColor"/>
-<g extra-offset-propid="24" editcommand="Tweak" editableclass="Accidental" spontinieditable="false" staffspace="0.85000000">
+<g extra-offset-propid="24" editcommand="Tweak" editableclass="Accidental" spontinieditable="true" staffspace="0.85000000">
 <path transform="translate(16.0647, 52.5004) scale(0.0032, -0.0032)" d="M-8 375c8 5 18 7 27 7s18 -2 26 -7l-3 -192l102 23h4c10 0 19 -8 19 -18l8 -563c-8 -5 -18 -7 -27 -7s-18 2 -26 7l2 192l-101 -23h-4c-10 0 -19 8 -19 18zM128 110l-87 -19l-3 -201l88 19z" fill="currentColor"/>
 </g>
 <rect transform="translate(17.9850, 62.5003)" x="-0.0313" y="-3.6833" width="0.0626" height="2.6942" ry="0.0313" fill="currentColor"/>
@@ -1275,6 +1348,9 @@ c46 0 75 46 75 95v5h-163c-24 0 -33 15 -33 24c0 3 1 6 2 7c80 92 134 205 134 327c0
 <path transform="translate(39.4710, 50.9253) scale(0.0032, -0.0032)" d="M212 138c59 0 113 -31 113 -95c0 -71 -52 -120 -99 -148c-34 -21 -73 -33 -113 -33c-59 0 -113 31 -113 95c0 71 53 120 100 148c34 21 72 33 112 33z" fill="currentColor"/>
 </a>
 <rect transform="translate(35.0894, 42.0893)" x="-0.0313" y="8.9752" width="0.0626" height="13.8017" ry="0.0313" fill="currentColor"/>
+<g x-ref-of-22="true" x-ref-of-21="true" spontinimarker="true">
+<line transform="translate(95.0595, 42.0893)" stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
 <a transform="translate(28.9194, 165.1170)" xlink:href="http://lilypond.org/">
 <rect x="0.0000" y="-0.4780" width="61.6628" height="2.1510" fill="none" stroke="none" stroke-width="0.0"/>
 </a>

@@ -206,7 +206,10 @@ controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
 
                   (if (not (member (cons "spontinimarker" "true") outprops-x-parent))
                     (set! outprops-x-parent (cons (cons "spontinimarker" "true") outprops-x-parent )))
-                  (set! outprops-x-parent (cons (cons (string-append "x-ref-of-" (cdr x)) "true") outprops-x-parent))
+
+                  (if (not (member (cons (string-append "x-ref-of-" (cdr x)) "true") outprops-x-parent))
+                    (set! outprops-x-parent (cons (cons (string-append "x-ref-of-" (cdr x)) "true") outprops-x-parent)))
+
                   (ly:grob-set-property! x-parent 'output-attributes outprops-x-parent)))))
 
           (if (string-prefix? "y-offset" (symbol->string (car x)))
@@ -220,7 +223,10 @@ controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
 
                   (if (not (member (cons "spontinimarker" "true") outprops-y-parent))
                     (set! outprops-y-parent (cons (cons "spontinimarker" "true") outprops-y-parent )))
-                  (set! outprops-y-parent (cons (cons (string-append "y-ref-of-" (cdr x)) "true") outprops-y-parent))
+
+                  (if (not (member (cons (string-append "y-ref-of-" (cdr x)) "true") outprops-y-parent))
+                    (set! outprops-y-parent (cons (cons (string-append "y-ref-of-" (cdr x)) "true") outprops-y-parent)))
+
                   (ly:grob-set-property! y-parent 'output-attributes outprops-y-parent))))
           ;; Thanks to Haaron Hill for the *great* support!
           (if (or (string-prefix? "outside-staff-padding" (symbol->string (car x)))

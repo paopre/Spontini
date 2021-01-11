@@ -74,7 +74,7 @@
 #})
 
 "j4" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "4" "cpts" #'((0.391 . -0.187) (0.9 . 0.592) (5.517 . 2.466) (6.342 . 3.005)) $mus
+\jsShape "4" "cpts" #'((0.391 . -0.187) (0.9 . 0.592) (5.517 . 2.466) (5.784 . 2.922)) $mus
 #})
 
 "j3" = #(define-music-function (parser location mus) (ly:music?) #{

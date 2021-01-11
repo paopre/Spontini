@@ -33,8 +33,6 @@ In order to enable and make it work:
   
 In case of issues, please refer to **[THIS](https://cairosvg.org/documentation/)** link.
 
-**NOTE**: when generating PDFs, if \jsXXX functions are used, ensure that the variable *showEditorStuff* is set to *false* in the edited ly document
-
 ```
 #(set! showEditorStuff "false")
 ```
@@ -43,6 +41,17 @@ In case of issues, please refer to **[THIS](https://cairosvg.org/documentation/)
 
 ... Don't forget to allow popups from Spontini-Editor's URL in your browser: then you can undock/dock the score into/from a separated window by pressing this button.
 
+### EXTRACTING SCORE PARTS
+
+With the following tools:
+
+  * Make all __BLOCK__s included
+  * Make all __BLOCK__s inline
+  * Make __BLOCK__ included
+  * Make __BLOCK__ inline
+
+... parts of the score can be automatically extracted as separate files, or put inline into the main ly file, as **[THIS](../examples/string-quartet-template-example.ly)** example shows.
+  
 ### FORK MODE
 
 By choosing ***FILE ---> FORK***, you can create a copy of the current document, with a random generated name, and make it automatically available on the www for collaborative editing (just copy and share the generated link).

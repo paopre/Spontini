@@ -1,0 +1,17 @@
+-----------
+Version 0.1
+-----------
+Pre-test version
+
+-----------
+Version 0.6
+-----------
+Initial version
+
+-----------
+Version 0.7
+-----------
+* Added 3-staves cross-staff utilities + examples
+* Added "Make __BLOCK__ inline/included" tools + example
+* Fixed duplicate attributes (spontinimarker, x-ref-of-*, y-ref-of-*) on editable svg
+* Fixed relative path issue on CairoSVG
