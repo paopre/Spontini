@@ -42,7 +42,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
     Just install (use the default installation settings!):
 
-    **1) [Lilypond 2.19.84 or newer](http://lilypond.org/download.html)** (tested with 2.19.84 and 2.20.0)
+    **1) [Lilypond 2.19.84 or newer](http://lilypond.org/download.html)** (tested with **2.19.84** and **2.20.0**; **NOT yet compatible with 2.22.0**)
 
     **2) [Python 3.6 or newer](https://www.python.org/downloads/)**
 
