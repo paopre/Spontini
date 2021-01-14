@@ -528,6 +528,7 @@ def doPostSync(message, request):
     lilyExecutableCmd = getDefaultLilyExecutableCmd()
     if lilyExecutableCmd != "":
       log(clientInfo + "Lilypond executable reset to: "+lilyExecutableCmd, "S")
+      setConfigParam("lilypond-exec", lilyExecutableCmd)
       return sendCompleteResponse("OK", "")
     else:
       log(clientInfo + "Could not reset Lilypond executable", "E")
