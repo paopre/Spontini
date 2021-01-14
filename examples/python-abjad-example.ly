@@ -61,6 +61,7 @@ print(outStr, end='')
 % the block syntax in the .ly file must be: %{__BLOCK__blocknum%} %{%}
 % blocknum can be any number
 
+\version "2.19.84"
 \language "english"
 {
 

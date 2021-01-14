@@ -77,7 +77,7 @@ $(set! cpDiameter 0.5)
     \time 3/4
     \ottava #1
     \jsOnceOverride "18" "Y-offset" #'(6.600) Staff.OttavaBracket
-    \jsOnceOverride "19" "shorten-pair" #'(-5.151 . 0) Staff.OttavaBracket
+    \jsOnceOverride "19" "shorten-pair" #'(-2.246 . -3.01) Staff.OttavaBracket
     c''''
     c'''' \ottava #0 r
     \break

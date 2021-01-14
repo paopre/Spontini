@@ -17,6 +17,12 @@
 
 \version "2.19.84"
 
+#(define-public (spontiniRgbColor? x)
+   (and (list? x)
+        (= 3 (length x))
+        (every number? x)
+        (every (lambda (y) (<= 0 y 1)) x)))
+
 #(define crossStaffTrash #{
   \override Flag.stencil = ##f
   \override TupletBracket.stencil = ##f
@@ -456,7 +462,7 @@ makeCrossStaffUDStepTwo = #(define-scheme-function (parser location mus) (ly:mus
       (ly:context-pushpop-property context grob-name 'color color)
       (loop (cdr x)))))))
 
-#(define (boolean-or-color? x) (or (boolean? x) (color? x)))
+#(define (boolean-or-color? x) (or (boolean? x) (spontiniRgbColor? x)))
 
 displayColoredMusic = #(define-music-function (parser location musColor mus) ((boolean-or-color? #f) ly:music?)
 (if (eq? musColor #f)

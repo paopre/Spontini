@@ -30,7 +30,7 @@
     % Spontini-Editor's map
     %
     % Tweak
-    c' c'\jsTweak "1" "extra-offset" #'(-5.017 . -3.689) \mf c' c'
+    c' c'\jsTweak "1" "extra-offset" #'(0.71 . -3.689) \mf c' c'
     % Override
     c' \jsOnceOverride "2" "extra-offset" #'(1.806 . -2.388) DynamicText c'\mf c' c'
 }

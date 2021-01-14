@@ -50,7 +50,7 @@ _\sostenutoOn
 \easyCrossStaff %TMODE
   { c'2       \CS c' \CS c'\break \CS }
   { $l1 s $l2 \CS s  \CS s        \CS }
-#'( -         \CS -  \CS -        \CS )
+#'( U         \CS -  \CS -        \CS )
 
 \break
 
@@ -69,7 +69,7 @@ _\sostenutoOn
 \easyCrossStaff %TMODE
   { c'    \CS c'            \CS c'              \CS }
   { s $l2 \CS s_\sustainOff \CS s_\sostenutoOff \CS }
-#'( -     \CS -             \CS -               \CS )
+#'( U     \CS -             \CS -               \CS )
 
 }
 

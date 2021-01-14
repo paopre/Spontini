@@ -24,8 +24,8 @@ $(set! showEditorStuff "true")
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&%%
 % Brackets are placed with the mouse
-% so to hit the nearest horiz line
-% of the grid
+% so to hit (on Lilypond version 2.22.0)
+% the nearest horiz line of the grid
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%
@@ -51,11 +51,11 @@ r
 \break
 
 \once \override Staff.OttavaBracket.direction = #DOWN
-\jsOnceOverride "5" "Y-offset" #'(-5.9) Staff.OttavaBracket
+\jsOnceOverride "5" "Y-offset" #'(-5.7) Staff.OttavaBracket
 \ottava #1 c'''4^\markup {\fontsize #-4 Y-offset} c''' c''' \ottava #0 c,
 
 \once \override Staff.OttavaBracket.direction = #DOWN
-\jsOnceOverride "6" "padding" #'(2.7) Staff.OttavaBracket
+\jsOnceOverride "6" "padding" #'(1.700) Staff.OttavaBracket
 \ottava #1 c'''4^\markup {\fontsize #-4 padding} c''' c''' \ottava #0
 r
 
@@ -65,7 +65,7 @@ r
 r
 
 \once \override Staff.OttavaBracket.direction = #DOWN
-\jsOnceOverride "8" "outside-staff-padding" #'(2.7) Staff.OttavaBracket
+\jsOnceOverride "8" "outside-staff-padding" #'(1.700) Staff.OttavaBracket
 \ottava #1 c'''4^\markup {\fontsize #-4 outside-staff-padding} c''' c''' \ottava #0
 r
 
@@ -105,7 +105,7 @@ r
 
 \once \override TupletBracket.outside-staff-priority = 10000
 \once \override TupletBracket.direction = #UP
-\jsOnceOverride "13" "padding" #'(2.9) Staff.OttavaBracket
+\jsOnceOverride "13" "padding" #'(2.100) Staff.OttavaBracket
 \jsOnceOverride "14" "outside-staff-padding" #'(2) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4_\markup {\fontsize #-4 "padding + outside-staff-padding"} c''' c''' \ottava #0 } c''''' r
 \once \override TupletBracket.outside-staff-priority = 10000
@@ -125,18 +125,18 @@ r
 \once \override TupletBracket.outside-staff-priority = 10000
 \once \override Staff.OttavaBracket.direction = #DOWN
 \jsOnceOverride "19" "padding" #'(2) Staff.OttavaBracket
-\jsOnceOverride "20" "outside-staff-padding" #'(2.2) TupletBracket
+\jsOnceOverride "20" "outside-staff-padding" #'(1.400) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4  "padding + outside-staff-padding"} c''' c''' \ottava #0 } c, r
 \once \override TupletBracket.outside-staff-priority = 10000
 \once \override Staff.OttavaBracket.direction = #DOWN
 \jsOnceOverride "21" "staff-padding" #'(3) Staff.OttavaBracket
-\jsOnceOverride "22" "outside-staff-padding" #'(2.200) TupletBracket
+\jsOnceOverride "22" "outside-staff-padding" #'(1.300) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4  "staff-padding + outside-staff-padding"} c''' c''' \ottava #0 } r2
 
 \once \override TupletBracket.outside-staff-priority = 10000
 \once \override Staff.OttavaBracket.direction = #DOWN
 \jsOnceOverride "23" "Y-offset" #'(-5) Staff.OttavaBracket
-\jsOnceOverride "24" "outside-staff-padding" #'(2.3) TupletBracket
+\jsOnceOverride "24" "outside-staff-padding" #'(1.400) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4  "Y-offset + outside-staff-padding"} c''' c''' \ottava #0 } r2
 
 \break
@@ -147,7 +147,7 @@ r
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \once \override TupletBracket.direction = #UP
-\jsOnceOverride "25" "outside-staff-padding" #'(3.7) Staff.OttavaBracket
+\jsOnceOverride "25" "outside-staff-padding" #'(2.800) Staff.OttavaBracket
 \jsOnceOverride "26" "padding" #'(4.6) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4_\markup {\fontsize #-4 "padding + outside-staff-padding"} c''' c''' \ottava #0 } c''''' r
 
@@ -155,21 +155,21 @@ a,,
 \once \override TupletBracket.outside-staff-priority = 100
 \once \override Staff.OttavaBracket.direction = #DOWN
 \jsOnceOverride "27" "outside-staff-padding" #'(1.9) Staff.OttavaBracket
-\jsOnceOverride "28" "padding" #'(1.6) TupletBracket
+\jsOnceOverride "28" "padding" #'(1.100) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4 "padding + outside-staff-padding"} c''' c''' \ottava #0 } r
 
 \pageBreak
 
 \once \override TupletBracket.direction = #UP
-\jsOnceOverride "29" "outside-staff-padding" #'(2.300) Staff.OttavaBracket
+\jsOnceOverride "29" "outside-staff-padding" #'(2.100) Staff.OttavaBracket
 \jsOnceOverride "30" "staff-padding" #'(2.700) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4_\markup {\fontsize #-4 "staff-padding + outside-staff-padding"} c''' c''' \ottava #0 } c''''' r
 
 a,,
 \once \override TupletBracket.outside-staff-priority = 100
 \once \override Staff.OttavaBracket.direction = #DOWN
-\jsOnceOverride "31" "outside-staff-padding" #'(2.3) Staff.OttavaBracket
-\jsOnceOverride "32" "staff-padding" #'(2.2) TupletBracket
+\jsOnceOverride "31" "outside-staff-padding" #'(2.000) Staff.OttavaBracket
+\jsOnceOverride "32" "staff-padding" #'(1.600) TupletBracket
 \tuplet 3/2 { \ottava #1 c''''4^\markup {\fontsize #-4 "staff-padding + outside-staff-padding"} c''' c''' \ottava #0 }
 
 }
