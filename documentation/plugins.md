@@ -75,7 +75,7 @@ In addition to the above tags, the following variables can be used as well:
    <br/>Will be replaced with the string inserted through the **&lt;input-params&gt;** prompt.   
    
   * **%%LILYINSTDIR%%**
-  <br/>Will be replaced with the absolute path of the directory containing Lilypond executable.
+  <br/>Will be replaced with the absolute path of the directory containing LilyPond executable.
    
   * **%%NOTES_NAME_LANG%%**
    <br/>Will be replaced with the language of the current .ly document.

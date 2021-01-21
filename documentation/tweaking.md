@@ -22,13 +22,13 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 
 <br></br>
 
-Spontini-Editor maps Lilypond's **\once \override** and **\tweak** commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: **\jsOnceOverride** and **\jsTweak**. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid Lilypond's standard trial-and-error process.
+Spontini-Editor maps LilyPond's **\once \override** and **\tweak** commands, used on object positioning properties (**extra-offset**, **Y-offset** etc.), with two respective commands: **\jsOnceOverride** and **\jsTweak**. The result of these commands can be modified using the mouse, acting on the generated SVG drawing, in order to avoid LilyPond's standard trial-and-error process.
 
-For example, if we want to modify the extra-offset of a dynamic, the standard Lilypond code will be:
+For example, if we want to modify the extra-offset of a dynamic, the standard LilyPond code will be:
 
 ```
 {
-    % Lilypond standard
+    % LilyPond standard
     %
     % Tweak
     c' c' \tweak extra-offset #'(0.71 . -3.539) \mf c' c'

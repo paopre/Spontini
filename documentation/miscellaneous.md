@@ -33,6 +33,8 @@ In order to enable and make it work:
   
 In case of issues, please refer to **[THIS](https://cairosvg.org/documentation/)** link.
 
+Also, before generating the PDF file, make sure that editor's objects are not visibile:
+
 ```
 #(set! showEditorStuff "false")
 ```
@@ -68,5 +70,9 @@ A minimal skin, which is good for a MIDI player (it doesn't show the default vid
 
 You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
 Note that you can't do point and click, nor edit the svg score while panning/zooming.
+
+### TOUCHPAD
+
+Spontini-Editor works with touchpads too: simply use a double tap (you can test it **[here]**(https://rbyers.github.io/paint.html)) instead of the mouse down action and a two-fingers double tap instead of the right mouse button action.
 
 ### [TABLE OF CONTENTS](toc.md)
