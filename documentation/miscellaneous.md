@@ -65,11 +65,6 @@ You can run the web-server in **"fork-access-only"** mode as well, which is an o
 This plugin can be launched on the web server's host. You can enable it by setting the **&lt;enabled&gt;** tag to **"true"**, inside **[plugins.xml](../plugins/plugins.xml)** and installing **[VLC](https://www.videolan.org/vlc/index.html)** with MIDI support. Check **[https://wiki.videolan.org/Midi/](https://wiki.videolan.org/Midi)** for more infos.
 
 A minimal skin, which is good for a MIDI player (it doesn't show the default video panel) is included into the plugins directory (mpui.vlt): you can set it by following **[THESE](https://www.videolan.org/vlc/skins.html)** instructions.
-  
-### PAN-ZOOM
-
-You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
-Note that you can't do point and click, nor edit the svg score while panning/zooming.
 
 ### MOBILE DEVICES
 
@@ -80,6 +75,11 @@ http://localhost:8000/spontini-editor?mobilemode=yes
 ```
 
 Then the svg drop-down menu is displayed after a double click on the left mouse button.
+
+### PAN-ZOOM
+
+You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
+Note that you can't do point and click, nor edit the svg score while panning/zooming.
 
 ### TOUCHPAD
 
