@@ -65,11 +65,11 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
     cli-params=-e onion:8000 -p 8002 -v 2 spontini_server_core:asgi
 
     ``` 
-    * **NOTE 1)** *The above CLI runs two endpoints of the web server at the same time: a TOR instance and a localhost (HTTP) instance on port 8001, which is useful for setting options with the Spontini-Server tk GUI.*
+    * **NOTE 1)** *The above CLI runs two endpoints of the web server at the same time: a TOR instance and a localhost (HTTP) instance on port 8002, which is useful for setting options with the Spontini-Server tk GUI.*
     
     * **NOTE 2)** *The TOR setup can take some time: wait until it is completed. Check also that the right permissions are set in order to start the TOR web server instance (in case, for example, you get this error: twisted.internet.error.ConnectError: An error occurred while connecting: 2: No such file or directory)*
     
-  * Finally: you can run the Spontini web server (**[spontini_server_core.py](../lib/python/spontini_server_core.py)**) from any another ASGI container other than Daphne or Uvicorn. Try it yourself by using the **spontini_server_core:asgi** parameter...
+  * Finally: you can run the Spontini web server (**[spontini_server_core.py](../lib/python/spontini_server_core.py)**) from any other ASGI container than Daphne or Uvicorn. Try it yourself by using the **spontini_server_core:asgi** parameter...
 
 
 
