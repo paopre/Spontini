@@ -47,7 +47,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
     **2) [Python 3.6 or newer](https://www.python.org/downloads/)**
 
 
-    **NOTE** NOT tested yet on **macOS**: need help/collaborators for this!
+    **NOTE for macOS users**: NOT tested yet on this platform: need help/collaborators for this!
     
 * **Debian based distros (Ubuntu, Mint etc.)**
 
