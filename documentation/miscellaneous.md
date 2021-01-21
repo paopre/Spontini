@@ -71,8 +71,18 @@ A minimal skin, which is good for a MIDI player (it doesn't show the default vid
 You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
 Note that you can't do point and click, nor edit the svg score while panning/zooming.
 
+### MOBILE DEVICES
+
+If, for some reasons, you use a mouse with your mobile device but the right button doesn't work, try to launch the client with the following URL:
+
+```
+http://localhost:8000/spontini-editor?mobilemode=yes
+```
+
+Then the svg drop-down menu is displayed after a double click on the left mouse button.
+
 ### TOUCHPAD
 
-Spontini-Editor works with touchpads too: simply use a double tap (you can test it **[here]**(https://rbyers.github.io/paint.html)) instead of the mouse down action and a two-fingers double tap instead of the right mouse button action.
+Spontini-Editor works with touchpads too: simply use a double tap (you can test it **[HERE](https://rbyers.github.io/paint.html)**) instead of the mouse down action and a two-fingers double tap instead of the right mouse button action.
 
 ### [TABLE OF CONTENTS](toc.md)
