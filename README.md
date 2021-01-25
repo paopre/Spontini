@@ -66,21 +66,25 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
   **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**    
 
-<br></br><br></br>
+<br></br>
 # QUICK START
 
-  * Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
+  **1)** Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
+    
+  **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser.<br></br>
+  The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
 
-    **NOTE** for **Windows** users: *you can launch SpontiniServer by simply double-clicking on SpontiniServer-WIN.vbs (or SpontiniServer-WIN.bat).*
+  <br></br>
+  **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
+  
+  **NOTE** for **Windows** users: *you can launch SpontiniServer by simply double-clicking on SpontiniServer-WIN.vbs (or SpontiniServer-WIN.bat).*
 
-    **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher". 
+  **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher". 
     Make sure that Python launcher is configured for running python 3, as the following image shows:*
     
-    ![img](documentation/images/pylauncher.png)
-    
-  * Open the page: *http://localhost:8000/spontini-editor* with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
-
-  * **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
-<br></br><br></br>
+  ![img](documentation/images/pylauncher.png)
+  
+  
+<br></br>
 # [GO TO THE DOCUMENTATION](documentation/toc.md)
 <br></br>
