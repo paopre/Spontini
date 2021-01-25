@@ -71,8 +71,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
   **1)** Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
     
-  **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser.<br></br>
-  The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
+  **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
 
   <br></br>
   **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
