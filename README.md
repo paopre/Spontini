@@ -84,4 +84,5 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
   * **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
 <br></br><br></br>
-## [GO TO THE DOCUMENTATION](documentation/toc.md)
+# [GO TO THE DOCUMENTATION](documentation/toc.md)
+<br></br>
