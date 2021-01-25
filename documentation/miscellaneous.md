@@ -76,6 +76,13 @@ http://localhost:8000/spontini-editor?mobilemode=yes
 
 Then the svg drop-down menu is displayed after a double click on the left mouse button.
 
+### OUTPUT
+
+You can check the LilyPond compiling output in two ways:
+
+  * On the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium).
+  * On the Spontini-Server's window or on the Spontini-Server's output (if the server is launched with "nogui" option)
+  
 ### PAN-ZOOM
 
 You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.

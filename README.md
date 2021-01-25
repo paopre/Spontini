@@ -80,8 +80,6 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
     
   * Open the page: *http://localhost:8000/spontini-editor* with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
 
-  * You can check the LilyPond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium).
-
   * **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
 <br></br><br></br>
 # [GO TO THE DOCUMENTATION](documentation/toc.md)
