@@ -36,7 +36,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 ## 
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
-## INSTALLATION
+# INSTALLATION
 <br></br>
 * ### **LINUX**
 
@@ -67,7 +67,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
   **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**    
 
 <br></br><br></br>
-## QUICK START
+# QUICK START
 
   * Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
 
