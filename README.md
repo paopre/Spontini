@@ -14,7 +14,7 @@ Spontini-Editor is a text-combined-with-graphic music editor that strongly speed
 Other main features:
 
   * Multi-platform (written in Javascript and Python 3)
-  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox**, **Brave**. Not compatible with **Pale Moon**), thus allowing to edit LilyPond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**. The client works on **Android** tablets too, provided you use a keyboard + touchpad or mouse with them.
+  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox**, **Brave**. Not compatible with **Pale Moon**, nor with **Safari**), thus allowing to edit LilyPond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**. The client works on **Android** tablets too, provided you use a keyboard + touchpad or mouse with them.
   * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers
   * Plugin engine that can interface to **any** library/utility suitable for LilyPond; implemented plugins currently support: **[Abjad](https://github.com/Abjad/abjad)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts)
   * Python 3 scripting interface
@@ -37,21 +37,35 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
 ## INSTALLATION
+<br></br>
+* ### **LINUX**
 
-* **All platforms**
+  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
 
-    Just install (use the default installation settings!):
-
-    **1) [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/download.html)**
-
-    **2) [Python 3.6 or newer](https://www.python.org/downloads/)**
-
-
-    **NOTE for macOS users**: NOT tested yet on this platform: need help/collaborators for this!
+  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
     
-* **Debian based distros (Ubuntu, Mint etc.)**
+    *On Debian based distros (Ubuntu, Mint etc.) just use:*
 
     ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
+    
+<br></br>
+* ### **WINDOWS**
+
+  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/windows.html)**
+
+  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/windows)**
+  
+<br></br>
+* ### **MACOSX**
+
+  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/macos-x.html)**
+
+    If you installed an unofficial 64-bit application bundle (macOS >= 10.15.0) you need to add LilyPond to your PATH: 
+    
+    ``` export PATH="${PATH}:/Applications/LilyPond.app/Contents/Resources/bin" ``` 
+
+  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**    
+
 <br></br><br></br>
 ## QUICK START
 
@@ -59,6 +73,11 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
     **NOTE** for **Windows** users: *you can launch SpontiniServer by simply double-clicking on SpontiniServer-WIN.vbs (or SpontiniServer-WIN.bat).*
 
+    **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher". 
+    Make sure that Python launcher is configured for running python 3, as the following image shows:*
+    
+    ![img](documentation/images/pylauncher.png)
+    
   * Open the page: *http://localhost:8000/spontini-editor* with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
 
   * You can check the LilyPond compiling output on the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium).

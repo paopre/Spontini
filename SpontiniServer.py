@@ -17,19 +17,40 @@
 #
 
 import sys
+from sys import argv
+
+if sys.version_info[0] != 3 or sys.version_info[1] < 6:
+  error = "Could not run "+argv[0]+"!\n\n"
+  error += "Python >= 3.6 is required\n"
+  error += "but the application has been launched with Python "
+  error += str(sys.version_info[0])+"."+str(sys.version_info[1])
+
+  if (sys.version_info[0] != 3) and 'nogui' not in argv:
+    import Tkinter
+    import tkMessageBox
+    tkMessageBox.showerror("Error", error)
+
+  elif 'nogui' not in argv:
+    from tkinter import messagebox
+    messagebox.showerror("Error", error)
+
+  else:
+    print("ERROR!\n"+error)
+
+  sys.exit(1)
+
 import os
 sys.path.insert(1, os.path.join(os.path.dirname(__file__), "lib", "python"))
 from spontini_server_utils import (setPip3AndVenvParams, getVenvName,
                                    getVenvedExecDir, checkAndInstallModule,
                                    upgradePip, terminateSpawnedProcesses)
-from sys import argv
+
 import subprocess
 from subprocess import PIPE
 import threading
 import subprocess
 from datetime import datetime
 import traceback
-from tkinter.messagebox import showerror
 
 wsThread = None
 webServerProc = None
@@ -95,15 +116,10 @@ def initVenvWithModules():
   venvExists = False
 
   error = True
-  if sys.version_info[0] != 3 or sys.version_info[1] < 6:
-    log("Detected Python "+str(sys.version_info[0])+"."+
-        str(sys.version_info[1])+" "+
-        ": Python version must be >= 3.6", "E")
-  else:
-    pipAndVenvParams = setPip3AndVenvParams(log)
-    pip3Exists = pipAndVenvParams[0]
-    venvExists = pipAndVenvParams[1]
-    error = (not pip3Exists) or (not venvExists)
+  pipAndVenvParams = setPip3AndVenvParams(log)
+  pip3Exists = pipAndVenvParams[0]
+  venvExists = pipAndVenvParams[1]
+  error = (not pip3Exists) or (not venvExists)
   if not error:
 
     log("", "I")
@@ -248,6 +264,7 @@ def sendMsgToServer(msg):
   if webServerURL == "":
     return
   elif webServerURL.startswith("onion"):
+    from tkinter.messagebox import showerror
     showerror(title = "Error", message = "Not enabled on this GUI: please set it through CGI")
     return
   newCLI = sendMsgCLI[:]
