@@ -16,3 +16,4 @@ Version 0.7
 * Fixed duplicate attributes (spontinimarker, x-ref-of-*, y-ref-of-*) on editable svg
 * Fixed relative path issue on CairoSVG
 * Compatible with 2.22.0! (14/01/2021)
+* Easier macOS installation (26/01/2021)
