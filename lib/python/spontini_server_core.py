@@ -23,6 +23,7 @@ import os
 import glob
 import shutil
 import pathlib
+import platform
 import subprocess
 from subprocess import PIPE
 import xml.etree.ElementTree as ET
@@ -45,7 +46,7 @@ wsDirPath = ""
 currDirAbsolutePath = pathlib.Path(".").resolve()
 httpd = None
 lilyExecutableCmd = ""
-lilyExecName = "lilypond-windows.exe" if os.name == "nt" else "lilypond"
+lilyExecName = "lilypond-windows.exe" if platform.system() == "Windows" else "lilypond"
 debug = True
 venvedPyCmd = ""
 venvedExecDir = ""
@@ -191,8 +192,7 @@ def getDefaultLilyExecutableCmd():
 
   if checkLilyExecutable(lilyExecName):
     ret = lilyExecName
-
-  elif os.name == "nt":
+  elif platform.system() == 'Windows':
     programFilesEnv = os.environ.get('ProgramFiles', 'C:\\Program Files')
     log("Could not find default Lilypond installation in sys path", "I")
     log("Checking default Lilypond installation in " + programFilesEnv + " path", "I")
@@ -211,6 +211,10 @@ def getDefaultLilyExecutableCmd():
       log("Found executable: \"" + ret + "\"", "I")
       if not checkLilyExecutable(ret):
         ret = ""
+  elif platform.system() == 'Darwin':
+    path = os.path.join('/Applications', 'LilyPond.app','Contents', 'Resources', 'bin', 'lilypond')
+    if os.path.exists(path):
+      ret = path
 
   if ret == "":
     log("Could not find default valid Lilypond installation!", "E")

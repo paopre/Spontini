@@ -33,7 +33,7 @@ Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.n
 
 Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
 
-## 
+##
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
 # INSTALLATION
@@ -43,47 +43,43 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
   **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
 
   **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
-    
+
     *On Debian based distros (Ubuntu, Mint etc.) just use:*
 
     ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
-    
+
 <br></br>
 * ### **WINDOWS**
 
   **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/windows.html)**
 
   **2) Install [Python 3.6 or newer](https://www.python.org/downloads/windows)**
-  
+
 <br></br>
 * ### **MACOSX**
 
   **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/macos-x.html)**
 
-    If you installed an unofficial 64-bit application bundle (macOS >= 10.15.0) you need to add LilyPond to your PATH: 
-    
-    ``` export PATH="${PATH}:/Applications/LilyPond.app/Contents/Resources/bin" ``` 
-
-  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**    
+  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**
 
 <br></br>
 # QUICK START
 
   **1)** Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
-    
+
   **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
 
   <br></br>
   **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
-  
+
   **NOTE** for **Windows** users: *you can launch SpontiniServer by simply double-clicking on SpontiniServer-WIN.vbs (or SpontiniServer-WIN.bat).*
 
-  **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher". 
+  **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher".
     Make sure that Python launcher is configured for running python 3, as the following image shows:*
-    
+
   ![img](documentation/images/pylauncher.png)
-  
-  
+
+
 <br></br>
 # [GO TO THE DOCUMENTATION](documentation/toc.md)
 <br></br>
