@@ -37,7 +37,6 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
 # INSTALLATION (all platforms)
-<br></br>
 
 **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
 
