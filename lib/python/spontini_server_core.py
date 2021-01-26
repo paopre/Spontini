@@ -214,7 +214,8 @@ def getDefaultLilyExecutableCmd():
   elif platform.system() == 'Darwin':
     path = os.path.join('/Applications', 'LilyPond.app','Contents', 'Resources', 'bin', 'lilypond')
     if os.path.exists(path):
-      ret = path
+      if checkLilyExecutable(path):
+        ret = path
 
   if ret == "":
     log("Could not find default valid Lilypond installation!", "E")

@@ -31,36 +31,21 @@ Other main features:
 
 Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
-Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
+Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen, [Alexis Jeandeau](https://github.com/jeandeaual) and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
 
 ##
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
-# INSTALLATION
+# INSTALLATION (all platforms)
 <br></br>
-* ### **LINUX**
 
-  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
+**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
 
-  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
+**2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
 
-    *On Debian based distros (Ubuntu, Mint etc.) just use:*
+  **NOTE** for **Linux** users: *on Debian based distros (Ubuntu, Mint etc.) just use:*
 
-    ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
-
-<br></br>
-* ### **WINDOWS**
-
-  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/windows.html)**
-
-  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/windows)**
-
-<br></br>
-* ### **MACOSX**
-
-  **1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/macos-x.html)**
-
-  **2) Install [Python 3.6 or newer](https://www.python.org/downloads/mac-osx)**
+  ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
 
 <br></br>
 # QUICK START

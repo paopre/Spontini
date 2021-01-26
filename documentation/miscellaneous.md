@@ -47,10 +47,10 @@ Also, before generating the PDF file, make sure that editor's objects are not vi
 
 With the following tools:
 
-  * Make all __BLOCK__s included
-  * Make all __BLOCK__s inline
-  * Make __BLOCK__ included
-  * Make __BLOCK__ inline
+  * Make all &#95;&#95;BLOCK&#95;&#95;s included
+  * Make all &#95;&#95;BLOCK&#95;&#95;s inline
+  * Make &#95;&#95;BLOCK&#95;&#95; included
+  * Make &#95;&#95;BLOCK&#95;&#95; inline
 
 ... parts of the score can be automatically extracted as separate files, or put inline into the main ly file, as **[THIS](../examples/string-quartet-template-example.ly)** example shows.
   
