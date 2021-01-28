@@ -23,9 +23,7 @@ $(set! showEditorStuff "true")
 % Set this to change the diameter of the control points of the curves (default = 0.6)
 $(set! cpDiameter 0.5)
 
-\new Staff \with {
-\magnifyStaff #10/10
-} {
+{
 
   % This include is needed for regression tests only. You don't need it in your own projects
   \include "regression-helper.ily"
