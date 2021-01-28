@@ -17,3 +17,10 @@ Version 0.7
 * Fixed relative path issue on CairoSVG
 * Compatible with 2.22.0! (14/01/2021)
 * Easier macOS installation (26/01/2021)
+
+-----------
+Version 0.8
+-----------
+* Compatible with 2.23.0 (27/01/2021)
+* Litle improvements to some examples
+* set-properties-example-2 can be used for regression tests

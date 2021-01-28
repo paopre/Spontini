@@ -375,7 +375,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 </g>
 </a>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 19.6362)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -443,7 +443,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 <g transform="translate(66.2698, 17.9362)">
 <rect x="0.0000" y="-1.7000" width="0.2162" height="3.4569" ry="0.0000" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 28.6362)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -1153,7 +1153,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 </g>
 </a>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 58.9614)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1212,7 +1212,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 <g transform="translate(5.6906, 54.7114)">
 <rect x="26.1626" y="-0.0994" width="1.9563" height="0.1988" ry="0.0994" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 67.9614)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>

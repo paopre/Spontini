@@ -31,6 +31,13 @@ Other main features:
 
 Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
+*Where are the installer files for Windows, macOS and Linux?*
+
+Well: you **don't need** them! Spontini-Editor is **NOT** packaged. You just have to install an official **[Python 3.6 or newer](https://www.python.org/downloads/source)** version and then Spontini-Editor is **ready to run**. This doesn't require any additional operation for the user compared to a packaged application and:
+
+  1) ensures strong compatibility between different operating systems
+  2) avoids me (Paolo) to maintain the distribution of the software, which is a very tedious and time-consuming operation
+
 Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen, [Alexis Jeandeau](https://github.com/jeandeaual) and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
 
 ##
@@ -38,7 +45,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 <br></br><br></br>
 # INSTALLATION (all platforms)
 
-**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.22.0 (included)](http://lilypond.org/unix.html)**
+**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.0 (included)](http://lilypond.org/unix.html)**
 
 **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
 

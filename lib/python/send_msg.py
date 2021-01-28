@@ -18,6 +18,7 @@
 
 import sys
 import httpx
+import traceback
 from sys import argv
 
 try:

@@ -94,16 +94,12 @@ agogicMark =  #(define-music-function (parser location str) (string?)
 % START __JSSVG__ %
 %-----------------%
 
-"j9" = #(define-music-function (parser location mus) (ly:music?) #{
+"j8" = #(define-music-function (parser location mus) (ly:music?) #{
 \jsTweak "10" "extra-offset" #'(0.545 . -1.299) $mus
 #})
 
-"j8" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsOnceOverride "9" "extra-offset" #'(0.800 . 0) NoteColumn $mus
-#})
-
 "j7" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsOnceOverride "8" "X-offset" #'(0.800) NoteColumn $mus
+\jsOnceOverride "8" "X-offset" #'(1.800) NoteColumn $mus
 #})
 
 "j6" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -208,7 +204,7 @@ upper = {
 %% LAYER 1
 \easyCrossStaff #layer1DefaultColor %TMODE
   { \CS \key bes \minor as32\"j4" [\"j3" \(^\agogicMark "En animant" \CS bes \CS as \CS ges \CS \vFourTemp s8\) \CS s4                      \CS }
-  { \CS \key bes \minor s32\p                                        \CS s   \CS s  \CS s   \CS es8]~           \CS \once \stemUp \"j8" es4 \CS }
+  { \CS \key bes \minor s32\p                                        \CS s   \CS s  \CS s   \CS es8]~           \CS \once \stemUp \"j7" es4 \CS }
 #'( \CS C                                                            \CS -   \CS -  \CS -   \CS -               \CS -                       \CS )
 
 \\
@@ -247,7 +243,7 @@ upper = {
 %% LAYER 2
 \easyCrossStaff #layer2DefaultColor %TMODE
   { s8 \CS \volatina 19/4 { s32       \CS s   \CS s  \CS s   \CS s    \CS es'                       \CS ges' \CS as'^\exprMark "(rapide)" \CS bes' \CS des'' \CS s                 \CS s     \CS s    \CS s     \CS s      \CS \ottava #1 es'''    \CS ges''' \CS as''' \CS bes'''] } }
-  { s8 \CS \volatina 19/4 { $v2 es32[ \CS ges \CS as \CS bes \CS des' \CS s\"j9"^\exprMark "cresc." \CS s    \CS s                        \CS s    \CS s     \CS \clef treble es'' \CS ges'' \CS as'' \CS bes'' \CS des''' \CS s^\exprMark "molto" \CS s      \CS s     \CS s     }   }
+  { s8 \CS \volatina 19/4 { $v2 es32[ \CS ges \CS as \CS bes \CS des' \CS s\"j8"^\exprMark "cresc." \CS s    \CS s                        \CS s    \CS s     \CS \clef treble es'' \CS ges'' \CS as'' \CS bes'' \CS des''' \CS s^\exprMark "molto" \CS s      \CS s     \CS s     }   }
 #'( -  \CS C                          \CS -   \CS -  \CS -   \CS -    \CS -                         \CS -    \CS -                        \CS -    \CS -     \CS -                 \CS -     \CS -    \CS -     \CS -      \CS -                   \CS -      \CS -     \CS -         )
 
 \\

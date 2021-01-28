@@ -24,11 +24,13 @@
 #(define showEditorStuff "true")
 #(define line-thickness 0.2)
 #(define cpDiameter 0.6)
+#(define lilyVersion (string-join (map number->string (ly:version)) "."))
 
 \layout {
   \context {
     \Staff
       \override StaffSymbol.output-attributes.isstaff = "true"
+      \override StaffSymbol.output-attributes.lilypondversion = #lilyVersion
   }
 }
 

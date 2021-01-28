@@ -23,7 +23,7 @@
 \paper {
   indent = 0\cm
 }
-#(set-global-staff-size 16)
+#(set-global-staff-size 15)
 
 %-----------------%
 % START __JSSVG__ %
@@ -38,11 +38,11 @@
 #})
 
 "j13" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "13" "cpts" #'((-0.034 . -3.691) (-2.294 . 2.804) (1.883 . 3.699) (0.935 . -1.378)) $mus
+\jsShape "13" "cpts" #'((-0.069 . -4.591) (-2.294 . 2.804) (1.883 . 3.699) (0.935 . -1.378)) $mus
 #})
 
 "j12" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "12" "cpts" #'((0 . 0) (0 . 0) (8.286 . -1.884) (11.884 . 0.913)) $mus
+\jsShape "12" "cpts" #'((0.172 . 0.045) (0 . 0) (8.286 . -1.884) (12.975 . 0.043)) $mus
 #})
 
 "j11" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -54,15 +54,15 @@
 #})
 
 "j9" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "8" "extra-offset-y" #'(-2.9) $mus
+\jsTweak "8" "extra-offset-y" #'(-1.368) $mus
 #})
 
 "j8" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "9" "extra-offset-y" #'(-3.494) $mus
+\jsTweak "9" "extra-offset-y" #'(-1.99) $mus
 #})
 
 "j7" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "7" "cpts" #'((0.875 . -3.234) (1.483 . -4.389) (0.498 . -8.781) (-0.796 . -10.058)) $mus
+\jsShape "7" "cpts" #'((0.903 . -4.335) (1.458 . -5.678) (0.924 . -10.396) (-0.611 . -11.765)) $mus
 #})
 
 "j6" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -74,11 +74,11 @@
 #})
 
 "j4" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "4" "cpts" #'((0.391 . -0.187) (0.9 . 0.592) (5.517 . 2.466) (5.784 . 2.922)) $mus
+\jsShape "4" "cpts" #'((0.13 . -0.31) (0.285 . 0.071) (5.58 . 2.056) (5.784 . 2.922)) $mus
 #})
 
 "j3" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "3" "extra-offset-y" #'(-1.694) $mus
+\jsTweak "3" "extra-offset-y" #'(-0.894) $mus
 #})
 
 "j2" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -139,7 +139,6 @@ $(set! cpDiameter 0.3)
 \override Score.Script.padding = 0.4
 \override Score.Stem #'thickness = #1
 \override Score.StaffSymbol #'thickness = #0.55
-\override Score.StaffSymbol.staff-space = #0.85
 \override Score.Script.font-size = #-2
 \override Score.DynamicText.font-size = #-1
 \override Score.Accidental.font-size = #-2
@@ -201,7 +200,7 @@ $(set! cpDiameter 0.3)
 %%%%%%%%%%%%%%%
 
 \time 4/4
-\override Score.Hairpin.rotation = #'(20 0 0)
+\override Score.Hairpin.rotation = #'(16 0 0)
 
 <<
 

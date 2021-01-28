@@ -16,7 +16,7 @@
 %
 
 \include "../lib/ly/jssvg.ly"
-\version "2.19.83"
+\version "2.19.84"
 
 $(set! showEditorStuff "true")
 
@@ -24,7 +24,7 @@ $(set! showEditorStuff "true")
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&%%
 % Brackets are placed with the mouse
-% so to hit (on Lilypond version 2.22.0)
+% so to hit (on Lilypond version 2.22.0 and 2.23.0)
 % the nearest horiz line of the grid
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
