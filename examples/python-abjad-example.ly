@@ -16,19 +16,16 @@
 %
 
 % This example shows how to integrate Abjad library ( http://abjad.mbrsi.org/ )
-% into Spontini editor
-% Please install Abjad with pip3 install abjad
+% into Spontini-Editor.
+% Install Abjad with TOOLS ---> pip3 install.
+% THEN:
+% Select the below Python3 snippet,
+% including the line with the block definition ( #__BLOCK__1 )
+% then execute "Python to Spontini" in the "TOOLS" menu:
+% the output of the script will be pasted inside the corresponding block in the
+% edited text. Then press "COMPILE" button
 
 %{
-
-# NOTE: this example requires the "abjad" module:
-# install it with TOOLS ---> pip3 install.
-#
-# Select the below Python3 snippet,
-# including the line with the block definition ( #__BLOCK__1 )
-# then execute "Python to Spontini" in the "TOOLS" menu:
-# the output of the script will be pasted inside the corresponding block in the
-# .ly text. Then press "COMPILE" button
 
 #__BLOCK__1
 
