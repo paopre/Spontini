@@ -17,13 +17,17 @@
 
 % This example shows how to integrate Abjad library (https://abjad.github.io)
 % into Spontini-Editor.
-% Install Abjad (tested with version 3.2) with TOOLS ---> pip3 install ---> abjad==3.2
-% THEN:
-% Select the below Python3 snippet,
-% including the line with the block definition ( #__BLOCK__1 )
-% then execute "Python to Spontini" in the "TOOLS" menu:
-% the output of the script will be pasted inside the corresponding block in the
-% edited text. Then press "COMPILE" button
+%
+% 1) Install Abjad (tested with version 3.2) with TOOLS ---> pip3 install ---> abjad==3.2
+%
+% 2) Select the below Python3 snippet, including the line 
+%    with the block definition ( #__BLOCK__1 )
+%
+% 3) Execute TOOLS ---> Python to Spontini:
+%    The output of the script will be automatically pasted
+%    inside the corresponding block in the edited text. 
+%
+% 4) Press "ENGRAVE" button
 
 %{
 
@@ -38,7 +42,7 @@ abjad.f(container)
 %}
 
 % Note:
-% the block syntax in the .ly file must be: %{__BLOCK__blockname%} %{%}
+% the block syntax in the .ly file must be: %{__BLOCK__blockname%}%{%}
 % where "blockname" can be any string
 \version "2.19.84"
 \language "english"
