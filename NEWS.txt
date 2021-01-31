@@ -24,3 +24,4 @@ Version 0.8
 * Compatible with 2.23.0 (27/01/2021)
 * Litle improvements to some examples
 * set-properties-example-2 can be used for regression tests
+* Simplified Abjad example

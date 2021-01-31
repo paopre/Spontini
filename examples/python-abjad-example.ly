@@ -15,9 +15,9 @@
 % along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 %
 
-% This example shows how to integrate Abjad library ( http://abjad.mbrsi.org/ )
+% This example shows how to integrate Abjad library (https://abjad.github.io)
 % into Spontini-Editor.
-% Install Abjad with TOOLS ---> pip3 install.
+% Install Abjad (tested with version 3.2) with TOOLS ---> pip3 install ---> abjad==3.2
 % THEN:
 % Select the below Python3 snippet,
 % including the line with the block definition ( #__BLOCK__1 )
@@ -28,42 +28,22 @@
 %{
 
 #__BLOCK__1
-
-import os
-import sys
-
-# this is a hack for filtering an
-# Abjad note after import abjad is done
-tmpstdout = sys.stdout
-f = open(os.devnull, 'w')
-sys.stdout = f
 import abjad
-f.close()
-sys.stdout = tmpstdout
-# end of the hack
-
 duration = abjad.Duration(1, 4)
 notes = [abjad.Note(pitch, duration) for pitch in range(8)]
-outStr = str(abjad.Container(notes))
-# Remove 'Container("' and ')"' tokens from the string (beginning and end)
-# Note that this is a hack, but I could not find a function for getting
-# the container's content as a plain string without newlines and brackets
-# from the class' API
-outStr = outStr[11 : (len(outStr) - 2)]
-print(outStr, end='')
+container = abjad.Container(notes)
+print("")
+abjad.f(container)
 
 %}
 
 % Note:
-% the block syntax in the .ly file must be: %{__BLOCK__blocknum%} %{%}
-% blocknum can be any number
-
+% the block syntax in the .ly file must be: %{__BLOCK__blockname%} %{%}
+% where "blockname" can be any string
 \version "2.19.84"
 \language "english"
 {
 
-r1
 %{__BLOCK__1%}%{%}
-r1
 
 }
