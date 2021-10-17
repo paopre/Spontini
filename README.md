@@ -45,7 +45,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 <br></br><br></br>
 # INSTALLATION (all platforms)
 
-**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.0 (included)](http://lilypond.org/unix.html)**
+**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.4 (included)](http://lilypond.org/unix.html)**
 
 **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
 
