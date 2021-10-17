@@ -339,58 +339,58 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </a>
 </g>
 <g outside-staff-padding-propid="31" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
-<g transform="translate(84.9491, 25.5676)">
+<g transform="translate(84.9491, 25.5490)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(86.7855, 24.7823)">
+<g transform="translate(86.7855, 24.7637)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="19.4924" y1="-0.0000" x2="19.4924" y2="-0.8000"/>
 </g>
-<g transform="translate(86.7855, 24.7823)">
+<g transform="translate(86.7855, 24.7637)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(86.7855, 24.7823)">
+<g transform="translate(86.7855, 24.7637)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="19.4924" y2="-0.0000" stroke-dasharray="0.302990618034361,0.706978108746843"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.6419, -21.9628)">
+<g transform="translate(95.6419, -21.9443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.1419, -21.9628)">
+<g transform="translate(95.1419, -21.9443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2.0000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(95.6419, 23.9628)">
+<g transform="translate(95.6419, 23.9443)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.6419, -25.6017)">
+<g transform="translate(95.6419, -25.5832)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.1419, -25.6017)">
+<g transform="translate(95.1419, -25.5832)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2.0000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(95.6419, 27.6017)">
+<g transform="translate(95.6419, 27.5832)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>

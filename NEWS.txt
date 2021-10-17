@@ -25,3 +25,12 @@ Version 0.8
 * Litle improvements to some examples
 * set-properties-example-2 can be used for regression tests
 * Simplified Abjad example
+
+-----------
+Version 1.0
+-----------
+* Compatible with 2.23.1 to 4
+* Added "Include/exclude selections" tool + example
+* Added "Format table" tool
+* Codemirror link updated to version 5.63.3
+* Improved tabular-functions.ly (easyCrossStaff)

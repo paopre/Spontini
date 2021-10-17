@@ -236,7 +236,10 @@ $(set! cpDiameter 0.3)
 >>
 
 \override Score.BarNumber.stencil = ##f
-\break s1
+\stopStaff
+\hide Score.Clef
+\hide Score.Rest
+\break r1
 
 } %end upper
 middleI = { \setStavesSpacing }

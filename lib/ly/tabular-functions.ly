@@ -252,6 +252,7 @@ removeCenteredCSMusicAndPreserveArts = #(define-scheme-function (parser location
   (map-some-music (lambda (x)
     (let ((name (ly:music-property x 'name))
           (beamPos (ly:music-property x 'beamPosition))
+          (tupletAnchor (ly:music-property x 'tupletAnchor))
           (skip '()))
       (cond
         ((and (eq? beamPos 'C)(or (eq? name 'NoteEvent)(eq? name 'RestEvent)(eq? name 'SkipEvent)(eq? name 'EventChord)))
@@ -263,9 +264,19 @@ removeCenteredCSMusicAndPreserveArts = #(define-scheme-function (parser location
           (ly:music-set-property! skip 'articulations (ly:music-property x 'articulations))
         ))
 
-        (if (eq? name 'SkipEvent)
+        (if (and (eq? name 'SkipEvent)(not (eq? tupletAnchor '())))
           (begin
           (set! skip (make-music 'RestEvent))
+          (if (not (eq? (ly:music-property x 'temppitch) '()))
+            (ly:music-set-property! skip 'pitch (ly:music-property x 'temppitch)))
+
+          (ly:music-set-property! skip 'duration (ly:music-property x 'duration))
+          (ly:music-set-property! skip 'articulations (ly:music-property x 'articulations))
+        ))
+
+        (if (and (eq? name 'SkipEvent)(eq? tupletAnchor '()))
+          (begin
+          (set! skip (make-music 'SkipEvent))
           (ly:music-set-property! skip 'duration (ly:music-property x 'duration))
           (ly:music-set-property! skip 'articulations (ly:music-property x 'articulations))
         ))
@@ -297,7 +308,9 @@ removeCenteredCSMusicAndPreserveArts = #(define-scheme-function (parser location
 
         (set! x #{
           \once \override Beam.stencil = ##f
-          \once \hide Rest
+          %\once \hide Rest
+          \once \override Rest.stencil = ##f
+          \once \override Rest.font-size = -10
           \once \override Stem.stencil = ##f
           \once \override Flag.stencil = ##f
           %\once \hide Stem
@@ -560,6 +573,53 @@ unsetCrossStaffVoiceContext = #(define-scheme-function (parser location) () (set
 crossStaffVoiceContext =  #(define-music-function (parser location mus) (ly:music?)
 #{ \context Voice = $cstVoice $mus #})
 
+tupletAnchor =
+#(define-music-function (parser location note) (ly:music?)
+(let ((newskip (make-music 'SkipEvent
+                           'temppitch (ly:music-property note 'pitch)
+                           'tupletAnchor "true"
+                           'duration (ly:music-property note 'duration))))
+#{ $newskip #}))
+
+forcedSkip =
+#(define-music-function (parser location note) (ly:music?)
+(let ((newskip (make-music 'SkipEvent
+                           'forcedSkip "true"
+                           'duration (ly:music-property note 'duration))))
+#{ $newskip #}))
+
+markFirstSkipInTuplets = #(define-scheme-function (parser location mus) (ly:music?)
+  (map-some-music (lambda (evt)
+  	(let ((name (ly:music-property evt 'name))
+          (checked "false")
+          (ctr 1)
+          (denominat 0))
+  	  (cond
+  		((eq? name 'TimeScaledMusic)
+        (set! denominat (ly:music-property evt 'denominator))
+        (map-some-music (lambda (evt2)
+          (let ((name2 (ly:music-property evt2 'name)))
+            (cond
+              ((and (or (eq? name2 'NoteEvent)(eq? name2 'SkipEvent)(eq? name2 'EventChord)))
+               ;(display "\n ctr=")
+               ;(display ctr)
+               ;(display "  denominat=")
+               ;(display denominat)
+               ;(display "\n")
+                (if (and (eq? name2 'SkipEvent) (or (eq? ctr 1)(eq? ctr denominat)))
+                  (begin
+                    (if (eq? (ly:music-property evt2 'forcedSkip) '())
+                      (ly:music-set-property! evt2 'tupletAnchor "true"))
+                    ))
+                (set! ctr (+ ctr 1))
+                evt2)
+              (else #f))))
+        evt)
+      evt)
+  		(else #f))))
+  mus)
+)
+
 easyCrossStaffAll = #(define-music-function (parser location musColor music1 music2 beamPositions
                                                                       music3 music4 music5 music6 music7
                                                                       music8 music9 music10 midiMusic)
@@ -573,6 +633,9 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
    (music2Voice1 '())
    (music2Voice2 '()))
   (begin
+
+  (markFirstSkipInTuplets music1)
+  (markFirstSkipInTuplets music2)
 
   (putBeamsAndStemsDirectionsOnMusicAsProperty music1 beamPositions 1)
   (putBeamsAndStemsDirectionsOnMusicAsProperty music2 beamPositions 2)

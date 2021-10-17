@@ -600,37 +600,37 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
 <g padding-propid="6" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
-<g transform="translate(36.7515, 46.5127)">
+<g transform="translate(36.7515, 46.4582)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(38.5879, 45.7274)">
+<g transform="translate(38.5879, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="13.0741" y1="-0.0000" x2="13.0741" y2="-0.8000"/>
 </g>
-<g transform="translate(38.5879, 45.7274)">
+<g transform="translate(38.5879, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(38.5879, 45.7274)">
+<g transform="translate(38.5879, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="13.0741" y2="-0.0000" stroke-dasharray="0.294905129312437,0.688111968395685"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(44.2352, -43.2080)">
+<g transform="translate(44.2352, -43.1535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(43.7352, -43.2080)">
+<g transform="translate(43.7352, -43.1535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.7000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(44.2352, 44.9080)">
+<g transform="translate(44.2352, 44.8535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -674,58 +674,58 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 <g outside-staff-padding-propid="8" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
-<g transform="translate(88.7363, 46.5127)">
+<g transform="translate(88.7363, 46.4582)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(90.5727, 45.7274)">
+<g transform="translate(90.5727, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="13.0741" y1="-0.0000" x2="13.0741" y2="-0.8000"/>
 </g>
-<g transform="translate(90.5727, 45.7274)">
+<g transform="translate(90.5727, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(90.5727, 45.7274)">
+<g transform="translate(90.5727, 45.6729)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="13.0741" y2="-0.0000" stroke-dasharray="0.294905129312436,0.688111968395684"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(96.2200, -43.2080)">
+<g transform="translate(96.2200, -43.1535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.7200, -43.2080)">
+<g transform="translate(95.7200, -43.1535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.7000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(96.2200, 44.9080)">
+<g transform="translate(96.2200, 44.8535)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(96.2200, -46.5468)">
+<g transform="translate(96.2200, -46.4923)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(95.7200, -46.5468)">
+<g transform="translate(95.7200, -46.4923)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.7000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(96.2200, 48.2468)">
+<g transform="translate(96.2200, 48.1923)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -1224,7 +1224,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:0:1">
-<g transform="translate(17.4048, 85.8011)">
+<g transform="translate(17.4048, 85.7611)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -1417,37 +1417,37 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 </g>
 <g padding-propid="13" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
-<g transform="translate(10.6906, 89.9558)">
+<g transform="translate(10.6906, 89.9158)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(12.5270, 89.1705)">
+<g transform="translate(12.5270, 89.1305)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="12.5188" y1="-0.0000" x2="12.5188" y2="0.8000"/>
 </g>
-<g transform="translate(12.5270, 89.1705)">
+<g transform="translate(12.5270, 89.1305)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(12.5270, 89.1705)">
+<g transform="translate(12.5270, 89.1305)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="12.5188" y2="-0.0000" stroke-dasharray="0.305336790745429,0.712452511739335"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.8966, 92.0899)">
+<g transform="translate(17.8966, 92.0500)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.3966, 92.0899)">
+<g transform="translate(17.3966, 92.0500)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2.1000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(17.8966, -89.9899)">
+<g transform="translate(17.8966, -89.9500)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -1550,56 +1550,56 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 <g outside-staff-padding-propid="14" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:0:1">
-<g transform="translate(11.4906, 84.0504)">
+<g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
 </g>
-<g transform="translate(11.4906, 84.0504)">
+<g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1971" y1="-0.0340" x2="-0.1971" y2="0.6660"/>
 </g>
-<g transform="translate(11.4906, 84.0504)">
+<g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="7.6240" y2="1.3171"/>
 </g>
-<g transform="translate(11.4906, 84.0504)">
+<g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1971" y1="-0.0340" x2="5.5283" y2="0.9551"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.9682, 89.1136)">
+<g transform="translate(17.9682, 89.0736)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.4682, 89.1136)">
+<g transform="translate(17.4682, 89.0736)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(17.9682, -87.1136)">
+<g transform="translate(17.9682, -87.0736)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.9682, 83.9253)">
+<g transform="translate(17.9682, 83.8853)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.4682, 83.9253)">
+<g transform="translate(17.4682, 83.8853)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(17.9682, -81.9253)">
+<g transform="translate(17.9682, -81.8853)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -1711,21 +1711,21 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:0:1">
-<g transform="translate(16.8642, 133.8520)">
+<g transform="translate(16.8642, 133.8571)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:0:1">
-<g transform="translate(53.7883, 133.7520)">
+<g transform="translate(53.7883, 133.7571)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:0:1">
-<g transform="translate(87.6468, 133.7951)">
+<g transform="translate(87.6468, 133.8002)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -1847,56 +1847,56 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 <g outside-staff-padding-propid="22" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:0:1">
-<g transform="translate(48.4146, 132.7738)">
+<g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
-<g transform="translate(48.4146, 132.7738)">
+<g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="-0.1997" y2="-0.7117"/>
 </g>
-<g transform="translate(48.4146, 132.7738)">
+<g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="7.0984" y2="0.4143"/>
 </g>
-<g transform="translate(48.4146, 132.7738)">
+<g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="4.9753" y2="0.2904"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(54.3516, -130.6711)">
+<g transform="translate(54.3516, -130.6762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(53.8516, -130.6711)">
+<g transform="translate(53.8516, -130.6762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.3000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(54.3516, 131.9711)">
+<g transform="translate(54.3516, 131.9762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(54.3516, -133.5696)">
+<g transform="translate(54.3516, -133.5747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(53.8516, -133.5696)">
+<g transform="translate(53.8516, -133.5747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.3000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(54.3516, 134.8696)">
+<g transform="translate(54.3516, 134.8747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -1979,56 +1979,56 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 <g outside-staff-padding-propid="24" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:0:1">
-<g transform="translate(82.2732, 132.8169)">
+<g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
-<g transform="translate(82.2732, 132.8169)">
+<g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="-0.1997" y2="-0.7117"/>
 </g>
-<g transform="translate(82.2732, 132.8169)">
+<g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="7.0984" y2="0.4143"/>
 </g>
-<g transform="translate(82.2732, 132.8169)">
+<g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="4.9753" y2="0.2904"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(88.2102, -130.6142)">
+<g transform="translate(88.2102, -130.6193)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(87.7102, -130.6142)">
+<g transform="translate(87.7102, -130.6193)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.4000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(88.2102, 132.0142)">
+<g transform="translate(88.2102, 132.0193)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(88.2102, -133.6127)">
+<g transform="translate(88.2102, -133.6178)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(87.7102, -133.6127)">
+<g transform="translate(87.7102, -133.6178)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.4000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(88.2102, 135.0127)">
+<g transform="translate(88.2102, 135.0178)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -2037,56 +2037,56 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 <g outside-staff-padding-propid="20" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:0:1">
-<g transform="translate(11.4906, 132.8738)">
+<g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
-<g transform="translate(11.4906, 132.8738)">
+<g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="-0.1997" y2="-0.7117"/>
 </g>
-<g transform="translate(11.4906, 132.8738)">
+<g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="7.0984" y2="0.4143"/>
 </g>
-<g transform="translate(11.4906, 132.8738)">
+<g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="-0.1997" y1="-0.0117" x2="4.9753" y2="0.2904"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(17.4276, -130.6711)">
+<g transform="translate(17.4276, -130.6762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(16.9276, -130.6711)">
+<g transform="translate(16.9276, -130.6762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.4000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.4276, 132.0711)">
+<g transform="translate(17.4276, 132.0762)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(17.4276, -133.6696)">
+<g transform="translate(17.4276, -133.6747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(16.9276, -133.6696)">
+<g transform="translate(16.9276, -133.6747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1.4000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(17.4276, 135.0696)">
+<g transform="translate(17.4276, 135.0747)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -2336,58 +2336,58 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 </g>
 <g outside-staff-padding-propid="25" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
-<g transform="translate(10.6906, 140.9648)">
+<g transform="translate(10.6906, 140.9859)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(12.5270, 140.1795)">
+<g transform="translate(12.5270, 140.2006)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="17.2813" y1="-0.0000" x2="17.2813" y2="0.8000"/>
 </g>
-<g transform="translate(12.5270, 140.1795)">
+<g transform="translate(12.5270, 140.2006)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(12.5270, 140.1795)">
+<g transform="translate(12.5270, 140.2006)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="17.2813" y2="-0.0000" stroke-dasharray="0.299675659583597,0.699243205695059"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(20.2779, 143.7989)">
+<g transform="translate(20.2779, 143.8200)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(19.7779, 143.7989)">
+<g transform="translate(19.7779, 143.8200)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2.8000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(20.2779, -140.9989)">
+<g transform="translate(20.2779, -141.0200)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(20.2779, 139.3601)">
+<g transform="translate(20.2779, 139.3811)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(19.7779, 139.3601)">
+<g transform="translate(19.7779, 139.3811)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-2.8000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(20.2779, -136.5601)">
+<g transform="translate(20.2779, -136.5811)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>

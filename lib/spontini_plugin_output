@@ -1,0 +1,5 @@
+\easyCrossStaff %TMODE
+  { \CS <sol'' dod''' sol'''>16[ \CS <sol'' dod''' sol'''>       \CS <sol'' dod''' sol'''>-. \CS <sol'' dod''' sol'''>-. \CS <sol'' dod''' sol'''>-. \CS <sol'' dod''' >-. \CS <sol'' dod''' >-. \CS <sol'' dod''' >-.]   \CS  }
+  { \CS <sold' red''>16\<     \CS <sold' red''>\sustainOff \CS <sold' red''>-.      \CS <sold' red''>-.      \CS <sold' red''>-.      \CS <sold' red''>-. \CS <sold' red''>-. \CS <sold' red''>-.\ff \CS  }
+#'( \CS U                    \CS -                       \CS -                   \CS -                   \CS -                   \CS -              \CS -              \CS -                 \CS  )
+\tag #'midi { \time 1/16 s16 }

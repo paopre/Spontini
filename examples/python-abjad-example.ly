@@ -20,12 +20,12 @@
 %
 % 1) Install Abjad (tested with version 3.2) with TOOLS ---> pip3 install ---> abjad==3.2
 %
-% 2) Select the below Python3 snippet, including the line 
+% 2) Select the below Python3 snippet, including the line
 %    with the block definition ( #__BLOCK__1 )
 %
 % 3) Execute TOOLS ---> Python to Spontini:
 %    The output of the script will be automatically pasted
-%    inside the corresponding block in the edited text. 
+%    inside the corresponding block in the edited text.
 %
 % 4) Press "ENGRAVE" button
 
