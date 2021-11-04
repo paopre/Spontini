@@ -29,3 +29,8 @@ Version 1.0
 * Added "Format table" tool
 * Codemirror link updated to version 5.63.3
 * Improved tabular-functions.ly (easyCrossStaff)
+
+-----------
+Version 1.1
+-----------
+* Improved + bugfix include/exclude selections tool
