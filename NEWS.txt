@@ -19,7 +19,7 @@ Version 0.7
 * Easier macOS installation (26/01/2021)
 
 -----------
-Version 1.1
+Version 1.2
 -----------
 * Compatible with 2.23.0 to .4
 * Litle improvements to some examples
