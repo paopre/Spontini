@@ -58,6 +58,7 @@ version = "??"
 forkAccessOnly = False
 canConfigFromNonLocalhost = False
 cairoSVGEnabled = False
+sepTkn = ";;::;;"
 
 if not getSpontiniLogger():
   setSpontiniLogger("spontini")
@@ -331,6 +332,7 @@ def doPostSync(message, request):
   global savedConFilenameWithPath
   global wsDirPath
   global lilyExecutableCmd
+  global sepTkn
 
   clientInfo = "["+host+":"+clPort+"] "
 
@@ -842,7 +844,6 @@ def doPostSync(message, request):
     if forkAccessOnly:
       return sendCompleteResponse("KO", "Not allowed")
     filelist = ""
-    sepTkn = ";;::;;"
     for currFile in sorted(os.listdir(wsDirPath)):
       if currFile.endswith(".ly"):
         filelist = filelist + currFile + sepTkn
@@ -1026,6 +1027,32 @@ def doPostSync(message, request):
     #sendCompleteResponse("OK")
     #wfile.write(str(resNum).encode("utf8"))
     return sendCompleteResponse("OK", str(resNum).encode("utf8"))
+
+  if message['cmd'] == 'TEMPLATE_LIST':
+    filelist = ""
+    templatesPath = os.path.join("..", "templates")
+    if os.path.exists(templatesPath):
+      for currFile in sorted(os.listdir(templatesPath)):
+        if currFile.endswith(".ly"):
+          filelist = filelist + currFile + sepTkn
+      if filelist.endswith(sepTkn):
+        filelist = filelist[0:-len(sepTkn)]
+    #sendCompleteResponse("OK")
+    return sendCompleteResponse("OK", filelist.encode("utf8"))
+    #wfile.write(filelist.encode("utf8"))
+
+  if message['cmd'] == 'TEMPLATE_CONTENT':
+    if not checkMsgStructure(message, 1):
+      return sendMalformedMsgResponse()
+    templateFileWithPath = os.path.join("..", "templates", message['param1'])
+    content = ""
+    try:
+      with open(templateFileWithPath, 'rb') as f:
+        content = f.read()
+      f.close()
+    except:
+      return sendCompleteResponse("KO", "not found")
+    return sendCompleteResponse("OK", content)
 
 doPostAsync = sync_to_async(doPostSync, thread_sensitive=False)
 

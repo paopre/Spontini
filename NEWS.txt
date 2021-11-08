@@ -30,3 +30,9 @@ Version 1.2
 * Codemirror link updated to version 5.63.3
 * Improved tabular-functions.ly (easyCrossStaff)
 * FastAPI updated to 0.70.0 (0.65.2 is buggy)
+
+-----------
+Version 1.5
+-----------
+* Added tools for templates
+

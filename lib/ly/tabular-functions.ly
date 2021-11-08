@@ -17,6 +17,8 @@
 
 \version "2.19.84"
 
+#(define smartBeams "false")
+
 #(define-public (spontiniRgbColor? x)
    (and (list? x)
         (= 3 (length x))
@@ -200,6 +202,49 @@ replaceSkipsWithInvisibleRests = #(define-scheme-function (parser location mus) 
         (else #f))))
   mus))
 
+removeUnwantedBeamsI = #(define-scheme-function (parser location mus) (ly:music?)
+  (map-some-music (lambda (evt)
+    (let ((name (ly:music-property evt 'name))
+          (beamPos (ly:music-property evt 'beamPosition))
+          (fakeRest '()))
+        (cond
+
+          ((and (eq? name 'SkipEvent)(eq? beamPos 'C))
+            (map-some-music (lambda (x)
+              (let ((name (ly:music-property x 'name)))
+                (cond
+                  ((eq? name 'BeamEvent)
+                    (set! x '())
+                    x)
+                  (else #f))))
+            evt)
+          evt)
+
+        (else #f))))
+  mus))
+
+removeUnwantedBeamsII = #(define-scheme-function (parser location mus dir) (ly:music? scheme?)
+  (map-some-music (lambda (evt)
+    (let ((name (ly:music-property evt 'name))
+          (beamPos (ly:music-property evt 'beamPosition))
+          (fakeRest '()))
+        (cond
+
+          ((and (or (eq? name 'SkipEvent)(eq? name 'NoteEvent)(eq? name 'EventChord))
+                (or (and (eq? beamPos 'U)(eq? dir 'D))(and (eq? beamPos 'D)(eq? dir 'U))))
+            (map-some-music (lambda (x)
+              (let ((name (ly:music-property x 'name)))
+                (cond
+                  ((eq? name 'BeamEvent)
+                    (set! x '())
+                    x)
+                  (else #f))))
+            evt)
+          evt)
+
+        (else #f))))
+  mus))
+
 removeMidiGraces = #(define-scheme-function (parser location mus) (ly:music?)
   (map-some-music (lambda (evt)
     (let ((name (ly:music-property evt 'name))
@@ -248,7 +293,6 @@ removeMidiGraces = #(define-scheme-function (parser location mus) (ly:music?)
 )
 
 removeCenteredCSMusicAndPreserveArts = #(define-scheme-function (parser location mus dir) (ly:music? number?)
-
   (map-some-music (lambda (x)
     (let ((name (ly:music-property x 'name))
           (beamPos (ly:music-property x 'beamPosition))
@@ -649,6 +693,14 @@ easyCrossStaffAll = #(define-music-function (parser location musColor music1 mus
 
   (removeMidiGraces music1Voice1)
   (removeMidiGraces music2Voice1)
+
+  ;; this is not necessary but can be useful for internal use with templates
+  (if (string=? smartBeams "true")
+    (begin
+      (removeUnwantedBeamsI music1Voice1)
+      (removeUnwantedBeamsI music2Voice1)
+      (removeUnwantedBeamsII music1Voice1 'U)
+      (removeUnwantedBeamsII music2Voice1 'D)))
 
   (replaceSkipsWithInvisibleRests music1Voice1)
   (replaceSkipsWithInvisibleRests music2Voice1)

@@ -88,6 +88,12 @@ You can check the LilyPond compiling output in two ways:
 You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
 Note that you can't do point and click, nor edit the svg score while panning/zooming.
 
+### TEMPLATES
+
+The content of the .ly files included in the "templates" directory can be automatically inserted in the score by using the autocompletion tool.
+When editing a score, just type the "<" character, then press **Ctrl-Space** keys so to activate the autocompletion tool, which will show you the list of the files of the previous directory. Now, choose, for example, "&lt;string-quartet.ly&gt;", don't move the cursor and press **Ctrl-3** keys: the "&lt;string-quartet.ly&gt;" string will be replaced by the content of the file.
+Obviously, you can populate the directory with your files, in addition to the existing ones.
+
 ### TOUCHPAD
 
 Spontini-Editor works with touchpads too: simply use a double tap (you can test it **[HERE](https://rbyers.github.io/paint.html)**) instead of the mouse down action and a two-fingers double tap instead of the right mouse button action.
