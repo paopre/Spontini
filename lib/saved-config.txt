@@ -1,4 +1,4 @@
-version=1.4b
+version=1.4-beta
 debug=no
 cairosvg-enabled=no
 midi-enabled=yes
