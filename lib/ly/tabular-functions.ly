@@ -27,6 +27,7 @@
 
 #(define crossStaffTrash #{
   \override Flag.stencil = ##f
+  \override BreathingSign.stencil = ##f
   \override TupletBracket.stencil = ##f
   \override TupletNumber.stencil = ##f
 #})

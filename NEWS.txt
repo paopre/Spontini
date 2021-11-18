@@ -36,3 +36,10 @@ Version 1.4
 -----------
 * Added tools for templates
 
+-----------
+Version 1.6
+-----------
+* Added helper ruler and axes
+* Added TOOLS ---> "Compile selected chunk"
+* Prevents turning pages if an object has been modified with the mouse without compiling the score
+

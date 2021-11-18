@@ -15,7 +15,6 @@
 % along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 %
 
-\include "../lib/ly/jssvg.ly"
 \include "../lib/ly/tabular-functions.ly"
 \include "../lib/ly/misc.ly"
 \version "2.19.84"

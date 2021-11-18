@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(7.5874, 16.4043)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0835" stroke="currentColor" x1="0.0417" y1="0" x2="144.1189" y2="0"/>
 </g>
@@ -109,7 +109,7 @@ tspan { white-space: pre; }
 <g transform="translate(7.5874, 43.4043)">
 <rect x="108.6176" y="-0.0917" width="1.4892" height="0.1835" ry="0.0917" fill="currentColor"/>
 </g>
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(7.5874, 28.4043)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0835" stroke="currentColor" x1="0.0417" y1="0" x2="144.1189" y2="0"/>
 </g>
@@ -126,7 +126,7 @@ tspan { white-space: pre; }
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0835" stroke="currentColor" x1="0.0417" y1="0" x2="144.1189" y2="0"/>
 </g>
 </g>
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(7.5874, 40.4043)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0835" stroke="currentColor" x1="0.0417" y1="0" x2="144.1189" y2="0"/>
 </g>

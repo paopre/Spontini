@@ -429,11 +429,12 @@ def doPostSync(message, request):
     return sendCompleteResponse("OK")
 
   if message['cmd'] == 'COMPILE':
-    if not checkMsgStructure(message, 1):
+    if not checkMsgStructure(message, 3):
       return sendMalformedMsgResponse()
     inputFileName = message['param1']
     lilyFileWithPath = os.path.join(wsDirPath, inputFileName)
     content = message['param2'].encode('utf-8').strip()
+    param3 = message['param3']
     log(clientInfo + "Saving file: " + lilyFileWithPath, "I")
     f = open(lilyFileWithPath,'wb')
     f.write(content)
@@ -463,7 +464,7 @@ def doPostSync(message, request):
     status = ""
     try:
       p = subprocess.run([lilyExecutableCmd,
-                          "-dmidi-extension=midi", "-dbackend=svg",
+                          "-dmidi-extension=midi", "-dbackend="+param3,
                           "-o", wsDirPath, lilyFileWithPath],
                           encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
       if p.returncode == 0:
@@ -485,6 +486,15 @@ def doPostSync(message, request):
         status = "KO"
         log(clientInfo + p.stdout, "E")
 
+      # Remove temporary chunk files, if any
+      if param3 == 'null':
+        try:
+          inputFileNameWOSuffix = inputFileName.replace(".ly", "")
+          os.remove(os.path.join(wsDirPath, inputFileName))
+          os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
+        except:
+          pass
+
       return sendCompleteResponse(status, p.stdout.encode("utf8"))
 
     except:
@@ -496,6 +506,15 @@ def doPostSync(message, request):
         err = "Bad lilypond command. Please report this!"
         return sendCompleteResponse(status, err.encode("utf8"))
         log(clientInfo + err, "E")
+
+      # Remove temporary chunk files, if any
+      if param3 == 'null':
+        try:
+          inputFileNameWOSuffix = inputFileName.replace(".ly", "")
+          os.remove(os.path.join(wsDirPath, inputFileName))
+          os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
+        except:
+          pass
 
   if message['cmd'] == 'SET_WORKSPACE':
     if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
@@ -1033,8 +1052,7 @@ def doPostSync(message, request):
     templatesPath = os.path.join("..", "templates")
     if os.path.exists(templatesPath):
       for currFile in sorted(os.listdir(templatesPath)):
-        if currFile.endswith(".ly"):
-          filelist = filelist + currFile + sepTkn
+        filelist = filelist + currFile + sepTkn
       if filelist.endswith(sepTkn):
         filelist = filelist[0:-len(sepTkn)]
     #sendCompleteResponse("OK")

@@ -30,9 +30,16 @@
   \context {
     \Staff
       \override StaffSymbol.output-attributes.isstaff = "true"
+      \override StaffSymbol.before-line-breaking = #(lambda (grob)(beforeLineBreakingSVGGrob grob))
       \override StaffSymbol.output-attributes.lilypondversion = #lilyVersion
   }
 }
+
+#(define (beforeLineBreakingSVGGrob grob)
+  (let* ((outprops (ly:grob-property grob 'output-attributes)))
+      (append! outprops `((staffspace . ,(ly:staff-symbol-staff-space grob))))
+      (ly:grob-set-property! grob 'output-attributes outprops))
+)
 
 %Thanks to Aroon Hill for the below functions!
 controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
@@ -253,13 +260,6 @@ controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
 
           ) outprops)
 
-      (ly:grob-set-property! grob 'output-attributes outprops))
-
-)
-
-#(define (beforeLineBreakingSVGGrob grob)
-  (let* ((outprops (ly:grob-property grob 'output-attributes)))
-      (append! outprops `((staffspace . ,(ly:staff-symbol-staff-space grob))))
       (ly:grob-set-property! grob 'output-attributes outprops))
 
 )

@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(14.2264, 11.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
@@ -22,7 +22,7 @@ tspan { white-space: pre; }
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
 </g>
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(14.2264, 20.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>

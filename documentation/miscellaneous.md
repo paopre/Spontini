@@ -18,6 +18,10 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 # Miscellaneous
 <br></br>
 
+### AXES
+
+Once a score is loaded and rendered, four draggable axes, useful for graphically aligning objects, can be activated by selecting "TOOLS--->Toggle axes"
+
 ### CAIRO-SVG
 
 If enabled, Spontini-Editor can generate PDF documents of the edited scores.
@@ -38,6 +42,16 @@ Also, before generating the PDF file, make sure that editor's objects are not vi
 ```
 #(set! showEditorStuff "false")
 ```
+### COMPILE CHUNKS OF SCORE
+
+When editing a portion of a long score without compiling it, it is easy to make typos or syntax errors. We do not always manage to correct these errors on the first attempt, even if we know where the error is located, and this can mean that the overall time it takes to compile the first two incorrect attempts is long. If the attempts are N, the time taken to correct the error will be:
+
+Tscore * N
+
+Where Tscore is the time taken to compile the entire score (or an entire section). To reduce this time considerably, you can use the "Compile selected chunk" tool, which allows you to compile on the fly, without generating the output, any small (or big) piece of code where we know the error is located.
+This way, once the chunk has been fixed and compiled correctly, we can compile the entire score (or section).
+See how the tool works in **[THIS](../examples/compile-chunks-of-score-example.ly)** example.
+See too how to compile single sections in **[THIS](../examples/exclude-selections-example.ly)** example.
 
 ### DOCK / UNDOCK SCORE BUTTON
 
@@ -87,6 +101,16 @@ You can check the LilyPond compiling output in two ways:
 
 You can activate it by pressing the len button on the menu, or by keeping **CTRL** key pressed. Use the mouse wheel and/or zoom-in/out by using the left mouse button and the keys listed inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**.
 Note that you can't do point and click, nor edit the svg score while panning/zooming.
+
+### RULER
+
+You can activate it by keeping **Shift** key pressed while moving the mouse on the SVG panel. An expandible line will appear and it will show its length both in staff spaces and in the original unit of measurement of the generated score.
+
+**NOTE**: if you want to use the ruler with projects compiled with a version <= 1.4 of Spontini-Editor, you have to re-compile them with a newer version.
+
+**NOTE**: if you modify the StaffSymbol.staff-space property in the score, make sure that the "jssvg.ly" is included at the top of the score. In this way, the ruler will scale according to the new value of the property.
+
+![img](images/ruler.jpeg)
 
 ### TEMPLATES
 

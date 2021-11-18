@@ -411,7 +411,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 </g>
 </a>
 </g>
-<g lilypondversion="2.22.0" isstaff="true">
+<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(14.2264, 38.9264)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="35.6959" y2="0"/>
 </g>

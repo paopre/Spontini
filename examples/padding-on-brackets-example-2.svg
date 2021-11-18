@@ -10,7 +10,7 @@ tspan { white-space: pre; }
 <tspan>2</tspan>
 </text>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
+<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(5.6906, 19.0292)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>

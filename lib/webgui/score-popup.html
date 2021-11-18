@@ -67,6 +67,11 @@ function switchWindowForSVGPanel(from, to) {
   to.graphscorepanel.style.background = from.graphscorepanel.style.background
   to.defaultimg.style.display = from.defaultimg.style.display
   to.svgcontainer.style.display = from.svgcontainer.style.display
+  to.rulerOn = from.rulerOn
+  to.staffSpaceForRuler = from.staffSpaceForRuler
+  to.origUnit = from.origUnit
+  to.svgWidthInOrigUnit = from.svgWidthInOrigUnit
+  to.svgHeightInOrigUnit = from.svgHeightInOrigUnit
   from.svgdraw.innerHTML = ""
   to.linkSVGElementsToSVGMenu()
   if(from.panzoomInstance != null) {
@@ -83,19 +88,29 @@ function switchWindowForSVGPanel(from, to) {
     })
     })
   }
+  to.axes = from.axes
+  to.axesPanzoomInstances = from.axesPanzoomInstances
+
+  to.document.getElementById("rulertbl").style.visibility =
+  from.document.getElementById("rulertbl").style.visibility
+
+  to.document.getElementById("rulertbl").innerHTML =
+  from.document.getElementById("rulertbl").innerHTML
+
 }
 
 window.onbeforeunload = function() {
   switchWindowForSVGPanel(this, window.opener)
   baseCtx.editorMustClosePopup = false
+  alert("u")
   baseCtx.dockScore()
 }
 
 var graphscorepanel = document.getElementById("graphscorepanel")
 graphscorepanel.innerHTML = baseCtx.graphscorepanel.innerHTML
 switchWindowForSVGPanel(window.opener, this)
+initAxes()
 initSVGPanel()
-
 document.title = "Score"
 
 </script>

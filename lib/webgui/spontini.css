@@ -33,6 +33,7 @@
   --svgmenufontweight: normal;
   --svgmenuwidth: 140px;
   --svgmenuitemheight: 26px;
+  --spontiniheadercolor: #051321;
 }
 
 body, html {
@@ -88,7 +89,7 @@ button, .editorselect {
 #spontiniheader {
   overflow: hidden;
   width: 100%;
-  background-color: #051321;
+  background-color: var(--spontiniheadercolor);
   height: 3%;
   display: inline-block;
   min-width: 1000px;
@@ -293,6 +294,7 @@ midi-player::part(control-panel) {
 }
 
 #graphscorepanel {
+  position: relative;
   width: 100%;
   height: 100%;
   background: lightgrey;
@@ -548,4 +550,37 @@ text-align: center;
 
 #svgmenucontainer li:hover > ul {
   display: block;
+}
+
+.rulertable{
+  visibility: hidden;
+	display: table;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 1px solid darkgrey;
+  font-size: 10px;
+  font-family: var(--widg-fontfamily);
+  background-color: lightgrey;
+}
+.rulertablerow {
+	display: table-row;
+}
+.rulertableval {
+	border: 1px solid darkgrey;
+	display: table-cell;
+  width: 60px;
+	padding: 3px;
+  background-color: lightgrey;
+}
+.rulertablelabl {
+	border: 1px solid darkgrey;
+	display: table-cell;
+	padding: 3px;
+  color: white;
+  background-color: var(--spontiniheadercolor);
+  text-align: center;
+}
+.rulertablebody {
+	display: table-row-group;
 }

@@ -80,7 +80,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 </g>
 </a>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(14.2264, 9.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -133,7 +133,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 <g transform="translate(5.6906, 10.6243)">
 <rect x="17.0510" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(14.2264, 18.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -373,7 +373,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(113.5948, 33.9280)">
 <rect x="0.0000" y="6.4044" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(5.6906, 40.2754)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -399,7 +399,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(5.6906, 41.2754)">
 <rect x="5.4557" y="-0.1069" width="2.0660" height="0.2138" ry="0.1069" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
+<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
 <g transform="translate(5.6906, 49.2754)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
