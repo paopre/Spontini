@@ -28,6 +28,7 @@ Other main features:
   * Smart tools for extracting parts from the score
   * Customizable score templates
   * Expandible ruler and draggable axes to examine the generated score with accuracy
+  * Filter tool for including/excluding sections/pages/systems or single measures of the score on the fly
 
 *Note that Spontini-Editor is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by LilyPond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure LilyPond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini-Editor functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini-Editor functions into native LilyPond code can be obtained by changing simple strings in the corresponding musical expressions.*
 
