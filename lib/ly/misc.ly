@@ -54,3 +54,25 @@ tupletAngles =
          (new-y (* st-x-length (tan alpha))))
   (ly:grob-set-property! grob 'positions (cons new-start (+ new-start new-y)))))
 #})
+
+checkFontFile = #(define-scheme-function (parser location fontName fontFile) (string? string?)
+(let
+  ((warning (not (string-contains (ly:font-config-get-font-file fontName) fontFile))))
+  (if warning
+    (begin
+      (display "\nwarning: font '")
+      (display fontFile)
+      (display "' not found!\n")
+    )
+  )
+))
+
+#(define dummyNum 0)
+CHUNKSTART = {}
+CHUNKEND = {}
+COMMONDELIMITER = #(define-scheme-function (parser location) () (set! dummyNum 0))
+SECTIONSTART = #(define-scheme-function (parser location sectionNum) (number?) (set! dummyNum 0))
+LINKPAGEBREAK = #(define-scheme-function (parser location pbNum) (number?) (set! dummyNum 0))
+SECTIONEND = #(define-scheme-function (parser location) () (set! dummyNum 0))
+UNLINKPAGEBREAK = #(define-scheme-function (parser location) () (set! dummyNum 0))
+pageBreakDummy = {}

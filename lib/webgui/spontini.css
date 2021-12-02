@@ -64,6 +64,7 @@ div:focus {outline: none;}
 
 button,
 select,
+#filter,
 #pagenumtxt
 {
   border-radius: 0px;
@@ -188,6 +189,28 @@ img {
   }
 }
 */
+#hiddeneditor {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+
+#filtercontainer {
+  width: 0px;
+  visibility: hidden;
+}
+
+#filterlabel {
+  color: white;
+  cursor: default;
+  background-color: #0e8f2e;
+  overflow: hidden;
+  height: var(--spontiniheader-item-height);
+  font-weight: bold;
+  padding: 2px;
+  font-size: var(--widg-fontsize);
+  font-family: var(--widg-fontfamily);
+}
 
 #lyfilename {
   color: white;

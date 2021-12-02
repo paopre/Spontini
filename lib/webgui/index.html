@@ -22,6 +22,7 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/hint/show-hint.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/dialog/dialog.css">
 <link rel="stylesheet" href="spontini.css">
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.js"></script>
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/mode/stex/stex.min.js"></script>
@@ -32,6 +33,7 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/edit/matchbrackets.min.js"></script>
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/hint/show-hint.js"></script>
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/selection/mark-selection.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/dialog/dialog.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.3.2/dist/panzoom.min.js"></script>
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.0"></script>
 
@@ -59,6 +61,7 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
     <div class="menudiv"><button id="symbolsbtn" toggle='false'>SYMBOLS</button></div>
     <div class="menudiv"><button id='toolsbtn'>TOOLS</button></div>
     <div class="menudiv"><button id="compilebtn" locked='false'>ENGRAVE</button></div>
+    <div id="filtercontainer"><button id="filterlabel">[F]</button></div>
     <div id="lyfilename" title=''></div>
   </div>
   <div class="halfspontiniheader" id="righthalfspontiniheader">
@@ -251,12 +254,13 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
   </div>
   </div>
 </div>
-<div id="footer">
+<div id="hiddeneditordiv">
+  <textarea id="hiddeneditor"></textarea>
 </div>
 
+<script type='text/javascript' src='js/global-stuff.js'></script>
 <script type='text/javascript' src='js/autocompletion.js'></script>
 <script type='text/javascript' src='js/symbols.js'></script>
-<script type='text/javascript' src='js/global-stuff.js'></script>
 <script type='text/javascript' src='js/global-custom-vars.js'></script>
 <script type='text/javascript' src='js/midi-functions.js'></script>
 <script type='text/javascript' src='js/texteditor-functions.js'></script>

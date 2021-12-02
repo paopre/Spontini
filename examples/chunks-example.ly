@@ -15,19 +15,25 @@
 % along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 %
 
-% THIS EXAMPLE SHOWS HOW TO QUICKLY TEST IF A SINGLE MEASURE
-% DOESN'T HAVE ERRORS.
 %
-% Select a single measure with the mouse and
-% compile it with "TOOLS--->Compile selected chunks"
-% It will be compiled (no output will be generated) together
-% with the score included between __COMMONSTART__ and __COMMONEND__ tags
+% THIS EXAMPLE SHOWS HOW TO QUICKLY TEST IF A CHUNK OF THE SCORE
+% DOESN'T HAVE ERRORS AND HOW TO ENGRAVE IT.
+%
+% A chunk of the score can be selected with the mouse or put
+% between CHUNKSTART and CHUNKEND tags.
+%
+% Then you can compile it, together with the score included between two COMMONDELIMITER
+% tags, with "TOOLS--->Chunk compile" (no output will be generated)
+%
+% You can also engrave it with "TOOLS--->Chunk engrave"
+%
 
 \include "../lib/ly/tabular-functions.ly"
+\include "../lib/ly/misc.ly"
 \version "2.19.84"
 
 upper = {
-%__COMMONDELIMITER__
+\COMMONDELIMITER
 
 \time 2/4
 
@@ -56,7 +62,7 @@ X\easyCrossStaff %TMODE
   { \CS c'8[ \CS d' \CS s   \CS s    \CS }
 #'( \CS C    \CS -  \CS -   \CS -    \CS )
 
-%__COMMONDELIMITER__
+\COMMONDELIMITER
 } %end upper
 lower = { }
 

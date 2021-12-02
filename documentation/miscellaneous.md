@@ -50,8 +50,8 @@ Tscore * N
 
 Where Tscore is the time taken to compile the entire score (or an entire section). To reduce this time considerably, you can use the "Compile selected chunk" tool, which allows you to compile on the fly, without generating the output, any small (or big) piece of code where we know the error is located.
 This way, once the chunk has been fixed and compiled correctly, we can compile the entire score (or section).
-See how the tool works in **[THIS](../examples/compile-chunks-of-score-example.ly)** example.
-See too how to compile single sections in **[THIS](../examples/exclude-selections-example.ly)** example.
+See how the tool works in **[THIS](../examples/chunks-example.ly)** example.
+You can also add a filter for sections or pages of the score. See how it works in **[THIS](../examples/filter-example-1.ly)**,  **[THIS](../examples/filter-example-2.ly)** and **[THIS](../examples/filter-example-3.ly)** examples.
 
 ### DOCK / UNDOCK SCORE BUTTON
 

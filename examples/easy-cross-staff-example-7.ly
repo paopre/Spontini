@@ -29,6 +29,10 @@
 % START __JSSVG__ %
 %-----------------%
 
+"j25" = #(define-music-function (parser location mus) (ly:music?) #{
+\jsTweak "25" "Y-offset" #'(-4.5) DynamicLineSpanner $mus
+#})
+
 "j24" = #(define-music-function (parser location mus) (ly:music?) #{
 \jsTweak "24" "extra-offset" #'(0.005 . -0.353) Accidental $mus
 #})
@@ -50,7 +54,7 @@
 #})
 
 "j19" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "20" "Y-offset" #'(-4.6) DynamicLineSpanner $mus
+\jsTweak "20" "Y-offset" #'(-4.5) DynamicLineSpanner $mus
 #})
 
 "j18" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -246,7 +250,7 @@ $(set! cpDiameter 0.4)
 %% LAYER 2
 \crossStaffTableVoice #layer2DefaultColor "upper"  "ctx1"
 { \override Voice.NoteColumn.X-offset = -0.4
-  \stemUp \"j6" g'8.^-\)^\(\p\< a'16^.\)\! \"j7" g'8.^-^\(\"j19" \<\p
+  \stemUp \"j6" g'8.^-\)^\(\"j25" \<\p a'16^.\)\! \"j7" g'8.^-^\(\"j19" \<\p
   a'16^.\!\) \"j9" \"j20" \"j8" g'8.^-^\( \<\p a'16^.\) \break
 }
 

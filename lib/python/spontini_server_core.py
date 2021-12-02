@@ -404,9 +404,10 @@ def doPostSync(message, request):
     inputFileName = message['param1']
     inputFileNameWOSuffix = message['param1'].replace(".ly", "")
     lilyFileWithPath = os.path.join(wsDirPath, inputFileName)
-    log(clientInfo + "Deleting files associated to: " + lilyFileWithPath, "I")
+    if inputFileName.endswith(".ly"):
+      writeInfoSharedWithPlugins("CURRENT_LY_FILE", "")
+      log(clientInfo + "Deleting files associated to: " + lilyFileWithPath, "I")
     os.remove(os.path.join(wsDirPath, lilyFileWithPath))
-    writeInfoSharedWithPlugins("CURRENT_LY_FILE", "")
     try:
       os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
     except:
@@ -439,6 +440,7 @@ def doPostSync(message, request):
     f = open(lilyFileWithPath,'wb')
     f.write(content)
     f.close()
+
     for currFile in os.listdir(wsDirPath):
       if checkIfIsChildFile(currFile, inputFileName, ".svg")  :
         os.rename(os.path.join(wsDirPath, currFile),
@@ -476,7 +478,10 @@ def doPostSync(message, request):
           if checkIfIsChildFile(currFile, inputFileName, ".svg") :
             numPages += 1
         status = "OK_"+str(numPages)
-        log(clientInfo + p.stdout, "S")
+        outLines = p.stdout
+        if 'param4' in message:
+          outLines = '\n'.join([s for s in outLines.split('\n') if message['param4'] in s])
+        log(clientInfo + outLines, "S")
 
       else:
         for currFile in os.listdir(wsDirPath):
@@ -495,17 +500,24 @@ def doPostSync(message, request):
         except:
           pass
 
+      # don't save the filtered content, save the original content
+      if 'param5' in message and param3 != 'null':
+        fNotFiltered = open(lilyFileWithPath,'wb')
+        contentNotFiltered = message['param5'].encode('utf-8').strip()
+        fNotFiltered.write(contentNotFiltered)
+        fNotFiltered.close()
+
       return sendCompleteResponse(status, p.stdout.encode("utf8"))
 
     except:
       status = "KO"
-      if not checkLilyExecutable(lilyExecutableCmd):
-        return sendCompleteResponse(status, "lilypondnotfound".encode("utf8"))
-        log(clientInfo + "Lilypond called, but its executable file is not set!", "E")
-      else:
-        err = "Bad lilypond command. Please report this!"
-        return sendCompleteResponse(status, err.encode("utf8"))
-        log(clientInfo + err, "E")
+
+      # don't save the filtered content, save the original content
+      if 'param5' in message and param3 != 'null':
+        fNotFiltered = open(lilyFileWithPath,'wb')
+        contentNotFiltered = message['param5'].encode('utf-8').strip()
+        fNotFiltered.write(contentNotFiltered)
+        fNotFiltered.close()
 
       # Remove temporary chunk files, if any
       if param3 == 'null':
@@ -515,6 +527,14 @@ def doPostSync(message, request):
           os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
         except:
           pass
+
+      if not checkLilyExecutable(lilyExecutableCmd):
+        log(clientInfo + "Lilypond called, but its executable file is not set!", "E")
+        return sendCompleteResponse(status, "lilypondnotfound".encode("utf8"))
+      else:
+        err = "Bad lilypond command. Please report this!"
+        log(clientInfo + err, "E")
+        return sendCompleteResponse(status, err.encode("utf8"))
 
   if message['cmd'] == 'SET_WORKSPACE':
     if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
@@ -1047,6 +1067,20 @@ def doPostSync(message, request):
     #wfile.write(str(resNum).encode("utf8"))
     return sendCompleteResponse("OK", str(resNum).encode("utf8"))
 
+  if message['cmd'] == 'GET_SAVED_SCORE_FILTER':
+    if not checkMsgStructure(message, 1):
+      return sendMalformedMsgResponse()
+    filterFileWithPath = os.path.join(wsDirPath, message['param1'])
+    #sendCompleteResponse("OK")
+    content = ""
+    try:
+      with open(filterFileWithPath, 'rb') as f:
+        content = f.read()
+      f.close()
+    except:
+      return sendCompleteResponse("KO", "not found")
+    return sendCompleteResponse("OK", content)
+
   if message['cmd'] == 'TEMPLATE_LIST':
     filelist = ""
     templatesPath = os.path.join("..", "templates")
@@ -1066,7 +1100,7 @@ def doPostSync(message, request):
     content = ""
     try:
       with open(templateFileWithPath, 'rb') as f:
-        content = f.read()
+        content = f.read().rstrip()
       f.close()
     except:
       return sendCompleteResponse("KO", "not found")

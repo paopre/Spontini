@@ -43,3 +43,14 @@ Version 1.6
 * Added TOOLS ---> "Compile selected chunk"
 * Prevents turning pages if an object has been modified with the mouse without compiling the score
 
+-----------
+Version 1.8
+-----------
+* Added "Toggle JSSVG" tool
+* Added user settable renderSvgTextWithGeometricPrecision (prevents Chrome's issues when rendering text)
+* Added tools for fonts
+* "Add pages/sections filter" (formerly defined as "Include/exclude selections") tool made easier to use and more robust
+* Tool for compiling chunks of score modified and expanded
+* Fixed goToPage() issue (when the compiled score has less pages than the previous one)
+* Added better looking input dialogs for search/replace
+* Tested compatibility with LilyPond 2.23.5

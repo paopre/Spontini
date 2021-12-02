@@ -103,11 +103,11 @@ agogicMark =  #(define-music-function (parser location str) (string?)
 #})
 
 "j6" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "7" "cpts" #'((0.544 . -4.41) (-3.523 . 2.938) (2.343 . 0.918) (0 . 0)) $mus
+\jsShape "7" "cpts" #'((0.667 . -4.639) (0.154 . 3.547) (1.496 . 0.847) (0 . 0)) $mus
 #})
 
 "j5" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "6" "cpts" #'((1.198 . -9.86) (-0.284 . 1.153) (0.037 . 2.171) (0.279 . -2.116)) $mus
+\jsShape "6" "cpts" #'((1.054 . -9.976) (-0.202 . 3.838) (0.037 . 2.171) (0.121 . -2.154)) $mus
 #})
 
 "j4" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -115,7 +115,7 @@ agogicMark =  #(define-music-function (parser location str) (string?)
 #})
 
 "j3" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsShape "4" "cpts" #'((-0.019 . -0.09) (-0.989 . 0.794) (3.136 . 1.414) (0.497 . -3.1)) $mus
+\jsShape "4" "cpts" #'((-0.019 . -0.09) (-0.989 . 0.794) (3.719 . 2.89) (1.865 . -5.302)) $mus
 #})
 
 "j2" = #(define-music-function (parser location mus) (ly:music?) #{
