@@ -36,6 +36,9 @@ import signal
 import logging
 import sys
 import re
+import types
+import importlib.machinery
+from PyPDF2 import PdfFileWriter, PdfFileReader, PdfFileMerger
 
 sys.path.insert(1, os.path.dirname(__file__))
 from spontini_server_utils import *
@@ -46,7 +49,24 @@ wsDirPath = ""
 currDirAbsolutePath = pathlib.Path(".").resolve()
 httpd = None
 lilyExecutableCmd = ""
-lilyExecName = "lilypond-windows.exe" if platform.system() == "Windows" else "lilypond"
+inkscapeExecutableCmd = ""
+
+lilyPondProgramInfo = {
+  'programName' : 'LilyPond',
+  'commonExecName' : 'lilypond',
+  'winSubPath': ['Lilypond*', 'usr', 'bin'],
+  'winExecName': 'lilypond-windows.exe',
+  'macSubPath': ['/Applications', 'LilyPond.app','Contents', 'Resources', 'bin']
+}
+
+inkscapeProgramInfo = {
+  'programName' : 'Inkscape',
+  'commonExecName' : 'inkscape',
+  'winSubPath': ['Inkscape', 'bin'],
+  'winExecName': 'inkscape.exe',
+  'macSubPath': ['/Applications', 'Inkscape.app','Contents', 'MacOS']
+}
+
 debug = True
 venvedPyCmd = ""
 venvedExecDir = ""
@@ -57,7 +77,6 @@ savedConFilenameWithPath = os.path.join(savedConFilename)
 version = "??"
 forkAccessOnly = False
 canConfigFromNonLocalhost = False
-cairoSVGEnabled = False
 sepTkn = ";;::;;"
 
 if not getSpontiniLogger():
@@ -100,16 +119,52 @@ def setConfigParam(param, val):
     log(traceback.format_exc(), "E")
     return False
 
+def addMaskToPdf(mask, pdf):
+  maskPdf = PdfFileReader(open(mask, "rb"))
+  generatedPdf = PdfFileReader(open(pdf, "rb"))
+  output = PdfFileWriter()
+  page = generatedPdf.getPage(0)
+  page.mergePage(maskPdf.getPage(0))
+  output.addPage(page)
+  outputStream = open(pdf+"BAK", "wb")
+  output.write(outputStream)
+  outputStream.close()
+  maskPdf.stream.close()
+  generatedPdf.stream.close()
+  os.remove(pdf)
+  os.rename(pdf+"BAK", pdf)
+
+def executeScript(clientInfo, scriptFile):
+
+  if scriptFile.endswith(".py"):
+    loader = importlib.machinery.SourceFileLoader(scriptFile.replace(".py", ""), os.path.join(wsDirPath, scriptFile))
+    mod = types.ModuleType(loader.name)
+    loader.exec_module(mod)
+    #mod.run(wsDirPath)
+
+  else:
+    try:
+      p = subprocess.run([os.path.join(wsDirPath, scriptFile)],
+                          encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+      if p.returncode == 0:
+        outLines = p.stdout
+        log(clientInfo + outLines, "I")
+      else:
+        log(clientInfo + p.stdout, "E")
+    except:
+        log(clientInfo + traceback.format_exc(), "E")
+
 def readConfigParams():
   #FIXME: too much "global" stuff everywhere!
   global port
   global debug
   global lilyExecutableCmd
+  global inkscapeExecutableCmd
   global wsDirPath
   global savedConFilenameWithPath
   global version
   global forkAccessOnly
-  global cairoSVGEnabled
+
   try:
     with open(savedConFilenameWithPath) as fp:
       line = fp.readline().rstrip()
@@ -143,12 +198,6 @@ def readConfigParams():
             else:
               forkAccessOnly = False
 
-          if parm == "cairosvg-enabled":
-            if val == "yes":
-              cairoSVGEnabled = True
-            else:
-              cairoSVGEnabled = False
-
           if parm == "debug":
             if val == "yes":
               debug = True
@@ -157,6 +206,9 @@ def readConfigParams():
 
           if parm == "lilypond-exec":
             lilyExecutableCmd = val
+
+          if parm == "inkscape-exec":
+            inkscapeExecutableCmd = val
 
           log("  " + parm + " ---> " + val, "I")
 
@@ -169,59 +221,59 @@ def readConfigParams():
   except:
     log("Could not open config file. Using default values...", "I")
 
-def checkLilyExecutable(execCmd):
-  log("Checking if \"" + execCmd + "\" is a valid Lilypond executable", "I")
+def checkExecutable(execCmd, errorLoggedAs = 'E'):
+  log("Checking if \"" + execCmd + "\" is a valid executable", "I")
   ret = False
   try:
     p = subprocess.run([execCmd, "--version"], encoding='utf-8')
     if p.returncode == 0:
       ret = True
-  except:
-    log(traceback.format_exc(), "I")
+  except Exception as e:
+    log(e, errorLoggedAs)
     pass
 
   if not ret:
-    log("\"" + execCmd + "\" is not a valid Lilypond executable", "I")
+    log("\"" + execCmd + "\" is not a valid executable", errorLoggedAs)
   else:
-    log("\"" + execCmd + "\" is a valid Lilypond executable", "S")
+    log("\"" + execCmd + "\" is a valid executable", "S")
 
   return ret
 
-def getDefaultLilyExecutableCmd():
-  ret = ""
-  log("Checking default Lilypond installation in sys path", "I")
+def getDefaultExecutableCmd(programInfo, errorLoggedAs = 'E'):
 
-  if checkLilyExecutable(lilyExecName):
-    ret = lilyExecName
+  ret = ""
+  log("Checking default " + programInfo['programName'] + " installation in sys path", "I")
+  if checkExecutable(programInfo['commonExecName'], errorLoggedAs):
+    ret = programInfo['commonExecName']
   elif platform.system() == 'Windows':
     programFilesEnv = os.environ.get('ProgramFiles', 'C:\\Program Files')
-    log("Could not find default Lilypond installation in sys path", "I")
-    log("Checking default Lilypond installation in " + programFilesEnv + " path", "I")
-    path = glob.glob(os.path.join(programFilesEnv,'LilyPond*', 'usr', 'bin'))
+    log("Could not find default " + programInfo['programName'] + " installation in sys path", "I")
+    log("Checking default " + programInfo['programName'] + " installation in " + programFilesEnv + " path", "I")
+    path = glob.glob(os.path.join(programFilesEnv, *programInfo['winSubPath']))
     if not path:
       programFilesEnvX86 = os.environ.get('ProgramFiles(x86)', 'C:\\Program Files (x86)')
-      log("Could not find default Lilypond installation in "+programFilesEnv+" path", "I")
-      log("Checking default Lilypond installation in " + programFilesEnvX86 + " path", "I")
-      path = glob.glob(os.path.join(programFilesEnvX86,'LilyPond*', 'usr', 'bin'))
+      log("Could not find default " + programInfo['programName'] + " installation in "+programFilesEnv+" path", "I")
+      log("Checking default " + programInfo['programName'] + " installation in " + programFilesEnvX86 + " path", "I")
+      path = glob.glob(os.path.join(programFilesEnvX86, *programInfo['winSubPath']))
       if path:
-        ret = os.path.join(path[0], lilyExecName)
+        ret = os.path.join(path[0], programInfo['commonExecName'])
     else:
-      ret = os.path.join(path[0], lilyExecName)
+      ret = os.path.join(path[0], programInfo['commonExecName'])
 
     if path:
       log("Found executable: \"" + ret + "\"", "I")
-      if not checkLilyExecutable(ret):
+      if not checkExecutable(ret, errorLoggedAs):
         ret = ""
   elif platform.system() == 'Darwin':
-    path = os.path.join('/Applications', 'LilyPond.app','Contents', 'Resources', 'bin', 'lilypond')
+    path = os.path.join(*programInfo['macSubPath'], programInfo['commonExecName'])
     if os.path.exists(path):
-      if checkLilyExecutable(path):
+      if checkExecutable(path, errorLoggedAs):
         ret = path
 
   if ret == "":
-    log("Could not find default valid Lilypond installation!", "E")
+    log("Could not find default valid " + programInfo['programName'] + " installation", errorLoggedAs)
   else:
-    log("Found default valid Lilypond installation", "S")
+    log("Found default valid " + programInfo['programName'] + " installation", "S")
 
   return ret
 
@@ -240,33 +292,6 @@ def checkIfIsChildFile(possibleChild, possibleParent, extension):
   ret = ret or ((possibleChild.startswith(possibleParent.replace(".ly", "")+"-")) and possibleChild.endswith(extension))
   return ret
 
-def convertList(urls, writeTo, dpi=72):
-
-  #see https://github.com/Kozea/CairoSVG/issues/200
-  import cairocffi
-  from cairosvg.parser import Tree
-  from cairosvg.surface import PDFSurface
-
-  class RecordingPDFSurface(PDFSurface):
-    surface_class = cairocffi.RecordingSurface
-    def _create_surface(self, width, height):
-        cairo_surface = cairocffi.RecordingSurface(cairocffi.CONTENT_COLOR_ALPHA,
-                                                  (0, 0, width, height))
-        return cairo_surface, width, height
-
-  surface = cairocffi.PDFSurface(writeTo, 1, 1)
-  context = cairocffi.Context(surface)
-  for url in urls:
-    if os.name == 'nt':
-      url = url.replace('\\', '/')
-      url = 'file:///{}'.format(url)
-    image_surface = RecordingPDFSurface(Tree(url=url), None, dpi)
-    surface.set_size(image_surface.width, image_surface.height)
-    context.set_source_surface(image_surface.cairo, 0, 0)
-    context.paint()
-    surface.show_page()
-  surface.finish()
-
 #----------------------------
 #----------------------------
 #   FASTAPI
@@ -277,7 +302,7 @@ from fastapi import FastAPI, Request, HTTPException
 from fastapi.staticfiles import StaticFiles
 from starlette.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, FileResponse
 from asgiref.sync import sync_to_async
 
 def sendMalformedMsgResponse():
@@ -314,17 +339,27 @@ async def doGet(request: Request):
   sys.stdout.flush()
   fname = request.query_params['filename']
   try:
-    fileLike = open(os.path.join(wsDirPath, fname), mode="rb")
-    mediaType = "??"
-    if fname.endswith("midi"):
-      mediaType = "midi"
-    return StreamingResponse(fileLike, media_type=mediaType)
+    return FileResponse(os.path.join(wsDirPath, fname))
   except:
     raise HTTPException(
       status_code=404,
       detail="Item not found",
       headers={"X-Error": "Error"},
     )
+
+def removeFilteredTknFromOutputFiles(fileName):
+  global wsDirPath
+  fileNameWOSuffix = fileName.replace(".ly", "")
+  if not fileNameWOSuffix.endswith("-FILTERED"):
+    return
+  for currFile in os.listdir(wsDirPath):
+    if checkIfIsChildFile(currFile, fileName, ".svg") or checkIfIsChildFile(currFile, fileName, ".midi"):
+      currFileRenamed = currFile[::-1].replace('DERETLIF-', '', 1)[::-1]
+      os.rename(os.path.join(wsDirPath, currFile), os.path.join(wsDirPath, currFileRenamed))
+  try:
+    os.remove(os.path.join(wsDirPath, fileName))
+  except:
+    pass
 
 def doPostSync(message, request):
   host = str(request.client.host)
@@ -436,15 +471,6 @@ def doPostSync(message, request):
     lilyFileWithPath = os.path.join(wsDirPath, inputFileName)
     content = message['param2'].encode('utf-8').strip()
     param3 = message['param3']
-    log(clientInfo + "Saving file: " + lilyFileWithPath, "I")
-    f = open(lilyFileWithPath,'wb')
-    f.write(content)
-    f.close()
-
-    for currFile in os.listdir(wsDirPath):
-      if checkIfIsChildFile(currFile, inputFileName, ".svg")  :
-        os.rename(os.path.join(wsDirPath, currFile),
-          os.path.join(wsDirPath, currFile.replace(".svg", ".ljssvgswap")))
 
     # remove midi, zip and pdf file too, if they exist
     inputFileNameWOSuffix = inputFileName.replace(".ly", "")
@@ -461,18 +487,48 @@ def doPostSync(message, request):
     except:
       pass
 
+    fileFilteredWithPath = lilyFileWithPath
+    filtered = False
+    if 'param5' in message and param3 != 'null':
+      #TODO: add better check
+      if (message['param5'] != "") and (message['param5'] != "empty") and (message['param5'] != message['param2']):
+        filtered = True
+
+    inputFileNameNotFiltered = inputFileName
+    if filtered:
+      fileFilteredWithPath = fileFilteredWithPath.replace(".ly", "-FILTERED.ly")
+      inputFileName = inputFileName.replace(".ly", "-FILTERED.ly")
+
+    log(clientInfo + "Saving file: " + fileFilteredWithPath, "I")
+    f = open(fileFilteredWithPath,'wb')
+    f.write(content)
+    f.close()
+
+    for currFile in os.listdir(wsDirPath):
+      if checkIfIsChildFile(currFile, inputFileName, ".svg") or checkIfIsChildFile(currFile, inputFileNameNotFiltered, ".svg"):
+        os.rename(os.path.join(wsDirPath, currFile),
+                  os.path.join(wsDirPath, currFile.replace(".svg", ".ljssvgswap")))
+
     global lilyExecutableCmd
-    log(clientInfo + "Compiling file: "+lilyFileWithPath, "I")
+    log(clientInfo + "Compiling file: "+fileFilteredWithPath, "I")
     status = ""
     try:
       p = subprocess.run([lilyExecutableCmd,
                           "-dmidi-extension=midi", "-dbackend="+param3,
-                          "-o", wsDirPath, lilyFileWithPath],
+                          "-o", wsDirPath, fileFilteredWithPath],
                           encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
       if p.returncode == 0:
         for currFile in os.listdir(wsDirPath):
           if checkIfIsChildFile(currFile, inputFileName, ".ljssvgswap")  :
-            os.remove(os.path.join(wsDirPath, currFile))
+            try:
+              os.remove(os.path.join(wsDirPath, currFile))
+            except:
+              pass
+          if checkIfIsChildFile(currFile, inputFileNameNotFiltered, ".ljssvgswap")  :
+            try:
+              os.remove(os.path.join(wsDirPath, currFile))
+            except:
+              pass
         numPages = 0
         for currFile in os.listdir(wsDirPath):
           if checkIfIsChildFile(currFile, inputFileName, ".svg") :
@@ -491,6 +547,9 @@ def doPostSync(message, request):
         status = "KO"
         log(clientInfo + p.stdout, "E")
 
+      if filtered:
+        removeFilteredTknFromOutputFiles(inputFileName)
+
       # Remove temporary chunk files, if any
       if param3 == 'null':
         try:
@@ -499,25 +558,14 @@ def doPostSync(message, request):
           os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
         except:
           pass
-
-      # don't save the filtered content, save the original content
-      if 'param5' in message and param3 != 'null':
-        fNotFiltered = open(lilyFileWithPath,'wb')
-        contentNotFiltered = message['param5'].encode('utf-8').strip()
-        fNotFiltered.write(contentNotFiltered)
-        fNotFiltered.close()
 
       return sendCompleteResponse(status, p.stdout.encode("utf8"))
 
     except:
       status = "KO"
 
-      # don't save the filtered content, save the original content
-      if 'param5' in message and param3 != 'null':
-        fNotFiltered = open(lilyFileWithPath,'wb')
-        contentNotFiltered = message['param5'].encode('utf-8').strip()
-        fNotFiltered.write(contentNotFiltered)
-        fNotFiltered.close()
+      if filtered:
+        removeFilteredTknFromOutputFiles(inputFileName)
 
       # Remove temporary chunk files, if any
       if param3 == 'null':
@@ -528,10 +576,11 @@ def doPostSync(message, request):
         except:
           pass
 
-      if not checkLilyExecutable(lilyExecutableCmd):
+      if not checkExecutable(lilyExecutableCmd):
         log(clientInfo + "Lilypond called, but its executable file is not set!", "E")
         return sendCompleteResponse(status, "lilypondnotfound".encode("utf8"))
       else:
+        log(clientInfo + traceback.format_exc(), "E")
         err = "Bad lilypond command. Please report this!"
         log(clientInfo + err, "E")
         return sendCompleteResponse(status, err.encode("utf8"))
@@ -559,7 +608,7 @@ def doPostSync(message, request):
     if not checkMsgStructure(message, 1):
       return sendMalformedMsgResponse()
     lilyExecutableCmd_ = message['param1']
-    if checkLilyExecutable(lilyExecutableCmd_):
+    if checkExecutable(lilyExecutableCmd_):
       setConfigParam("lilypond-exec", lilyExecutableCmd_)
       log(clientInfo + "Lilypond executable set to: "+lilyExecutableCmd_, "S")
       lilyExecutableCmd = lilyExecutableCmd_
@@ -571,7 +620,7 @@ def doPostSync(message, request):
   if message['cmd'] == 'RESET_LILYPOND':
     if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
       return sendCompleteResponse("KO", "Not allowed")
-    lilyExecutableCmd = getDefaultLilyExecutableCmd()
+    lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
     if lilyExecutableCmd != "":
       log(clientInfo + "Lilypond executable reset to: "+lilyExecutableCmd, "S")
       setConfigParam("lilypond-exec", lilyExecutableCmd)
@@ -835,18 +884,75 @@ def doPostSync(message, request):
 
       zipObj.close()
 
-    else:
+    else: #PDF
+
+      # process beforepdf script
+      for currFile in sorted(os.listdir(wsDirPath)):
+        if fileNameWOSuffix + "-beforepdf" in currFile:
+          log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
+          executeScript(clientInfo, currFile)
+          break
+
       svgList = []
       for currFile in sorted(os.listdir(wsDirPath)):
         if ((currFile == fileNameWOSuffix + ".svg") or
             (currFile.startswith(fileNameWOSuffix+"-") and currFile.endswith(".svg"))):
           svgList.append(os.path.abspath(os.path.join(wsDirPath, currFile)))
-          log(clientInfo + "[generating PDF] appending: " + os.path.join(wsDirPath, currFile), "I")
 
       if len(svgList) == 0:
         return sendCompleteResponse("KO", "Missing SVG associated files")
 
-      convertList(svgList, os.path.join(wsDirPath, fileNameWOSuffix+".pdf"))
+      from natsort import natsorted
+
+      svgList = natsorted(svgList)
+      pdfList = []
+      for svgFile in svgList:
+        fileWOSuffix = svgFile.replace(".svg", "")
+        try:
+          log(clientInfo + "[generating PDF] processing: " + svgFile, "I")
+          p = subprocess.run([inkscapeExecutableCmd, svgFile, "--export-text-to-path", "--export-filename="+fileWOSuffix+".pdf"],
+                              encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+          if p.returncode == 0:
+            status = "OK"
+            outLines = p.stdout.rstrip()
+            if outLines:
+              log(clientInfo + outLines, "I")
+            pdfList.append(fileWOSuffix+".pdf")
+          else:
+            status = "KO"
+            log(clientInfo + p.stdout, "E")
+            return sendCompleteResponse(status, p.stdout.encode("utf8"))
+        except:
+          status = "KO"
+          if not checkExecutable(inkscapeExecutableCmd):
+            log(clientInfo + "Inkscape called, but its executable file is not set!", "E")
+            return sendCompleteResponse(status, "Inkscape executable not found".encode("utf8"))
+          else:
+            log(clientInfo + traceback.format_exc(), "E")
+            err = "Bad Inkscape command. Please report this!"
+            log(clientInfo + err, "E")
+            return sendCompleteResponse(status, err.encode("utf8"))
+
+      merger = PdfFileMerger()
+
+      # process afterpdf script
+      for currFile in sorted(os.listdir(wsDirPath)):
+        if fileNameWOSuffix + "-afterpdf" in currFile:
+          log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
+          executeScript(clientInfo, currFile)
+          break
+
+      if len(pdfList) > 1:
+        log(clientInfo + "[generating PDF] Concatenating all the pages into one PDF file...", "I")
+      for pdf in pdfList:
+          merger.append(pdf)
+
+      merger.write(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"))
+      merger.close()
+      for pdf in pdfList:
+        os.remove(os.path.join(wsDirPath, pdf))
+      os.rename(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+".pdf"))
+      log(clientInfo + "[generating PDF] Generated: " + os.path.join(wsDirPath, fileNameWOSuffix+".pdf"), "S")
 
     return sendCompleteResponse("OK")
 
@@ -1157,13 +1263,21 @@ if not os.path.isdir(wsDirPath):
 
 if lilyExecutableCmd:
   log("Found configured Lilypond executable: "+ lilyExecutableCmd , "I")
-
-if lilyExecutableCmd and not checkLilyExecutable(lilyExecutableCmd):
-  lilyExecutableCmd = getDefaultLilyExecutableCmd()
+if lilyExecutableCmd and not checkExecutable(lilyExecutableCmd):
+  lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
   setConfigParam("lilypond-exec", lilyExecutableCmd)
 elif not lilyExecutableCmd:
-  lilyExecutableCmd = getDefaultLilyExecutableCmd()
+  lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
   setConfigParam("lilypond-exec", lilyExecutableCmd)
+
+if inkscapeExecutableCmd:
+  log("Found configured Inkscape executable: "+ inkscapeExecutableCmd , "I")
+if inkscapeExecutableCmd and not checkExecutable(inkscapeExecutableCmd):
+  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
+  setConfigParam("inkscape-exec", inkscapeExecutableCmd)
+elif not inkscapeExecutableCmd:
+  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
+  setConfigParam("inkscape-exec", inkscapeExecutableCmd)
 
 writeInfoSharedWithPlugins("CURRENT_LY_FILE", "")
 
@@ -1180,6 +1294,11 @@ if lilyExecutableCmd:
 else:
   log("-- Lilypond executable not found/set", "E")
 
+if inkscapeExecutableCmd:
+  log("-- Inkscape executable: " + inkscapeExecutableCmd, "I")
+else:
+  log("-- Inkscape executable not found/set", "W")
+
 if pip3Exists:
   log("-- Pip3 found", "I")
 else:
@@ -1193,11 +1312,6 @@ else:
 
 if forkAccessOnly:
   log("-- fork-access-only option set", "I")
-
-if cairoSVGEnabled:
-  log("-- cairosvg enabled", "I")
-else:
-  log("-- cairosvg disabled", "I")
 
 if getVenvName() in sys.prefix:
   log("-- Running in virtual env: "+getVenvName(), "I")

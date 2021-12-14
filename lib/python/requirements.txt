@@ -6,4 +6,7 @@ fastapi==0.70.0
 aiofiles==0.6.0
 colorama==0.4.4
 asgiref==3.3.1
-#CairoSVG==2.5.0
+PyPDF2==1.26.0
+natsort==8.0.1
+svglib==1.1.0
+reportlab==3.6.3

@@ -37,14 +37,14 @@
 
 #(define (beforeLineBreakingSVGGrob grob)
   (let* ((outprops (ly:grob-property grob 'output-attributes)))
-      (append! outprops `((staffspace . ,(ly:staff-symbol-staff-space grob))))
-      (ly:grob-set-property! grob 'output-attributes outprops))
+    (set! outprops (cons `(staffspace . ,(ly:staff-symbol-staff-space grob)) outprops))
+    (ly:grob-set-property! grob 'output-attributes outprops))
 )
 
 %Thanks to Aroon Hill for the below functions!
 controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
   (define (draw-control-point pt)
-#{ \markup \translate $pt \with-color #(rgb-color 0.811 0.466 0.439) \draw-circle #cpDiameter #0 ##t #})
+#{ \markup \translate $pt \with-color #'"#fc560390"\draw-circle #cpDiameter #0 ##t #})
   (define (draw-control-segment pt1 pt2)
 (let ((delta (cons (- (car pt2) (car pt1)) (- (cdr pt2) (cdr pt1))))) #{ \markup \translate $pt1 \with-color #'(1 .5 0) \draw-line $delta #}))
   (let* ((pts (ly:grob-property grob 'control-points))

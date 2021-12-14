@@ -84,7 +84,7 @@ select {
 button, .editorselect {
   background-color: DodgerBlue;
   color: white;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 
 #spontiniheader {
@@ -189,6 +189,12 @@ img {
   }
 }
 */
+#hiddeneditordiv {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+
 #hiddeneditor {
   width: 0px;
   height: 0px;

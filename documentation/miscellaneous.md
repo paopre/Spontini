@@ -22,26 +22,6 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 
 Once a score is loaded and rendered, four draggable axes, useful for graphically aligning objects, can be activated by selecting "TOOLS--->Toggle axes"
 
-### CAIRO-SVG
-
-If enabled, Spontini-Editor can generate PDF documents of the edited scores.
-In order to enable and make it work:
-
-  1. Set **"cairosvg-enabled"** to **"yes"** in **[saved-config.txt](../lib/saved-config.txt)**
-  
-  2. Uncomment the line containing *"CairoSVG==xxx"* in **[requirements.txt](../lib/python/requirements.txt)**
-  
-  3. [WINDOWS] Install **[Visual C++ Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)**
-  
-  4. [WINDOWS] Install **[GTK Runtime Environment](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases)**
-  
-In case of issues, please refer to **[THIS](https://cairosvg.org/documentation/)** link.
-
-Also, before generating the PDF file, make sure that editor's objects are not visibile:
-
-```
-#(set! showEditorStuff "false")
-```
 ### COMPILE CHUNKS OF SCORE
 
 When editing a portion of a long score without compiling it, it is easy to make typos or syntax errors. We do not always manage to correct these errors on the first attempt, even if we know where the error is located, and this can mean that the overall time it takes to compile the first two incorrect attempts is long. If the attempts are N, the time taken to correct the error will be:
@@ -56,6 +36,12 @@ You can also add a filter for sections or pages of the score. See how it works i
 ### DOCK / UNDOCK SCORE BUTTON
 
 ... Don't forget to allow popups from Spontini-Editor's URL in your browser: then you can undock/dock the score into/from a separated window by pressing this button.
+
+### DOWNLOAD PDF
+
+This option is automatically enabled if **[Inkscape](https://inkscape.org/)** is currently installed. If it is not installed in the default installation directory, you have to manually set the path of the executable in the 'inkscape-exec' parameter of the **[saved-config.txt](../lib/saved-config.txt)** file.
+
+The generated PDF file can be further modified through a script that is executed by SpontiniServer. Check **[THIS](../examples/pdf-manipulate-example.ly)** example to see how to add objects (like strings, vector or raster images and others) to the generated page (a little bit of Python knowledge is required).
 
 ### EXTRACTING SCORE PARTS
 

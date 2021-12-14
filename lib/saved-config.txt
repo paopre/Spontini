@@ -1,4 +1,4 @@
-version=1.8-beta
+version=1.9-beta
 debug=no
 cairosvg-enabled=no
 midi-enabled=yes
@@ -7,3 +7,4 @@ can-config-from-non-localhost=yes
 fork-access-only=no
 workspace=
 lilypond-exec=
+inkscape-exec=

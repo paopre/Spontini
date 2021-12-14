@@ -30,6 +30,7 @@
   \override BreathingSign.stencil = ##f
   \override TupletBracket.stencil = ##f
   \override TupletNumber.stencil = ##f
+  \override Fingering.stencil = ##f
 #})
 
 #(define upperStaffName "upper")

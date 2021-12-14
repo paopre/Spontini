@@ -54,3 +54,16 @@ Version 1.8
 * Fixed goToPage() issue (when the compiled score has less pages than the previous one)
 * Added better looking input dialogs for search/replace
 * Tested compatibility with LilyPond 2.23.5
+
+-----------
+Version 1.9
+-----------
+* Added support for dashed and dotted slurs
+* Added mark with functions (BULK) tool
+* Fixed issue on Symbols tab (from 1.8)
+* Added slurs on Symbols tab
+* Custom symbols configuration made simpler
+* Replaced CairoSVG with Inkscape (easier to install on Windows and works better)
+* Added scripting tools for manipulating PDF/SVG files associated to the score.
+* Prevent window resizing while the mouse wheel is moved inside the SVG panel and the document is not ready
+* Fixed subtle issue when downloading PDF/midi
