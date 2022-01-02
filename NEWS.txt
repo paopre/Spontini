@@ -67,3 +67,4 @@ Version 1.9
 * Added scripting tools for manipulating PDF/SVG files associated to the score.
 * Prevent window resizing while the mouse wheel is moved inside the SVG panel and the document is not ready
 * Fixed subtle issue when downloading PDF/midi
+* Added tool for configuring parameters from the main GUI

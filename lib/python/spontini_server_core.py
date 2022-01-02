@@ -50,6 +50,16 @@ currDirAbsolutePath = pathlib.Path(".").resolve()
 httpd = None
 lilyExecutableCmd = ""
 inkscapeExecutableCmd = ""
+WORKSPACE_PARAM = "workspace"
+VERSION_PARAM = "version"
+CAN_CONFIG_FROM_NON_LOCALHOST_PARAM = "can-config-from-non-localhost"
+FORK_ACCESS_ONLY_PARAM = "fork-access-only"
+DEBUG_PARAM = "debug"
+LILYPOND_EXEC_PARAM = "lilypond-exec"
+INKSCAPE_EXEC_PARAM = "inkscape-exec"
+MIDI_ENABLED_PARAM = "midi-enabled"
+SOUNDFONT_URL_PARAM = "soundfont-url"
+configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, SOUNDFONT_URL_PARAM]
 
 lilyPondProgramInfo = {
   'programName' : 'LilyPond',
@@ -86,6 +96,10 @@ else:
 
 def setConfigParam(param, val):
   global savedConFilenameWithPath
+
+  if param not in configurableParams:
+    return False
+
   try:
     newContent = ""
     with open(savedConFilenameWithPath) as fp:
@@ -164,6 +178,14 @@ def readConfigParams():
   global savedConFilenameWithPath
   global version
   global forkAccessOnly
+  global WORKSPACE_PARAM
+  global VERSION_PARAM
+  global CAN_CONFIG_FROM_NON_LOCALHOST_PARAM
+  global FORK_ACCESS_ONLY_PARAM
+  global DEBUG_PARAM
+  global LILYPOND_EXEC_PARAM
+  global INKSCAPE_EXEC_PARAM
+  global configurableParams
 
   try:
     with open(savedConFilenameWithPath) as fp:
@@ -173,44 +195,48 @@ def readConfigParams():
           parm = line.split("=")[0]
           val = line.split("=")[1]
 
-          if parm == "workspace":
+          if parm == WORKSPACE_PARAM:
             wsDirPath = val
             # Workaround for a Lilypond Bug (the compile command doesn't work with abs path
             # on the base directory)
             if str(wsDirPath) == str(currDirAbsolutePath):
               wsDirPath = "."
 
+          # TODO: old code?? remove it??
           if parm == "port":
             port = int(val)
 
-          if parm == "version":
+          if parm == VERSION_PARAM:
             version = val
 
-          if parm == "can-config-from-non-localhost":
+          if parm == CAN_CONFIG_FROM_NON_LOCALHOST_PARAM:
             if val == "yes":
               canConfigFromNonLocalhost = True
             else:
               canConfigFromNonLocalhost = False
 
-          if parm == "fork-access-only":
+          if parm == FORK_ACCESS_ONLY_PARAM:
             if val == "yes":
               forkAccessOnly = True
             else:
               forkAccessOnly = False
 
-          if parm == "debug":
+          if parm == DEBUG_PARAM:
             if val == "yes":
               debug = True
             else:
               debug = False
 
-          if parm == "lilypond-exec":
+          if parm == LILYPOND_EXEC_PARAM:
             lilyExecutableCmd = val
 
-          if parm == "inkscape-exec":
+          if parm == INKSCAPE_EXEC_PARAM:
             inkscapeExecutableCmd = val
 
-          log("  " + parm + " ---> " + val, "I")
+          if parm not in configurableParams:
+            log ("  (skipping unknown '"+parm+"' param)", "W")
+          else:
+            log("  " + parm + " ---> " + val, "I")
 
         except:
           log("Bad config line: "+line+" -> ignoring it", "W")
@@ -593,7 +619,7 @@ def doPostSync(message, request):
 
     wsDirPath_ = message['param1']
     if os.path.isdir(wsDirPath_):
-      setConfigParam("workspace", os.path.abspath(wsDirPath_))
+      setConfigParam(WORKSPACE_PARAM, os.path.abspath(wsDirPath_))
       log(clientInfo + "Workspace set to: "+wsDirPath_, "S")
       wsDirPath = wsDirPath_
       return sendCompleteResponse("OK", "")
@@ -609,7 +635,7 @@ def doPostSync(message, request):
       return sendMalformedMsgResponse()
     lilyExecutableCmd_ = message['param1']
     if checkExecutable(lilyExecutableCmd_):
-      setConfigParam("lilypond-exec", lilyExecutableCmd_)
+      setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd_)
       log(clientInfo + "Lilypond executable set to: "+lilyExecutableCmd_, "S")
       lilyExecutableCmd = lilyExecutableCmd_
       return sendCompleteResponse("OK", "")
@@ -623,7 +649,7 @@ def doPostSync(message, request):
     lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
     if lilyExecutableCmd != "":
       log(clientInfo + "Lilypond executable reset to: "+lilyExecutableCmd, "S")
-      setConfigParam("lilypond-exec", lilyExecutableCmd)
+      setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
       return sendCompleteResponse("OK", "")
     else:
       log(clientInfo + "Could not reset Lilypond executable", "E")
@@ -1257,27 +1283,27 @@ if not os.path.isdir(wsDirPath):
   if not os.path.isdir(wsDirPath):
     log("Workspace '" + wsDirPath+ "' not found. Resetting to '.' dir", "W")
     wsDirPath = '.'
-    setConfigParam("workspace", wsDirPath)
+    setConfigParam(WORKSPACE_PARAM, wsDirPath)
   else:
-    setConfigParam("workspace", os.path.abspath(wsDirPath))
+    setConfigParam(WORKSPACE_PARAM, os.path.abspath(wsDirPath))
 
 if lilyExecutableCmd:
   log("Found configured Lilypond executable: "+ lilyExecutableCmd , "I")
 if lilyExecutableCmd and not checkExecutable(lilyExecutableCmd):
   lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
-  setConfigParam("lilypond-exec", lilyExecutableCmd)
+  setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
 elif not lilyExecutableCmd:
   lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
-  setConfigParam("lilypond-exec", lilyExecutableCmd)
+  setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
 
 if inkscapeExecutableCmd:
   log("Found configured Inkscape executable: "+ inkscapeExecutableCmd , "I")
 if inkscapeExecutableCmd and not checkExecutable(inkscapeExecutableCmd):
   inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
-  setConfigParam("inkscape-exec", inkscapeExecutableCmd)
+  setConfigParam(INKSCAPE_EXEC_PARAM, inkscapeExecutableCmd)
 elif not inkscapeExecutableCmd:
   inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
-  setConfigParam("inkscape-exec", inkscapeExecutableCmd)
+  setConfigParam(INKSCAPE_EXEC_PARAM, inkscapeExecutableCmd)
 
 writeInfoSharedWithPlugins("CURRENT_LY_FILE", "")
 

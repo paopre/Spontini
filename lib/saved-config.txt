@@ -1,6 +1,5 @@
 version=1.9-beta
 debug=no
-cairosvg-enabled=no
 midi-enabled=yes
 soundfont-url=
 can-config-from-non-localhost=yes
