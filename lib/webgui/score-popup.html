@@ -102,7 +102,6 @@ function switchWindowForSVGPanel(from, to) {
 window.onbeforeunload = function() {
   switchWindowForSVGPanel(this, window.opener)
   baseCtx.editorMustClosePopup = false
-  alert("u")
   baseCtx.dockScore()
 }
 
