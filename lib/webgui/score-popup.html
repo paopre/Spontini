@@ -21,37 +21,46 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="spontini.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/hint/show-hint.css">
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/mode/stex/stex.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/search/search.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/search/searchcursor.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/active-line.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/active-line.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/edit/matchbrackets.min.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/hint/show-hint.js"></script>
-<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/addon/selection/mark-selection.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/hint/show-hint.css">
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/mode/stex/stex.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/search/search.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/search/searchcursor.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/selection/active-line.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/selection/active-line.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/edit/matchbrackets.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/hint/show-hint.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/selection/mark-selection.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.3.2/dist/panzoom.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/dialog/dialog.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.3.2/dist/panzoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/webmidi@3.0.6/dist/iife/webmidi.iife.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.js"></script>
+<script>
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.worker.js';
+</script>
 
 <body>
   <div id="graphscorepanel" tabindex="-1">
   </div>
 </body>
+<script type='text/javascript' src='js/global-stuff.js'></script>
 <script type='text/javascript' src='js/autocompletion.js'></script>
 <script type='text/javascript' src='js/symbols.js'></script>
-<script type='text/javascript' src='js/global-stuff.js'></script>
 <script type='text/javascript' src='js/global-custom-vars.js'></script>
 <script type='text/javascript' src='js/midi-functions.js'></script>
 <script type='text/javascript' src='js/texteditor-functions.js'></script>
 <script type='text/javascript' src='js/cm-wrap.js'></script>
 <script type='text/javascript' src='js/widgets-functions.js'></script>
 <script type='text/javascript' src='js/tabular-functions.js'></script>
-<script type='text/javascript' src='js/svg-functions.js'></script>
+<script type='text/javascript' src='js/svg-and-pdf-functions.js'></script>
 <script>
 
 baseCtx = window.opener
-svgContainerCtx = this
+graphicContainerCtx = this
 
 function switchWindowForSVGPanel(from, to) {
 
@@ -59,14 +68,26 @@ function switchWindowForSVGPanel(from, to) {
   // init all the following objs
   var graphscorepanel = document.getElementById("graphscorepanel")
   var defaultimg = document.getElementById("defaultimg")
-  var svgcontainer = document.getElementById("svgcontainer")
+  var graphiccontainer = document.getElementById("graphiccontainer")
   var svgdraw = document.getElementById("svgdraw")
+  var pdfdraw = document.getElementById("pdfdraw")
+  to.pdfdraw.width = from.pdfdraw.width
+  to.pdfdraw.height = from.pdfdraw.height
+  to.pdfdraw.style.transform = from.pdfdraw.style.transform
   var scrLeft = from.graphscorepanel.scrollLeft
   var scrTop = from.graphscorepanel.scrollTop
-  copySVGNode(from.svgdraw, to.svgdraw)
+  if (baseCtx.currentMode == "svg")
+    copySVGNode(from.svgdraw, to.svgdraw)
+  else if (baseCtx.base64pdfData) {
+    var panzoomParams = { panzoomMode: "SAME_DIMENSION_SAME_PAN",
+                          prevPan: from.panzoomInstance.getPan(),
+                          prevZoom: from.panzoomInstance.getScale(),
+                          prevScrollLeft: scrLeft, prevScrollTop: scrTop }
+    to.displayPDFAndInitItsInteractiveObjs(parseInt(baseCtx.pagenumtxt.value), panzoomParams, baseCtx.base64pdfData)
+  }
   to.graphscorepanel.style.background = from.graphscorepanel.style.background
   to.defaultimg.style.display = from.defaultimg.style.display
-  to.svgcontainer.style.display = from.svgcontainer.style.display
+  to.graphiccontainer.style.display = from.graphiccontainer.style.display
   to.rulerOn = from.rulerOn
   to.staffSpaceForRuler = from.staffSpaceForRuler
   to.origUnit = from.origUnit
@@ -106,10 +127,12 @@ window.onbeforeunload = function() {
 }
 
 var graphscorepanel = document.getElementById("graphscorepanel")
+
 graphscorepanel.innerHTML = baseCtx.graphscorepanel.innerHTML
 switchWindowForSVGPanel(window.opener, this)
-initAxes()
-initSVGPanel()
+if (baseCtx.currentMode == "svg")
+  initAxes()
+initGraphicPanel()
 document.title = "Score"
 
 </script>

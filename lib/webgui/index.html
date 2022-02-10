@@ -18,6 +18,7 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
   <link rel="icon" href="images/logo.svg">
   <meta charset="utf-8"/>
 </head>
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/codemirror.min.css">
@@ -36,6 +37,12 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
 <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.3/addon/dialog/dialog.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4.3.2/dist/panzoom.min.js"></script>
 <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.21.0/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.1.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/webmidi@3.0.6/dist/iife/webmidi.iife.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.js"></script>
+<script>
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@2.12.313/build/pdf.worker.js';
+</script>
 
 <body>
 <div id="spontiniheader">
@@ -49,10 +56,12 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
         <option id="saveopt" value="SAVE_LY_FILE">SAVE (Ctrl+S)</option>
         <option id="saveasopt" value="SAVE_LY_FILE_AS">SAVE AS</option>
         <option value="FORK_LY_FILE">FORK</option>
-        <option value="DOWNLOAD_MIDI">DOWNLOAD MIDI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="DOWNLOAD_MIDI">DOWNLOAD MIDI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
         <option value="DOWNLOAD_ZIP">DOWNLOAD ZIP</option>
         <option id="downloadpdf" value="DOWNLOAD_PDF">DOWNLOAD PDF</option>
+        <option id="exportsvgtopdf" value="EXPORT_SVG_TO_PDF">EXPORT SVG TO PDF</option>
         <option id="deleteopt" value="DELETE_LY_FILE">DELETE</option>
+        <option id="switchtoothermode" value="SWITCH_TO_OTHER_MODE"></option>
         </optgroup>
         <optgroup>
         </optgroup>
@@ -110,9 +119,12 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
   </div>
   <div id="dragbar">&nbsp;</div>
   <div id="graphscorepanel" tabindex="-1">
-    <div id='svgcontainer'>
+    <div id='graphiccontainer'>
       <svg id='svgdraw'>
       </svg>
+      <canvas id='pdfdraw'>
+      </canvas>
+      <div id='pdfpointandclickrect'></div>
     </div>
 
     <div class="rulertable" id="rulertbl">
@@ -268,7 +280,7 @@ along with Spontini-Editor. If not, see If not, see < http://www.gnu.org/license
 <script type='text/javascript' src='js/cm-wrap.js'></script>
 <script type='text/javascript' src='js/widgets-functions.js'></script>
 <script type='text/javascript' src='js/tabular-functions.js'></script>
-<script type='text/javascript' src='js/svg-functions.js'></script>
+<script type='text/javascript' src='js/svg-and-pdf-functions.js'></script>
 <script type='text/javascript' src='js/main.js'></script>
 
 </body>

@@ -37,12 +37,6 @@ You can also add a filter for sections or pages of the score. See how it works i
 
 ... Don't forget to allow popups from Spontini-Editor's URL in your browser: then you can undock/dock the score into/from a separated window by pressing this button.
 
-### DOWNLOAD PDF
-
-This option is automatically enabled if **[Inkscape](https://inkscape.org/)** is currently installed. If it is not installed in the default installation directory, you have to manually set the path of the executable in the 'inkscape-exec' parameter of the **[saved-config.txt](../lib/saved-config.txt)** file.
-
-The generated PDF file can be further modified through a script that is executed by SpontiniServer. Check **[THIS](../examples/pdf-manipulate-example.ly)** example to see how to add objects (like strings, vector or raster images and others) to the generated page (a little bit of Python knowledge is required).
-
 ### EXTRACTING SCORE PARTS
 
 With the following tools:
@@ -59,6 +53,28 @@ With the following tools:
 By choosing ***FILE ---> FORK***, you can create a copy of the current document, with a random generated name, and make it automatically available on the www for collaborative editing (just copy and share the generated link).
 
 You can run the web-server in **"fork-access-only"** mode as well, which is an option included in **[saved-config.txt](../lib/saved-config.txt)**: if set to **"yes"**, the **"OPEN"** and **"DELETE"** options of the menu will be disabled, so that the forked files won't be seen/deleted by users connected to the same web server's host.
+
+### GENERATE PDF
+
+There are two ways to create a PDF from the edited score:
+
+  1) Compile the score while in PDF mode then choose FILE ---> DOWNLOAD PDF
+  2) Compile the score while in SVG mode then choose FILE ---> EXPORT SVG TO PDF
+
+Option 2) is automatically enabled if **[Inkscape](https://inkscape.org/)** is currently installed. If it is not installed in the default installation directory, you have to manually set the path of the executable in the 'inkscape-exec' parameter of the **[saved-config.txt](../lib/saved-config.txt)** file.
+
+The generated PDF file can be further modified through a script that is executed by SpontiniServer. Check **[THIS](../examples/pdf-manipulate-example.ly)** example to see how to add objects (like strings, vector or raster images and others) to the generated page (a little bit of Python knowledge is required).
+
+### MIDI INPUT
+
+Single notes and chords can be inserted with a MIDI device by enabling MIDI input with "TOOLS ---> Set MIDI input channel". If you want to make the MIDI input channel permanent, so to automatically enable it when the editor is loaded, you can set the "default-midi-input-channel" parameter (set it to -1 if you want to disable it).
+All the notes will be written in the language set in the very first line of the score, with the \language  "language_name" command. When inserting midi notes/chords into a piano table, they will be automatically placed in the upper staff; you can swap them from the upper to the lower staff, or viceversa, by selecting them with the mouse (or by placing the cursor inside them) and then pressing **Ctrl + Arrow UP/DOWN** keys.
+
+![img](images/midiInput.gif)
+
+Accidentals are written as sharp: you can swap them to flat (or from flat to sharp) by selecting the corresponding notes with the mouse (or by placing the cursor inside them) and then pressing **Ctrl + b** keys.
+The MIDI input feature uses Web MIDI API, and it works natively on Chrome. On Firefox, Web MIDI API is not supported natively, but there are some addons for enabling it, like **this one[https://addons.mozilla.org/en-US/firefox/addon/web-midi-api/]**.
+On Windows, and probably on macOS too, a running virtual loopback MIDI program is required too, in order to make Web MIDI API work. There are some free programs for creating a virtual MIDI cable: just pick and run one of them, then visit **THIS[https://www.onlinemusictools.com/webmiditest/]** page, for example, for checking if the MIDI input works correctly on your browser.
 
 ### MIDI VLC PLUGIN
 

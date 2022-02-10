@@ -331,6 +331,13 @@ midi-player::part(control-panel) {
   text-align: center;
 }
 
+#pdfdraw {
+  display: none;
+  direction: ltr;
+  transform-origin: top left;
+  position: relative;
+}
+
 svg {
   position: relative;
 }
@@ -340,7 +347,7 @@ svg {
   display: none;
 }
 
-#svgcontainer {
+#graphiccontainer {
   width: 0px;
   height: 0px;
 }
@@ -579,6 +586,13 @@ text-align: center;
 
 #svgmenucontainer li:hover > ul {
   display: block;
+}
+
+#pdfpointandclickrect {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
 }
 
 .rulertable{

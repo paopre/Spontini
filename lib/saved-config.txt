@@ -1,4 +1,4 @@
-version=1.9-beta
+version=1.12-alfa
 debug=no
 midi-enabled=yes
 soundfont-url=
@@ -7,3 +7,5 @@ fork-access-only=no
 workspace=
 lilypond-exec=
 inkscape-exec=
+default-mode=svg
+default-midi-input-channel=-1

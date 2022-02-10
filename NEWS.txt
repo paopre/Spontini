@@ -63,3 +63,10 @@ Version 1.9
 * Prevent window resizing while the mouse wheel is moved inside the SVG panel and the document is not ready
 * Fixed subtle issue when downloading PDF/midi
 * Added tool for configuring parameters from the main GUI
+
+------------
+Version 1.12
+------------
+* Added support for PDF output
+* Added support for MIDI input
+* Added mergeTableCells(...) function, useful for swapping notes up and down in piano tables

@@ -18,7 +18,7 @@ Other main features:
   * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers
   * Plugin engine that can interface to **any** library/utility suitable for LilyPond; implemented plugins currently support: **[Abjad](https://abjad.github.io)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts)
   * Python 3 scripting interface
-  * A ***pure HTML midi player*** is included (**[Magenta](https://github.com/magenta/magenta)** through **[html-midi-player](https://github.com/cifkao/html-midi-player)**, ready to be used on the browser)
+  * A ***pure HTML MIDI player*** is included (**[Magenta](https://github.com/magenta/magenta)** through **[html-midi-player](https://github.com/cifkao/html-midi-player)**, ready to be used on the browser)
   * Pan-zoom advanced interface
   * Multiple layouts
   * "Fork-mode" for **collaborative remote editing**
@@ -30,6 +30,7 @@ Other main features:
   * Expandible ruler and draggable axes to examine the generated score with accuracy
   * Filter tool for including/excluding sections/pages/systems or single measures of the score on the fly
   * PDF export command
+  * MIDI input through the browser (Web MIDI)
 
 *Note that Spontini-Editor is **NOT** a **WYSIWYG** notation editor (like Finale, Sibelius etc.). It only uses the graphical interface to avoid the waste of time caused by LilyPond functions that require the trial-and-error process. All the functions that do not require this process have been intentionally left to be implemented with the only text editor, in pure LilyPond language, which must therefore be known in advance by the user: through the knowledge of this language, and adding the Spontini-Editor functions to it, you can get a much faster editing process than WYSIWYG editors. In addition, as can be seen in the documentation below, the conversion of the Spontini-Editor functions into native LilyPond code can be obtained by changing simple strings in the corresponding musical expressions.*
 
@@ -42,14 +43,14 @@ Well: you **don't need** them! Spontini-Editor is **NOT** packaged. You just hav
   1) ensures strong compatibility between different operating systems
   2) avoids me (Paolo) to maintain the distribution of the software, which is a very tedious and time-consuming operation
 
-Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen, [Alexis Jeandeau](https://github.com/jeandeaual) and the #regex, #javascript and #python irc channels (freenode) for the support in doing this!
+Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen, [Alexis Jeandeau](https://github.com/jeandeaual) and the #regex, #javascript and #python irc channels (libera) for the support in doing this!
 
 ##
 ![img](documentation/images/intro.gif)
 <br></br><br></br>
 # INSTALLATION (all platforms)
 
-**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.5 (included)](http://lilypond.org/unix.html)**
+**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.6 (included)](http://lilypond.org/unix.html)**
 
 **2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
 

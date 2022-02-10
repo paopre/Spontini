@@ -38,7 +38,14 @@ import sys
 import re
 import types
 import importlib.machinery
+import base64
+import ly.document
+import ly.pitch.translate
 from PyPDF2 import PdfFileWriter, PdfFileReader, PdfFileMerger
+from python_ly_utils import mergeTableCells
+from python_ly_utils import translatePitches
+from python_ly_utils import orderPitchesInChord
+from python_ly_utils import convertPitchesToEnharmonic
 
 sys.path.insert(1, os.path.dirname(__file__))
 from spontini_server_utils import *
@@ -50,6 +57,8 @@ currDirAbsolutePath = pathlib.Path(".").resolve()
 httpd = None
 lilyExecutableCmd = ""
 inkscapeExecutableCmd = ""
+defaultMode = "svg"
+defaultMidiInputChannel = "-1"
 WORKSPACE_PARAM = "workspace"
 VERSION_PARAM = "version"
 CAN_CONFIG_FROM_NON_LOCALHOST_PARAM = "can-config-from-non-localhost"
@@ -59,7 +68,9 @@ LILYPOND_EXEC_PARAM = "lilypond-exec"
 INKSCAPE_EXEC_PARAM = "inkscape-exec"
 MIDI_ENABLED_PARAM = "midi-enabled"
 SOUNDFONT_URL_PARAM = "soundfont-url"
-configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, SOUNDFONT_URL_PARAM]
+DEFAULT_MODE_PARAM = "default-mode"
+DEFAULT_MIDI_INPUT_CHANNEL_PARAM = "default-midi-input-channel"
+configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, DEFAULT_MIDI_INPUT_CHANNEL_PARAM, SOUNDFONT_URL_PARAM, DEFAULT_MODE_PARAM]
 
 lilyPondProgramInfo = {
   'programName' : 'LilyPond',
@@ -178,6 +189,7 @@ def readConfigParams():
   global savedConFilenameWithPath
   global version
   global forkAccessOnly
+  global defaultMode
   global WORKSPACE_PARAM
   global VERSION_PARAM
   global CAN_CONFIG_FROM_NON_LOCALHOST_PARAM
@@ -185,6 +197,8 @@ def readConfigParams():
   global DEBUG_PARAM
   global LILYPOND_EXEC_PARAM
   global INKSCAPE_EXEC_PARAM
+  global DEFAULT_MIDI_INPUT_CHANNEL_PARAM
+  global DEFAULT_MODE_PARAM
   global configurableParams
 
   try:
@@ -209,6 +223,9 @@ def readConfigParams():
           if parm == VERSION_PARAM:
             version = val
 
+          if parm == DEFAULT_MODE_PARAM:
+            defaultMode = val
+
           if parm == CAN_CONFIG_FROM_NON_LOCALHOST_PARAM:
             if val == "yes":
               canConfigFromNonLocalhost = True
@@ -229,6 +246,9 @@ def readConfigParams():
 
           if parm == LILYPOND_EXEC_PARAM:
             lilyExecutableCmd = val
+
+          if parm == DEFAULT_MIDI_INPUT_CHANNEL_PARAM:
+            defaultMidiInputChannel = val
 
           if parm == INKSCAPE_EXEC_PARAM:
             inkscapeExecutableCmd = val
@@ -379,7 +399,9 @@ def removeFilteredTknFromOutputFiles(fileName):
   if not fileNameWOSuffix.endswith("-FILTERED"):
     return
   for currFile in os.listdir(wsDirPath):
-    if checkIfIsChildFile(currFile, fileName, ".svg") or checkIfIsChildFile(currFile, fileName, ".midi"):
+    if checkIfIsChildFile(currFile, fileName, ".svg") or \
+       checkIfIsChildFile(currFile, fileName, ".pdf") or \
+       checkIfIsChildFile(currFile, fileName, ".midi"):
       currFileRenamed = currFile[::-1].replace('DERETLIF-', '', 1)[::-1]
       os.rename(os.path.join(wsDirPath, currFile), os.path.join(wsDirPath, currFileRenamed))
   try:
@@ -478,9 +500,27 @@ def doPostSync(message, request):
     except:
       pass
     try:
+      os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+"-svgexport.pdf"))
+    except:
+      pass
+    try:
       os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".zip"))
     except:
       pass
+    try:
+      os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".setupinfos"))
+    except:
+      pass
+    try:
+      os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+"-svgexport.pdf"))
+    except:
+      pass
+    for currFile in sorted(os.listdir(wsDirPath)):
+      if inputFileNameWOSuffix + "-afterpdf" in currFile or inputFileNameWOSuffix + "-beforepdf" in currFile :
+        try:
+          os.remove(os.path.join(wsDirPath, currFile))
+        except:
+          pass
 
     for currFile in sorted(os.listdir(wsDirPath)):
       if currFile == inputFileNameWOSuffix+".svg" :
@@ -504,10 +544,10 @@ def doPostSync(message, request):
       os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".midi"))
     except:
       pass
-    try:
-      os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".pdf"))
-    except:
-      pass
+    #try:
+    #  os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".pdf"))
+    #except:
+    #  pass
     try:
       os.remove(os.path.join(wsDirPath, inputFileNameWOSuffix+".zip"))
     except:
@@ -530,19 +570,21 @@ def doPostSync(message, request):
     f.write(content)
     f.close()
 
-    for currFile in os.listdir(wsDirPath):
-      if checkIfIsChildFile(currFile, inputFileName, ".svg") or checkIfIsChildFile(currFile, inputFileNameNotFiltered, ".svg"):
-        os.rename(os.path.join(wsDirPath, currFile),
-                  os.path.join(wsDirPath, currFile.replace(".svg", ".ljssvgswap")))
+    if param3.strip() != "pdf":
+      for currFile in os.listdir(wsDirPath):
+        if checkIfIsChildFile(currFile, inputFileName, ".svg") or checkIfIsChildFile(currFile, inputFileNameNotFiltered, ".svg"):
+          os.rename(os.path.join(wsDirPath, currFile),
+                    os.path.join(wsDirPath, currFile.replace(".svg", ".ljssvgswap")))
 
     global lilyExecutableCmd
     log(clientInfo + "Compiling file: "+fileFilteredWithPath, "I")
+    startTime = datetime.now()
     status = ""
+    cliArr = [lilyExecutableCmd, "-dmidi-extension=midi", "-o", wsDirPath, fileFilteredWithPath]
+    if param3.strip() != "pdf":
+      cliArr.insert(2, "-dbackend="+param3)
     try:
-      p = subprocess.run([lilyExecutableCmd,
-                          "-dmidi-extension=midi", "-dbackend="+param3,
-                          "-o", wsDirPath, fileFilteredWithPath],
-                          encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
+      p = subprocess.run(cliArr, encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
       if p.returncode == 0:
         for currFile in os.listdir(wsDirPath):
           if checkIfIsChildFile(currFile, inputFileName, ".ljssvgswap")  :
@@ -556,15 +598,26 @@ def doPostSync(message, request):
             except:
               pass
         numPages = 0
-        for currFile in os.listdir(wsDirPath):
-          if checkIfIsChildFile(currFile, inputFileName, ".svg") :
-            numPages += 1
+        if param3.strip() == "pdf":
+          try:
+            pdfFileName = inputFileName.replace(".ly", ".pdf")
+            pdf = PdfFileReader(open(os.path.join(wsDirPath, pdfFileName),'rb'))
+            numPages = pdf.getNumPages()
+            pdf.stream.close()
+          except:
+            #log(clientInfo + traceback.format_exc(), "E")
+            pass
+        else:
+          for currFile in os.listdir(wsDirPath):
+            if checkIfIsChildFile(currFile, inputFileName, ".svg") :
+              numPages += 1
+        endTime = datetime.now()
         status = "OK_"+str(numPages)
         outLines = p.stdout
         if 'param4' in message:
           outLines = '\n'.join([s for s in outLines.split('\n') if message['param4'] in s])
         log(clientInfo + outLines, "S")
-
+        log(clientInfo+"Compilation time: "+str(endTime - startTime)[:-4], "I")
       else:
         for currFile in os.listdir(wsDirPath):
           if checkIfIsChildFile(currFile, inputFileName, ".ljssvgswap") :
@@ -575,6 +628,13 @@ def doPostSync(message, request):
 
       if filtered:
         removeFilteredTknFromOutputFiles(inputFileName)
+
+      #execute afterpdf script
+      for currFile in sorted(os.listdir(wsDirPath)):
+        if inputFileNameNotFiltered.replace(".ly", "") + "-afterpdf" in currFile:
+          log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
+          executeScript(clientInfo, currFile)
+          break
 
       # Remove temporary chunk files, if any
       if param3 == 'null':
@@ -902,6 +962,9 @@ def doPostSync(message, request):
             (currFile == fileNameWOSuffix + ".svg") or
             (currFile.startswith(fileNameWOSuffix+"-") and currFile.endswith(".svg")) or
             (currFile == fileName) or
+            (currFile == fileNameWOSuffix + "-svgexport.pdf") or
+            (fileNameWOSuffix + "-afterpdf" in currFile) or
+            (fileNameWOSuffix + "-beforepdf" in currFile) or
             (currFile == fileNameWOSuffix + ".pdf") or
             (currFile == fileNameWOSuffix + ".midi")
           ):
@@ -977,12 +1040,12 @@ def doPostSync(message, request):
       merger.close()
       for pdf in pdfList:
         os.remove(os.path.join(wsDirPath, pdf))
-      os.rename(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+".pdf"))
-      log(clientInfo + "[generating PDF] Generated: " + os.path.join(wsDirPath, fileNameWOSuffix+".pdf"), "S")
+      os.rename(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"))
+      log(clientInfo + "[generating PDF] Generated: " + os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"), "S")
 
     return sendCompleteResponse("OK")
 
-  if message['cmd'] == 'SVG_CONTENT':
+  if message['cmd'] == 'GRAPHIC_CONTENT':
     if not checkMsgStructure(message, 1):
       return sendMalformedMsgResponse()
     lilyFileWithPath = os.path.join(wsDirPath, message['param1'])
@@ -994,6 +1057,10 @@ def doPostSync(message, request):
       f.close()
     except:
       return sendCompleteResponse("KO", "not found")
+
+    if lilyFileWithPath.endswith("pdf"):
+      content = base64.b64encode(content)
+
     return sendCompleteResponse("OK", content)
 
   if message['cmd'] == 'LY_CONTENT':
@@ -1185,33 +1252,100 @@ def doPostSync(message, request):
 
     return sendCompleteResponse(status, "".encode("utf8"))
 
-  if message['cmd'] == 'NUM_SVG_PAGES':
-    if not checkMsgStructure(message, 1):
+  if message['cmd'] == 'NUM_SCORE_PAGES':
+    if not checkMsgStructure(message, 2):
       return sendMalformedMsgResponse()
     resNum = 0
     fileName = message['param1'].replace(".ly", "")
-    for currFile in sorted(os.listdir(wsDirPath)):
-      if currFile == fileName + ".svg":
-        resNum = 1
-      if currFile.startswith(fileName+"-") and currFile.endswith(".svg"):
-        resNum = resNum + 1
+    fileType = message['param2']
+
+    if fileType == "svg":
+      for currFile in sorted(os.listdir(wsDirPath)):
+        if currFile == fileName + ".svg":
+          resNum = 1
+        if currFile.startswith(fileName+"-") and currFile.endswith(".svg"):
+          resNum = resNum + 1
+    else:
+      try:
+        pdf = PdfFileReader(open(os.path.join(wsDirPath, fileName+".pdf"),'rb'))
+        resNum = pdf.getNumPages()
+        pdf.stream.close()
+      except:
+        #log(clientInfo + traceback.format_exc(), "E")
+        pass
     #sendCompleteResponse("OK")
     #wfile.write(str(resNum).encode("utf8"))
     return sendCompleteResponse("OK", str(resNum).encode("utf8"))
 
-  if message['cmd'] == 'GET_SAVED_SCORE_FILTER':
-    if not checkMsgStructure(message, 1):
+  if message['cmd'] == 'UPDATE_SETUPFILE':
+    if not checkMsgStructure(message, 3):
       return sendMalformedMsgResponse()
-    filterFileWithPath = os.path.join(wsDirPath, message['param1'])
-    #sendCompleteResponse("OK")
-    content = ""
+    setupFileWithPath = os.path.join(wsDirPath, message['param1'])
+    param = message['param2']
+    val = message['param3']
+    newContent = ""
     try:
-      with open(filterFileWithPath, 'rb') as f:
-        content = f.read()
+      with open(setupFileWithPath) as fp:
+
+        line = fp.readline().rstrip()
+
+        while line:
+          currParam = line.split("=")[0]
+          if currParam == param:
+            if val.strip() != '':
+              newContent = newContent + currParam + "=" + val + "\n"
+          elif line != '':
+            newContent = newContent + line + "\n"
+
+          line = fp.readline().rstrip()
+
+        if param + "=" not in newContent and val.strip() != '':
+          newContent = newContent + param + "=" + val + "\n"
+
+        newContent = newContent[0 : (len(newContent) - 1)]
+      fp.close()
+
+    except:
+      pass
+
+    try:
+      if newContent.strip() == '' and val.strip() != '':
+        newContent = param + "=" + val + "\n"
+
+      if newContent.strip() != '':
+        fp = open(setupFileWithPath,'w+')
+        fp.write(newContent)
+        fp.close()
+      else:
+        os.remove(setupFileWithPath)
+    except:
+      pass
+
+    return sendCompleteResponse("OK", "")
+
+  if message['cmd'] == 'GET_SAVED_SETUPINFO':
+    if not checkMsgStructure(message, 2):
+      return sendMalformedMsgResponse()
+    setupFileWithPath = os.path.join(wsDirPath, message['param1'])
+    #sendCompleteResponse("OK")
+    res = ""
+    try:
+      with open(setupFileWithPath) as f:
+        line = f.readline().rstrip()
+        while line:
+          try:
+            currParm = line.split("=")[0]
+            val = line.split("=")[1]
+            if currParm == message['param2']:
+              res = val
+              break
+          except:
+            log(traceback.format_exc(), "E")
+          line = f.readline().rstrip()
       f.close()
     except:
       return sendCompleteResponse("KO", "not found")
-    return sendCompleteResponse("OK", content)
+    return sendCompleteResponse("OK", res)
 
   if message['cmd'] == 'TEMPLATE_LIST':
     filelist = ""
@@ -1237,6 +1371,53 @@ def doPostSync(message, request):
     except:
       return sendCompleteResponse("KO", "not found")
     return sendCompleteResponse("OK", content)
+
+  if message['cmd'] == 'TRANSLATE_PITCHES':
+    ret = ""
+    if not checkMsgStructure(message, 2):
+      return sendMalformedMsgResponse()
+    try:
+      ret = translatePitches(message['param1'], message['param2'])
+      ret = orderPitchesInChord(ret, message['param2'])
+    except:
+      pass
+    return sendCompleteResponse("OK", ret)
+
+  if message['cmd'] == 'MERGE_TABLE_CELLS':
+    ret = ""
+    status = "OK"
+    if not checkMsgStructure(message, 5):
+      return sendMalformedMsgResponse()
+    try:
+      textFrom = message['param1']
+      fragmentOffsetStart = message['param2']
+      fragmentOffsetEnd = message['param3']
+      textTo = message['param4']
+      language = message['param5']
+      mergeRet = mergeTableCells(textFrom, fragmentOffsetStart, fragmentOffsetEnd, textTo, language)
+      if (mergeRet['error'] == ''):
+        ret = mergeRet['textFrom']+sepTkn+mergeRet['textTo']
+      else:
+        status = "KO"
+        #log(clientInfo + mergeRet['error'], 'W')
+    except:
+      pass
+    return sendCompleteResponse(status, ret)
+
+  if message['cmd'] == 'CONVERT_PITCHES_TO_ENHARMONIC':
+    ret = ""
+    status = "OK"
+    if not checkMsgStructure(message, 4):
+      return sendMalformedMsgResponse()
+    try:
+      text = message['param1']
+      fragmentOffsetStart = message['param2']
+      fragmentOffsetEnd = message['param3']
+      language = message['param4']
+      ret = convertPitchesToEnharmonic(text, fragmentOffsetStart, fragmentOffsetEnd, language)
+    except:
+      status = "KO"
+    return sendCompleteResponse(status, ret)
 
 doPostAsync = sync_to_async(doPostSync, thread_sensitive=False)
 
@@ -1299,10 +1480,10 @@ elif not lilyExecutableCmd:
 if inkscapeExecutableCmd:
   log("Found configured Inkscape executable: "+ inkscapeExecutableCmd , "I")
 if inkscapeExecutableCmd and not checkExecutable(inkscapeExecutableCmd):
-  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
+  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'I')
   setConfigParam(INKSCAPE_EXEC_PARAM, inkscapeExecutableCmd)
 elif not inkscapeExecutableCmd:
-  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'W')
+  inkscapeExecutableCmd = getDefaultExecutableCmd(inkscapeProgramInfo, 'I')
   setConfigParam(INKSCAPE_EXEC_PARAM, inkscapeExecutableCmd)
 
 writeInfoSharedWithPlugins("CURRENT_LY_FILE", "")
@@ -1322,8 +1503,9 @@ else:
 
 if inkscapeExecutableCmd:
   log("-- Inkscape executable: " + inkscapeExecutableCmd, "I")
-else:
-  log("-- Inkscape executable not found/set", "W")
+
+log("-- Default mode: " + defaultMode, "I")
+log("-- Default MIDI input channel: " + defaultMidiInputChannel, "I")
 
 if pip3Exists:
   log("-- Pip3 found", "I")

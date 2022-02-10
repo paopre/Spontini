@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 13.1427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -49,7 +49,7 @@ tspan { white-space: pre; }
 <g transform="translate(57.2386, 11.4427)">
 <rect x="0.0000" y="-1.7000" width="0.2162" height="3.4313" ry="0.0000" fill="currentColor"/>
 </g>
-<g lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 25.1427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -275,7 +275,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="13.4204 -2.9663 13.4204 -2.6383 0.0400 0.1640 0.0400 -0.1640"/>
 </g>
 </a>
-<g cpts-propid="6" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" cpts-propid="6" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:214:54:55">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(75.5738, 17.4454)">
@@ -292,22 +292,22 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="2.6119" y2="5.6436"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(75.5738, 17.4454)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(76.5412, 1.8466)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(96.7474, 1.5542)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(99.3593, 7.1978)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
@@ -317,7 +317,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 </g>
 </a>
 </g>
-<g positions-propid="5" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" positions-propid="5" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:206:32:33">
 <g transform="translate(65.2450, 13.5102)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="7.5806 0.4856 7.5806 0.8136 0.0400 0.1640 0.0400 -0.1640"/>
@@ -330,7 +330,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 </g>
 </a>
 </g>
-<g cpts-propid="4" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" cpts-propid="4" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:206:39:40">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(65.7741, 8.9588)">
@@ -347,22 +347,22 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="-0.5058" y2="9.5309"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(65.7741, 8.9588)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(66.2939, 6.8954)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(75.7220, 5.0649)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(75.2161, 14.5958)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
@@ -377,7 +377,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <path stroke-width="0.0501" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.7283 -2.3750C2.0990 -3.3230 12.8610 -3.3230 14.2316 -2.3750L14.2316 -2.3750C12.8610 -3.2479 2.0990 -3.2479 0.7283 -2.3750z"/>
 </g>
 </a>
-<g extra-offset-y-propid="2" editcommand="OnceOverride" editableclass="TupletNumber" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" extra-offset-y-propid="2" editcommand="OnceOverride" editableclass="TupletNumber" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:177:94:95">
 <g transform="translate(43.4212, 17.3758)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
@@ -388,7 +388,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 </g>
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:177:94:95">
 </a>
-<g cpts-propid="7" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" cpts-propid="7" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:177:123:124">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(37.0716, 15.3984)">
@@ -405,22 +405,22 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="0.8323" y2="3.3661"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(37.0716, 15.3984)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(38.1753, 4.1870)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(50.3035, 5.5027)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(51.1358, 8.8688)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
@@ -501,7 +501,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <path stroke-width="0.0501" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M1.4178 0.4250C2.9136 1.3966 18.3164 1.3966 19.8122 0.4250L19.8122 0.4250C18.3164 1.3215 2.9136 1.3215 1.4178 0.4250z"/>
 </g>
 </a>
-<g positions-propid="3" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" positions-propid="3" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:215:49:50">
 <g transform="translate(75.3064, 18.3877)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="11.0402 -3.8912 11.0402 -3.5632 0.0400 0.1640 0.0400 -0.1640"/>
@@ -562,12 +562,12 @@ c0 -39 -17 -78 -52 -78c-24 0 -44 20 -44 44c0 30 38 25 38 55c0 10 -10 10 -22 10h-
 <g transform="translate(93.8436, 11.4427)">
 <rect x="-0.0313" y="-3.6858" width="0.0626" height="3.5142" ry="0.0313" fill="currentColor"/>
 </g>
-<g x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
 <g transform="translate(93.8123, 11.4427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
 </g>
-<g x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
 <g transform="translate(93.8123, 23.4427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
@@ -575,7 +575,7 @@ c0 -39 -17 -78 -52 -78c-24 0 -44 20 -44 44c0 30 38 25 38 55c0 10 -10 10 -22 10h-
 <g transform="translate(94.8376, 23.4427)">
 <rect x="-0.0313" y="-3.1167" width="0.0626" height="2.5525" ry="0.0313" fill="currentColor"/>
 </g>
-<g x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" x-offset-propid="8" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
 <g transform="translate(93.8123, 23.4427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
@@ -983,7 +983,7 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
 </g>
 </g>
-<g lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 55.1427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -1018,7 +1018,7 @@ c0 -21 20 -28 43 -30c9 -1 13 -8 13 -15s-5 -15 -14 -15z" fill="currentColor"/>
 <g transform="translate(70.4718, 40.4015)">
 <rect x="0.0000" y="14.7725" width="0.2162" height="8.5687" ry="0.0000" fill="currentColor"/>
 </g>
-<g lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 67.1427)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -1513,7 +1513,7 @@ c0 -39 -17 -78 -52 -78c-24 0 -44 20 -44 44c0 30 38 25 38 55c0 10 -10 10 -22 10h-
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.3694 -0.8413 5.3694 -0.5133 0.0400 0.1640 0.0400 -0.1640"/>
 </g>
 </a>
-<g cpts-propid="11" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" cpts-propid="11" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:252:54:55">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(60.9558, 47.0374)">
@@ -1530,22 +1530,22 @@ c0 -39 -17 -78 -52 -78c-24 0 -44 20 -44 44c0 30 38 25 38 55c0 10 -10 10 -22 10h-
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="5.3427" y2="3.9346"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(60.9558, 47.0374)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(67.2647, 41.9574)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(104.0109, 42.5012)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(109.3536, 46.4358)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.4000"/>
 </g>
@@ -2138,7 +2138,7 @@ c-65 35 -95 94 -95 151c0 72 47 142 129 162c-11 47 -24 94 -38 141c-81 -101 -161 -
 <path transform="scale(0.0023, -0.0023)" d="M199 142c66 0 123 -38 123 -108s-48 -117 -94 -145c-32 -19 -68 -31 -105 -31c-66 0 -123 38 -123 108s48 117 94 145c32 19 68 31 105 31z" fill="currentColor"/>
 </g>
 </a>
-<g extra-offset-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" extra-offset-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-6.ly:246:79:80">
 <g transform="translate(33.3305, 62.9635)">
 <text font-family="monospace" font-style="italic" font-size="1.9600" text-anchor="start" fill="currentColor">

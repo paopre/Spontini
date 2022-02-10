@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 11.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
@@ -22,7 +22,7 @@ tspan { white-space: pre; }
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
 </g>
-<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 20.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
@@ -63,7 +63,7 @@ tspan { white-space: pre; }
 <g transform="translate(26.6608, 9.2802)">
 <rect x="-0.0740" y="-5.1949" width="0.1480" height="3.5088" ry="0.0400" fill="currentColor"/>
 </g>
-<g positions-propid="2" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" positions-propid="2" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-5.ly:36:14:15">
 <g transform="translate(24.0826, 4.0853)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.5018 -0.2000 5.5018 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
@@ -78,7 +78,7 @@ tspan { white-space: pre; }
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.3455 -0.5169 4.3455 -0.1169 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 </a>
-<g positions-propid="1" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" positions-propid="1" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-5.ly:41:15:16">
 <g transform="translate(22.9264, 22.8981)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.5018 -0.2000 5.5018 0.2000 0.0400 0.2000 0.0400 -0.2000"/>

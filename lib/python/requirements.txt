@@ -10,3 +10,4 @@ PyPDF2==1.26.0
 natsort==8.0.1
 svglib==1.1.0
 reportlab==3.6.3
+python-ly==0.9.7

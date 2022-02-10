@@ -59,7 +59,11 @@ Where "ID1/2" are unique numbers associated with each of the properties to be mo
  
  3. By Choosing \jsTweak or \jsOnceOverride in the TOOLS menu (same as 2. )
 
-Once the Spontini-Editor commands have been created, and after compiling the file, the corresponding objects will be highlighted by the editor and you can edit them with the mouse.
+Once the Spontini-Editor commands have been created, and after compiling the file, the corresponding objects will be highlighted by the editor and you can edit them with the mouse if the edited score is currently in SVG mode.
+You can set "svg" or "pdf" as the default mode of the editor with "Set configuration parameter" tool (from the TOOLS menu): just enter "default-mode" as the parameter to configure and (lowercase) "pdf" or "svg" as the value for it.
+You can also switch on the fly, for the currently edited score, from PDF to SVG and vice-versa (FILE ---> SVG/PDF mode) and your last choice will be saved and remembered by the editor when you re-open the file.
+It is suggested to edit your score in PDF mode, because it is much faster to engrave than SVG; then you can do all the jsTweaks with the mouse, in SVG mode, at the last stage of your work, so to save time.
+Note too that all the jsTweaks made in SVG mode will appear in the generated PDF too (but they can't be edited on the fly with the mouse on the PDF document).
 
 Try **[THIS](../examples/set-properties-example-1.ly)** and **[THIS](../examples/set-properties-example-2.ly)** example to better understand.
 

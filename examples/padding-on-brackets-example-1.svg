@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/2 -->
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 13.8903)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -83,7 +83,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g y-offset-propid="1" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="1" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(22.1264, 6.0756)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -231,7 +231,7 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<g padding-propid="2" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" padding-propid="2" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(45.5811, 5.8618)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -268,7 +268,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g staff-padding-propid="3" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" staff-padding-propid="3" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(68.5745, 5.9187)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -305,7 +305,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g outside-staff-padding-propid="4" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" outside-staff-padding-propid="4" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(91.5678, 5.8618)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -363,7 +363,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 42.1222)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -450,7 +450,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g y-offset-propid="5" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="5" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(10.6906, 46.6075)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -599,7 +599,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(37.6254, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g padding-propid="6" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="6" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(36.7515, 46.4582)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -636,7 +636,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g staff-padding-propid="7" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="7" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(62.7439, 46.5644)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -673,7 +673,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g outside-staff-padding-propid="8" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="8" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(88.7363, 46.4582)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -731,7 +731,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 70.3542)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -968,7 +968,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(42.0275, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g padding-propid="9" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" padding-propid="9" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:0:1">
 <g transform="translate(11.4906, 56.8092)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="10.6012" y1="2.2802" x2="10.6012" y2="2.9802"/>
@@ -1005,7 +1005,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g staff-padding-propid="12" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="12" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:0:1">
 <g transform="translate(89.6024, 75.8111)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="9.4494" y1="-0.0000" x2="9.4494" y2="-0.7000"/>
@@ -1042,7 +1042,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g padding-propid="11" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="11" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:0:1">
 <g transform="translate(63.5651, 75.8225)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="9.4489" y1="0.7080" x2="9.4489" y2="0.0080"/>
@@ -1079,7 +1079,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g staff-padding-propid="10" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" staff-padding-propid="10" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:0:1">
 <g transform="translate(37.5278, 59.1973)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="10.6057" y1="-0.0000" x2="10.6057" y2="0.7000"/>
@@ -1116,7 +1116,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 98.5861)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1244,7 +1244,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </text>
 </g>
 </a>
-<g y-offset-propid="17" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="17" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(81.6827, 89.8714)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1358,7 +1358,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<g outside-staff-padding-propid="16" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" outside-staff-padding-propid="16" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:0:1">
 <g transform="translate(48.8477, 84.0091)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
@@ -1416,7 +1416,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g padding-propid="13" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" padding-propid="13" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(10.6906, 89.9158)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1453,7 +1453,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g staff-padding-propid="15" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" staff-padding-propid="15" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(48.0477, 90.0145)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1490,7 +1490,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g outside-staff-padding-propid="18" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" outside-staff-padding-propid="18" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:0:1">
 <g transform="translate(82.4827, 83.7660)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
@@ -1548,7 +1548,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="14" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" outside-staff-padding-propid="14" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:0:1">
 <g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
@@ -1606,7 +1606,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 126.8181)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1731,7 +1731,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </text>
 </g>
 </a>
-<g y-offset-propid="23" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="23" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(81.4732, 130.6034)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1845,7 +1845,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<g outside-staff-padding-propid="22" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="22" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:0:1">
 <g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
@@ -1903,7 +1903,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g padding-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(10.6906, 130.6603)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1940,7 +1940,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g staff-padding-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(47.6146, 130.6603)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -1977,7 +1977,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g outside-staff-padding-propid="24" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="24" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:0:1">
 <g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
@@ -2035,7 +2035,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="20" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="20" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:0:1">
 <g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
@@ -2093,7 +2093,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 155.0500)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -2298,7 +2298,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g padding-propid="26" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" padding-propid="26" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:0:1">
 <g transform="translate(11.4906, 143.9050)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="17.9162" y1="2.2632" x2="17.9162" y2="2.9632"/>
@@ -2335,7 +2335,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="25" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="1">
+<g staffspace="1.00000000" outside-staff-padding-propid="25" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="1">
 <g transform="translate(10.6906, 140.9859)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
@@ -2393,7 +2393,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 </g>
-<g padding-propid="28" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="28" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:0:1">
 <g transform="translate(76.7611, 156.8293)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="16.7613" y1="0.7015" x2="16.7613" y2="0.0015"/>
@@ -2430,7 +2430,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="27" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="27" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-direction="-1">
 <g transform="translate(75.9611, 160.5838)">
 <text font-family="serif" font-weight="bold" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>

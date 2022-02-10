@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 9.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="34.3508" y2="0"/>
 </g>
@@ -151,7 +151,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 23.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="34.3508" y2="0"/>
 </g>
@@ -206,7 +206,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(40.4627, 21.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g extra-offset-propid="2" editcommand="OnceOverride" editableclass="DynamicText" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-propid="2" editcommand="OnceOverride" editableclass="DynamicText" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-1.ly:35:73:74">
 <g transform="translate(40.1883, 29.3844)">
 <g>
@@ -247,7 +247,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-1.ly:33:7:8">
 <g transform="translate(25.7884, 30.6854)">
 <g>

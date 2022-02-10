@@ -393,7 +393,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 <g transform="translate(113.5948, 3.8453)">
 <rect x="0.0000" y="15.8443" width="0.2162" height="5.5431" ry="0.0000" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 19.6327)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -437,7 +437,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 <g transform="translate(5.6906, 15.3827)">
 <rect x="17.5593" y="-0.0994" width="1.9563" height="0.1988" ry="0.0994" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(14.2264, 28.6327)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -546,7 +546,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </text>
 </g>
 </a>
-<g cpts-propid="108" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="0.85000000">
+<g staffspace="0.85000000" cpts-propid="108" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/easy-cross-staff-example-3.ly:78:1:2">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(69.8878, 25.4027)">
@@ -563,22 +563,22 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.8305" y2="-5.3720"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(69.8878, 25.4027)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.6000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(78.7393, 33.7242)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.6000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(86.6662, 24.2677)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.6000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(87.4967, 18.8957)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.6000"/>
 </g>
@@ -1153,7 +1153,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 </g>
 </a>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 58.9579)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1212,7 +1212,7 @@ c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c2
 <g transform="translate(5.6906, 54.7079)">
 <rect x="26.1626" y="-0.0994" width="1.9563" height="0.1988" ry="0.0994" fill="currentColor"/>
 </g>
-<g gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="0.85000000">
+<g staffspace="0.85000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 67.9579)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>

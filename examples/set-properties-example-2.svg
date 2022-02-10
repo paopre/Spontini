@@ -5,7 +5,7 @@ tspan { white-space: pre; }
 ]]>
 </style>
 <!-- Page: 1/1 -->
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 9.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -103,7 +103,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(97.6588, 7.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g y-offset-propid="3" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="3" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true">
 <g transform="translate(44.6156, 15.0243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
 </g>
@@ -118,7 +118,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<g extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:36:5:6">
 <g transform="translate(14.5084, 17.3184)">
 <g>
@@ -170,7 +170,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(29.7084, 7.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g x-offset-propid="2" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" x-offset-propid="2" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:37:5:6">
 <g transform="translate(20.4782, 12.1932)">
 <g>
@@ -189,7 +189,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g staff-padding-propid="6" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="6" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
 <g transform="translate(95.5784, 15.0692)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
 </g>
@@ -215,7 +215,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </g>
 </g>
 </g>
-<g outside-staff-padding-propid="5" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="5" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
 <g transform="translate(78.5908, 15.0844)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
 </g>
@@ -262,7 +262,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </g>
 </g>
 </g>
-<g padding-propid="4" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="4" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
 <g transform="translate(61.6032, 15.1054)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
 </g>
@@ -288,7 +288,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </g>
 </g>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 29.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -326,7 +326,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(113.5948, 27.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g y-offset-propid="9" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="9" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:48:5:6">
 <g transform="translate(46.1179, 36.0243)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -382,7 +382,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g extra-offset-y-propid="7" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-y-propid="7" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:46:5:6">
 <g transform="translate(12.1427, 36.0009)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -397,7 +397,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g x-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" x-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:47:5:6">
 <g transform="translate(23.1782, 30.3772)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -417,7 +417,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
 </g>
 </g>
-<g staff-padding-propid="12" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="12" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:54:5:6">
 <g transform="translate(97.0807, 35.9812)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -445,7 +445,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="11" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="11" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:53:5:6">
 <g transform="translate(80.0931, 36.0252)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -494,7 +494,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g padding-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:49:5:6">
 <g transform="translate(63.1055, 36.0509)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
@@ -522,7 +522,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 49.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -560,7 +560,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(113.5948, 47.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g y-offset-propid="15" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" y-offset-propid="15" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:60:5:6">
 <g transform="translate(45.4658, 57.0243)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -618,7 +618,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g extra-offset-propid="13" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-propid="13" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:58:5:6">
 <g transform="translate(13.7226, 56.9879)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -635,7 +635,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g x-offset-propid="14" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" x-offset-propid="14" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:59:5:6">
 <g transform="translate(19.6782, 51.7298)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -657,7 +657,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
 </g>
 </g>
-<g staff-padding-propid="18" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" staff-padding-propid="18" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:63:5:6">
 <g transform="translate(96.4286, 57.0812)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -687,7 +687,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g outside-staff-padding-propid="17" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" outside-staff-padding-propid="17" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:62:5:6">
 <g transform="translate(79.4410, 57.0579)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -738,7 +738,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g padding-propid="16" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000" y-direction="-1">
+<g staffspace="1.00000000" padding-propid="16" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:61:5:6">
 <g transform="translate(62.4534, 56.9698)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
@@ -768,7 +768,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 69.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -834,7 +834,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(9.2446, 60.8266)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8va</tspan>
@@ -850,7 +850,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="25.4542" y2="-0.0000" stroke-dasharray="0.301828169182409,0.704265728092289"/>
 </g>
 </g>
-<g extra-offset-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" extra-offset-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <g transform="translate(57.0557, 60.8996)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8va</tspan>
@@ -905,7 +905,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(28.7000, 67.6243)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 89.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -973,7 +973,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g cpts-propid="22" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" cpts-propid="22" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:80:5:6">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(12.1427, 91.6693)">
@@ -990,22 +990,22 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.0412" y2="-7.2371"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(12.1427, 91.6693)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(12.1919, 99.0434)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(29.0891, 98.9064)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(29.1303, 91.6693)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
@@ -1015,7 +1015,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g cpts-propid="24" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" cpts-propid="24" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:84:5:6">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(80.2931, 91.3743)">
@@ -1032,22 +1032,22 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.0118" y2="-4.7149"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(80.2931, 91.3743)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(80.2319, 96.1432)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(96.8689, 96.0892)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(96.8807, 91.3743)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
@@ -1057,7 +1057,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g cpts-propid="23" editcommand="Shape" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" cpts-propid="23" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:82:7:8">
 <g color="rgb(100%, 50.0000%, 0%)">
 <g transform="translate(46.1893, 82.5793)">
@@ -1074,22 +1074,22 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="0.0252" y2="4.5361"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(46.1893, 82.5793)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(46.2065, 77.9282)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(63.1517, 78.0432)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
 </g>
-<g color="rgb(81.1000%, 46.6000%, 43.9000%)">
+<g color="#fc560390">
 <g transform="translate(63.1769, 82.5793)">
 <circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
 </g>
@@ -1135,7 +1135,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 109.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1232,21 +1232,21 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g positions-propid="25" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" positions-propid="25" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:89:5:6">
 <g transform="translate(12.6468, 109.4124)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 -7.3202 25.8784 -6.9202 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 </a>
 </g>
-<g positions-propid="26" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" positions-propid="26" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:90:4:5">
 <g transform="translate(46.5907, 102.0513)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 3.3701 25.8784 3.7701 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 </a>
 </g>
-<g positions-propid="27" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" positions-propid="27" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/set-properties-example-2.ly:91:4:5">
 <g transform="translate(80.5347, 102.3304)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 -0.2382 25.8784 0.1618 0.0400 0.2000 0.0400 -0.2000"/>
@@ -1329,7 +1329,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(29.8178, 107.6243)">
 <rect x="-0.0740" y="-2.9290" width="0.1480" height="5.7429" ry="0.0400" fill="currentColor"/>
 </g>
-<g gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true" staffspace="1.00000000">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.22.0" isstaff="true">
 <g transform="translate(5.6906, 129.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -1367,7 +1367,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(113.5948, 127.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g x-offset-propid="29" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" x-offset-propid="29" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
 <g transform="translate(71.9063, 127.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
@@ -1424,7 +1424,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(12.7208, 127.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g x-offset-propid="28" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true" staffspace="1.00000000">
+<g staffspace="1.00000000" x-offset-propid="28" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
 <g transform="translate(18.0434, 127.6243)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
 </g>
