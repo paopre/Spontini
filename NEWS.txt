@@ -44,7 +44,7 @@ Version 1.6
 * Prevents turning pages if an object has been modified with the mouse without compiling the score
 
 -----------
-Version 1.8
+Version 1.9
 -----------
 * Added "Toggle JSSVG" tool
 * Added user settable renderSvgTextWithGeometricPrecision (prevents Chrome's issues when rendering text)
@@ -54,10 +54,6 @@ Version 1.8
 * Fixed goToPage() issue (when the compiled score has less pages than the previous one)
 * Added better looking input dialogs for search/replace
 * Tested compatibility with LilyPond 2.23.5
-
------------
-Version 1.9
------------
 * Added support for dashed and dotted slurs
 * Added mark with functions (BULK) tool
 * Fixed issue on Symbols tab (from 1.8)
