@@ -56,7 +56,6 @@ Version 1.9
 * Tested compatibility with LilyPond 2.23.5
 * Added support for dashed and dotted slurs
 * Added mark with functions (BULK) tool
-* Fixed issue on Symbols tab (from 1.8)
 * Added slurs on Symbols tab
 * Custom symbols configuration made simpler
 * Replaced CairoSVG with Inkscape (easier to install on Windows and works better)
