@@ -70,3 +70,9 @@ Version 1.12
 * Added support for PDF output
 * Added support for MIDI input
 * Added mergeTableCells(...) function, useful for swapping notes up and down in piano tables
+
+------------
+Version 1.13
+------------
+* Compatible with 2.23.10
+* Regression fixed for compatibility from 2.19.84 to 2.21.2
