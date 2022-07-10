@@ -1,12 +1,12 @@
 wheel==0.36.1
-httpx==0.16.1
+httpx==0.23.0
 colorlog==4.6.2
 testresources==2.0.1
 fastapi==0.70.0
 aiofiles==0.6.0
 colorama==0.4.4
 asgiref==3.3.1
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 natsort==8.0.1
 svglib==1.1.0
 reportlab==3.6.3

@@ -581,8 +581,10 @@ def doPostSync(message, request):
     startTime = datetime.now()
     status = ""
     cliArr = [lilyExecutableCmd, "-dmidi-extension=midi", "-o", wsDirPath, fileFilteredWithPath]
-    if param3.strip() != "pdf":
+    if param3.strip() != "pdf" and param3.strip() != "null":
       cliArr.insert(2, "-dbackend="+param3)
+    if param3.strip() == "null":
+      cliArr.insert(2, "-dno-print-pages")
     try:
       p = subprocess.run(cliArr, encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
       if p.returncode == 0:
