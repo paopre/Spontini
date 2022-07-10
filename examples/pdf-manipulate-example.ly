@@ -15,7 +15,8 @@
 % along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 %
 % HOW TO:
-% Engrave this example then download it as PDF. A python script called
+% (This example requires that Inkscape is installed on your OS)
+% Engrave this example in PDF MODE. A python script called
 % pdf-manipulate-example-afterpdf.py, inside the example's directory, will be executed
 % and it will add a string + a vector image + a raster image on the generated PDF page.
 %
