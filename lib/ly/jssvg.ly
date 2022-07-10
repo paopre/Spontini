@@ -25,6 +25,9 @@
 #(define line-thickness 0.2)
 #(define cpDiameter 0.6)
 #(define lilyVersion (string-join (map number->string (ly:version)) "."))
+#(define majorNum (string->number (list-ref (string-tokenize lilyVersion (char-set-complement (->char-set "."))) 1)))
+#(define minorNum (string->number (list-ref (string-tokenize lilyVersion (char-set-complement (->char-set "."))) 2)))
+#(define cpColorStr (if (or (and (>= majorNum 21)(>= minorNum 2)) (>= majorNum 22)) "#fc560390" (rgb-color 0.811 0.466 0.439)))
 
 \layout {
   \context {
@@ -44,7 +47,7 @@
 %Thanks to Aroon Hill for the below functions!
 controlPoints = #(grob-transformer 'stencil (lambda (grob orig)
   (define (draw-control-point pt)
-#{ \markup \translate $pt \with-color #'"#fc560390"\draw-circle #cpDiameter #0 ##t #})
+#{ \markup \translate $pt \with-color #cpColorStr \draw-circle #cpDiameter #0 ##t #})
   (define (draw-control-segment pt1 pt2)
 (let ((delta (cons (- (car pt2) (car pt1)) (- (cdr pt2) (cdr pt1))))) #{ \markup \translate $pt1 \with-color #'(1 .5 0) \draw-line $delta #}))
   (let* ((pts (ly:grob-property grob 'control-points))

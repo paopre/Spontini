@@ -43,11 +43,11 @@ defaultShowMultiRests = {
     #(if (defined? 'pianoStaves)
        (if (> pianoStaves 2) #{
        \new Staff = "middleI" { \defaultShowMultiRests \middleI }
-       #})(define pianoStaves 2))
+       #}))
     #(if (defined? 'pianoStaves)
        (if (> pianoStaves 3) #{
        \new Staff = "middleII" { \defaultShowMultiRests \middleII }
-       #})(define pianoStaves 2))
+       #}))
     \new Staff = "lower" { \defaultShowMultiRests \lower }
   >>
   \layout {
@@ -76,11 +76,11 @@ defaultShowMultiRests = {
     #(if (defined? 'pianoStaves)
        (if (> pianoStaves 2) #{
        \new Staff = "middleI"  \with {midiInstrument = #"acoustic grand"} \new Voice = "ups" \upper
-       #})(define pianoStaves 2))
+       #}))
     #(if (defined? 'pianoStaves)
        (if (> pianoStaves 3) #{
        \new Staff = "middleII" \with {midiInstrument = #"acoustic grand"} \new Voice = "ups" \upper
-       #})(define pianoStaves 2))
+       #}))
     \new Staff = "lower"    \with {midiInstrument = #"acoustic grand"} \new Voice = "ups" \lower
   >>
   \midi {
