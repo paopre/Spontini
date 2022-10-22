@@ -7,3 +7,4 @@ fork-access-only=no
 workspace=
 lilypond-exec=
 inkscape-exec=
+default-midi-input-channel=-1
