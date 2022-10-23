@@ -1,4 +1,4 @@
-version=1.9-beta
+version=1.9-beta-2
 debug=no
 midi-enabled=yes
 soundfont-url=
