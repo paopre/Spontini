@@ -73,8 +73,8 @@ All the notes will be written in the language set in the very first line of the 
 ![img](images/midiInput.gif)
 
 Accidentals are written as sharp: you can swap them to flat (or from flat to sharp) by selecting the corresponding notes with the mouse (or by placing the cursor inside them) and then pressing **Ctrl + b** keys.
-The MIDI input feature uses Web MIDI API, and it works natively on Chrome. On Firefox, Web MIDI API is not supported natively, but there are some addons for enabling it, like **this one[https://addons.mozilla.org/en-US/firefox/addon/web-midi-api/]**.
-On Windows, and probably on macOS too, a running virtual loopback MIDI program is required too, in order to make Web MIDI API work. There are some free programs for creating a virtual MIDI cable: just pick and run one of them, then visit **THIS[https://www.onlinemusictools.com/webmiditest/]** page, for example, for checking if the MIDI input works correctly on your browser.
+The MIDI input feature uses Web MIDI API, and it works natively on Chrome. On Firefox, Web MIDI API is not supported natively, but there are some addons for enabling it, like **[this one](https://addons.mozilla.org/en-US/firefox/addon/web-midi-api/)**.
+On Windows, and probably on macOS too, a running virtual loopback MIDI program is required too, in order to make Web MIDI API work. There are some free programs for creating a virtual MIDI cable: just pick and run one of them, then visit **[THIS](https://www.onlinemusictools.com/webmiditest/)** page, for example, for checking if the MIDI input works correctly on your browser.
 
 ### MIDI VLC PLUGIN
 
