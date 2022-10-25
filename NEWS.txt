@@ -75,4 +75,3 @@ Version 1.12
 Version 1.13
 ------------
 * Compatible with 2.23.10
-* Regression fixed for compatibility from 2.19.84 to 2.21.2
