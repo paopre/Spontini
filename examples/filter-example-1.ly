@@ -14,7 +14,7 @@
 % You should have received a copy of the GNU General Public License
 % along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 %
-% Each pair of "__SECTION__sectionNumber" and "__SECTIONEND__"
+% Each pair of "\SECTION sectionNumber" and "\SECTIONEND"
 % tags marks a text area which can be excluded or included by
 % the compiler with (just play with it!):
 %

@@ -145,7 +145,7 @@ upper = {
 
 #(set! showEditorStuff "true")
 
-\override Staff.VerticalAxisGroup #'staff-staff-spacing =
+\override Staff.VerticalAxisGroup.staff-staff-spacing =
 #'((basic-distance . 9)
 (minimum-distance . 12)
 (maximum-distance . 9)
@@ -154,8 +154,8 @@ upper = {
 $(set! cpDiameter 0.4)
 \set Score.proportionalNotationDuration = #(ly:make-moment 1/8)
 \override Score.Script.padding = 0.4
-\override Score.Stem #'thickness = #1
-\override Score.StaffSymbol #'thickness = #0.55
+\override Score.Stem.thickness = #1
+\override Score.StaffSymbol.thickness = #0.55
 \override Score.StaffSymbol.staff-space = #0.85
 \override Score.Script.font-size = #-2
 \override Score.DynamicText.font-size = #-1

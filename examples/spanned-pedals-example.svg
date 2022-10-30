@@ -6,7 +6,7 @@ tspan { white-space: pre; }
 </style>
 <!-- Page: 1/1 -->
 <g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="4">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(22.2311, 18.8812)">
 <rect x="-0.2000" y="-0.2000" width="3.6095" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -35,7 +35,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="5">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(23.0858, 25.8325)">
 <rect x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -58,7 +58,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="3">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(23.0858, 31.5295)">
 <rect x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -153,7 +153,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 <g transform="translate(88.4217, 7.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:51:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:51:25:26">
 <g transform="translate(87.1184, 10.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
@@ -169,7 +169,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(24.3892, 7.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(24.5418, 25.1156)">
 <path transform="scale(0.0040, -0.0040)" d="M0 35c0 19 16 35 35 35s35 -16 35 -35s-16 -35 -35 -35s-35 16 -35 35z" fill="currentColor"/>
 </g>
@@ -181,7 +181,7 @@ c-39 0 -51 46 -62 85c-27 -20 -90 -73 -106 -82c-6 -3 -12 -4 -17 0c-19 16 -28 89 -
 c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c26 22 63 54 63 83c0 19 -16 32 -34 32zM683 265c-37 -21 -55 -77 -55 -122c0 -48 18 -108 59 -108c32 0 45 39 45 81c0 61 -20 105 -49 149z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(17.6058, 30.8354)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>Sost. Ped.</tspan>
@@ -203,7 +203,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:26:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:26:0:1">
 <g transform="translate(19.2947, 7.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M103 135c9 2 17 3 26 3c33 0 70 -11 105 -36c21 -15 46 -23 66 -23c21 0 39 9 44 29c2 6 6 9 11 9c6 0 12 -5 12 -12c0 -67 -90 -105 -138 -105c-36 0 -71 14 -96 44c-13 16 -31 22 -48 22c-30 0 -59 -20 -62 -55c-1 -7 -6 -11 -11 -11c-6 0 -12 4 -12 11
 c0 175 235 165 235 344c0 60 -18 122 -70 122c-26 0 -51 -14 -51 -37c0 -27 35 -41 35 -68c0 -38 -30 -69 -68 -69s-69 31 -69 69c0 76 72 128 153 128c96 0 187 -56 187 -145c0 -153 -151 -159 -249 -220z" fill="currentColor"/>
@@ -213,7 +213,7 @@ c0 175 235 165 235 344c0 60 -18 122 -70 122c-26 0 -51 -14 -51 -37c0 -27 35 -41 3
 s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207 138 330c0 10 7 19 16 16c23 -7 47 -13 71 -13s48 6 71 13c14 4 23 -9 17 -16l-284 -330h167v131c0 8 1 17 8 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:51:4:5">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:51:4:5">
 <g transform="translate(23.0858, 10.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
@@ -226,7 +226,7 @@ c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39
 <path transform="scale(0.0040, -0.0040)" d="M-189 -1146c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360c0 252 -108 513 -108 780c0 189 45 366 177 501c15 15 39 -9 24 -24c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765c0 -186 -45 -363 -174 -498
 c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c15 -15 -9 -39 -24 -24c-132 135 -177 312 -177 501z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(25.8219, 25.1156)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="87.9892" y1="-0.0000" x2="87.9892" y2="-0.0000"/>
 </g>
@@ -237,7 +237,7 @@ c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c1
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="87.9892" y2="-0.0000"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(29.5658, 30.8354)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="84.2452" y1="-0.0000" x2="84.2452" y2="-0.0000"/>
 </g>
@@ -251,14 +251,14 @@ c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c1
 <g transform="translate(56.4055, 7.6243)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:51:18:19">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:51:18:19">
 <g transform="translate(55.1021, 10.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
 </g>
 </a>
 <g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="7">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:57:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:57:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(10.7382, 50.9323)">
 <rect x="-0.2000" y="-0.2000" width="3.4046" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -286,7 +286,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:57:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:57:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(11.4906, 53.9614)">
 <rect x="-0.2000" y="-0.2000" width="31.0655" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -309,7 +309,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </a>
 </g>
 <g thickness="0.20000000" editableclass="Padder" spontinieditable="true" y-direction="-1" pads-propid="8">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:57:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:57:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(11.4906, 60.5071)">
 <rect x="-0.2000" y="-0.2000" width="4.3948" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -332,7 +332,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="6">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:57:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:57:1:2">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(12.2406, 49.5323)">
 <rect x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -425,7 +425,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(84.9192, 38.2754)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:70:32:33">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:70:32:33">
 <g transform="translate(83.6158, 41.2754)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
@@ -457,7 +457,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M-189 -1146c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360c0 252 -108 513 -108 780c0 189 45 366 177 501c15 15 39 -9 24 -24c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765c0 -186 -45 -363 -174 -498
 c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c15 -15 -9 -39 -24 -24c-132 135 -177 312 -177 501z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(9.0556, 59.7902)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="38.4976" y1="-0.0000" x2="38.4976" y2="-1.0000"/>
 </g>
@@ -468,7 +468,7 @@ c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c1
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="38.4976" y2="-0.0000"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:40:1:2">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:40:1:2">
 <g transform="translate(9.0556, 66.8560)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="74.5603" y1="-0.0000" x2="74.5603" y2="-1.0000"/>
 </g>
@@ -479,7 +479,7 @@ c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c1
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="74.5603" y2="-0.0000"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:70:4:5">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:70:4:5">
 <g transform="translate(11.4906, 41.2754)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>
@@ -488,7 +488,7 @@ c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39
 <g transform="translate(48.8566, 38.2754)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.2410" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/spanned-pedals-example.ly:70:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/spanned-pedals-example.ly:70:14:15">
 <g transform="translate(47.5532, 41.2754)">
 <path transform="scale(0.0040, -0.0040)" d="M314 65c0 24 -21 41 -42 41c-4 0 -8 0 -12 -1c-31 -9 -78 -40 -115 -64s-84 -53 -104 -78c-7 -8 -10 -18 -10 -28c0 -24 21 -41 42 -41c4 0 8 0 12 1c31 9 77 40 114 64s84 53 104 78c7 8 11 18 11 28zM262 136c46 0 82 -21 82 -71c0 -19 -4 -39 -10 -57
 c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39 11 57c12 37 31 72 63 94c53 36 114 50 188 50z" fill="currentColor"/>

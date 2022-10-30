@@ -43,7 +43,7 @@ tspan { white-space: pre; }
 <g transform="translate(113.6210, 46.2625)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:50:21:22">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:50:21:22">
 <g transform="translate(58.2151, 46.2625)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -55,7 +55,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M446 -100c0 23 18 41 41 41s41 -18 41 -41s-18 -41 -41 -41s-41 18 -41 41zM446 100c0 23 18 41 41 41s41 -18 41 -41s-18 -41 -41 -41s-41 18 -41 41zM179 213c140 0 241 -69 241 -201c0 -211 -210 -333 -411 -421c-3 -3 -6 -4 -9 -4c-7 0 -13 6 -13 13c0 3 1 6 4 9
 c150 98 307 217 307 393c0 92 -38 185 -119 185c-52 0 -87 -38 -104 -90c5 1 10 2 15 2c44 0 80 -36 80 -80c0 -46 -35 -85 -80 -85c-48 0 -90 38 -90 85c0 104 77 194 179 194z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:50:37:38">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:50:37:38">
 <g transform="translate(92.3315, 48.7625)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -63,7 +63,7 @@ c150 98 307 217 307 393c0 92 -38 185 -119 185c-52 0 -87 -38 -104 -90c5 1 10 2 15
 <g transform="translate(58.2801, 46.2625)">
 <rect x="-0.0650" y="0.1861" width="0.1300" height="3.1472" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:50:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:50:14:15">
 <g transform="translate(15.7606, 49.2625)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -75,7 +75,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:50:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:50:0:1">
 <g transform="translate(10.1106, 46.2625)">
 <path transform="scale(0.0040, -0.0040)" d="M27 41l-1 -66v-11c0 -22 1 -44 4 -66c45 38 93 80 93 139c0 33 -14 67 -43 67c-31 0 -52 -30 -53 -63zM-15 -138l-12 595c8 5 18 8 27 8s19 -3 27 -8l-7 -345c25 21 58 34 91 34c52 0 89 -48 89 -102c0 -80 -86 -117 -147 -169c-15 -13 -24 -38 -45 -38
 c-13 0 -23 11 -23 25z" fill="currentColor"/>
@@ -85,7 +85,7 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
 c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c1 -5 1 -10 1 -14c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:48:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:48:0:1">
 <g transform="translate(11.2625, 43.4125)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
@@ -110,7 +110,7 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c
 <g transform="translate(38.0751, 46.2625)">
 <rect x="-0.0650" y="-1.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:50:18:19">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:50:18:19">
 <g transform="translate(36.8358, 48.7625)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -139,7 +139,7 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c
 <g transform="translate(113.6210, 129.1509)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:57:8:9">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:57:8:9">
 <g transform="translate(56.7746, 130.1509)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -154,7 +154,7 @@ c-151 0 -266 139 -266 302c0 144 101 254 191 367c-16 53 -31 105 -37 160c-5 42 -5 
 c0 -82 -56 -168 -141 -197c2 -27 3 -54 3 -81c0 -16 0 -33 -1 -49c-6 -98 -75 -184 -169 -186l1 43c73 2 121 72 126 149c1 15 1 30 1 45c0 23 -1 46 -3 69c-22 -4 -44 -6 -67 -6zM319 860c-76 -44 -123 -124 -123 -211c0 -56 15 -104 29 -151c59 79 107 162 107 261
 c0 43 -2 61 -13 101z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:57:26:27">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:57:26:27">
 <g transform="translate(91.7604, 132.1509)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -162,7 +162,7 @@ c0 43 -2 61 -13 101z" fill="currentColor"/>
 <g transform="translate(58.0138, 129.1509)">
 <rect x="-0.0650" y="-2.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:56:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:56:0:1">
 <g transform="translate(11.2625, 126.1909)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
@@ -194,7 +194,7 @@ c202 118 412 265 412 493c0 120 -63 235 -171 235c-74 0 -129 -54 -154 -126c11 5 22
 <path transform="scale(0.0040, -0.0040)" d="M27 41l-1 -66v-11c0 -22 1 -44 4 -66c45 38 93 80 93 139c0 33 -14 67 -43 67c-31 0 -52 -30 -53 -63zM-15 -138l-12 595c8 5 18 8 27 8s19 -3 27 -8l-7 -345c25 21 58 34 91 34c52 0 89 -48 89 -102c0 -80 -86 -117 -147 -169c-15 -13 -24 -38 -45 -38
 c-13 0 -23 11 -23 25z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:57:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:57:0:1">
 <g transform="translate(13.4106, 130.1509)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -205,7 +205,7 @@ c-13 0 -23 11 -23 25z" fill="currentColor"/>
 <g transform="translate(36.0818, 129.1509)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/filter-example-3.ly:57:5:6">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/filter-example-3.ly:57:5:6">
 <g transform="translate(34.8426, 132.1509)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>

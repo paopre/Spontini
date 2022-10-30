@@ -52,7 +52,7 @@ tspan { white-space: pre; }
 <g transform="translate(92.4418, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:44:61:62">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:44:61:62">
 <g transform="translate(80.1650, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -60,25 +60,25 @@ tspan { white-space: pre; }
 <g transform="translate(80.2390, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:45:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:45:0:1">
 <g transform="translate(85.5603, 11.8903)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:48:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:48:11:12">
 <g transform="translate(92.3678, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:48:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:48:16:17">
 <g transform="translate(92.3678, 16.2525)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:44:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:44:11:12">
 <g transform="translate(69.3745, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -99,7 +99,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="11.6583" y2="-0.0000" stroke-dasharray="0.30951370991838,0.72219865647622"/>
 </g>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:44:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:44:16:17">
 <g transform="translate(69.3745, 16.4429)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding</tspan>
@@ -109,7 +109,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(69.4484, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:44:56:57">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:44:56:57">
 <g transform="translate(74.7698, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -117,7 +117,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(74.8437, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:49:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:49:0:1">
 <g transform="translate(108.5537, 11.8903)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
@@ -126,7 +126,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(103.2324, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:48:64:65">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:48:64:65">
 <g transform="translate(97.7631, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -134,12 +134,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(97.8371, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:48:69:70">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:48:69:70">
 <g transform="translate(103.1584, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:36:51:52">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:36:51:52">
 <g transform="translate(28.3217, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -147,7 +147,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(28.3956, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:36:56:57">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:36:56:57">
 <g transform="translate(33.7170, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -155,7 +155,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(33.7909, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:37:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:37:0:1">
 <g transform="translate(39.3623, 4.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -163,12 +163,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(39.4362, 11.8903)">
 <rect x="-0.0740" y="-7.3139" width="0.1480" height="7.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:40:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:40:11:12">
 <g transform="translate(46.3811, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:40:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:40:16:17">
 <g transform="translate(46.3811, 16.1014)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding</tspan>
@@ -186,12 +186,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
 </g>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:36:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:36:11:12">
 <g transform="translate(22.9264, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:36:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:36:16:17">
 <g transform="translate(22.9264, 16.4115)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>Y-offset</tspan>
@@ -212,7 +212,7 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c
 <g transform="translate(57.2457, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:40:55:56">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:40:55:56">
 <g transform="translate(57.1717, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -220,12 +220,12 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c
 <g transform="translate(51.8504, 11.8903)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:40:50:51">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:40:50:51">
 <g transform="translate(51.7764, 11.3903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:41:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:41:0:1">
 <g transform="translate(62.5670, 11.8903)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
@@ -419,7 +419,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(89.6102, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:64:60:61">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:64:60:61">
 <g transform="translate(75.7502, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -427,25 +427,25 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(75.8242, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:65:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:65:0:1">
 <g transform="translate(81.8534, 40.1222)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:69:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:69:11:12">
 <g transform="translate(89.5363, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:69:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:69:16:17">
 <g transform="translate(89.5363, 37.2639)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:64:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:64:11:12">
 <g transform="translate(63.5439, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -466,7 +466,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="13.0741" y2="-0.0000" stroke-dasharray="0.294905129312437,0.688111968395685"/>
 </g>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:64:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:64:16:17">
 <g transform="translate(63.5439, 37.2639)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding</tspan>
@@ -476,7 +476,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(63.6178, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:64:55:56">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:64:55:56">
 <g transform="translate(69.6470, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -484,7 +484,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(69.7210, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:70:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:70:0:1">
 <g transform="translate(107.8458, 40.1222)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
@@ -493,7 +493,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(101.8166, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:69:63:64">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:69:63:64">
 <g transform="translate(95.6395, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -501,12 +501,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(95.7134, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:69:68:69">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:69:68:69">
 <g transform="translate(101.7426, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:55:50:51">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:55:50:51">
 <g transform="translate(17.5937, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -514,7 +514,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(17.6677, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:55:55:56">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:55:55:56">
 <g transform="translate(23.6969, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -522,7 +522,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(23.7709, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:55:71:72">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:55:71:72">
 <g transform="translate(29.3715, 50.1222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -530,7 +530,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(30.6018, 40.1222)">
 <rect x="-0.0740" y="-0.0000" width="0.1480" height="9.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:59:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:59:11:12">
 <g transform="translate(37.5515, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -552,12 +552,12 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:55:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:55:11:12">
 <g transform="translate(11.4906, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:55:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:55:16:17">
 <g transform="translate(11.4906, 37.5653)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>Y-offset</tspan>
@@ -570,13 +570,13 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(43.7286, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:60:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:60:0:1">
 <g transform="translate(55.8610, 40.1222)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:59:49:50">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:59:49:50">
 <g transform="translate(43.6546, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -584,12 +584,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(49.8318, 40.1222)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:59:54:55">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:59:54:55">
 <g transform="translate(49.7578, 39.6222)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:59:16:17">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:59:16:17">
 <g transform="translate(37.5515, 37.2639)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding</tspan>
@@ -784,7 +784,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(113.5948, 68.3542)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:56:57">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:56:57">
 <g transform="translate(72.6665, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -792,7 +792,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(72.7405, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:62:63">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:62:63">
 <g transform="translate(77.3423, 68.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -800,19 +800,19 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(68.0648, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:0:1">
 <g transform="translate(42.1673, 59.8289)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:14:15">
 <g transform="translate(89.6024, 64.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:19:20">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:19:20">
 <g transform="translate(89.6024, 63.3150)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding</tspan>
@@ -822,12 +822,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(89.6763, 68.3542)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:14:15">
 <g transform="translate(63.5651, 64.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:19:20">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:19:20">
 <g transform="translate(63.5651, 63.0419)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding</tspan>
@@ -837,26 +837,26 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(63.6391, 68.3542)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:0:1">
 <g transform="translate(16.1300, 58.5599)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:52:53">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:52:53">
 <g transform="translate(67.9908, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:0:1">
 <g transform="translate(93.6637, 76.4427)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:68:69">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:68:69">
 <g transform="translate(103.3795, 68.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -864,14 +864,14 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(98.7778, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:0:1">
 <g transform="translate(67.6264, 76.8007)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:58:59">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:58:59">
 <g transform="translate(94.0281, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -879,12 +879,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(94.1021, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:62:63">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:62:63">
 <g transform="translate(98.7038, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:62:63">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:62:63">
 <g transform="translate(25.2677, 68.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -894,12 +894,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <tspan>9</tspan>
 </text>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:14:15">
 <g transform="translate(37.5278, 64.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:19:20">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:19:20">
 <g transform="translate(37.5278, 72.5595)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding</tspan>
@@ -909,7 +909,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(37.6018, 68.3542)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:19:20">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:19:20">
 <g transform="translate(11.4906, 72.5988)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding</tspan>
@@ -922,7 +922,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(11.5645, 68.3542)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:52:53">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:52:53">
 <g transform="translate(15.9163, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -934,7 +934,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:56:57">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:56:57">
 <g transform="translate(20.5920, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -942,7 +942,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(20.6660, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:62:63">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:62:63">
 <g transform="translate(46.6293, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -950,17 +950,17 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(46.7033, 68.3542)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:68:69">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:68:69">
 <g transform="translate(51.3050, 68.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:14:15">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:14:15">
 <g transform="translate(11.4906, 64.3542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:58:59">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:58:59">
 <g transform="translate(41.9535, 67.8542)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -969,7 +969,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
 <g staffspace="1.00000000" padding-propid="9" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:84:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:84:0:1">
 <g transform="translate(11.4906, 56.8092)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="10.6012" y1="2.2802" x2="10.6012" y2="2.9802"/>
 </g>
@@ -1006,7 +1006,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </a>
 </g>
 <g staffspace="1.00000000" staff-padding-propid="12" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:94:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:94:0:1">
 <g transform="translate(89.6024, 75.8111)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="9.4494" y1="-0.0000" x2="9.4494" y2="-0.7000"/>
 </g>
@@ -1043,7 +1043,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </a>
 </g>
 <g staffspace="1.00000000" padding-propid="11" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:91:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:91:0:1">
 <g transform="translate(63.5651, 75.8225)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="9.4489" y1="0.7080" x2="9.4489" y2="0.0080"/>
 </g>
@@ -1080,7 +1080,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </a>
 </g>
 <g staffspace="1.00000000" staff-padding-propid="10" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:88:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:88:0:1">
 <g transform="translate(37.5278, 59.1973)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="10.6057" y1="-0.0000" x2="10.6057" y2="0.7000"/>
 </g>
@@ -1190,19 +1190,19 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(82.5567, 96.5861)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:31:32">
 <g transform="translate(82.4827, 101.0662)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>Y-offset + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:25:26">
 <g transform="translate(82.4827, 92.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:119:120">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:119:120">
 <g transform="translate(66.4492, 96.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -1210,7 +1210,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(60.5727, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:101:102">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:101:102">
 <g transform="translate(60.4987, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1218,26 +1218,26 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(54.6222, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:96:97">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:96:97">
 <g transform="translate(54.5482, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:0:1">
 <g transform="translate(17.4048, 85.7611)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:0:1">
 <g transform="translate(54.7619, 85.7598)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:0:1">
 <g transform="translate(88.3969, 85.5167)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
@@ -1260,7 +1260,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="12.5188" y2="-0.0000" stroke-dasharray="0.305336790745429,0.712452511739335"/>
 </g>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:115:116">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:115:116">
 <g transform="translate(100.0842, 96.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -1268,7 +1268,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(94.2077, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:97:98">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:97:98">
 <g transform="translate(94.1337, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1276,12 +1276,12 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(88.2572, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:92:93">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:92:93">
 <g transform="translate(88.1832, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:113:114">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:113:114">
 <g transform="translate(29.3421, 85.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1289,7 +1289,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(23.2156, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:95:96">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:95:96">
 <g transform="translate(23.1416, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1302,7 +1302,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(17.2651, 96.5861)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:90:91">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:90:91">
 <g transform="translate(17.1911, 96.0861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1320,19 +1320,19 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(11.5645, 96.5861)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:31:32">
 <g transform="translate(11.4906, 101.1387)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:25:26">
 <g transform="translate(11.4906, 92.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:31:32">
 <g transform="translate(48.8477, 101.1387)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding + outside-staff-padding</tspan>
@@ -1347,19 +1347,19 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(48.9217, 96.5861)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:25:26">
 <g transform="translate(48.8477, 92.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:120:121">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:120:121">
 <g transform="translate(38.0106, 96.5861)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
 <g staffspace="1.00000000" outside-staff-padding-propid="16" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:115:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:115:0:1">
 <g transform="translate(48.8477, 84.0091)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
 </g>
@@ -1491,7 +1491,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 <g staffspace="1.00000000" outside-staff-padding-propid="18" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:121:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:121:0:1">
 <g transform="translate(82.4827, 83.7660)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
 </g>
@@ -1549,7 +1549,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 </g>
 <g staffspace="1.00000000" outside-staff-padding-propid="14" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:110:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:110:0:1">
 <g transform="translate(11.4906, 84.0104)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="13.1523" y1="2.2721" x2="13.1523" y2="2.9721"/>
 </g>
@@ -1677,19 +1677,19 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(82.3472, 124.8181)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:31:32">
 <g transform="translate(82.2732, 119.8131)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>Y-offset + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:25:26">
 <g transform="translate(82.2732, 120.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:120:121">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:120:121">
 <g transform="translate(66.1287, 124.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -1697,7 +1697,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(60.2147, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:102:103">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:102:103">
 <g transform="translate(60.1407, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1705,26 +1705,26 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(54.2266, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:97:98">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:97:98">
 <g transform="translate(54.1526, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:0:1">
 <g transform="translate(16.8642, 133.8571)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:0:1">
 <g transform="translate(53.7883, 133.7571)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:0:1">
 <g transform="translate(87.6468, 133.8002)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
@@ -1747,7 +1747,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="12.5938" y2="-0.0000" stroke-dasharray="0.307166603888761,0.716722075740441"/>
 </g>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:115:116">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:115:116">
 <g transform="translate(99.9873, 124.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
@@ -1755,7 +1755,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(94.0732, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:97:98">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:97:98">
 <g transform="translate(93.9992, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1763,12 +1763,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(88.0852, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:92:93">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:92:93">
 <g transform="translate(88.0112, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:114:115">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:114:115">
 <g transform="translate(28.7761, 134.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1776,7 +1776,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(23.2906, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:96:97">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:96:97">
 <g transform="translate(23.2166, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1789,7 +1789,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(17.3026, 124.8181)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:91:92">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:91:92">
 <g transform="translate(17.2286, 124.3181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -1807,19 +1807,19 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(11.5645, 124.8181)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:31:32">
 <g transform="translate(11.4906, 119.5058)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:25:26">
 <g transform="translate(11.4906, 120.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:31:32">
 <g transform="translate(48.4146, 119.7789)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>staff-padding + outside-staff-padding</tspan>
@@ -1834,19 +1834,19 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(48.4886, 124.8181)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:25:26">
 <g transform="translate(48.4146, 120.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:117:118">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:117:118">
 <g transform="translate(37.5040, 124.8181)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
 <g staffspace="1.00000000" outside-staff-padding-propid="22" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:134:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:134:0:1">
 <g transform="translate(48.4146, 132.7789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
@@ -1978,7 +1978,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 <g staffspace="1.00000000" outside-staff-padding-propid="24" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:140:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:140:0:1">
 <g transform="translate(82.2732, 132.8220)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
@@ -2036,7 +2036,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 </g>
 <g staffspace="1.00000000" outside-staff-padding-propid="20" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:129:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:129:0:1">
 <g transform="translate(11.4906, 132.8789)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="12.0737" y1="0.7047" x2="12.0737" y2="0.0047"/>
 </g>
@@ -2185,7 +2185,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(84.9168, 153.0500)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:90:91">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:90:91">
 <g transform="translate(84.8428, 152.5500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2193,14 +2193,14 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(76.8351, 153.0500)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:31:32">
 <g transform="translate(76.7611, 147.7377)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:25:26">
 <g transform="translate(76.7611, 149.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2208,21 +2208,21 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(65.5487, 153.0500)">
 <rect x="-0.0740" y="-0.0000" width="0.1480" height="10.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:0:1">
 <g transform="translate(19.7861, 145.6557)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:0:1">
 <g transform="translate(84.4785, 157.8075)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:113:114">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:113:114">
 <g transform="translate(101.5064, 153.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
@@ -2231,7 +2231,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(93.2486, 153.0500)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:95:96">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:95:96">
 <g transform="translate(93.1746, 152.5500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2244,12 +2244,12 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(19.6463, 153.0500)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:90:91">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:90:91">
 <g transform="translate(19.5723, 152.5500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:154:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:154:0:1">
 <g transform="translate(64.3185, 164.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2257,14 +2257,14 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(11.5645, 153.0500)">
 <rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:31:32">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:31:32">
 <g transform="translate(11.4906, 157.6051)">
 <text font-family="serif" font-size="1.3860" text-anchor="start" fill="currentColor">
 <tspan>padding + outside-staff-padding</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:25:26">
 <g transform="translate(11.4906, 149.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2276,7 +2276,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:120:121">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:120:121">
 <g transform="translate(48.9285, 153.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
 c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
@@ -2285,7 +2285,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(36.5598, 153.0500)">
 <rect x="-0.0740" y="-10.8139" width="0.1480" height="10.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:113:114">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:113:114">
 <g transform="translate(36.4859, 142.0500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -2293,13 +2293,13 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 <g transform="translate(27.9781, 153.0500)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:95:96">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:95:96">
 <g transform="translate(27.9041, 152.5500)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g staffspace="1.00000000" padding-propid="26" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:152:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:152:0:1">
 <g transform="translate(11.4906, 143.9050)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="17.9162" y1="2.2632" x2="17.9162" y2="2.9632"/>
 </g>
@@ -2394,7 +2394,7 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </g>
 </g>
 <g staffspace="1.00000000" padding-propid="28" editcommand="OnceOverride" editableclass="TupletBracket" spontinieditable="true" y-direction="-1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/padding-on-brackets-example.ly:159:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/padding-on-brackets-example.ly:159:0:1">
 <g transform="translate(76.7611, 156.8293)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="16.7613" y1="0.7015" x2="16.7613" y2="0.0015"/>
 </g>

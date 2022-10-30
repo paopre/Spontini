@@ -29,17 +29,15 @@ $(set! cpDiameter 0.5)
   \include "regression-helper.ily"
 
   \override Score.TimeSignature.stencil = ##f
-
-  % Dynamics (works for pedal spanners too)
   \time 6/4
 
+  % Dynamics (works for pedal spanners too)
   c' \jsTweak "1" "extra-offset" #'(3.868 . -4.322) \mf
   c' \jsTweak "2" "X-offset" #'(-8) \mf
   c' \jsTweak "3" "Y-offset" #'(-7.4) DynamicLineSpanner \mf
   c' \jsTweak "4" "padding" #'(3.309) DynamicLineSpanner \mf
   c' \jsTweak "5" "outside-staff-padding" #'(3.288) DynamicLineSpanner \mf
   c' \jsTweak "6" "staff-padding" #'(5.388) DynamicLineSpanner \mf
-
   \break
 
   % Scripts

@@ -28,7 +28,7 @@ upper = {
 \override Score.TextScript.font-family = #'typewriter
 \override Score.TextScript.avoid-slur = #'ignore
 \set Score.pedalSustainStyle = #'mixed
-\override Score.SostenutoPedal #'font-family = #'typewriter
+\override Score.SostenutoPedal.font-family = #'typewriter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,11 +57,6 @@ upper = {
 \jsOSOPadder "95" "pads" #'(0 0 0.012 0) _\sostenutoOn
 \jsOSOPadder "96" "pads" #'(0 0 0 0)  _"Use pedals with care!"
 #})
-
-\easyCrossStaff %TMODE
-  { \CS $lU1 \tupletUp 3/2 { \ottava #1 <c'''' e''''>8[( $lU2 \CS s   \CS s }    \CS e''''4) \ottava #0            \CS r \CS }
-  { \CS $lD1 \hiddenTuplet 3/2 { s8 $lD2                      \CS c'' \CS g''] } \CS s4\ff\sustainOff\sostenutoOff \CS s \CS }
-#'( \CS C                                                     \CS -   \CS -      \CS -                             \CS - \CS )
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

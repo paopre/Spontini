@@ -28,24 +28,24 @@ tspan { white-space: pre; }
 <g transform="translate(113.5948, 7.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:31:12:13">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:31:12:13">
 <g transform="translate(23.4832, 11.8509)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:31:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:31:0:1">
 <g transform="translate(22.8311, 10.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:31:5:6">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:31:5:6">
 <g transform="translate(22.8311, 16.7332)">
 <text font-family="monospace" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>text</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:31:2:3">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:31:2:3">
 <g transform="translate(21.9809, 13.9759)">
 <g>
 <path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
@@ -76,7 +76,7 @@ s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="2">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:37:37:38">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:37:37:38">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(12.1427, 44.3983)">
 <rect x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -97,7 +97,7 @@ s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207
 </a>
 </g>
 <g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:37:3:4">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:37:3:4">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(10.6404, 41.3693)">
 <rect x="-0.2000" y="-0.2000" width="3.4046" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -125,7 +125,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="3">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:37:80:81">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:37:80:81">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(11.4906, 47.3513)">
 <rect x="-0.2000" y="-0.2000" width="5.7264" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -185,13 +185,13 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:37:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:37:0:1">
 <g transform="translate(11.4906, 40.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="4">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:43:55:56">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:43:55:56">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(12.1427, 78.1349)">
 <rect x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -212,7 +212,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </a>
 </g>
 <g y-direction="-1" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" pads-propid="5">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:43:98:99">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:43:98:99">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(10.6404, 81.0609)">
 <rect x="-0.2000" y="-0.2000" width="3.4046" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -240,7 +240,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 </a>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="-1" pads-propid="6">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:43:3:4">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:43:3:4">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(11.4906, 71.3693)">
 <rect x="-0.2000" y="-0.2000" width="5.7264" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -285,7 +285,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(5.6906, 70.6243)">
 <rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:47:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:47:0:1">
 <g transform="translate(111.8429, 67.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M150 477c-29 0 -59 -8 -59 -33c0 -22 36 -25 36 -47c0 -32 -26 -58 -58 -58s-57 26 -57 58c0 65 67 103 138 103c91 0 169 -33 169 -114c0 -43 -4 -82 -42 -100c-9 -4 -14 -12 -14 -21s5 -18 14 -22c41 -19 56 -57 56 -103c0 -92 -79 -140 -179 -140
 c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -27 32 -37 63 -37c49 0 63 61 63 117v16c0 54 -2 94 -50 94h-80c-10 0 -14 8 -14 15s4 14 14 14h80c49 0 50 43 50 99v8c0 54 -18 91 -67 91z" fill="currentColor"/>
@@ -310,7 +310,7 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:43:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:43:0:1">
 <g transform="translate(11.4906, 70.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -335,7 +335,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(110.7400, 97.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:37:38">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:37:38">
 <g transform="translate(56.7098, 97.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -343,7 +343,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(56.7838, 97.6243)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:55:56">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:55:56">
 <g transform="translate(77.9171, 97.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -351,7 +351,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(77.9911, 97.6243)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:55:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:55:0:1">
 <g transform="translate(111.8429, 97.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M150 477c-29 0 -59 -8 -59 -33c0 -22 36 -25 36 -47c0 -32 -26 -58 -58 -58s-57 26 -57 58c0 65 67 103 138 103c91 0 169 -33 169 -114c0 -43 -4 -82 -42 -100c-9 -4 -14 -12 -14 -21s5 -18 14 -22c41 -19 56 -57 56 -103c0 -92 -79 -140 -179 -140
 c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -27 32 -37 63 -37c49 0 63 61 63 117v16c0 54 -2 94 -50 94h-80c-10 0 -14 8 -14 15s4 14 14 14h80c49 0 50 43 50 99v8c0 54 -18 91 -67 91z" fill="currentColor"/>
@@ -361,7 +361,7 @@ c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -
 s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207 138 330c0 10 7 19 16 16c23 -7 47 -13 71 -13s48 6 71 13c14 4 23 -9 17 -16l-284 -330h167v131c0 8 1 17 8 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:11:12">
 <g transform="translate(14.2953, 93.2714)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1821" stroke="currentColor" x1="43.9188" y1="-0.0000" x2="43.9188" y2="0.7000"/>
 </g>
@@ -389,14 +389,14 @@ s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207
 <g transform="translate(15.3317, 91.9009)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="43.2823" y2="-0.0000" stroke-dasharray="0.299877379211564,0.699713884826983"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:11:12">
 <g transform="translate(35.5913, 93.9030)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:47:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:47:0:1">
 <g transform="translate(10.8271, 97.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M150 477c-29 0 -59 -8 -59 -33c0 -22 36 -25 36 -47c0 -32 -26 -58 -58 -58s-57 26 -57 58c0 65 67 103 138 103c91 0 169 -33 169 -114c0 -43 -4 -82 -42 -100c-9 -4 -14 -12 -14 -21s5 -18 14 -22c41 -19 56 -57 56 -103c0 -92 -79 -140 -179 -140
 c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -27 32 -37 63 -37c49 0 63 61 63 117v16c0 54 -2 94 -50 94h-80c-10 0 -14 8 -14 15s4 14 14 14h80c49 0 50 43 50 99v8c0 54 -18 91 -67 91z" fill="currentColor"/>
@@ -418,12 +418,12 @@ c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 
 c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
 c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:25:26">
 <g transform="translate(14.2953, 97.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:29:30">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:29:30">
 <g transform="translate(14.9474, 94.8714)">
 <path transform="scale(0.0040, -0.0040)" d="M-211 88c-8 2 -14 9 -14 18c0 11 10 21 23 18l408 -105c13 0 19 -6 19 -19s-6 -19 -19 -19l-408 -105c-13 -3 -23 7 -23 18c0 9 6 16 14 18l251 65l140 23l-140 23z" fill="currentColor"/>
 </g>
@@ -431,7 +431,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(14.3693, 97.6243)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:49:32:33">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:49:32:33">
 <g transform="translate(35.5026, 97.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -440,7 +440,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
 <g pads-propid="8" thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="1">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:11:12">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(14.2953, 116.0934)">
 <rect x="-0.4910" y="-0.2000" width="45.9442" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -500,7 +500,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 </g>
 </g>
 <g thickness="0.20000000" editableclass="OSOPadder" spontinieditable="true" y-direction="1" pads-propid="9">
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:30:31">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:30:31">
 <g color="rgb(91.2000%, 93.4000%, 95.6000%)">
 <g transform="translate(14.9474, 118.8025)">
 <rect x="-1.1000" y="-0.2000" width="2.2000" height="0.2000" ry="0.0000" fill="currentColor"/>
@@ -540,7 +540,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(113.5948, 127.6243)">
 <rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:67:68">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:67:68">
 <g transform="translate(57.9532, 127.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -548,7 +548,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(58.0272, 127.6243)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:85:86">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:85:86">
 <g transform="translate(79.7822, 127.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -556,14 +556,14 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <g transform="translate(79.8561, 127.6243)">
 <rect x="-0.0740" y="-0.3139" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:11:12">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:11:12">
 <g transform="translate(36.2130, 116.8161)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:25:26">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:25:26">
 <g transform="translate(14.2953, 127.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
@@ -583,7 +583,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <tspan>5</tspan>
 </text>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:55:0:1">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:55:0:1">
 <g transform="translate(10.8271, 127.6243)">
 <path transform="scale(0.0040, -0.0040)" d="M150 477c-29 0 -59 -8 -59 -33c0 -22 36 -25 36 -47c0 -32 -26 -58 -58 -58s-57 26 -57 58c0 65 67 103 138 103c91 0 169 -33 169 -114c0 -43 -4 -82 -42 -100c-9 -4 -14 -12 -14 -21s5 -18 14 -22c41 -19 56 -57 56 -103c0 -92 -79 -140 -179 -140
 c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -27 32 -37 63 -37c49 0 63 61 63 117v16c0 54 -2 94 -50 94h-80c-10 0 -14 8 -14 15s4 14 14 14h80c49 0 50 43 50 99v8c0 54 -18 91 -67 91z" fill="currentColor"/>
@@ -593,7 +593,7 @@ c-79 0 -154 42 -154 113c0 36 30 66 66 66s65 -30 65 -66c0 -25 -40 -28 -40 -53c0 -
 s-5 -15 -15 -15h-72v-8h-117v8h-167c-23 0 -31 14 -31 23c0 3 1 5 2 6c80 93 138 207 138 330c0 10 7 19 16 16c23 -7 47 -13 71 -13s48 6 71 13c14 4 23 -9 17 -16l-284 -330h167v131c0 8 1 17 8 22z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/Desktop/SPONTINI/Spontini/examples/oso-padding-example-1.ly:62:62:63">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/oso-padding-example-1.ly:62:62:63">
 <g transform="translate(36.1242, 127.1243)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>

@@ -42,7 +42,7 @@ tupletAngles =
  y-off a (possible) offset in Y-direction
  "
 #{
-\once\override TupletBracket  #'after-line-breaking =
+\once\override TupletBracket.after-line-breaking =
 #(lambda (grob)
   (let* ((pos (ly:grob-property grob 'positions))
          (y-length (interval-length pos))

@@ -128,7 +128,7 @@ edgeNoteInChord = #(define-scheme-function (parser location direction chord) (nu
 ret))
 
 horizontalTuplets =
-\override TupletBracket  #'stencil =
+\override TupletBracket.stencil =
 #(lambda (grob)
   (let* ((pos (ly:grob-property grob 'positions))
         (dir (ly:grob-property grob 'direction))

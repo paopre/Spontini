@@ -34,11 +34,11 @@ defaultShowMultiRests = {
   \new PianoStaff <<
     \new Staff = "upper" \with {
       % Distance between upper and lower staff
-      \override VerticalAxisGroup #'staff-staff-spacing = #'((basic-distance . 9)
-                                                             (minimum-distance . 9)
-                                                             (maximum-distance . 9)
-                                                             (padding . -9)
-                                                             (stretchability . 0))
+      \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 9)
+                                                           (minimum-distance . 9)
+                                                           (maximum-distance . 9)
+                                                           (padding . -9)
+                                                           (stretchability . 0))
     } { \defaultShowMultiRests \upper }
     #(if (defined? 'pianoStaves)
        (if (> pianoStaves 2) #{
