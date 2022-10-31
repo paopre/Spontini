@@ -63,7 +63,7 @@ acceptableWarnings = [
   "skipping zero-duration score",
   "to suppress this, consider adding a spacer rest",
   "omitting tuplet bracket with neither left nor right bound",
-  "nfo music found in score",
+  "no music found in score",
   "ignoring unsupported formats (pdf)"
 ]
 
