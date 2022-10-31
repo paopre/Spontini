@@ -1,0 +1,9 @@
+name: Test compatibility of Spontini-Editor with multiple LilyPond versions
+on: []
+jobs:
+  Run-compile-all-examples:
+    name: Runs a Python3 Script that compiles the examples on multiple LilyPond versions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python3 tests/compileAllExamples.py 2.22.0-1
