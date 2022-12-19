@@ -17,6 +17,7 @@
 #
 
 import sys
+import re
 from sys import argv
 
 if sys.version_info[0] != 3 or sys.version_info[1] < 6:
@@ -67,6 +68,13 @@ sendMsgCLI = None
 
 webServerURL = ""
 textArea = None
+installLilyPondDialogInstance = None
+installLilyPondDialogBtnOKDefaultColor = None
+win = None
+
+def showReExecuteError():
+  from tkinter.messagebox import showerror
+  showerror(message = "Re-execute the command after the server initialization is completed")
 
 def getWebserverParam(param):
   try:
@@ -134,7 +142,7 @@ def initVenvWithModules():
     if not error:
       log("*** Checking required modules ***", "I")
       requirementsFile = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                                                "lib", "python", "requirements.txt"))
+                                                      "lib", "python", "requirements.txt"))
 
       pip3VenvCmd = os.path.join(pipAndVenvParams[2], "pip3")
       installedModules = subprocess.check_output([pip3VenvCmd, "freeze"], encoding='utf-8')
@@ -235,6 +243,13 @@ def WebServerThread():
       if not trashLog:
         message(stdout)
 
+    #FIXME: surely a workaround, but I can't find a better/easier way to catch this without threading
+    regex = r"LilyPond \S+ installed"
+    if re.search(regex, stdout) and installLilyPondDialogInstance != None and \
+      installLilyPondDialogBtnOKDefaultColor != None:
+      installLilyPondDialogInstance.btnOk["bg"] = installLilyPondDialogBtnOKDefaultColor
+      installLilyPondDialogInstance.btnOk["activebackground"] = installLilyPondDialogBtnOKDefaultColor
+
 def log(msg, tag=""):
   global textArea
   strout = datetime.now().strftime("%Y-%m-%d %H:%M:%S ")
@@ -253,50 +268,145 @@ def log(msg, tag=""):
     print(strout+"["+tag+"] "+msg)
 
 def startWebServerThread():
-
   global wsThread
   wsThread = threading.Thread(target=WebServerThread)
   wsThread.setDaemon(True)
   wsThread.start()
 
-def sendMsgToServer(msg):
+def sendMsgToServer(msg, spawn=False):
   global webServerURL
   if webServerURL == "":
-    return
+    return ""
   elif webServerURL.startswith("onion"):
     from tkinter.messagebox import showerror
     showerror(title = "Error", message = "Not enabled on this GUI: please set it through CGI")
-    return
+    return ""
   newCLI = sendMsgCLI[:]
   newCLI.append(webServerURL)
   newCLI.append(msg)
-  subprocess.run(newCLI)
+  if spawn:
+    proc = subprocess.Popen(newCLI, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return ""
+  else:
+    return subprocess.check_output(newCLI)
 
 def setWorkspace():
   global webServerURL
+  if not sendMsgToServer('{"cmd":"DUMMY"}'):
+    showReExecuteError()
+    return
   if webServerURL == "":
     return
   ws = askdirectory()
   if ws:
     sendMsgToServer('{"cmd":"SET_WORKSPACE", "param1":"'+ws+'"}')
 
+def onLilyPondDialogDestroy(*args):
+  global installLilyPondDialogInstance
+  global installLilyPondDialogBtnOKDefaultColor
+  installLilyPondDialogInstance = None
+  installLilyPondDialogBtnOKDefaultColor = None
+
+def openInstallLilyPondDialog():
+
+  from tkinter import ttk
+  import tkinter
+
+  class InstallLilyPondDialog:
+
+    def doInstallLilyPond(self):
+      selectedVersion = self.c.get()
+      if selectedVersion == "":
+        return
+      waitInstallColor = "yellow"
+      self.btnOk["bg"] = waitInstallColor
+      self.btnOk["activebackground"] = waitInstallColor
+      sendMsgToServer('{"cmd":"INSTALL_LILYPOND", "param1":"' + selectedVersion + '"}', True)
+
+    def __init__(self):
+      global installLilyPondDialogInstance
+      global installLilyPondDialogBtnOKDefaultColor
+      global win
+
+      if installLilyPondDialogInstance != None:
+        return
+
+      res = sendMsgToServer('{"cmd":"AUTOINSTALLABLE_LILYPONDS_LIST"}')
+      if not res:
+        showReExecuteError()
+        return
+
+      res = str(bytes(res).decode("utf8")).replace("\n", "")
+      versions = res.split(';;::;;')
+      if len(versions) == 0:
+        showReExecuteError()
+        return
+
+      installLilyPondDialogInstance = self
+      self.t = Toplevel()
+      self.t.bind('<Destroy>', onLilyPondDialogDestroy)
+      self.t.resizable(0,0)
+      self.t.title("Install LilyPond")
+      self.selection = None
+      x = win.winfo_x()
+      y = win.winfo_y()
+      self.t.geometry("+%d+%d" % (x, y))
+
+      currRow = 0
+      colSpan = 5
+      spanner = "                    "
+      Label(self.t, text=spanner + "Choose a version:" + spanner).grid(row=currRow, column=0, columnspan=colSpan)
+      currRow += 1
+
+      self.c = ttk.Combobox(self.t, value=versions, state="readonly")
+      self.c.grid(row=currRow, column=0, columnspan=colSpan)
+      currRow += 1
+
+      Label(self.t, text="").grid(row=currRow, column=0, columnspan=colSpan)
+      currRow += 1
+
+      Label(self.t, text=" ").grid(row=currRow, column=0)
+
+      self.btnOk = tkinter.Button(self.t, text="INSTALL", command=self.doInstallLilyPond)
+      self.btnOk.grid(row=currRow, column=1, sticky='nesw')
+      installLilyPondDialogBtnOKDefaultColor = self.btnOk["bg"]
+      Label(self.t, text=" ").grid(row=currRow, column=2)
+      self.btnCancel = tkinter.Button(self.t, text="CLOSE", command=self.t.destroy)
+      self.btnCancel.grid(row=currRow, column=3, sticky='nesw')
+      Label(self.t, text=" ").grid(row=currRow, column=4)
+      #self.c.bind("<<ComboboxSelected>>", self.combobox_select)
+
+  a = InstallLilyPondDialog()
+
 def setLilypond():
+  if not sendMsgToServer('{"cmd":"DUMMY"}'):
+    showReExecuteError()
+    return
   pickedFile = askopenfilename(title = "Select Lilypond executable")
   if pickedFile:
     sendMsgToServer('{"cmd":"SET_LILYPOND", "param1":"'+pickedFile+'"}')
 
 def resetLilypond():
-  sendMsgToServer('{"cmd":"RESET_LILYPOND", "param1":""}')
+  if not sendMsgToServer('{"cmd":"DUMMY"}'):
+    showReExecuteError()
+    return
+  sendMsgToServer('{"cmd":"RESET_LILYPOND", "param1":""}', True)
 
 def clearScreen():
-  sendMsgToServer('{"cmd":"TKGUICLEARSCREEN", "param1":""}')
+  if not sendMsgToServer('{"cmd":"DUMMY"}'):
+    showReExecuteError()
+    return
+  sendMsgToServer('{"cmd":"TKGUICLEARSCREEN", "param1":""}', True)
 
 def start():
   pass
 
 if 'nogui' in argv:
   initVenvWithModules()
-  subprocess.run(webserverCLI)
+  try:
+    subprocess.run(webserverCLI)
+  except:
+    pass
 
 else:
 
@@ -314,6 +424,7 @@ else:
   menubar = Menu(win)
   options = Menu(menubar, tearoff=0)
   options.add_command(label="Set workspace", command=setWorkspace)
+  options.add_command(label="Install Lilypond", command=openInstallLilyPondDialog)
   options.add_command(label="Set Lilypond", command=setLilypond)
   options.add_command(label="Reset Lilypond", command=resetLilypond)
   options.add_command(label="Clear screen", command=clearScreen)

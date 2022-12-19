@@ -20,12 +20,16 @@ import sys
 import httpx
 import traceback
 from sys import argv
+import json
 
 try:
+  r = None
   if "https" in argv[1]:
     #we are on the server(localhost)
-    httpx.post(argv[1], data=argv[2], verify=False)
+    r = httpx.post(argv[1], data=argv[2], verify=False, timeout=600)
   else: #http
-    httpx.post(argv[1], data=argv[2])
+    r = httpx.post(argv[1], data=argv[2], timeout=600)
+  #jsonObj = json.loads(r.read().decode('utf-8'))
+  print(r.json()["content"])
 except:
   print(traceback.format_exc())

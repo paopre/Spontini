@@ -24,6 +24,16 @@ import traceback
 import signal
 import subprocess
 import shutil
+import glob
+import urllib
+import urllib.request
+from urllib.request import urlopen
+import zipfile
+import platform
+from pathlib import Path
+import tarfile
+from os.path import basename
+import xml.etree.ElementTree as ET
 
 spontiniLogger = None
 
@@ -393,3 +403,125 @@ def setPip3AndVenvParams(logFunc = mute):
         venvExists = False
 
   return [pip3Exists, venvExists, venvedExecDir, venvedPyCmd]
+
+#TODO ugly exception handling, must be fixed
+def getSupportedLilyPondList():
+  supportedLilypondVersions = os.path.join(os.path.dirname(__file__), "..", "supported_lilyponds.txt")
+  lilypondLinksFile = os.path.join(os.path.dirname(__file__), "..", "lilypond_links.xml")
+  f = open(supportedLilypondVersions,'r')
+  versions = [line.rstrip() for line in f]
+  lilyItems = {}
+  for version in versions:
+    linUrl    = ""
+    winUrl    = ""
+    darwinUrl = ""
+    tree = ET.parse(lilypondLinksFile)
+    root = tree.getroot()
+    for tag in root.findall('lilypond'):
+      if tag.get('version') == version:
+        linUrl    = tag.get('linux')
+        darwinUrl = tag.get('darwin')
+        winUrl    = tag.get('windows')
+        break
+      elif tag.get('version') == 'any':
+        linUrl    = tag.get('linux').replace("%%VERSION%%", version)
+        darwinUrl = tag.get('darwin').replace("%%VERSION%%", version)
+        winUrl    = tag.get('windows').replace("%%VERSION%%", version)
+    lilyItems[version] = { "Linux" : linUrl, "Darwin" : darwinUrl, "Windows": winUrl }
+  f.close()
+  return lilyItems
+
+def getAutoinstallableLilyPondList():
+  lilyItems = getSupportedLilyPondList()
+  filteredItems = {}
+  for k, v in lilyItems.items():
+    if v[platform.system()] != "":
+      filteredItems[k] = v
+  return filteredItems
+
+def getPathOfInstalledLilyPond(version, installBaseDir):
+  for dirpath, dirnames, filenames in os.walk(installBaseDir):
+    for dirname in [d for d in dirnames if version in d]:
+      lilyExec = "lilypond"
+      if platform.system() == "Windows":
+        lilyExec = lilyExec + ".exe"
+      return os.path.abspath(os.path.join(installBaseDir, dirname, "bin", lilyExec))
+  return ""
+
+def getPathOfLilyExec(installBaseDir, version):
+  bindirs = []
+  for dirname in glob.glob(installBaseDir + "/*" + version + "*"):
+    bindirs = [ f.path for f in os.scandir(dirname) if (f.is_dir() and "bin" == f.name)]
+  if len(bindirs) == 1:
+    lilyExec = "lilypond"
+    if platform.system() == "Windows":
+      lilyExec = lilyExec + ".exe"
+    return os.path.abspath(os.path.join(installBaseDir, bindirs[0], lilyExec))
+  return ""
+
+def installLilyPond(version, installBaseDir):
+  platSys = platform.system()
+  autoinstallableLilypondItems = getAutoinstallableLilyPondList()
+  supportedLilypondItems = getSupportedLilyPondList()
+
+  if version not in supportedLilypondItems:
+    raise Exception("Version " + version + " not supported")
+
+  if version in supportedLilypondItems and version not in autoinstallableLilypondItems:
+    raise Exception("Can't install " + version + " version automatically. Please install it manually")
+
+  lilyExecPath = getPathOfLilyExec(installBaseDir, version)
+  if lilyExecPath != "":
+    return lilyExecPath
+
+  Path(installBaseDir).mkdir(parents=True, exist_ok=True)
+
+  if not os.path.exists(os.path.join(installBaseDir, version)):
+    extension = ".tar.gz"
+    if ".sh" in autoinstallableLilypondItems[version][platSys]:
+      extension = ".sh"
+    if ".zip" in autoinstallableLilypondItems[version][platSys]:
+      extension = ".zip"
+
+    archiveFile = None
+    response = urlopen(autoinstallableLilypondItems[version][platSys])
+    archiveFile = os.path.join(installBaseDir,basename(response.url))
+    urllib.request.urlretrieve(autoinstallableLilypondItems[version][platSys], archiveFile)
+
+    if extension == ".sh":
+      ret = os.system("echo '\n' | sh " + archiveFile + " --prefix " + os.path.join(installBaseDir, "lilypond-"+version))
+    elif extension == ".tar.gz":
+      archive = tarfile.open(archiveFile)
+      archive.extractall(installBaseDir)
+      archive.close()
+    else: #zip
+      import zipfile
+      with zipfile.ZipFile(archiveFile, 'r') as zipRef:
+          zipRef.extractall(installBaseDir)
+
+    os.remove(archiveFile)
+
+  pythonExec = ""
+  for pythonExec in pathlib.Path(lilyInstDir).rglob("python.exe"):
+    break
+
+  lilyExecPath = getPathOfLilyExec(installBaseDir, version)
+  if lilyExecPath != "":
+    return lilyExecPath
+
+  return ""
+
+def uninstallLilyPond(version, installBaseDir):
+  lilyDir = ""
+  for file in os.listdir(installBaseDir):
+    d = os.path.join(installBaseDir, file)
+    if os.path.isdir(d) and version in d:
+      lilyDir = d
+      break
+  shutil.rmtree(lilyDir)
+  for filename in glob.glob(lilyDir + "*"):
+    os.remove(filename)
+  if len(os.listdir(installBaseDir)) == 0:
+    shutil.rmtree(installBaseDir)
+
+  return "OK"

@@ -34,8 +34,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>document</input>
     <output>document</output>
     <output-file-extension>ly</output-file-extension>
-    <command-win>%%LILYINSTDIR%%python %%LILYINSTDIR%%musicxml2ly.py -o %%OUTPUT_FILE%% %%INPUT_FILE%%</command-win>
-    <command>musicxml2ly -o %%OUTPUT_FILE%% %%INPUT_FILE%%</command>
+    <command>%%MUSICXML2LY%%</command>
   </plugin>
 
   <plugin>

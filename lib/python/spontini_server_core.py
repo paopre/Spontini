@@ -51,6 +51,8 @@ sys.path.insert(1, os.path.dirname(__file__))
 from spontini_server_utils import *
 
 os.chdir(os.path.join(os.path.dirname(__file__), '..'))
+
+version = "1.20-alfa"
 port = 8000
 wsDirPath = ""
 currDirAbsolutePath = pathlib.Path(".").resolve()
@@ -95,15 +97,18 @@ pip3Exists = False
 venvExists = False
 savedConFilename = "saved-config.txt"
 savedConFilenameWithPath = os.path.join(savedConFilename)
-version = "??"
 forkAccessOnly = False
 canConfigFromNonLocalhost = False
 sepTkn = ";;::;;"
+installingLilyPondVersion = None
 
 if not getSpontiniLogger():
   setSpontiniLogger("spontini")
 else:
   setSpontiniLogger(getWebServerConfParam("webserver-name"), sys.stdout)
+
+def getDefaultEmbeddedLilyVersion():
+  return "2.24.0"
 
 def setConfigParam(param, val):
   global savedConFilenameWithPath
@@ -197,11 +202,30 @@ def readConfigParams():
   global DEBUG_PARAM
   global LILYPOND_EXEC_PARAM
   global INKSCAPE_EXEC_PARAM
+  global MIDI_ENABLED_PARAM
   global DEFAULT_MIDI_INPUT_CHANNEL_PARAM
   global DEFAULT_MODE_PARAM
+  global SOUNDFONT_URL_PARAM
   global configurableParams
 
   try:
+
+    if not os.path.isfile(savedConFilenameWithPath):
+      log("Creating " + savedConFilename, "I")
+      f = open(savedConFilenameWithPath,'w+')
+      setConfigParam(VERSION_PARAM, version)
+      setConfigParam(DEBUG_PARAM, "no")
+      setConfigParam(MIDI_ENABLED_PARAM, "yes")
+      setConfigParam(SOUNDFONT_URL_PARAM, "")
+      setConfigParam(CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, "no")
+      setConfigParam(FORK_ACCESS_ONLY_PARAM, "no")
+      setConfigParam(WORKSPACE_PARAM, "")
+      setConfigParam(LILYPOND_EXEC_PARAM, "")
+      setConfigParam(INKSCAPE_EXEC_PARAM, "")
+      setConfigParam(DEFAULT_MODE_PARAM, "svg")
+      setConfigParam(DEFAULT_MIDI_INPUT_CHANNEL_PARAM, "-1")
+      f.close()
+
     with open(savedConFilenameWithPath) as fp:
       line = fp.readline().rstrip()
       while line:
@@ -268,7 +292,7 @@ def readConfigParams():
     log("Could not open config file. Using default values...", "I")
 
 def checkExecutable(execCmd, errorLoggedAs = 'E'):
-  log("Checking if \"" + execCmd + "\" is a valid executable", "I")
+  log("Trying to execute \"" + execCmd + "\" command...", "I")
   ret = False
   try:
     p = subprocess.run([execCmd, "--version"], encoding='utf-8')
@@ -279,9 +303,9 @@ def checkExecutable(execCmd, errorLoggedAs = 'E'):
     pass
 
   if not ret:
-    log("\"" + execCmd + "\" is not a valid executable", errorLoggedAs)
+    log("...The command did not succeed", errorLoggedAs)
   else:
-    log("\"" + execCmd + "\" is a valid executable", "S")
+    log("...The command succeeded", "S")
 
   return ret
 
@@ -317,7 +341,7 @@ def getDefaultExecutableCmd(programInfo, errorLoggedAs = 'E'):
         ret = path
 
   if ret == "":
-    log("Could not find default valid " + programInfo['programName'] + " installation", errorLoggedAs)
+    log("Could not find an installation of " + programInfo['programName'] + " in sys path", errorLoggedAs)
   else:
     log("Found default valid " + programInfo['programName'] + " installation", "S")
 
@@ -385,7 +409,10 @@ async def doGet(request: Request):
   sys.stdout.flush()
   fname = request.query_params['filename']
   try:
-    return FileResponse(os.path.join(wsDirPath, fname))
+    if "webgui-test-" in fname and ".js" in fname:
+      return FileResponse(os.path.join(os.getcwd(), "..", "tests", fname))
+    else:
+      return FileResponse(os.path.join(wsDirPath, fname))
   except:
     raise HTTPException(
       status_code=404,
@@ -516,7 +543,11 @@ def doPostSync(message, request):
     except:
       pass
     for currFile in sorted(os.listdir(wsDirPath)):
-      if inputFileNameWOSuffix + "-afterpdf" in currFile or inputFileNameWOSuffix + "-beforepdf" in currFile :
+      if (
+        inputFileNameWOSuffix + "-postengraving" in currFile or
+        inputFileNameWOSuffix + "-afterpdfexp" in currFile or
+        inputFileNameWOSuffix + "-beforepdfexp" in currFile
+        ):
         try:
           os.remove(os.path.join(wsDirPath, currFile))
         except:
@@ -631,9 +662,9 @@ def doPostSync(message, request):
       if filtered:
         removeFilteredTknFromOutputFiles(inputFileName)
 
-      #execute afterpdf script
+      #execute postengraving script
       for currFile in sorted(os.listdir(wsDirPath)):
-        if inputFileNameNotFiltered.replace(".ly", "") + "-afterpdf" in currFile:
+        if inputFileNameNotFiltered.replace(".ly", "") + "-postengraving" in currFile:
           log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
           executeScript(clientInfo, currFile)
           break
@@ -680,6 +711,10 @@ def doPostSync(message, request):
       return sendMalformedMsgResponse()
 
     wsDirPath_ = message['param1']
+
+    if "%%SPONTINI_SERVER_BASE%%/" in wsDirPath_:
+      wsDirPath_ = wsDirPath_.replace("%%SPONTINI_SERVER_BASE%%/", "")
+      wsDirPath_ = os.path.join(currDirAbsolutePath, "..", wsDirPath_)
     if os.path.isdir(wsDirPath_):
       setConfigParam(WORKSPACE_PARAM, os.path.abspath(wsDirPath_))
       log(clientInfo + "Workspace set to: "+wsDirPath_, "S")
@@ -708,7 +743,16 @@ def doPostSync(message, request):
   if message['cmd'] == 'RESET_LILYPOND':
     if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
       return sendCompleteResponse("KO", "Not allowed")
-    lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
+    lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo, "I")
+    if not lilyExecutableCmd:
+      defaultVer = getDefaultEmbeddedLilyVersion()
+      log("Checking embedded installation of LilyPond " + defaultVer + "...", "I")
+      lilyExecutableCmd = getPathOfInstalledLilyPond(defaultVer, os.path.join('..', 'lilyponds'))
+      if lilyExecutableCmd == "":
+        log("...Not found: attempting to download and install it, please wait...", "I")
+        lilyExecutableCmd = installLilyPond(defaultVer, os.path.join('..', 'lilyponds'))
+      else:
+        log("...Found", "I")
     if lilyExecutableCmd != "":
       log(clientInfo + "Lilypond executable reset to: "+lilyExecutableCmd, "S")
       setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
@@ -717,28 +761,45 @@ def doPostSync(message, request):
       log(clientInfo + "Could not reset Lilypond executable", "E")
       return sendCompleteResponse("KO", "")
 
-  if message['cmd'] == 'EXEC_CMD':
+  if message['cmd'] == 'EXEC_CMD' or \
+     message['cmd'] == 'EXEC_PYTHON_SCRIPT' or \
+     message['cmd'] == 'PIP_INSTALL' or \
+     message['cmd'] == 'PIP_UNINSTALL' :
     if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
       return sendCompleteResponse("KO", "Not allowed")
     if not checkMsgStructure(message, 1):
       return sendMalformedMsgResponse()
-    command = message['param1']
-    commandArr = cmdlineSplit(command)
-    log(clientInfo + "Executing: " + command, "I")
+
+    commandArg = message['param1'].replace("%%CWD%%", os.getcwd())
+    commandToPrint = commandArg
+    commandArr = []
+    if message['cmd'] == 'EXEC_CMD':
+      commandArr = cmdlineSplit(commandArg)
+    elif  message['cmd'] == 'EXEC_PYTHON_SCRIPT':
+      commandArr = [venvedPyCmd, '-c', message['param1']]
+      commandToPrint = "Python3 script: \n" + commandArg
+    elif "UNINSTALL" in message['cmd']:
+      commandArr = [venvedPyCmd, '-m', 'pip', 'uninstall', '--yes', commandArg]
+      commandToPrint = "pip3 uninstall: " + commandArg
+    else:
+      commandArr = [venvedPyCmd, '-m', 'pip', 'install', commandArg]
+      commandToPrint = "pip3 install: " + commandArg
+
+    log(clientInfo + "Executing -> " + commandToPrint, "I")
     try:
       p = subprocess.run(commandArr, encoding='utf-8', stderr=subprocess.PIPE, stdout=subprocess.PIPE)
       if p.returncode == 0:
-        return sendCompleteResponse("OK", p.stdout.encode("utf8"))
+        log(clientInfo + p.stdout, "I")
         log(clientInfo + "Command executed!", "S")
-        log(clientInfo + p.stdout, "S")
+        return sendCompleteResponse("OK", p.stdout.encode("utf8"))
       else:
-        return sendCompleteResponse("KO", p.stderr.encode("utf8"))
         log(clientInfo + "Error while executing command", "E")
         log(clientInfo + p.stderr, "E")
+        return sendCompleteResponse("KO", p.stderr.encode("utf8"))
     except:
-      return sendCompleteResponse("KO", traceback.format_exc().encode("utf8"))
       log(clientInfo + "Error while executing command", "E")
       log(clientInfo + traceback.format_exc(), "E")
+      return sendCompleteResponse("KO", traceback.format_exc().encode("utf8"))
 
   if message['cmd'] == 'EXEC_PLUGIN':
     if not checkMsgStructure(message, 5):
@@ -805,7 +866,7 @@ def doPostSync(message, request):
 
               command = plugin.find('command').text
               try:
-                if os.name == 'nt':
+                if platform.system() == 'Windows':
                   command = plugin.find('command-win').text
               except:
                 pass
@@ -818,6 +879,24 @@ def doPostSync(message, request):
               command = command.replace("%%OUTPUT_FILE%%", outputFileName)
               command = command.replace("%%INPUT_FILE%%", inputTempFileName)
               command = command.replace("%%VENVEDPYTHON3%%", venvedPyCmd)
+
+              # Special case
+              if "%%MUSICXML2LY%%" in command:
+                outputFileName = outputTempFileName
+                lilyInstDir = str(pathlib.Path(lilyExecutableCmd).parent)
+                if platform.system() == 'Windows':
+                  pythonExec = ""
+                  for pythonExec in pathlib.Path(lilyInstDir).rglob("python.exe"):
+                    break
+                  musicxml2lyScript = ""
+                  for musicxml2lyScript in pathlib.Path(lilyInstDir).rglob("musicxml2ly.py"):
+                    break
+                  command = pythonExec + " " +  musicxml2lyScript + " -o " + outputFileName + " " + inputTempFileName
+                else:
+                  musicxml2lyExec = "musicxml2ly"
+                  for musicxml2lyExec in pathlib.Path(lilyInstDir).rglob("musicxml2ly"):
+                    break
+                  command = str(musicxml2lyExec) + " -o " + outputFileName + " " + inputTempFileName
 
               if inputParams != '':
                 command = command.replace("%%INPUT_PARAMS%%", inputParams)
@@ -965,8 +1044,9 @@ def doPostSync(message, request):
             (currFile.startswith(fileNameWOSuffix+"-") and currFile.endswith(".svg")) or
             (currFile == fileName) or
             (currFile == fileNameWOSuffix + "-svgexport.pdf") or
-            (fileNameWOSuffix + "-afterpdf" in currFile) or
-            (fileNameWOSuffix + "-beforepdf" in currFile) or
+            (fileNameWOSuffix + "-afterpdfexp" in currFile) or
+            (fileNameWOSuffix + "-beforepdfexp" in currFile) or
+            (fileNameWOSuffix + "-postengraving" in currFile) or
             (currFile == fileNameWOSuffix + ".pdf") or
             (currFile == fileNameWOSuffix + ".midi")
           ):
@@ -977,9 +1057,9 @@ def doPostSync(message, request):
 
     else: #PDF
 
-      # process beforepdf script
+      # process beforepdfexp script
       for currFile in sorted(os.listdir(wsDirPath)):
-        if fileNameWOSuffix + "-beforepdf" in currFile:
+        if fileNameWOSuffix + "-beforepdfexp" in currFile:
           log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
           executeScript(clientInfo, currFile)
           break
@@ -1026,9 +1106,9 @@ def doPostSync(message, request):
 
       merger = PdfFileMerger()
 
-      # process afterpdf script
+      # process afterpdfexp script
       for currFile in sorted(os.listdir(wsDirPath)):
-        if fileNameWOSuffix + "-afterpdf" in currFile:
+        if fileNameWOSuffix + "-afterpdfexp" in currFile:
           log(clientInfo + "[generating PDF] executing : " + currFile + " script", "I")
           executeScript(clientInfo, currFile)
           break
@@ -1421,6 +1501,69 @@ def doPostSync(message, request):
       status = "KO"
     return sendCompleteResponse(status, ret)
 
+  if message['cmd'] == 'SHUTDOWN':
+    if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
+      return sendCompleteResponse("KO", "Not allowed")
+    #TODO/FIXME: implement this for server GUI too
+    ret = ""
+    status = "OK"
+    terminateSpawnedProcesses()
+    os.kill(os.getpid(), signal.SIGINT)
+    return sendCompleteResponse(status, ret)
+
+  if message['cmd'] == 'INSTALL_LILYPOND' or message['cmd'] == 'UNINSTALL_LILYPOND':
+    global installingLilyPondVersion
+    if not canConfigFromNonLocalhost and ((not "localhost" in host) and (not "127.0.0.1" in host)):
+      return sendCompleteResponse("KO", "Not allowed")
+    if not checkMsgStructure(message, 2):
+      return sendMalformedMsgResponse()
+    lilyVersion = message['param1']
+    if installingLilyPondVersion != None:
+      log(clientInfo + "Operation in progress for version " + installingLilyPondVersion + ", please wait", "W")
+      return sendCompleteResponse("KO", "Operation in progress")
+
+    installingLilyPondVersion = lilyVersion
+
+    status = "OK"
+    ret = ""
+    tkn = ""
+    if message['cmd'] == 'UNINSTALL_LILYPOND':
+      tkn = "un"
+    log(clientInfo + "Attempting to " + tkn + "install LilyPond " + lilyVersion + ", please wait...", 'I')
+    installableVersions = getAutoinstallableLilyPondList()
+    if not lilyVersion in installableVersions or \
+       installableVersions[lilyVersion][platform.system()] == "":
+      status = "KO"
+      ret = "Bad or not supported LilyPond version"
+      log(ret, 'E')
+    else:
+      try:
+        if message['cmd'] == 'INSTALL_LILYPOND':
+          ret = installLilyPond(lilyVersion, os.path.join('..', 'lilyponds'))
+          #WARNING: DON'T change the following line
+          #the server's GUI relies on this string for updating the color of "install" button
+          log(clientInfo + "LilyPond " + lilyVersion + " installed", 'S')
+        else:
+          ret = uninstallLilyPond(lilyVersion, os.path.join('..', 'lilyponds'))
+          log(clientInfo + "LilyPond " + lilyVersion + " uninstalled", 'S')
+      except:
+        status = "KO"
+        ret = traceback.format_exc()
+        log(ret, 'E')
+
+    installingLilyPondVersion = None
+    return sendCompleteResponse(status, ret)
+
+  if message['cmd'] == 'AUTOINSTALLABLE_LILYPONDS_LIST':
+    status = "OK"
+    ret = sepTkn.join(getAutoinstallableLilyPondList().keys())
+    return sendCompleteResponse(status, ret)
+
+  if message['cmd'] == 'SUPPORTED_LILYPONDS_LIST':
+    status = "OK"
+    ret = sepTkn.join(getSupportedLilyPondList().keys())
+    return sendCompleteResponse(status, ret)
+
 doPostAsync = sync_to_async(doPostSync, thread_sensitive=False)
 
 @asgi.post("/cgi", response_class=JSONResponse)
@@ -1433,10 +1576,10 @@ async def doPost(message: dict, request: Request):
 #----------------------------
 #----------------------------
 
+#TODO?: add a "colored" report of errors, in case some function fails during init?
 shPath = os.path.abspath(os.path.join('..', 'plugins', 'shared'))
 removeSharedInfos(shPath)
 
-HTTPServerError = ''
 pipAndVenvParams = None
 if getVenvName() in sys.prefix:
   # we are already in the venv
@@ -1472,11 +1615,19 @@ if not os.path.isdir(wsDirPath):
 
 if lilyExecutableCmd:
   log("Found configured Lilypond executable: "+ lilyExecutableCmd , "I")
-if lilyExecutableCmd and not checkExecutable(lilyExecutableCmd):
-  lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
-  setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
-elif not lilyExecutableCmd:
-  lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo)
+if (lilyExecutableCmd and not checkExecutable(lilyExecutableCmd)) or \
+    not lilyExecutableCmd:
+  lilyExecutableCmd = getDefaultExecutableCmd(lilyPondProgramInfo, "I")
+  if not lilyExecutableCmd:
+    #FIXME boilerplate chunk of code (in RESET_LILYPOND too)
+    defaultVer = getDefaultEmbeddedLilyVersion()
+    log("Checking embedded installation of LilyPond " + defaultVer + "...", "I")
+    lilyExecutableCmd = getPathOfInstalledLilyPond(defaultVer, os.path.join('..', 'lilyponds'))
+    if lilyExecutableCmd == "":
+      log("...Not found: attempting to download and install it, please wait...", "I")
+      lilyExecutableCmd = installLilyPond(defaultVer, os.path.join('..', 'lilyponds'))
+    else:
+      log("...Found", "I")
   setConfigParam(LILYPOND_EXEC_PARAM, lilyExecutableCmd)
 
 if inkscapeExecutableCmd:
@@ -1499,9 +1650,9 @@ log("-- Version: " + version, "I")
 log("-- Workspace: " + wsDirPath, "I")
 
 if lilyExecutableCmd:
-  log("-- Lilypond executable: " + lilyExecutableCmd, "I")
+  log("-- LilyPond executable: " + lilyExecutableCmd, "I")
 else:
-  log("-- Lilypond executable not found/set", "E")
+  log("-- LilyPond executable not found/set", "E")
 
 if inkscapeExecutableCmd:
   log("-- Inkscape executable: " + inkscapeExecutableCmd, "I")
@@ -1526,14 +1677,29 @@ if forkAccessOnly:
 if getVenvName() in sys.prefix:
   log("-- Running in virtual env: "+getVenvName(), "I")
 
-log("", "I")
-if HTTPServerError == '':
-  labelTxt = "Spontini Server initialized"
-  log(labelTxt, "I")
-else:
-  log("Spontini Server can't start: ", "E")
-  log("-- "+HTTPServerError, "E")
+log("-- Supported LilyPond versions: ", "I")
+theList = []
+atLeastOneM = False
+for k,v in getSupportedLilyPondList().items():
+  tkn = k
+  if v[platform.system()] == "":
+    tkn += "[M]"
+    atLeastOneM = True
+  theList.append(tkn)
+versionsPerRow = 4
+subList = [theList[n:n + versionsPerRow] for n in range(0, len(theList), versionsPerRow)]
+ctr = 1
+for item in subList:
+  logStr = "   " + ', '.join(item)
+  if ctr != len(subList):
+    logStr  += ","
+  log(logStr, "I")
+  ctr += 1
+if atLeastOneM:
+  log("   NOTE: versions tagged with [M] must be installed manually", "I")
 
+log("", "I")
+log("Spontini Server initialized", "I")
 log("", "I")
 log("***********************************", "I")
 log("***********************************", "I")

@@ -76,3 +76,14 @@ Version 1.13
 ------------
 * Compatible with LilyPond from 2.23.6 to .80
 * Added test suite (migrated from personal host to GitHub host)
+
+------------
+Version 1.20
+------------
+* Compatible with LilyPond from 2.23.81 to 2.24.0
+* Added more CI tests
+* Added LilyPond auto-install tool
+* Added LilyPond default auto-install
+* Reset LilyPond modified
+* Fixed musicxml2ly bug
+* Code refactored in many points

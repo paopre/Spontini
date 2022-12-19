@@ -1,11 +1,11 @@
-version=1.13-alfa
+version=1.16-alfa
 debug=no
 midi-enabled=yes
 soundfont-url=
-can-config-from-non-localhost=yes
+can-config-from-non-localhost=no
 fork-access-only=no
-workspace=
-lilypond-exec=
-inkscape-exec=
+workspace=/home/paolo/programmi/SPONTINI/Spontini/examples
+lilypond-exec=/home/paolo/programmi/SPONTINI/Spontini/lilyponds/lilypond-2.23.81/bin/lilypond
+inkscape-exec=inkscape
 default-mode=svg
 default-midi-input-channel=-1

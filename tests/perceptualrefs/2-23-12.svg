@@ -1,0 +1,714 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0.0000 -0.0000 119.5016 169.0094">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 9.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 8.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 7.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 6.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 5.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(113.5948, 7.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="39.4492" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(80.6712, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(97.6588, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:40:5:6">
+<g transform="translate(95.6296, 20.6662)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:40:2:3">
+<g transform="translate(96.4286, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:39:5:6">
+<g transform="translate(78.6420, 20.6503)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:39:2:3">
+<g transform="translate(79.4410, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:38:5:6">
+<g transform="translate(61.6544, 20.6713)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:38:2:3">
+<g transform="translate(62.4534, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" outside-staff-padding-propid="5" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" padding-propid="4" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" y-offset-propid="3" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" staff-padding-propid="6" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g transform="translate(12.7208, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(6.4906, 8.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:35:5:6">
+<g transform="translate(7.9996, 20.0003)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:35:2:3">
+<g transform="translate(11.4906, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(46.6960, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:37:5:6">
+<g transform="translate(44.6668, 20.6213)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:37:2:3">
+<g transform="translate(45.4658, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(29.7084, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="2" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:36:5:6">
+<g transform="translate(15.9782, 12.1743)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:36:2:3">
+<g transform="translate(28.4782, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 29.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 28.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 27.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 26.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 25.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="39.4492" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 27.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(46.6960, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(80.6712, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" outside-staff-padding-propid="11" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:51:5:6">
+<g transform="translate(80.0931, 39.9813)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:51:2:3">
+<g transform="translate(79.4410, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" padding-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:47:5:6">
+<g transform="translate(63.1055, 39.9863)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:47:2:3">
+<g transform="translate(62.4534, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:52:2:3">
+<g transform="translate(96.4286, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" staff-padding-propid="12" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:52:5:6">
+<g transform="translate(97.0807, 39.9782)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(97.6588, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 24.5713)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:44:2:3">
+<g transform="translate(11.4906, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:46:2:3">
+<g transform="translate(45.4658, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(6.4906, 28.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:45:2:3">
+<g transform="translate(28.4782, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" y-offset-propid="9" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:46:5:6">
+<g transform="translate(46.1179, 40.0213)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(29.7084, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:45:5:6">
+<g transform="translate(15.9782, 30.2982)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" extra-offset-y-propid="7" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:44:5:6">
+<g transform="translate(12.1427, 40.0003)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(12.7208, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 49.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 48.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 47.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 46.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 45.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 43.6213)">
+<rect x="28.9824" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 44.6213)">
+<rect x="28.9824" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 43.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 44.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 47.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:60:2:3">
+<g transform="translate(34.9990, 43.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:56:2:3">
+<g transform="translate(20.1996, 40.8221)">
+<text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>8va</tspan>
+</text>
+</g>
+<g transform="translate(24.4260, 40.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="15.5741" y1="-0.0000" x2="15.5741" y2="0.8000"/>
+</g>
+<g transform="translate(24.4260, 40.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+</g>
+<g transform="translate(24.4260, 40.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.5741" y2="-0.0000" stroke-dasharray="0.30537541489621656,0.7125426347578386"/>
+</g>
+</a>
+</g>
+<g transform="translate(35.0729, 47.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:61:2:3">
+<g transform="translate(58.5074, 46.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(6.4906, 48.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 44.5465)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:59:2:3">
+<g transform="translate(11.4906, 43.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(11.5645, 47.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 69.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 68.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 67.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 66.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 65.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="59.5654" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="59.5654" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="41.5588" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="41.5588" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 70.6213)">
+<rect x="23.4806" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 70.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 67.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:67:2:3">
+<g transform="translate(47.5754, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:69:2:3">
+<g transform="translate(83.5887, 67.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(65.6560, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:68:2:3">
+<g transform="translate(65.5821, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(47.6493, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" cpts-propid="23" editcommand="Shape" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:67:7:8">
+<g transform="translate(47.5754, 67.6213)">
+<path stroke-width="0.1138" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M-3.5749 -3.6210C-3.5751 -11.6842 20.4250 -11.6842 20.4248 -3.6210L20.4248 -3.6210C20.4250 -11.5590 -3.5751 -11.5590 -3.5749 -3.6210z"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" cpts-propid="22" editcommand="Shape" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:65:6:7">
+<g transform="translate(11.4906, 67.6213)">
+<path stroke-width="0.0910" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.5091 4.3790C-7.4901 12.4473 24.5090 12.4473 16.5098 4.3790L16.5098 4.3790C24.5090 12.3108 -7.4901 12.3108 0.5091 4.3790z"/>
+</g>
+</a>
+</g>
+<g transform="translate(6.4906, 68.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 64.5713)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
+<g transform="translate(30.7275, 67.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:66:2:3">
+<g transform="translate(29.4972, 70.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(12.7208, 67.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:65:2:3">
+<g transform="translate(11.4906, 70.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 89.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 88.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 87.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 86.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 85.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="89.3138" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="80.3178" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="71.0718" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 91.6213)">
+<rect x="71.0718" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 92.6213)">
+<rect x="71.0718" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="53.0798" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="44.0838" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="34.8378" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 91.6213)">
+<rect x="34.8378" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 92.6213)">
+<rect x="34.8378" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 87.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(96.5606, 87.6213)">
+<rect x="-0.0740" y="-8.9749" width="0.1480" height="11.7888" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:74:61:62">
+<g transform="translate(68.3424, 87.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:75:58:59">
+<g transform="translate(95.3304, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(87.5646, 87.6213)">
+<rect x="-0.0740" y="-10.2691" width="0.1480" height="13.0830" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:75:55:56">
+<g transform="translate(86.3344, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(78.3186, 87.6213)">
+<rect x="-0.0740" y="-11.5993" width="0.1480" height="16.4132" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:75:2:3">
+<g transform="translate(77.0884, 92.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(69.5726, 87.6213)">
+<rect x="-0.0740" y="-11.7073" width="0.1480" height="11.0212" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" positions-propid="27" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:75:4:5">
+<g transform="translate(78.2447, 76.0114)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="27.5959 3.7758 27.5959 4.1758 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" positions-propid="26" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:74:4:5">
+<g transform="translate(42.0107, 79.8543)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="27.5959 -4.1509 27.5959 -3.7509 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g transform="translate(105.8066, 87.6213)">
+<rect x="-0.0740" y="-7.6447" width="0.1480" height="5.9586" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:75:61:62">
+<g transform="translate(104.5764, 86.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:74:2:3">
+<g transform="translate(40.8544, 92.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:73:2:3">
+<g transform="translate(11.4906, 87.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(4.5638, 84.5466)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+<g transform="translate(6.4906, 88.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(42.0847, 87.6213)">
+<rect x="-0.0740" y="-7.7776" width="0.1480" height="12.5915" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(51.3307, 87.6213)">
+<rect x="-0.0740" y="-9.0994" width="0.1480" height="11.9133" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(60.3267, 87.6213)">
+<rect x="-0.0740" y="-10.3855" width="0.1480" height="13.1994" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:74:55:56">
+<g transform="translate(50.1004, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:74:58:59">
+<g transform="translate(59.0964, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.23.12" isstaff="true">
+<g transform="translate(5.6906, 109.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 108.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 107.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 106.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 105.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="9.9254" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 107.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:82:62:63">
+<g transform="translate(15.9420, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(17.1722, 107.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="28" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="false">
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:83:2:3">
+<g transform="translate(58.3934, 106.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(6.4906, 108.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 104.5465)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>6</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:79:2:3">
+<g transform="translate(11.4906, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(12.7208, 107.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+</svg>

@@ -28,7 +28,7 @@ upper = {
 \override Score.TextScript.font-family = #'typewriter
 \override Score.TextScript.avoid-slur = #'ignore
 \set Score.pedalSustainStyle = #'mixed
-\override Score.SostenutoPedal #'font-family = #'typewriter
+\override Score.SostenutoPedal.font-family = #'typewriter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
