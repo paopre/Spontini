@@ -5,5 +5,5 @@ jobs:
     name: Runs a Python3 Script that compiles the examples on multiple LilyPond versions
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@paolop-dev
       - run: python3 tests/compile_all_examples.py remove_installation
