@@ -76,3 +76,4 @@ Version 1.13
 ------------
 * Compatible with LilyPond from 2.23.6 to .80
 * Added test suite (migrated from personal host to GitHub host)
+
