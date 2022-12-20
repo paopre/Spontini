@@ -13,8 +13,9 @@ Spontini-Editor is a text-combined-with-graphic music editor that strongly speed
 
 Other main features:
 
-  * Multi-platform (written in Javascript and Python 3)
-  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox**, **Brave**. Not compatible with **Pale Moon**, nor with **Safari**), thus allowing to edit LilyPond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**. The client works on **Android** tablets too, provided you use a keyboard + touchpad or mouse with them.
+  * No installation required
+  * Multi-platform (written in Javascript and Python 3).
+  * Web server + HTML client architecture: the client runs, without any installation, on the main browsers, thus allowing to edit LilyPond documents with cheap and small boards, like **[Raspberry PI](https://www.raspberrypi.org/)**. The client works on **Android** tablets too, provided you use a keyboard + touchpad or mouse with them.
   * The application server is made with a main layer which runs on the main Python *ASGI* platforms, like **[Uvicorn](https://www.uvicorn.org/)**, **[Daphne](https://github.com/django/daphne)** etc; it supports both **SSL** and **Tor** for security, and all the features provided by the Python ASGI servers
   * Plugin engine that can interface to **any** library/utility suitable for LilyPond; implemented plugins currently support: **[Abjad](https://abjad.github.io)**, **[python-ly](https://github.com/frescobaldi/python-ly)**, **[musicxml2ly](https://lilypond.org/doc/v2.21/Documentation/usage/invoking-musicxml2ly)** and **[VLC](https://www.videolan.org/vlc/index.html)**; plugins can be created as well by the users through a XML API (which interfaces to external scripts)
   * Python 3 scripting interface
@@ -24,7 +25,6 @@ Other main features:
   * "Fork-mode" for **collaborative remote editing**
   * Code completion
   * Quick insert for a set of notation symbols
-  * Self-installable in embedded environment (venv)
   * Smart tools for extracting parts from the score
   * Customizable score templates
   * Expandible ruler and draggable axes to examine the generated score with accuracy
@@ -36,48 +36,22 @@ Other main features:
 
 Spontini-Editor's text editor component uses **[Codemirror](https://codemirror.net/)** library, which it will automatically download from the [cloud](https://cdnjs.cloudflare.com).
 
-*Where are the installer files for Windows, macOS and Linux?*
-
-Well: you **don't need** them! Spontini-Editor is **NOT** packaged. You just have to install an official **[Python 3.6 or newer](https://www.python.org/downloads/source)** version and then Spontini-Editor is **ready to run**. This doesn't require any additional operation for the user compared to a packaged application and:
-
-  1) ensures strong compatibility between different operating systems
-  2) avoids me (Paolo) to maintain the distribution of the software, which is a very tedious and time-consuming operation
-
 Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Tarenskeen, [Alexis Jeandeau](https://github.com/jeandeaual) and the #regex, #javascript and #python irc channels (libera) for the support in doing this!
 
 ##
 ![img](documentation/images/intro.gif)
-<br></br><br></br>
-# INSTALLATION (all platforms)
-
-**1) Install [LilyPond with version >= 2.19.84 (included) and <= 2.23.82 (included)](http://lilypond.org/unix.html)**
-
-  **NOTE**: version 2.23.7 is not supported.
-
-**2) Install [Python 3.6 or newer](https://www.python.org/downloads/source)**
-
-  **NOTE** for **Linux** users: *on Debian based distros (Ubuntu, Mint etc.) just use:*
-
-  ``` sudo apt install python3 python3-tk python3-pip python3-venv ```
-
 <br></br>
+
 # QUICK START
 
-  **1)** Copy the Spontini-Editor directory wherever you want, run **SpontiniServer.py** with Python 3 and wait until the setup has been completed.
+  **1)** Download and extract Spontini-Editor wherever you want. Click on "SpontiniServer" (or SpontiniServer.exe on Windows)
 
-  **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser. The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" directory of the project.
+  **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox** and **Brave**. Not compatible with **Pale Moon**, nor with **Safari**, nor with **Edge**).
 
-  <br></br>
-  **IMPORTANT NOTE!** *Keep ALL the files in the main directory at their place, otherwise SpontiniServer.py won't work*.
+  The editor will appear and it will allow to edit and compile files in the default workspace, which is the "examples" folder of the project.
+  Spontini-Editor will automatically embed LilyPond 2.24.0, but other compatible versions of LilyPond can be automatically or manually installed and set as well (see **[THIS PAGE](documentation/spontini-server.md)** for details).
 
-  **NOTE** for **Windows** users: *you can launch SpontiniServer by simply double-clicking on SpontiniServer-WIN.vbs (or SpontiniServer-WIN.bat).*
+  **IMPORTANT NOTE!** *Keep ALL the files in the main folder at their place, otherwise SpontiniServer won't work*.
 
-  **NOTE** for **macOS** users: *you can launch SpontiniServer by right-clicking on the file and then choose "Open with" ---> "Python launcher".
-    Make sure that Python launcher is configured for running python 3, as the following image shows:*
-
-  ![img](documentation/images/pylauncher.png)
-
-
-<br></br>
 # [GO TO THE DOCUMENTATION](documentation/toc.md)
 <br></br>

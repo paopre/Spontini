@@ -21,52 +21,39 @@ import sys
 from sys import argv
 import traceback
 
-def main():
+inputParams = argv[1]
+language    = argv[2]
+inFileName  = argv[3]
+outFileName = argv[4]
+log         = argv[6]
+inFile = None
+outFile = None
+spontiniInput = ''
+spontiniOutput = ''
 
-  if len(argv) != 5:
-    print("Usage: python3 " + argv[0] + " input_params language inputfile outputfile", file=sys.stderr)
-    return 1
+try:
+  inFile = open(inFileName, "r")
+  spontiniInput = inFile.read()
+  inFile.close()
+except:
+  raise Exception(traceback.format_exc())
 
-  inputParams = argv[1]
-  language = argv[2]
-  inFileName = argv[3]
-  outFileName = argv[4]
-  inFile = None
-  outFile = None
-  spontiniInput = ''
-  spontiniOutput = ''
+#---------------------------
+# INSERT CUSTOM CODE HERE
+#---------------------------
 
-  try:
-    inFile = open(inFileName, "r")
-    spontiniInput = inFile.read()
-    inFile.close()
-  except:
-    traceback.print_exc()
-    return 1
+spontiniOutput = "Input to uppercase:\n"
+spontiniOutput += spontiniInput.upper() + "\n"
+spontiniOutput += "Input param: \"" + inputParams + "\"\n"
+spontiniOutput += "Language of the current ly document: " + language + "\n"
 
-  #---------------------------
-  # INSERT CUSTOM CODE HERE
-  #---------------------------
+#---------------------------
+# END OF CUSTOM CODE
+#---------------------------
 
-  spontiniOutput = "Input to uppercase:\n"
-  spontiniOutput += spontiniInput.upper() + "\n"
-  spontiniOutput += "Input param: \"" + inputParams + "\"\n"
-  spontiniOutput += "Language of the current ly document: " + language + "\n"
-
-  #---------------------------
-  # END OF CUSTOM CODE
-  #---------------------------
-
-  try:
-    outFile = open(outFileName, "wb")
-    outFile.write(spontiniOutput.encode('utf-8').strip())
-    outFile.close()
-  except:
-    traceback.print_exc()
-    return 1
-
-  return 0
-
-if __name__ == "__main__":
-    # execute only if run as a script
-    sys.exit(main())
+try:
+  outFile = open(outFileName, "wb")
+  outFile.write(spontiniOutput.encode('utf-8').strip())
+  outFile.close()
+except:
+  raise Exception(traceback.format_exc())

@@ -21,8 +21,15 @@ import subprocess
 from test_utils import *
 import signal
 import shutil
+from sys import argv
 
-webServerProc = runSpontiniServerDaemon()
+runExec = False
+if len(argv) > 1 and argv[1] == "run_exec":
+  runExec = True
+  argv.remove("run_exec")
+  createBinaryDist()
+
+webServerProc = runSpontiniServerDaemon(runExec)
 if webServerProc == None:
   print("Error: can't start SpontiniServer")
   exit(1)
@@ -41,5 +48,9 @@ for file in sorted(os.listdir(examplesDir)):
 
 cmd.insert(0, "chromium-browser")
 subprocess.run(cmd, stderr=subprocess.STDOUT)
-webServerProc.send_signal(signal.SIGINT)
+#TODO FIXME: doesn't seem to work properly on Win and Macos
+try:
+  sendMsgToSpontiniServer({'cmd': 'SHUTDOWN'})
+except:
+  pass
 shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))

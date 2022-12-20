@@ -22,7 +22,7 @@
 # 1) python3 compile_all_examples.py (all the supported LilyPond versions are tested)
 # OR
 # 2) python3 compile_all_examples.py VERSION1 VERSION2 ... VERSIONn (test only a subset of versions)
-# If "remove_installation" is provided as argv, each installed version is removed after all the examples are compiled with it
+# If "remove_installation" is provided in argv, each installed version is removed after all the examples are compiled with it
 
 import re
 import os
@@ -43,7 +43,8 @@ acceptableWarnings = [
   "to suppress this, consider adding a spacer rest",
   "omitting tuplet bracket with neither left nor right bound",
   "no music found in score",
-  "ignoring unsupported formats (pdf)"
+  "ignoring unsupported formats (pdf)",
+  "ottavation markup for 1 octaves up"
 ]
 
 lilyPondsDir = os.path.join(os.path.dirname(__file__), "..", "lilyponds")
@@ -64,18 +65,20 @@ for lilyPondVersion in lilyPondVersions:
 
   print("")
   print(manyStars)
-  print("Downloading and installing LilyPond " + lilyPondVersion)
+  print("Installing LilyPond " + lilyPondVersion)
   print(manyStars)
   lilyExec = ""
   try:
     lilyExec = installLilyPond(lilyPondVersion, lilyPondsDir)
   except:
     print("Error installing LilyPond " + lilyPondVersion)
+    print(traceback.format_exc())
     exit(1)
 
   print("")
   print(manyStars)
-  print("Compile all the examples on LilyPond " + lilyPondVersion)
+  print("Compile all the examples on")
+  print("LilyPond " + lilyPondVersion)
   print(manyStars)
 
   examplesPath = os.path.join(os.path.dirname(__file__), '..', "examples")
@@ -120,6 +123,8 @@ for lilyPondVersion in lilyPondVersions:
   if removeInstallationFlag == True:
     try:
       uninstallLilyPond(lilyPondVersion, lilyPondsDir)
+      print("")
+      print("LilyPond " + lilyPondVersion + " uninstalled")
     except:
       print("Error uninstalling LilyPond " + lilyPondVersion)
       exit(1)

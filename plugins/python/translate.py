@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Created (28/11/2020) by Paolo-Prete.
+# Created (10/01/2023) by Paolo-Prete.
 # This file is part of Spontini-Editor project.
 #
 # Spontini-Editor is free software: you can redistribute it and/or modify
@@ -16,20 +16,38 @@
 # along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 #
 
+# transpose script which calls python-ly ( https://pypi.org/project/python-ly/ )
+
+import os
 import sys
-import httpx
-import traceback
+import subprocess
 from sys import argv
-import json
+import traceback
+import ly.document
+import re
 
 try:
-  r = None
-  if "https" in argv[1]:
-    #we are on the server(localhost)
-    r = httpx.post(argv[1], data=argv[2], verify=False, timeout=600)
-  else: #http
-    r = httpx.post(argv[1], data=argv[2], timeout=600)
-  #jsonObj = json.loads(r.read().decode('utf-8'))
-  print(r.json()["content"])
+
+  targetLanguage = argv[1]
+  inFileName     = argv[2]
+  outFileName    = argv[3]
+  inFile = None
+  outFile = None
+  spontiniInput = ''
+  spontiniOutput = ''
+
+  inFile = open(inFileName, "r")
+  musicExpr = inFile.read()
+  inFile.close()
+
+  doc = ly.document.Document("{" + musicExpr + "}")
+  cursor = ly.document.Cursor(doc)
+  ly.pitch.translate.translate(cursor, targetLanguage)
+  ret = doc.plaintext().replace("{","").replace("}","")
+
+  outFile = open(outFileName, "w")
+  outFile.write(ret)
+  outFile.close()
+
 except:
-  print(traceback.format_exc())
+  raise Exception(traceback.format_exc())

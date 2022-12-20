@@ -1,51 +1,34 @@
------------
-Version 0.1
------------
-Pre-test version
+--------------
+Version 1.20
+--------------
+* Removed virtual environment
+* Removed autoinstallation and added executables (now the editor is much faster to launch)
+* Compatible with LilyPond from 2.23.81 to 2.24.0
+* Added Windows/Linux/Macos pyinstaller automation for releases
+* Added many CI/CD tests
+* Removed abjad example (the editor still works with abjad, but maintaining this example is time-consuming)
+* Added LilyPond auto-install tool
+* Added LilyPond default auto-install
+* Reset LilyPond modified
+* Fixed musicxml2ly bug
+* Code refactored and shortened in many points
 
------------
-Version 0.6
------------
-Initial version
+--------------
+Version 1.13
+--------------
+* Compatible with LilyPond from 2.23.6 to .80
+* Added test suite (migrated from personal host to GitHub host)
 
------------
-Version 0.7
------------
-* Added 3-staves cross-staff utilities + examples
-* Added "Make __BLOCK__ inline/included" tools + example
-* Fixed duplicate attributes (spontinimarker, x-ref-of-*, y-ref-of-*) on editable svg
-* Fixed relative path issue on CairoSVG
-* Compatible with 2.22.0! (14/01/2021)
-* Easier macOS installation (26/01/2021)
+--------------
+Version 1.12
+--------------
+* Added support for PDF output
+* Added support for MIDI input
+* Added mergeTableCells(...) function, useful for swapping notes up and down in piano tables
 
------------
-Version 1.2
------------
-* Compatible with 2.23.0 to .4
-* Litle improvements to some examples
-* set-properties-example-2 can be used for regression tests
-* Simplified Abjad example
-* Added "Include/exclude selections" tool + example
-* Added "Format table" tool
-* Codemirror link updated to version 5.63.3
-* Improved tabular-functions.ly (easyCrossStaff)
-* FastAPI updated to 0.70.0 (0.65.2 is buggy)
-
------------
-Version 1.4
------------
-* Added tools for templates
-
------------
-Version 1.6
------------
-* Added helper ruler and axes
-* Added TOOLS ---> "Compile selected chunk"
-* Prevents turning pages if an object has been modified with the mouse without compiling the score
-
------------
+--------------
 Version 1.9
------------
+--------------
 * Added "Toggle JSSVG" tool
 * Added user settable renderSvgTextWithGeometricPrecision (prevents Chrome's issues when rendering text)
 * Added tools for fonts
@@ -64,26 +47,47 @@ Version 1.9
 * Fixed subtle issue when downloading PDF/midi
 * Added tool for configuring parameters from the main GUI
 
-------------
-Version 1.12
-------------
-* Added support for PDF output
-* Added support for MIDI input
-* Added mergeTableCells(...) function, useful for swapping notes up and down in piano tables
+--------------
+Version 1.6
+--------------
+* Added helper ruler and axes
+* Added TOOLS ---> "Compile selected chunk"
+* Prevents turning pages if an object has been modified with the mouse without compiling the score
 
-------------
-Version 1.13
-------------
-* Compatible with LilyPond from 2.23.6 to .80
-* Added test suite (migrated from personal host to GitHub host)
+--------------
+Version 1.4
+--------------
+* Added tools for templates
 
-------------
-Version 1.20
-------------
-* Compatible with LilyPond from 2.23.81 to 2.24.0
-* Added more CI tests
-* Added LilyPond auto-install tool
-* Added LilyPond default auto-install
-* Reset LilyPond modified
-* Fixed musicxml2ly bug
-* Code refactored in many points
+-----------
+Version 1.2
+-----------
+* Compatible with 2.23.0 to .4
+* Litle improvements to some examples
+* set-properties-example-2 can be used for regression tests
+* Simplified Abjad example
+* Added "Include/exclude selections" tool + example
+* Added "Format table" tool
+* Codemirror link updated to version 5.63.3
+* Improved tabular-functions.ly (easyCrossStaff)
+* FastAPI updated to 0.70.0 (0.65.2 is buggy)
+
+--------------
+Version 0.7
+--------------
+* Added 3-staves cross-staff utilities + examples
+* Added "Make __BLOCK__ inline/included" tools + example
+* Fixed duplicate attributes (spontinimarker, x-ref-of-*, y-ref-of-*) on editable svg
+* Fixed relative path issue on CairoSVG
+* Compatible with 2.22.0! (14/01/2021)
+* Easier macOS installation (26/01/2021)
+
+--------------
+Version 0.6
+--------------
+Initial version
+
+--------------
+Version 0.1
+--------------
+Pre-test version

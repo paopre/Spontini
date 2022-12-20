@@ -26,11 +26,13 @@ it('passes', () => {
   let testurl = 'http://localhost:8000/spontini-editor?test=' + Cypress.env('testnum')
   if (Cypress.env('removelilyinstall'))
     testurl += "&removelilyinstall=" + Cypress.env('removelilyinstall')
+  if (Cypress.env('lilyversion'))
+    testurl += "&lilyversion=" + Cypress.env('lilyversion')
 
   cy.visit(testurl, {
-      onBeforeLoad(win) {
-        cy.stub(win.console, 'log').as('consoleLog')
-      }
+    onBeforeLoad(win) {
+      cy.stub(win.console, 'log').as('consoleLog')
+    }
   })
 
   cy.get('@consoleLog', { timeout: Cypress.env('timeout') }).should('be.calledWith', 'SUCCESS')

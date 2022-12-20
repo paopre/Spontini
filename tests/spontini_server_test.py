@@ -18,39 +18,13 @@
 
 # This script launches Spontini-Server and executes multiple different tests on it
 # It can be launched with: python3 spontini_server_test.py
+# If a LilyPond supported version is provided as argv[1], it will install and compile a dummy .ly
+# file with that version
 
-import os
 import sys
-import glob
-import traceback
-import subprocess
-import shutil
-import time
-import signal
-import urllib
-import json
-from urllib.request import urlopen
+import os
 from sys import argv
 from test_utils import *
-
-lineMadeOfStars = "***********************************"
-def logTaskLabel(label):
-  global lineMadeOfStars
-  print("")
-  print(lineMadeOfStars)
-  print("TEST: " + label)
-  print(lineMadeOfStars)
-
-def shutdownServerAndExit(serverProc, exitCode):
-  if exitCode != 0:
-    print("ERROR!")
-  serverProc.send_signal(signal.SIGINT)
-  shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))
-  exit(1)
-
-def checkStatusAndContent(jsonRes, expectedContent):
-  if jsonRes['status'] != 'OK' or jsonRes['content'] != expectedContent:
-    shutdownServerAndExit(webServerProc, 1)
 
 def sendMergeTableCellsCmdAndCheck(textFrom, fragmentOffsetStart, fragmentOffsetEnd, textTo, \
                                    resTextFrom, resTextTo, lang = "nederlands"):
@@ -64,36 +38,104 @@ def sendMergeTableCellsCmdAndCheck(textFrom, fragmentOffsetStart, fragmentOffset
   if res[0] != resTextFrom or res[1] != resTextTo:
     shutdownServerAndExit(webServerProc, 1)
 
+def createCompileAndRemoveDummyLyFile():
+  lyFilename = os.path.join(testDir, 'test.ly')
+  lyFile = open(lyFilename,'w')
+  lyFile.write("{ c' c' c' c' }")
+  lyFile.close()
+
+  body = { \
+          'cmd': 'COMPILE', \
+          'param1': lyFilename, \
+          'param2': "{ c' c' c' c' }", \
+          'param3': "svg", \
+          'param4': "", \
+          'param5': "" \
+         }
+  jsonRes = sendMsgToSpontiniServer(body)
+  try:
+    os.remove(lyFilename)
+    os.remove(lyFilename.replace('ly', 'svg'))
+  except:
+    pass
+
+  if 'OK' not in jsonRes['status']:
+    shutdownServerAndExit(webServerProc, 1)
+
 ##########################
 # TESTS
 ##########################
 
-webServerProc = runSpontiniServerDaemon()
+runExec = False
+if len(argv) > 1 and argv[1] == "run_exec":
+  runExec = True
+  argv.remove("run_exec")
+  createBinaryDist()
+
+webServerProc = runSpontiniServerDaemon(runExec)
 if webServerProc == None:
   shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))
   exit(1)
 
-examplesDir = os.path.join(os.path.dirname(__file__), "..", "examples")
+examplesDir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "examples"))
+testDir = os.path.abspath(os.path.dirname(__file__))
+initialWorkspace = ""
 
 ##########################
 
-logTaskLabel("INSTALL LILYPOND 2.23.81")
-body = {'cmd': 'INSTALL_LILYPOND', 'param1': "2.23.81"}
+logTaskLabel("GET CURRENT WORKSPACE")
+body = {'cmd': 'GET_WORKSPACE'}
+jsonRes = sendMsgToSpontiniServer(body)
+if jsonRes['status'] != 'OK':
+  shutdownServerAndExit(webServerProc, 1)
+initialWorkspace = jsonRes['content']
+
+##########################
+
+logTaskLabel("SET WORKSPACE TO " + testDir)
+body = {'cmd': 'SET_WORKSPACE', 'param1': testDir}
+jsonRes = sendMsgToSpontiniServer(body)
+if jsonRes['status'] != 'OK':
+  shutdownServerAndExit(webServerProc, 1)
+
+##########################
+if len(argv) > 1:
+
+  logTaskLabel("INSTALL LILYPOND " + argv[1])
+  body = {'cmd': 'INSTALL_LILYPOND', 'param1': argv[1]}
+  jsonRes = sendMsgToSpontiniServer(body)
+  if jsonRes['status'] != 'OK':
+    shutdownServerAndExit(webServerProc, 1)
+
+##########################
+
+  logTaskLabel("SET LILYPOD TO " + jsonRes['content'])
+  body = {'cmd': 'SET_LILYPOND', 'param1': jsonRes['content']}
+  jsonRes = sendMsgToSpontiniServer(body)
+  if jsonRes['status'] != 'OK':
+    shutdownServerAndExit(webServerProc, 1)
+
+##########################
+
+  logTaskLabel("CREATE, COMPILE AND REMOVE DUMMY .ly FILE")
+  createCompileAndRemoveDummyLyFile()
+
+##########################
+
+logTaskLabel("RESET LILYPOND")
+body = {'cmd': 'RESET_LILYPOND'}
 jsonRes = sendMsgToSpontiniServer(body)
 if jsonRes['status'] != 'OK':
   shutdownServerAndExit(webServerProc, 1)
 
 ##########################
 
-logTaskLabel("SET LILYPOND 2.23.81")
-body = {'cmd': 'SET_LILYPOND', 'param1': jsonRes['content']}
-jsonRes = sendMsgToSpontiniServer(body)
-if jsonRes['status'] != 'OK':
-  shutdownServerAndExit(webServerProc, 1)
+logTaskLabel("CREATE, COMPILE AND REMOVE DUMMY .ly FILE")
+createCompileAndRemoveDummyLyFile()
 
 ##########################
 
-logTaskLabel("SET WORKSPACE to " + examplesDir)
+logTaskLabel("SET WORKSPACE TO " + examplesDir)
 body = {'cmd': 'SET_WORKSPACE', 'param1': examplesDir}
 jsonRes = sendMsgToSpontiniServer(body)
 if jsonRes['status'] != 'OK':
@@ -163,24 +205,6 @@ logTaskLabel("EXECUTE REMOVE TEXT MARKUP PLUGIN")
 body['param1'] = "Remove text markup"
 jsonRes = sendMsgToSpontiniServer(body)
 checkStatusAndContent(jsonRes, "c'[\\mf(-!\\trill c'\\)\\mordent\\p-.]")
-
-##########################
-
-logTaskLabel("EXECUTE PYTHON TO SPONTINI (ABJAD) PLUGIN")
-body['param1'] = "Python to Spontini"
-body['param2'] = "\
-import abjad\n\
-duration = abjad.Duration(1, 4)\n\
-notes = [abjad.Note(pitch, duration) for pitch in range(8)]\n\
-container = abjad.Container(notes)\n\
-print("")\n\
-abjad.f(container)"
-body['param5'] = ""
-jsonRes = sendMsgToSpontiniServer(body)
-#some matches (enough)
-matches = ["c'4", "cs'4", "{", "}"]
-if jsonRes['status'] != 'OK' or not all(x in jsonRes['content'] for x in matches):
-  shutdownServerAndExit(webServerProc, 1)
 
 ##########################
 
@@ -360,12 +384,25 @@ checkStatusAndContent(jsonRes, "<reb'' fad>4 solb'")
 
 ##########################
 
-print("")
+logTaskLabel("SET WORKSPACE TO INITIAL VALUE: " + initialWorkspace)
+body = {'cmd': 'SET_WORKSPACE', 'param1': initialWorkspace}
+jsonRes = sendMsgToSpontiniServer(body)
+if jsonRes['status'] != 'OK':
+  shutdownServerAndExit(webServerProc, 1)
+
+##########################
+
+print("\n")
 print(lineMadeOfStars)
 print(lineMadeOfStars)
-print("ALL TESTS PASSED SUCCESSFULLY!")
+print("ALL TASKS PASSED SUCCESSFULLY!")
 print(lineMadeOfStars)
 print(lineMadeOfStars)
 
-webServerProc.send_signal(signal.SIGINT)
+#TODO FIXME: doesn't seem to work properly on Win and Macos
+try:
+  sendMsgToSpontiniServer({'cmd': 'SHUTDOWN'})
+except:
+  pass
+
 shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))

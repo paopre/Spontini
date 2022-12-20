@@ -358,7 +358,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false">
+<g staffspace="1.00000000" shorten-pair-propid="20" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false">
 <a style="color:inherit;" xlink:href="textedit:///home/programmi/SPONTINI/Spontini-git/lib/../tests/test-movable-grobs-copy.ly:56:2:3">
 <g transform="translate(20.1996, 40.8221)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">

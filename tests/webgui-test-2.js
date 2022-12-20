@@ -18,8 +18,7 @@
 /*
  * This script executes two GUI tests.
  * It can be launched by opening: http://localhost:8000/spontini-editor?test=2
- * OR with Cypress:
- * npx cypress run --env testnum=2,timeout=20000 --config specPattern=SPONTINI/Spontini/tests --browser chrome --spec path/to/Spontini/tests/run-webgui-test.cy.js
+ * OR with Cypress. See README.txt for instructions
  */
 
 /******************************************

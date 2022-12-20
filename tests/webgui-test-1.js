@@ -15,18 +15,6 @@
  * along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
  */
 
-/*
- * This file is useful for understanding how Spontini's API works
- * and at the same time it executes an automated test of the program, with multiple
- * versions (or a specific version) of LilyPond, starting from the GUI
- * It REQUIRES ImageMagick.
- * The test can be launched by opening: http://localhost:8000/spontini-editor?test=1
- * OR through Cypress:
- * npx cypress run --env testnum=1,timeout=1200000,removelilyinstall=false --config specPattern=SPONTINI/Spontini/tests --browser chrome --spec path/to/Spontini/tests/run-webgui-test.cy.js
- *
- * NOTE: removelilyinstall=true/false (uninstall LilyPond's current version after the test is done) and lilyversion=VERSION can be added as parameters to the URL)
- */
-
 export let retryMs_               = 500
 export let lyFileNameWOExt_       = "test_movable_grobs"
 export let lyFileName_            = lyFileNameWOExt_ + ".ly"
@@ -118,7 +106,7 @@ function doTestStep6() {
                     doTest(lilyversion_, removelilyinstall_)
                 }
                 else {
-                  console.log("SUCCESS ")
+                  console.log("SUCCESS")
                   logSuccess("All the tests are successful!")
                 }
                },
@@ -130,14 +118,13 @@ export let pythonScript2 = "\
 import os, glob\n\
 testDir=os.path.join(os.getcwd(), '..', 'tests')\n\
 os.remove(os.path.join(testDir,\"" + lyModFileNameWOExt_ + ".svg\"))\n\
-for f in glob.glob(os.path.join(testDir, '*.bmp')):\n\
-    os.remove(f)\n\
 os.remove(os.path.join(testDir,\"" + lyModFileName_ + "\"))\n\
 "
 
 export let pythonScript1 = "\
 import os, subprocess, traceback\n\
 import platform\n\
+from pathlib import Path\n\
 \n\
 def execCmd(cmd):\n\
   cliArr = cmd\n\
@@ -150,7 +137,8 @@ def execCmd(cmd):\n\
     return traceback.format_exc()\n\
   return 'KO'\n\
 \n\
-testDir = os.path.join(os.getcwd(), '..', 'tests')\n\
+spontiniDir = Path(os.path.join(os.getcwd())).parent.absolute()\n\
+testDir = os.path.join(spontiniDir, 'tests')\n\
 perceptualRefsDir = os.path.join(testDir, 'perceptualrefs')\n\
 \n\
 svgWPath = os.path.join(testDir, '" + lyModFileNameWOExt_ + ".svg')\n\

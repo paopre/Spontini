@@ -367,7 +367,7 @@ c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
 </a>
-<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false">
+<g staffspace="1.00000000" shorten-pair-propid="20" editableclass="OttavaBracket" spontinieditable="false" y-offset-propid="19" editcommand="OnceOverride">
 <g transform="translate(20.1996, 40.8266)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8va</tspan>

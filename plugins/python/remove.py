@@ -26,21 +26,9 @@ import sys
 import subprocess
 from sys import argv
 import traceback
-spontini_utils_path = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                      '..', '..', 'lib', 'python'))
-sys.path.insert(1, spontini_utils_path)
-from spontini_server_utils import getVenvedPyCmd
-
-lyModuleFound = False
-try:
-
-  import ly.document
-  import ly.words
-  import ly.lex.lilypond
-  lyModuleFound = True
-
-except ModuleNotFoundError:
-  pass
+import ly.document
+import ly.words
+import ly.lex.lilypond
 
 def tknIsOfType(tkn, tknType):
 
@@ -99,57 +87,39 @@ def findTokens(cursor, tknType):
       elif tknIsOfType(currTkn, tknType):
           yield currTkn.pos, currTkn.end
 
-def main():
+tknType = argv[1]
+inFileName = argv[2]
+outFileName = argv[3]
 
-  if not lyModuleFound:
-    print(getVenvedPyCmd() + " -m pip install python-ly")
-    traceback.print_exc()
-    return 2
+try:
+  inFile = open(inFileName, "r")
+  spontiniInput = "{ "+inFile.read()+" }"
+  inFile.close()
 
-  if len(argv) != 4:
-    print("Usage: python3 " + argv[0] + " token_type inputfile outputfile", file=sys.stderr)
-    return 1
+  inFile = open(inFileName, "wb")
+  inFile.write(spontiniInput.encode('utf-8'))
+  inFile.close()
 
-  tknType = argv[1]
-  inFileName = argv[2]
-  outFileName = argv[3]
+  doc = ly.document.Document.load(inFileName, None, None)
+  cursor = ly.document.Cursor(doc)
+  foundTkns = findTokens(cursor, tknType)
+
+  for currTkn in reversed(list(foundTkns)):
+    del doc[currTkn[0]:currTkn[1]]
+
+  cursor = ly.document.Cursor(doc)
+  src = ly.document.Source(cursor, None, ly.document.PARTIAL, True)
+
+  outStr = doc.plaintext()
 
   try:
-    inFile = open(inFileName, "r")
-    spontiniInput = "{ "+inFile.read()+" }"
-    inFile.close()
-
-    inFile = open(inFileName, "wb")
-    inFile.write(spontiniInput.encode('utf-8'))
-    inFile.close()
-
-    doc = ly.document.Document.load(inFileName, None, None)
-    cursor = ly.document.Cursor(doc)
-    foundTkns = findTokens(cursor, tknType)
-
-    for currTkn in reversed(list(foundTkns)):
-      del doc[currTkn[0]:currTkn[1]]
-
-    cursor = ly.document.Cursor(doc)
-    src = ly.document.Source(cursor, None, ly.document.PARTIAL, True)
-
-    outStr = doc.plaintext()
-
-    try:
-      outStr = outStr[2: (len(outStr) - 2)]
-    except:
-      pass
-
-    outFile = open(outFileName, "wb")
-    outFile.write(outStr.encode('utf-8'))
-    outFile.close()
-
+    outStr = outStr[2: (len(outStr) - 2)]
   except:
-    traceback.print_exc()
-    return 1
+    pass
 
-  return 0
+  outFile = open(outFileName, "wb")
+  outFile.write(outStr.encode('utf-8'))
+  outFile.close()
 
-if __name__ == "__main__":
-    # execute only if run as a script
-    sys.exit(main())
+except:
+  raise Exception(traceback.format_exc())

@@ -1,0 +1,58 @@
+#TODO: remove boilerplate code
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Build
+        run: >
+          python3 bin/create_binary_dist.py
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          body_path: bin/releaseNotes.txt
+          files: bin/Spontini-Editor-${{ github.ref_name }}-linux_x86_64.tar.gz
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Build
+        run: >
+          python3 bin/create_binary_dist.py
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          body_path: bin/releaseNotes.txt
+          files: bin/Spontini-Editor-${{ github.ref_name }}-windows_x86_64.zip
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Build
+        run: >
+          python3 bin/create_binary_dist.py
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          body_path: bin/releaseNotes.txt
+          files: bin/Spontini-Editor-${{ github.ref_name }}-darwin_x86_64.tar.gz

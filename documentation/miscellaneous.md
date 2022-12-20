@@ -16,7 +16,6 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 # Miscellaneous
-<br></br>
 
 ### AXES
 

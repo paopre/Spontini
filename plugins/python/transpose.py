@@ -23,29 +23,10 @@ import sys
 import subprocess
 from sys import argv
 import traceback
-spontini_utils_path = os.path.abspath(os.path.join(os.path.dirname(__file__),
-                                      '..', '..', 'lib', 'python'))
-sys.path.insert(1, spontini_utils_path)
-from spontini_server_utils import getVenvedPyCmd
-lyModuleFound = False
+import ly.document
+import re
+
 try:
-
-  import ly.document
-  lyModuleFound = True
-
-except:
-  pass
-
-def main():
-
-  if len(argv) != 5:
-    print("Usage: python3 " + argv[0] + " input_params language inputfile outputfile", file=sys.stderr)
-    return 1
-
-  if not lyModuleFound:
-    print(getVenvedPyCmd() + " -m pip install python-ly")
-    traceback.print_exc()
-    return 2
 
   inputParams = argv[1]
   language = argv[2]
@@ -56,76 +37,25 @@ def main():
   spontiniInput = ''
   spontiniOutput = ''
 
-  try:
-    inFile = open(inFileName, "r")
-    spontiniInput = inFile.read()
-    inFile.close()
-  except:
-    print(traceback.format_exc(), file=sys.stderr)
-    return 1
+  inFile = open(inFileName, "r")
+  musicExpr = inFile.read()
+  inFile.close()
 
-  try:
+  pitchesList = []
+  for pitch, octave in re.findall(r"([a-z]+)([,']*)", inputParams):
+    r = ly.pitch.pitchReader(language)(pitch)
+    if r:
+      pitchesList.append(ly.pitch.Pitch(*r, octave=ly.pitch.octaveToNum(octave)))
 
-    inFile = open(inFileName, "wb")
-    inFile.write(("{ " + inputParams + " }").encode('utf-8').strip())
-    inFile.close()
+  doc = ly.document.Document("{" + musicExpr + "}")
+  cursor = ly.document.Cursor(doc)
+  tempTransposer = ly.pitch.transpose.Transposer(pitchesList[0], pitchesList[1])
+  ly.pitch.transpose.transpose(cursor, tempTransposer, language)
+  ret = doc.plaintext().replace("{","").replace("}","")
 
-  except:
-    print(traceback.format_exc(), file=sys.stderr)
-    return 1
+  outFile = open(outFileName, "w")
+  outFile.write(ret)
+  outFile.close()
 
-  try:
-
-    cmd = [getVenvedPyCmd(), '-m', 'ly', '-l', language, 'translate nederlands', '-o', outFileName, inFileName]
-    p = subprocess.run(cmd, encoding='utf-8', stderr=subprocess.PIPE, stdout=subprocess.PIPE)
-
-    inputParamsInNederlands = 'will-be-replaced'
-    outFile = open(outFileName, "r")
-    lines = outFile.readlines()
-    for line in lines:
-      if line.startswith("{"):
-        inputParamsInNederlands = line[1:(len(line)-1)]
-    outFile.close()
-
-    inFile = open(inFileName, "wb")
-    spontiniInput = "{ " + spontiniInput + " }"
-    inFile.write(spontiniInput.encode('utf-8').strip())
-    inFile.close()
-
-    cmd = [getVenvedPyCmd(), '-m', 'ly', '-l', language, 'transpose ' + inputParamsInNederlands, '-o', outFileName, inFileName]
-    p = subprocess.run(cmd, encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
-
-    if p.returncode != 0:
-      print("Error while executing command: " + str(cmd), file=sys.stderr)
-      #?? stdout instead of stderr
-      print(p.stdout, file=sys.stderr)
-      return 1
-
-    print(p.stdout)
-
-    outFile = open(outFileName, "r")
-    spontiniOutput = outFile.read()
-    outFile.close()
-
-  except:
-    print(traceback.format_exc(), file=sys.stderr)
-    return 1
-
-  try:
-    spontiniOutput = spontiniOutput[2:(len(spontiniOutput)-2)]
-  except:
-    pass
-
-  try:
-    outFile = open(outFileName, "wb")
-    outFile.write(spontiniOutput.encode('utf-8'))
-    outFile.close()
-  except:
-    print(traceback.format_exc(), file=sys.stderr)
-    return 1
-
-  return 0
-
-if __name__ == "__main__":
-  # execute only if run as a script
-  sys.exit(main())
+except:
+  raise Exception(traceback.format_exc())

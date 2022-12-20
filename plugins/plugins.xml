@@ -25,8 +25,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>none</input>
     <output>none</output>
     <access>localhost</access>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/midiVLCLauncher.py</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/midiVLC.py</python-script>
   </plugin>
 
   <plugin>
@@ -38,29 +37,11 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
   </plugin>
 
   <plugin>
-    <displayedname>Pip3 install</displayedname>
-    <input>none</input>
-    <output>none</output>
-    <show-result>alert</show-result>
-    <input-params-prompt>Please insert the pip module to install</input-params-prompt>
-    <command>%%VENVEDPYTHON3%% -m pip install %%INPUT_PARAMS%%</command>
-  </plugin>
-
-  <plugin>
-    <displayedname>Pip3 uninstall</displayedname>
-    <input>none</input>
-    <output>none</output>
-    <show-result>alert</show-result>
-    <input-params-prompt>Please insert the pip module to uninstall</input-params-prompt>
-    <command>%%VENVEDPYTHON3%% -m pip uninstall --yes %%INPUT_PARAMS%%</command>
-  </plugin>
-
-  <plugin>
     <displayedname>Python to Spontini</displayedname>
     <input>selection</input>
     <output>block</output>
     <input-file-extension>py</input-file-extension>
-    <command>%%VENVEDPYTHON3%% %%INPUT_FILE%%</command>
+    <python-script>%%INPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -68,8 +49,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py ARTICULATIONS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py ARTICULATIONS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -77,8 +57,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py BEAMS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py BEAMS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -86,8 +65,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py DYNAMICS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py DYNAMICS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -95,8 +73,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py ORNAMENTS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py ORNAMENTS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -104,8 +81,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
-    <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py SLURS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py SLURS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -114,7 +90,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <output>selection</output>
     <input-file-extension>ly</input-file-extension>
     <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/remove.py TEXT_MARKUPS %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/remove.py TEXT_MARKUPS %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -122,7 +98,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>selection</input>
     <output>selection</output>
     <input-params-prompt>Please insert a word</input-params-prompt>
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/testPlugin.py %%INPUT_PARAMS%% %%NOTES_NAME_LANG%% %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/testPlugin.py %%INPUT_PARAMS%% %%NOTES_NAME_LANG%% %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -130,9 +106,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <input>document</input>
     <output>document</output>
     <input-params-prompt>Please insert the target language</input-params-prompt>
-    <install-command>%%VENVEDPYTHON3%% -m pip install python-ly</install-command>
-    <!-- translate command which calls python-ly: https://pypi.org/project/python-ly/ -->
-    <command>%%VENVEDPYTHON3%% -m ly "translate %%INPUT_PARAMS%%" -o %%OUTPUT_FILE%% %%INPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/translate.py %%INPUT_PARAMS%% %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
   <plugin>
@@ -141,7 +115,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
     <output>selection</output>
     <input-params-prompt>Please insert transposition start and end pitches in the chosen \language</input-params-prompt>
     <!-- transpose script which calls python-ly ( https://pypi.org/project/python-ly/ ) -->
-    <command>%%VENVEDPYTHON3%% %%PLUGINS_ABS_PATH%%/python/transpose.py "%%INPUT_PARAMS%%" %%NOTES_NAME_LANG%% %%INPUT_FILE%% %%OUTPUT_FILE%%</command>
+    <python-script>%%PLUGINS_ABS_PATH%%/python/transpose.py "%%INPUT_PARAMS%%" %%NOTES_NAME_LANG%% %%INPUT_FILE%% %%OUTPUT_FILE%%</python-script>
   </plugin>
 
 </plugins>

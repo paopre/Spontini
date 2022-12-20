@@ -20,25 +20,45 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from svglib.svglib import svg2rlg
 from PyPDF2 import PdfFileWriter, PdfFileReader
-from spontini_server_core import addMaskToPdf
-from spontini_server_core import wsDirPath
 import os
+import sys
+
+def addMaskToPdf(mask, pdf):
+  maskPdf = PdfFileReader(open(mask, "rb"))
+  generatedPdf = PdfFileReader(open(pdf, "rb"))
+  output = PdfFileWriter()
+  page = generatedPdf.getPage(0)
+  page.mergePage(maskPdf.getPage(0))
+  output.addPage(page)
+  outputStream = open(pdf+"BAK", "wb")
+  output.write(outputStream)
+  outputStream.close()
+  maskPdf.stream.close()
+  generatedPdf.stream.close()
+  os.remove(pdf)
+  os.rename(pdf+"BAK", pdf)
+
+def getExamplesDir():
+  if getattr(sys, 'frozen', False):
+    return os.path.join(os.path.dirname(sys.executable), 'examples')
+  else:
+    return os.path.dirname(__file__)
 
 # Create a temporary mask in the workspace of pdf-manipulate-example
 # Note: wsDirPath is the directory of the (current) workspace
-mask = canvas.Canvas(os.path.join(wsDirPath, "mask.pdf"))
+mask = canvas.Canvas(os.path.join(getExamplesDir(), "mask.pdf"))
 mask.setPageSize((210 * mm, 297 * mm))
 
 # Import a SVG image (vector)
 # (from https://commons.wikimedia.org/wiki/File:Ouroboros-simple.svg)
-drawing = svg2rlg(os.path.join(wsDirPath, "ouroboros.svg"))
+drawing = svg2rlg(os.path.join(getExamplesDir(), "ouroboros.svg"))
 # scale the SVG image
 drawing.scale(3, 3)
 # Add the SVG image to the mask at X,Y position
 renderPDF.draw(drawing, mask, 10 * mm, 50 * mm)
 
 # Add a raster image to the mask at X,Y position with 105x105px size
-mask.drawImage(os.path.join(wsDirPath, "ouroboros.jpeg"), 10 * mm, 100 * mm, 105, 105)
+mask.drawImage(os.path.join(getExamplesDir(), "ouroboros.jpeg"), 10 * mm, 100 * mm, 105, 105)
 
 # Add a string to the mask
 mask.drawString(10 * mm, 145 * mm, 'Raster image scaled (intentionally blurry)')
@@ -47,7 +67,7 @@ mask.drawString(10 * mm, 145 * mm, 'Raster image scaled (intentionally blurry)')
 mask.save()
 
 # Merge the mask on the generated pdf-manipulate-example.pdf
-addMaskToPdf(os.path.join(wsDirPath, "mask.pdf"), os.path.join(wsDirPath, "pdf-manipulate-example.pdf"))
+addMaskToPdf(os.path.join(getExamplesDir(), "mask.pdf"), os.path.join(getExamplesDir(), "pdf-manipulate-example.pdf"))
 
 # Remove the mask
-os.remove(os.path.join(wsDirPath, "mask.pdf"))
+os.remove(os.path.join(getExamplesDir(), "mask.pdf"))

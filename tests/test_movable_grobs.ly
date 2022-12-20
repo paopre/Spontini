@@ -54,7 +54,7 @@ $(set! cpDiameter 0.5)
 
   % OttavaBrackets
   \ottava #1
-  \jsOnceOverride "19" "Y-offset" #'(7.600) Staff.OttavaBracket
+  \once \override Staff.OttavaBracket.Y-offset = 7.6
   \jsOnceOverride "20" "shorten-pair" #'(-2.246 . -8.995) Staff.OttavaBracket
   c''''
   c'''' \ottava #0

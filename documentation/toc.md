@@ -21,6 +21,7 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 
 ## TABLE OF CONTENTS
 
+### [Spontini Server GUI](spontini-server.md)
 ### [Tweaking/Overriding music properties](tweaking.md)
 ### [Tabular piano functions](tabular.md)
 ### [Outside-Staff-Ordered (OSO) Padding](osopadding.md)

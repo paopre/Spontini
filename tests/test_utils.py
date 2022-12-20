@@ -24,9 +24,36 @@ import urllib.request
 from urllib.request import urlopen
 import json
 import traceback
+import glob
+import signal
+import shutil
+import platform
+import sys
 
-def runSpontiniServerDaemon(maxRetries = 120):
-  spontiniServerExec = ["python3", os.path.join(os.path.dirname(__file__), "..", "SpontiniServer.py"), "nogui"]
+def createBinaryDist():
+  HERE = os.path.dirname(__file__)
+  proc = [sys.executable, os.path.join(HERE, "..", "bin", "create_binary_dist.py")]
+  subprocess.run(proc)
+
+def runSpontiniServerDaemon(runExecutable, maxRetries = 300):
+  HERE = os.path.dirname(__file__)
+  spontiniServerExec = [sys.executable, os.path.join(HERE, "..", "SpontiniServer.py"), "nogui"]
+  if runExecutable:
+    versionFile = open(os.path.join(HERE, '..', 'lib', 'version.txt'))
+    spontiniVersion = versionFile.read().rstrip()
+    versionFile.close()
+    platformToken = ""
+    execFile = "SpontiniServer"
+    if platform.system() == 'Linux':
+      platformToken = "linux_x86_64"
+    elif platform.system() == 'Windows':
+      platformToken = "windows_x86_64"
+      execFile += ".exe"
+    else:
+      platformToken = "darwin_x86_64"
+    execFile = os.path.join(HERE, '..', 'bin', 'Spontini-Editor-' + spontiniVersion + '-' + platformToken, execFile)
+    spontiniServerExec = [execFile, "nogui"]
+
   webServerProc = subprocess.Popen(spontiniServerExec, stderr=subprocess.STDOUT)
   #wait until the webserver is ready
   webServerReady = False
@@ -46,22 +73,50 @@ def runSpontiniServerDaemon(maxRetries = 120):
         print("Could not start SpontiniServer: timeout reached")
         return None
       time.sleep(1)
-
   return webServerProc
 
 def sendMsgToSpontiniServer(body):
   try:
+    if body['cmd'] == 'SHUTDOWN' and platform.system() != "Linux":
+      return
     req = urllib.request.Request("http://localhost:8000/cgi")
     req.add_header('Content-Type', 'application/json; charset=utf-8')
     jsonData = json.dumps(body)
     print("REQUEST: " + jsonData)
     response = urllib.request.urlopen(req, jsonData.encode('utf-8'))
+    if body['cmd'] == 'SHUTDOWN':
+      return
     jsonObj = json.loads(response.read().decode('utf-8'))
     print("RESPONSE[STATUS] : " + jsonObj['status'])
     print("RESPONSE[CONTENT]: " + jsonObj['content'])
     return jsonObj
 
   except:
-    print(traceback.format_exc())
     shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))
+    if body['cmd'] == 'SHUTDOWN':
+      return
+    print(traceback.format_exc())
     exit(1)
+
+lineMadeOfStars = "***********************************"
+def logTaskLabel(label):
+  global lineMadeOfStars
+  print("\n")
+  print(lineMadeOfStars)
+  print("TASK: " + label)
+  print(lineMadeOfStars)
+
+def shutdownServer(webServerProc):
+  if platform.system() != "Windows":
+    webServerProc.send_signal(signal.SIGINT)
+  shutil.rmtree(os.path.join(os.path.dirname(__file__), "__pycache__"))
+
+def shutdownServerAndExit(webServerProc, exitCode):
+  if exitCode != 0:
+    print("ERROR!")
+  shutdownServer(webServerProc)
+  exit(exitCode)
+
+def checkStatusAndContent(jsonRes, expectedContent):
+  if jsonRes['status'] != 'OK' or jsonRes['content'] != expectedContent:
+    shutdownServerAndExit(webServerProc, 1)

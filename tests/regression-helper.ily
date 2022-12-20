@@ -22,7 +22,7 @@
       (car l)
       (nth (- n 1) (cdr l)))))
 
-#(if (> (nth 1 (ly:version)) 21)
+#(if (>= (nth 1 (ly:version)) 21)
 #{
   \override Staff.OttavaBracket.font-series = #'normal
   \set Staff.ottavationMarkups = #ottavation-simple-ordinals

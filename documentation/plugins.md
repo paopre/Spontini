@@ -16,7 +16,6 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 # Plugins
-<br></br>
 
 Spontini-Editor supports several built-in plugins and allows the creation of new ones with an API which consists in editing a XML file called **[plugins.xml](../plugins/plugins.xml)**
 

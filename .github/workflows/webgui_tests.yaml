@@ -1,0 +1,45 @@
+on:
+  workflow_dispatch:
+    inputs:
+      test1:
+        required: true
+        default: 'YES'
+        type: string
+      test2:
+        required: true
+        default: 'YES'
+        type: string
+      python_version:
+        required: true
+        type: string
+        default: 3.11
+
+jobs:
+  webgui-test-1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - if: ${{ inputs.test1 == 'YES' }}
+        # NOTE: ghostscript and fonts-freefont-otf seem necessary for making imagemagick work with SVG files
+        run: >
+          sudo apt-get install ghostscript;
+          sudo apt-get install fonts-freefont-otf;
+          sudo apt install imagemagick;
+          npm install cypress --save-dev;
+          cd tests;
+          python3 webgui_tests.py run_exec npx cypress run --env testnum=1,timeout=1200000,removelilyinstall=true --config specPattern=. --browser chrome --spec run-webgui-test.cy.js
+  webgui-test-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - if: ${{ inputs.test2 == 'YES' }}
+        run: >
+          npm install cypress --save-dev;
+          cd tests;
+          python3 webgui_tests.py run_exec npx cypress run --env testnum=2,timeout=20000 --config-file cypress.config.js --config specPattern=. --browser chrome --spec run-webgui-test.cy.js
