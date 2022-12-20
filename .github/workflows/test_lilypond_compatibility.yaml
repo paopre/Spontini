@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: python3 tests/compile_all_examples.py remove_installation
+      - run: python3 tests/compile_all_examples.py 2.19.84-1 remove_installation
