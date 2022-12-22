@@ -1,12 +1,2 @@
 name: Test compatibility of Spontini-Editor with multiple LilyPond versions
 on: workflow_dispatch
-jobs:
-  Run-compile-all-examples:
-    name: Runs a Python3 Script that compiles the examples on multiple LilyPond versions
-    runs-on: windows-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python
-        with:
-          python-version: '3.x'
-      - run: python tests/compile_all_examples.py 2.19.84-1
