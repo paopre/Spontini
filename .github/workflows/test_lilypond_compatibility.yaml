@@ -1,2 +1,1 @@
-name: Test compatibility of Spontini-Editor with multiple LilyPond versions
-on: workflow_dispatch
+
