@@ -1,6 +1,6 @@
 on: workflow_dispatch
 jobs:
-  Run-compile-all-examples:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - run: echo "To be implemented"
