@@ -1,7 +1,5 @@
 ----------------------------
-*)
-
-python3 create_binary_dist.py
+*)python3 create_binary_dist.py
 
 It collects required packages and pyinstaller with pip, calls pyinstaller and creates a binary artifact, embedded into a tar.gz (linux and macos) or zip archive (win), for the current platform
 ----------------------------
