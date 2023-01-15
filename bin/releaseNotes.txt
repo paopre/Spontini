@@ -1,0 +1,15 @@
+--------------
+Version 1.20
+--------------
+* Removed virtual environment
+* Removed autoinstallation and added executables (now the editor is much faster to launch)
+* Compatible with LilyPond from 2.23.81 to 2.24.0
+* Added Windows/Linux/Macos pyinstaller automation for releases
+* Added many CI/CD tests
+* Removed abjad example (the editor still works with abjad, but maintaining this example is time-consuming)
+* Added LilyPond auto-install tool
+* Added LilyPond default auto-install
+* Reset LilyPond modified
+* Fixed musicxml2ly bug
+* Code refactored and shortened in many points
+

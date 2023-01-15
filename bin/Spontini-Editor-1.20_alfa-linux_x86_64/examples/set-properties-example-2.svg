@@ -1,0 +1,1463 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0.0000 -0.0000 119.5016 169.0094">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 9.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 8.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 7.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 6.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 5.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="39.4492" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 10.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 7.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(97.6588, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:40:5:6">
+<g transform="translate(95.6296, 15.6662)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:40:2:3">
+<g transform="translate(96.4286, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(80.6712, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:39:5:6">
+<g transform="translate(78.6420, 15.6503)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:39:2:3">
+<g transform="translate(79.4410, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:38:5:6">
+<g transform="translate(61.6544, 15.6713)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:38:2:3">
+<g transform="translate(62.4534, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" y-offset-propid="3" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true">
+<g transform="translate(44.6668, 15.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
+</g>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:35:2:3">
+<g transform="translate(11.4906, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:35:5:6">
+<g transform="translate(14.5596, 17.2843)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<g transform="translate(6.4906, 8.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(12.7208, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g y-ref-of-3="true" spontinimarker="true">
+<g transform="translate(5.6906, 7.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:36:2:3">
+<g transform="translate(28.4782, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" x-offset-propid="2" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:36:5:6">
+<g transform="translate(20.4782, 12.1743)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<g transform="translate(29.7084, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g x-ref-of-2="true" spontinimarker="true">
+<g transform="translate(28.4782, 7.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:37:2:3">
+<g transform="translate(45.4658, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:37:5:6">
+<g transform="translate(44.6668, 15.6213)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<g transform="translate(46.6960, 7.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" staff-padding-propid="6" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
+<g transform="translate(95.6296, 15.0662)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(97.6296, -9.5075)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(97.1296, -9.5075)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-5.3880"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(97.6296, 14.8955)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</g>
+<g staffspace="1.00000000" padding-propid="4" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
+<g transform="translate(61.6544, 15.0713)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(63.6544, -11.5916)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(63.1544, -11.5916)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-3.3090"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(63.6544, 14.9006)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</g>
+<g staffspace="1.00000000" outside-staff-padding-propid="5" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="true" y-direction="-1">
+<g transform="translate(78.6420, 15.0503)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="4" y2="0"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.6420, -11.5916)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.1420, -11.5916)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-3.2880"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(80.6420, 14.8796)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.6420, -15.2210)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.1420, -15.2210)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-3.2880"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(80.6420, 18.5090)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</g>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 29.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 28.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 27.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 26.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 25.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="39.4492" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 30.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 27.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" y-offset-propid="9" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:5:6">
+<g transform="translate(46.1179, 36.0213)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(80.6712, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:2:3">
+<g transform="translate(79.4410, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:47:2:3">
+<g transform="translate(62.4534, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(46.6960, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:2:3">
+<g transform="translate(96.4286, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(97.6588, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 24.5713)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+<g transform="translate(6.4906, 28.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:2:3">
+<g transform="translate(45.4658, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:44:2:3">
+<g transform="translate(11.4906, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" extra-offset-y-propid="7" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:44:5:6">
+<g transform="translate(12.1427, 35.9363)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(12.7208, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:45:2:3">
+<g transform="translate(28.4782, 30.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" x-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:45:5:6">
+<g transform="translate(23.1782, 30.2982)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(29.7084, 27.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g x-ref-of-8="true" spontinimarker="true">
+<g transform="translate(28.4782, 27.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
+</g>
+<g y-ref-of-9="true" spontinimarker="true">
+<g transform="translate(5.6906, 27.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
+</g>
+<g staffspace="1.00000000" staff-padding-propid="12" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:5:6">
+<g transform="translate(97.0807, 35.9782)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(97.0807, -29.2582)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(96.5807, -29.2582)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-6.3000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(97.0807, 35.5582)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" outside-staff-padding-propid="11" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:5:6">
+<g transform="translate(80.0931, 35.9813)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.0931, -31.1613)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(79.5931, -31.1613)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.4000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(80.0931, 35.5613)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(80.0931, -36.4013)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(79.5931, -36.4013)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.4000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(80.0931, 40.8013)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" padding-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:47:5:6">
+<g transform="translate(63.1055, 35.9863)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(63.1055, -31.1663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(62.6055, -31.1663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.4000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(63.1055, 35.5663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 49.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 48.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 47.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 46.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 45.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="39.4492" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 50.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 47.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" y-offset-propid="15" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:58:5:6">
+<g transform="translate(45.4658, 57.0213)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+</a>
+</g>
+<g transform="translate(80.6712, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:60:2:3">
+<g transform="translate(79.4410, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:59:2:3">
+<g transform="translate(62.4534, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(46.6960, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:2:3">
+<g transform="translate(96.4286, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(97.6588, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 44.5465)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<g transform="translate(6.4906, 48.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:58:2:3">
+<g transform="translate(45.4658, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:2:3">
+<g transform="translate(11.4906, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" extra-offset-propid="13" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:5:6">
+<g transform="translate(13.7226, 56.8927)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+</a>
+</g>
+<g transform="translate(12.7208, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:57:2:3">
+<g transform="translate(28.4782, 50.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" x-offset-propid="14" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:57:5:6">
+<g transform="translate(19.6782, 51.6346)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+</a>
+</g>
+<g transform="translate(29.7084, 47.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g x-ref-of-14="true" spontinimarker="true">
+<g transform="translate(28.4782, 47.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
+</g>
+<g y-ref-of-15="true" spontinimarker="true">
+<g transform="translate(5.6906, 47.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
+</g>
+<g staffspace="1.00000000" staff-padding-propid="18" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:5:6">
+<g transform="translate(96.4286, 57.0782)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(98.5796, -48.1817)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(98.0796, -48.1817)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-7.4000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(98.5796, 55.5817)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" outside-staff-padding-propid="17" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:60:5:6">
+<g transform="translate(79.4410, 56.9627)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(81.5920, -51.1663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(81.0920, -51.1663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.3000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(81.5920, 55.4663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(81.5920, -56.9939)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(81.0920, -56.9939)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.3000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(81.5920, 61.2939)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" padding-propid="16" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:59:5:6">
+<g transform="translate(62.4534, 56.8746)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>text</tspan>
+</text>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(64.6044, -49.6782)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, -1.0000)">
+<g transform="translate(64.1044, -49.6782)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-5.7000"/>
+</g>
+</g>
+</g>
+<g color="rgb(12.3000%, 45.6000%, 78.9000%)">
+<g transform="scale(1.0000, 1.0000)">
+<g transform="translate(64.6044, 55.3782)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
+</g>
+</g>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 69.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 68.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 67.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 66.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 65.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="73.6615" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="73.6615" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="56.5261" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="56.5261" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="22.6094" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="22.6094" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 63.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 64.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 67.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:74:2:3">
+<g transform="translate(96.8136, 67.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
+c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c5 -6 0 -13 -6 -13c-2 0 -4 0 -6 2c-45 54 -92 148 -92 202z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(79.7521, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:73:2:3">
+<g transform="translate(79.6781, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(62.6166, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:13:14">
+<g transform="translate(62.5427, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" extra-offset-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:2:3">
+<g transform="translate(57.0557, 60.8951)">
+<text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>8va</tspan>
+</text>
+</g>
+<g transform="translate(61.2821, 60.0943)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="15.6132" y1="-0.0000" x2="15.6132" y2="0.8000"/>
+</g>
+<g transform="translate(61.2821, 60.0943)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+</g>
+<g transform="translate(61.2821, 60.0943)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.6132" y2="-0.0000" stroke-dasharray="0.306140698059801,0.7143282954728691"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:65:2:3">
+<g transform="translate(9.2446, 60.8221)">
+<text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>8va</tspan>
+</text>
+</g>
+<g transform="translate(13.4710, 60.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="25.4542" y1="-0.0000" x2="25.4542" y2="0.8000"/>
+</g>
+<g transform="translate(13.4710, 60.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+</g>
+<g transform="translate(13.4710, 60.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="25.4542" y2="-0.0000" stroke-dasharray="0.3018281691824095,0.7042657280922889"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:70:2:3">
+<g transform="translate(45.7614, 67.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
+c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c5 -6 0 -13 -6 -13c-2 0 -4 0 -6 2c-45 54 -92 148 -92 202z" fill="currentColor"/>
+</g>
+</a>
+<g y-ref-of-19="true" spontinimarker="true">
+<g transform="translate(5.6906, 67.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="1" y2="0"/>
+</g>
+</g>
+<g transform="translate(6.4906, 68.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 64.5713)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
+<g transform="translate(11.5645, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:68:2:3">
+<g transform="translate(11.4906, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:69:2:3">
+<g transform="translate(28.6260, 63.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(28.7000, 67.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 89.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 88.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 87.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 86.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 85.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="90.4120" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="73.4244" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 83.6213)">
+<rect x="56.5082" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 84.6213)">
+<rect x="56.5082" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 83.6213)">
+<rect x="39.5206" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 84.6213)">
+<rect x="39.5206" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="22.4616" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 90.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 87.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(97.6588, 87.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:83:2:3">
+<g transform="translate(96.4286, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(80.6712, 87.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:82:2:3">
+<g transform="translate(79.4410, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(62.5988, 87.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:81:2:3">
+<g transform="translate(62.5248, 83.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" cpts-propid="22" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:78:5:6">
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(12.1427, 91.6663)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.0492" y2="7.3741"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(12.1919, 99.0404)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="16.8972" y2="-0.1370"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(29.0891, 98.9034)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.0412" y2="-7.2371"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(12.1427, 91.6663)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(12.1919, 99.0404)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(29.0891, 98.9034)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(29.1303, 91.6663)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g transform="translate(11.4906, 87.6213)">
+<path stroke-width="0.0910" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.6521 4.0450C0.7013 11.4874 17.5985 11.3504 17.6397 4.0450L17.6397 4.0450C17.5985 11.2139 0.7013 11.3509 0.6521 4.0450z"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" cpts-propid="23" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:80:7:8">
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(46.1893, 82.5763)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="0.0172" y2="-4.6511"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(46.2065, 77.9252)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="16.9452" y2="0.1150"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(63.1517, 78.0402)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1252" stroke="currentColor" x1="0" y1="0" x2="0.0252" y2="4.5361"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(46.1893, 82.5763)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(46.2065, 77.9252)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(63.1517, 78.0402)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(63.1769, 82.5763)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g transform="translate(45.5372, 87.6213)">
+<path stroke-width="0.1138" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.6521 -5.0450C0.6693 -9.7587 17.6145 -9.6437 17.6397 -5.0450L17.6397 -5.0450C17.6145 -9.5185 0.6693 -9.6335 0.6521 -5.0450z"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" cpts-propid="24" editcommand="Shape" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:82:5:6">
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(80.2931, 91.3713)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="-0.0612" y2="4.7689"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(80.2319, 96.1402)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="16.6369" y2="-0.0540"/>
+</g>
+</g>
+<g color="rgb(100.0000%, 50.0000%, 0.0000%)">
+<g transform="translate(96.8689, 96.0862)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1366" stroke="currentColor" x1="0" y1="0" x2="0.0118" y2="-4.7149"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(80.2931, 91.3713)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(80.2319, 96.1402)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(96.8689, 96.0862)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g color="rgba(98.8235%, 33.7255%, 1.1765%, 56.4706%)">
+<g transform="translate(96.8807, 91.3713)">
+<circle stroke-linejoin="round" stroke-linecap="round" fill="currentColor" stroke="currentColor" stroke-width="0" r="0.5000"/>
+</g>
+</g>
+<g transform="translate(79.4410, 87.6213)">
+<path stroke-width="0.0910" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M0.8521 3.7500C0.7910 8.5872 17.4279 8.5332 17.4397 3.7500L17.4397 3.7500C17.4279 8.3967 0.7910 8.4507 0.8521 3.7500z"/>
+</g>
+</a>
+</g>
+<g transform="translate(4.5638, 84.5466)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:78:2:3">
+<g transform="translate(11.4906, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(45.6112, 87.6213)">
+<rect x="-0.0740" y="-3.8139" width="0.1480" height="3.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(6.4906, 88.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(29.7084, 87.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:80:2:3">
+<g transform="translate(45.5372, 83.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(12.7208, 87.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:79:2:3">
+<g transform="translate(28.4782, 90.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 109.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 108.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 107.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 106.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 105.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(113.5948, 107.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="90.4588" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="82.0353" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="73.3618" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 111.6213)">
+<rect x="73.3618" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 112.6213)">
+<rect x="73.3618" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="56.5149" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="48.0914" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="39.4179" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 111.6213)">
+<rect x="39.4179" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 112.6213)">
+<rect x="39.4179" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="22.5709" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="14.1474" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 110.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 111.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 112.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(89.2821, 107.6213)">
+<rect x="-0.0740" y="-5.3068" width="0.1480" height="8.1207" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:89:55:56">
+<g transform="translate(88.0519, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(80.6087, 107.6213)">
+<rect x="-0.0740" y="-5.2940" width="0.1480" height="10.1079" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:89:2:3">
+<g transform="translate(79.3784, 112.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(72.4352, 107.6213)">
+<rect x="-0.0740" y="-2.0131" width="0.1480" height="1.3270" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:88:62:63">
+<g transform="translate(71.2049, 107.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.7617, 107.6213)">
+<rect x="-0.0740" y="-3.2078" width="0.1480" height="6.0217" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:88:59:60">
+<g transform="translate(62.5315, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" positions-propid="27" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:89:4:5">
+<g transform="translate(80.5347, 102.3274)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 -0.2382 25.8784 0.1618 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" positions-propid="26" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:88:4:5">
+<g transform="translate(46.5907, 102.0483)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 3.3701 25.8784 3.7701 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" positions-propid="25" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="true">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:5:6">
+<g transform="translate(12.6468, 109.4094)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="25.8784 -7.3202 25.8784 -6.9202 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g transform="translate(106.3791, 107.6213)">
+<rect x="-0.0740" y="-5.3320" width="0.1480" height="3.6459" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:89:61:62">
+<g transform="translate(105.1489, 106.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(97.7056, 107.6213)">
+<rect x="-0.0740" y="-5.3192" width="0.1480" height="8.1331" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:89:58:59">
+<g transform="translate(96.4754, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(55.3382, 107.6213)">
+<rect x="-0.0740" y="-4.3681" width="0.1480" height="7.1820" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(21.3943, 107.6213)">
+<rect x="-0.0740" y="-0.6150" width="0.1480" height="3.4289" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:57:58">
+<g transform="translate(20.1640, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(12.7208, 107.6213)">
+<rect x="-0.0740" y="1.7678" width="0.1480" height="3.0461" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:2:3">
+<g transform="translate(11.4906, 112.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(4.5638, 104.5465)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>6</tspan>
+</text>
+</g>
+<g transform="translate(6.4906, 108.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:88:56:57">
+<g transform="translate(54.1080, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(46.6647, 107.6213)">
+<rect x="-0.0740" y="-5.5628" width="0.1480" height="10.3767" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:88:2:3">
+<g transform="translate(45.4345, 112.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(38.4912, 107.6213)">
+<rect x="-0.0740" y="-5.3118" width="0.1480" height="3.6257" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:63:64">
+<g transform="translate(37.2610, 106.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:60:61">
+<g transform="translate(28.5875, 110.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(29.8178, 107.6213)">
+<rect x="-0.0740" y="-2.9290" width="0.1480" height="5.7429" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g transform="translate(5.6906, 129.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 128.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 127.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 126.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+<g transform="translate(5.6906, 125.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
+</g>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="90.3425" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="65.8896" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="56.4368" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="39.3797" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="12.0268" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(5.6906, 130.6213)">
+<rect x="5.4739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(113.5948, 127.6213)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="29" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
+<g transform="translate(71.9063, 127.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
+</g>
+</g>
+<g transform="translate(46.6265, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(73.1365, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:99:63:64">
+<g transform="translate(71.9063, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:98:2:3">
+<g transform="translate(62.4534, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:100:2:3">
+<g transform="translate(96.3591, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(97.5894, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(6.4906, 128.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(4.5638, 124.5713)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>7</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:97:2:3">
+<g transform="translate(45.3963, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:93:2:3">
+<g transform="translate(11.4906, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(12.7208, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="28" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="true">
+<g transform="translate(18.0434, 127.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.3414" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4"/>
+</g>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:96:64:65">
+<g transform="translate(18.0434, 130.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(19.2737, 127.6213)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g x-ref-of-28="true" spontinimarker="true">
+<g transform="translate(28.4434, 123.2984)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
+</g>
+<g x-ref-of-29="true" spontinimarker="true">
+<g transform="translate(79.4063, 123.2984)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
+</g>
+</g>
+<g transform="translate(28.8852, 165.1062)">
+<a xlink:href="https://lilypond.org/">
+<rect x="0.0000" y="-0.4888" width="61.7311" height="2.1604" fill="none" stroke="none" stroke-width="0.0"/>
+</a>
+</g>
+<g transform="translate(28.8852, 165.1062)">
+<text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+</text>
+</g>
+</svg>
