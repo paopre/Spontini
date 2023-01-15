@@ -6,3 +6,11 @@ lib/spontini_plugin_output.ly
 lib/spontini_plugin_output~
 lilyponds
 plugins/shared/CURRENT_LY_FILE
+tests/cypress
+plugins/python/__pycache__
+plugins/shared
+plugins/shared/CURRENT_LY_FILE
+bin/build
+bin/dist
+bin/Spontini*
+bin/releaseNotes.txt
