@@ -1,0 +1,63 @@
+on:
+  workflow_dispatch:
+    inputs:
+      windows_os_name:
+        required: true
+        type: string
+        default: windows-latest
+      linux_os_name:
+        required: true
+        type: string
+        default: ubuntu-latest
+      macos_os_name:
+        required: true
+        type: string
+        default: macos-latest
+      python_version:
+        required: true
+        type: string
+        default: 3.11
+      lily_additional_version:
+        type: string
+        default: 2.23.81
+
+jobs:
+
+  linux-test:
+    if: ${{ inputs.linux_os_name != 'NO' }}
+    runs-on: ${{ inputs.linux_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: >
+          sudo apt install inkscape;
+          python3 tests/spontini_server_test.py run_exec ${{ inputs.lily_additional_version }} ;
+          python3 -V;
+
+  windows-test:
+    if: ${{ inputs.windows_os_name != 'NO' }}
+    runs-on: ${{ inputs.windows_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: >
+          choco install inkscape;
+          python tests/spontini_server_test.py run_exec ${{ inputs.lily_additional_version }} ;
+          python -V
+
+  macos-test:
+    if: ${{ inputs.macos_os_name != 'NO' }}
+    runs-on: ${{ inputs.macos_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: >
+          brew install --cask inkscape;
+          python3 tests/spontini_server_test.py run_exec ${{ inputs.lily_additional_version }} ;
+          python3 -V;

@@ -1,0 +1,54 @@
+#TODO: boilerplate code, use matrix
+on:
+  workflow_dispatch:
+    inputs:
+      linux_os_name:
+        required: true
+        type: string
+        default: "ubuntu-latest"
+      windows_os_name:
+        required: true
+        type: string
+        default: "windows-latest"
+      macos_os_name:
+        required: true
+        type: string
+        default: "macos-latest"
+      versions:
+        required: false
+        type: string
+      python_version:
+        required: true
+        type: string
+        default: "3.11"
+
+jobs:
+  musicxml2ly-test-linux:
+    if: ${{ inputs.linux_os_name != 'NO' }}
+    runs-on: ${{ inputs.linux_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: python3 tests/musicxml2ly_test.py run_exec ${{ inputs.versions }} remove_installation
+
+  musicxml2ly-test-windows:
+    if: ${{ inputs.windows_os_name != 'NO' }}
+    runs-on: ${{ inputs.windows_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: python3 tests/musicxml2ly_test.py run_exec ${{ inputs.versions }} remove_installation
+
+  musicxml2ly-test-macos:
+    if: ${{ inputs.macos_os_name != 'NO' }}
+    runs-on: ${{ inputs.macos_os_name }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ inputs.python_version }}
+      - run: python3 tests/musicxml2ly_test.py run_exec ${{ inputs.versions }} remove_installation
