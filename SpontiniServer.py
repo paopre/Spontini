@@ -38,18 +38,19 @@ installLilyPondDialogInstance = None
 installLilyPondDialogBtnOKDefaultColor = None
 win = None
 msgQueueForTkGUI = None
+asgiServerCLI = None
 
 def showReExecuteError():
-
   showerror(message = "Re-execute the command after the server initialization is completed")
 
 def doSendMsgToServer(msg):
+  global asgiServerCLI
   r = None
   protocol = "http"
-  if "ssl_keyfile" in cli:
+  if "ssl_keyfile" in asgiServerCLI:
     protocol = "https"
-  port = cli["port"]
-  webServerURL = protocol + "://localhost:" + str(cli["port"]) + "/cgi"
+  port = asgiServerCLI["port"]
+  webServerURL = protocol + "://localhost:" + str(asgiServerCLI["port"]) + "/cgi"
   if "https" in webServerURL:
     #we are on the server(localhost)
     r = httpx.post(webServerURL, data=msg, verify=False, timeout=2600)
@@ -219,16 +220,17 @@ def checkAndPrintStdout():
 
 #TODO: implement for Daphne too?
 def runASGIServer():
-  uvicornCLIFile = open(os.path.join(getLibPythonPath(), 'uvicorn_cli.txt'))
-  uvicornCLITxtLines = uvicornCLIFile.readlines()
-  uvicornCLITxt = ""
-  for line in uvicornCLITxtLines:
+  global asgiServerCLI
+  asgiServerCLIFile = open(os.path.join(getLibPythonPath(), 'uvicorn_cli.txt'))
+  asgiServerCLITxtLines = asgiServerCLIFile.readlines()
+  asgiServerCLITxt = ""
+  for line in asgiServerCLITxtLines:
     if not line.startswith("#"):
-      uvicornCLITxt += line
+      asgiServerCLITxt += line
 
-  uvicornCLI = json.loads(uvicornCLITxt)
-  uvicornCLIFile.close()
-  uvicorn.run(**uvicornCLI)
+  asgiServerCLI = json.loads(asgiServerCLITxt)
+  asgiServerCLIFile.close()
+  uvicorn.run(**asgiServerCLI)
 
 def runThreadedASGIServer():
   global webServerThread
