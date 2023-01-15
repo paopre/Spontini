@@ -16,7 +16,6 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 # Editor configuration
-<br></br>
 
 Many options of Spontini-Editor can be configured and their configuration is permanently saved. Configuration parameters are grouped into two distinct files and their names are (...I hope so...) self-explanatory:
 

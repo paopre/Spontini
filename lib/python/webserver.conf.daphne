@@ -1,3 +1,0 @@
-webserver-name=daphne
-required-modules=daphne==3.0.1
-cli-params=-p 8000 spontini_server_core:asgi

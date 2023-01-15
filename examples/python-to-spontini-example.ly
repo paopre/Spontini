@@ -24,10 +24,16 @@
 # .ly text. Then press "COMPILE" button
 
 #__BLOCK__1
+# NOTE: SpontiniServer adds an arg at the end of argv[] array, containing a buffer
+# for capturing the output of the plugin
+import sys
+from sys import argv
+scriptOutput = argv[1]
 expr = ' '
 for i in range (8):
 	expr +='a '
-print(expr, end='')
+    
+scriptOutput[0] = expr
 
 %}
 
@@ -38,5 +44,5 @@ print(expr, end='')
 \version "2.19.84"
 
 {
-%{__BLOCK__1%} %{%}
+%{__BLOCK__1%} a a a a a a a a %{%}
 }

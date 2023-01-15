@@ -24,17 +24,56 @@ import traceback
 import signal
 import subprocess
 import shutil
+import glob
+import urllib
+import urllib.request
+from urllib import request
+from urllib.request import urlopen
+import zipfile
+import platform
+from pathlib import Path
+import tarfile
+from os.path import basename
+import xml.etree.ElementTree as ET
+import pathlib
+from datetime import datetime
+import colorlog
+from colorlog import ColoredFormatter
+import zipfile
+import ssl
+#?? REMOVE!
+import tkinter as tk
+from tkinter import *
+from tkinter.filedialog import askdirectory
+from tkinter.filedialog import askopenfilename
 
 spontiniLogger = None
+textArea = None
+msgQueueForTkGUI = None
+asgiServer = None
+
+def setASGIServerInstance(server):
+  global asgiServer
+  asgiServer = server
+
+def getASGIServerInstance():
+  return asgiServer
+
+def setMsgQueueForTkGUI(q):
+  global msgQueueForTkGUI
+  msgQueueForTkGUI = q
 
 def getSpontiniLogger():
   return spontiniLogger
 
-def setSpontiniLogger(moduleName, redirect=None):
+def getLibPythonPath():
+  if getattr(sys, 'frozen', False):
+    return os.path.join(os.path.dirname(sys.executable), 'lib', 'python')
+  else:
+    return os.path.dirname(__file__)
 
-  import colorlog
-  from colorlog import ColoredFormatter
-
+def setSpontiniLogger():
+  global spontiniLogger
   formatter = ColoredFormatter(
     "%(log_color)s%(asctime)-.19s [%(levelname)-.1s]%(reset)s %(message_log_color)s%(message)s",
     log_colors={
@@ -52,22 +91,59 @@ def setSpontiniLogger(moduleName, redirect=None):
       }
     }
   )
-
   logging.addLevelName(logging.INFO-1, 'SUCCESS')
-  streamHandler = None
-  if redirect != None:
-    streamHandler = logging.StreamHandler(redirect)
-  else:
-    streamHandler = logging.StreamHandler()
+  streamHandler = logging.StreamHandler()
   streamHandler.setFormatter(formatter)
-  global spontiniLogger
-  spontiniLogger = logging.getLogger(moduleName)
+  spontiniLogger = logging.getLogger("spontini")
   # prevents duplication of msgs. See:
   # https://stackoverflow.com/questions/11820338/replace-default-handler-of-python-logger
+  # TODO could not be necessary anymore
   spontiniLogger.handlers = []
   spontiniLogger.addHandler(streamHandler)
   spontiniLogger.propagate = False
   spontiniLogger.setLevel(logging.INFO-1)
+
+  #TODO customize for other possible ASGI webserver too
+  if "uvicorn" in sys.modules:
+    class UvicornCustomLogHandler(logging.Handler):
+      def emit(self, record):
+        #critical', 'error', 'warning', 'info', 'debug', 'trace'.
+        tag = "I"
+        if record.levelname.lower() == "warning":
+          tag = "W"
+        elif record.levelname.lower() == "critical" or record.levelname.lower() == "error":
+          tag = "E"
+        msg = record.getMessage()
+        if "uvicorn running on" in msg.lower():
+          msgSplit = msg.split(' ')
+          if len(msgSplit) >= 4:
+            msgOrig = msg
+            msg = "\nRun the editor on the browser by opening:\n" + msgSplit[3] + "/spontini-editor "
+            if (len(msgSplit) > 4) and \
+                ("(press" in msgSplit[4].lower()) and \
+                msgQueueForTkGUI == None:
+              msg += " ".join(msgSplit[4:])
+        log(msg, tag)
+
+    logHandler = UvicornCustomLogHandler()
+    logging.getLogger("uvicorn").handlers = []
+    logging.getLogger("uvicorn.access").handlers = []
+    logging.getLogger("uvicorn").addHandler(logHandler)
+
+
+def getWebserverParam(param):
+  try:
+    path = os.path.abspath(os.path.join(getLibPythonPath(), "protocolAndPort"))
+    fp = open(path,'r')
+    ret = ""
+    if param == "protocol":
+      ret = fp.readline().rstrip().split(":")[0]
+    else:
+      ret = int(fp.readline().rstrip().split(":")[1])
+    fp.close()
+    return ret
+  except:
+    pass
 
 def cmdlineSplit(s, platform='this'):
     #see https://stackoverflow.com/questions/33560364/python-windows-parsing-command-lines-with-shlex
@@ -118,140 +194,16 @@ def removeSharedInfos(shPath):
       log("Could not remove shared info file: "+currFile, "W")
       print(traceback.format_exc())
 
-def getWebServerConfParam(param):
-  ret = None
-  with open(os.path.join(os.path.dirname(__file__), "webserver.conf")) as fp:
-    while True:
-      line = fp.readline().rstrip()
-      if not line:
-        break
-      if line.startswith(param):
-        if param != "required-modules":
-          ret = line.split(param+"=")[1]
-        else:
-          ret = line.split(param+"=")[1].split(" ")
-  fp.close()
-  return ret
-
-def terminateSpawnedProcesses():
-  shPath = (os.path.join(os.path.dirname(__file__), '..', '..', 'plugins', 'shared'))
-  for currFile in os.listdir(shPath):
-    if currFile.startswith("PID_"):
-      try:
-        pid = int(currFile[4:])
-        os.kill(pid, signal.SIGTERM)
-      except:
-        print("Could not close process with pid "+str(pid), "W")
-        print(traceback.format_exc())
-
-def setProtocolAndPortForPyGUI(protocol, port):
-  path = os.path.join(os.path.dirname(__file__), "protocolAndPort")
-  fp = open(path,'w+')
-  fp.write(protocol+":"+str(port))
-  fp.close()
-
-def setProtocolAndPortForPyGUIFromCLIParams(cliParams, webserverName):
-  cliParamsArr = cmdlineSplit(cliParams)
-  ok = True
-  path = os.path.join(os.path.dirname(__file__), "protocolAndPort")
-
-  if webserverName == "daphne":
-    if "-p" in cliParamsArr:
-      fp = open(path,'w+')
-      fp.write("http:"+cliParamsArr[cliParamsArr.index("-p") + 1])
-      fp.close()
-    elif "-e" in cliParamsArr:
-      entryPointTkn = cliParamsArr[cliParamsArr.index("-e") + 1]
-      subTkns = entryPointTkn.split(":")
-      if "ssl" in subTkns:
-        fp = open(path,'w+')
-        fp.write("https:"+subTkns[subTkns.index("ssl") + 1])
-        fp.close()
-      elif "onion" in subTkns:
-        fp = open(path,'w+')
-        fp.write("onion:"+subTkns[subTkns.index("onion") + 1])
-        fp.close()
-      else:
-        ok = False
-
-  if not ok:
-    spontiniLogger.critical("Webserver port not set!")
-    sys.exit(0)
-
 def mute(a, b):
   pass
 
-def upgradePip(logFunc):
-  pyCmd = getVenvedPyCmd()
-  error = False
-  output = subprocess.Popen([pyCmd, "-m", "pip", "install", "--upgrade", "pip"],
-                                                encoding='utf-8',
-                                                stdout=subprocess.PIPE,
-                                                stderr=subprocess.PIPE)
-
-  while True:
-    line = output.stdout.readline().replace("\n", "")
-    if not line:
-        break
-    logFunc(line, "I")
-
-  stderrLines = ""
-  while True:
-    line = output.stderr.readline()
-    stderrLines = stderrLines + line
-    if not line:
-      break
-
-  output.communicate()
-  if output.returncode != 0:
-    error = True
-    logFunc(stderrLines, "E")
-  elif stderrLines:
-    logFunc(stderrLines, "I")
-
-  return not error
-
-def checkAndInstallModule(module, installedModules, logFunc):
-
-  error = False
-  msg = "Checking if "+module+" is inside venv: "
-  if module in installedModules:
-    if not module.startswith("wheel=="):
-      logFunc(msg+"YES", "I")
-  else:
-    if not module.startswith("wheel=="):
-      logFunc(msg+"NO. Collecting it...", "I")
-    moduleName = module.split("==")[0]
-    pip3VenvCmd = os.path.join(getVenvedExecDir(), "pip3")
-    output = subprocess.Popen([pip3VenvCmd, "install", module],
-                                                  encoding='utf-8',
-                                                  stdout=subprocess.PIPE,
-                                                  stderr=subprocess.PIPE)
-
-    while True:
-      line = output.stdout.readline().replace("\n", "")
-      if not line:
-        break
-      logFunc(line, "I")
-    stderrLines = ""
-    while True:
-      line = output.stderr.readline()
-      stderrLines = stderrLines + line
-      if not line:
-        break
-    output.communicate()
-    if output.returncode != 0:
-      error = True
-      logFunc(stderrLines, "E")
-    elif stderrLines:
-      logFunc(stderrLines, "I")
-
-  return not error
-
-def getVenvName():
-  return "spontinivenv"
-
 def log(msg, logType = ""):
+
+  global msgQueueForTkGUI
+  if msgQueueForTkGUI != None:
+    msgQueueForTkGUI.put([msg, logType])
+    return
+
   if logType == "I":
     getSpontiniLogger().info(msg)
   if logType == "E":
@@ -265,131 +217,165 @@ def log(msg, logType = ""):
   elif logType == "S":
     getSpontiniLogger().log(logging.INFO-1, msg)
 
-def getVenvedExecDir():
-  venvDir = os.path.join(os.path.dirname(__file__), getVenvName())
-  if os.name == "nt":
-    return os.path.join(venvDir, "Scripts")
-  else:
-    return os.path.join(venvDir, "bin")
+#TODO ugly exception handling, must be fixed
+def getSupportedLilyPondList():
+  supportedLilypondVersions = os.path.join(getLibPythonPath(), "..", "supported_lilyponds.txt")
+  lilypondLinksFile = os.path.join(getLibPythonPath(), "..", "lilypond_links.xml")
+  f = open(supportedLilypondVersions,'r')
+  versions = [line.rstrip() for line in f]
+  lilyItems = {}
+  for version in versions:
+    version = version.replace("[D]", "")
+    if version.startswith("#"):
+      continue
+    linUrl    = ""
+    winUrl    = ""
+    darwinUrl = ""
+    tree = ET.parse(lilypondLinksFile)
+    root = tree.getroot()
+    for tag in root.findall('lilypond'):
+      if version in tag.get('versions'):
+        linUrl    = tag.get('linux').replace("%%VERSION%%", version)
+        darwinUrl = tag.get('darwin').replace("%%VERSION%%", version)
+        winUrl    = tag.get('windows').replace("%%VERSION%%", version)
+        break
+      elif tag.get('versions') == 'others':
+        linUrl    = tag.get('linux').replace("%%VERSION%%", version)
+        darwinUrl = tag.get('darwin').replace("%%VERSION%%", version)
+        winUrl    = tag.get('windows').replace("%%VERSION%%", version)
 
-def getVenvedPyCmd():
-  return os.path.join(getVenvedExecDir(), "python")
-
-def setPip3AndVenvParams(logFunc = mute):
-
-  logFunc("*** Initializing virtual environment ***", "I")
-  pip3Exists = False
-  venvExists = False
-  venvCmdExists = False
-  venvModuleExists = False
-  venvedExecDir = ""
-  venvedPyCmd = ""
-  logFunc("Checking for pip3", "I")
-  try:
-    pipcmdArr = None
-    venvcmdArr = None
-    if os.name == "nt":
-      pipcmdArr = ["py", "-3", "-m", "pip", "--version"]
-      venvcmdArr = ["py", "-3", "-m", "venv", "-h"]
-    else:
-      pipcmdArr = ["python3", "-m", "pip", "--version"]
-      venvcmdArr = ["python3", "-m", "venv", "-h"]
-    p = subprocess.run(pipcmdArr, encoding='utf-8',
-                       stderr=subprocess.PIPE,
-                       stdout=subprocess.PIPE)
-    if p.returncode == 0:
-      pip3Exists = True
-      logFunc(p.stdout, "I")
-      logFunc("Pip3 found", "I")
-    else:
-      logFunc("Could not find pip3", "E")
-      logFunc(p.stderr, "E")
-
-    if pip3Exists:
-      logFunc("Checking for venv module", "I")
-      p = subprocess.run(venvcmdArr, encoding='utf-8',
-                        stderr=subprocess.PIPE,
-                        stdout=subprocess.DEVNULL)
-
-      if p.returncode == 0:
-        venvCmdExists = True
-        logFunc("Venv found", "I")
-      else:
-        logFunc("Could not find venv", "E")
-        logFunc(p.stderr, "E")
-
-      venvDir = os.path.join(os.path.dirname(__file__), getVenvName())
-      execName = "pip3"
-      if os.name == "nt":
-        execName = "pip3.exe"
-      venvedPip = os.path.join(getVenvedExecDir(), execName)
-      if venvCmdExists and os.path.isdir(venvDir):
-        venvCmdExists = os.path.isfile(venvedPip)
-        if not venvCmdExists:
-          logFunc("Could not find pip executable inside "+getVenvName(), "E")
-          logFunc("Make sure that both pip and venv are installed. If they are already installed, a broken installation", "E")
-          logFunc("of the Spontini-Server could have been made. Spontini-Server will try to fix it at its next start.", "E")
-          logFunc("Please run again the server and if the problem persists, report a bug.", "E")
-          try:
-            shutil.rmtree(venvDir)
-            #we force an error so to have information on how to install venv
-            p = subprocess.run(venvcmdArr, encoding='utf-8',
-                               stderr=subprocess.PIPE,
-                               stdout=subprocess.DEVNULL)
-            logFunc(p.stderr, "E")
-          except:
-            logFunc(traceback.format_exc(), "E")
-        else:
-          logFunc("Found pip executable inside venv", "I")
-  except:
-    logFunc(traceback.format_exc(), "E")
-
-  if pip3Exists and venvCmdExists:
-
-    currFileDir = os.path.dirname(__file__)
-    venvDir = os.path.join(currFileDir, getVenvName())
-
-    logFunc("Checking for virtual environment inside "+venvDir, "I")
+    isBlacklisted = False
     try:
-      venvedExecDir = getVenvedExecDir()
-      venvedPyCmd = getVenvedPyCmd()
-      p = subprocess.run([venvedPyCmd, "--version"], encoding='utf-8',
-                          stderr=subprocess.PIPE, stdout=subprocess.PIPE)
-      venvExists = True
+      blacklistedVersionsFile = open(os.path.join(getLibPythonPath(), "..", "blacklisted_lilyponds_" + platform.system().lower() + ".txt"),'r')
+      blacklistedVersions = [line.rstrip() for line in blacklistedVersionsFile]
+      if version in blacklistedVersions:
+        isBlacklisted = True
+      blacklistedFile.close()
+    except:
+      pass
+    if not isBlacklisted:
+      lilyItems[version] = { "Linux" : linUrl, "Darwin" : darwinUrl, "Windows": winUrl }
+  f.close()
+  return lilyItems
+
+def getDefaultLilypondVersion():
+  supportedLilypondVersions = os.path.join(getLibPythonPath(), "..", "supported_lilyponds.txt")
+  f = open(supportedLilypondVersions,'r')
+  versions = [line.rstrip() for line in f]
+  ret = ""
+  for version in versions:
+    if "[D]" in version:
+      ret = version.replace("[D]", "")
+  f.close()
+  return ret
+
+def getAutoinstallableLilyPondList():
+  lilyItems = getSupportedLilyPondList()
+  filteredItems = {}
+  for k, v in lilyItems.items():
+    if v[platform.system()] != "":
+      filteredItems[k] = v
+  return filteredItems
+
+def getPathOfInstalledLilyPond(version, installBaseDir):
+  try:
+    dirs = [d for d in os.listdir(installBaseDir) if d.endswith(version)]
+    if len(dirs) == 0:
+      return ""
+    installDir = os.path.join(installBaseDir, dirs[0])
+    platSys = platform.system()
+    if platSys == "Linux":
+      lilyPondExec = os.path.abspath(os.path.join(installDir, "bin", "lilypond"))
+      return lilyPondExec
+    elif platSys == "Windows":
+      for lilyPondExec in pathlib.Path(installDir).rglob("lilypond.exe"):
+        return str(lilyPondExec)
+    elif platSys == "Darwin":
+      for lilyPondExec in pathlib.Path(installDir).rglob("lilypond"):
+        lastElem = os.path.basename(os.path.normpath(lilyPondExec.parent))
+        if lastElem == 'bin':
+          return str(lilyPondExec)
+  except:
+    return ""
+  return ""
+
+def installLilyPond(version, installBaseDir):
+  platSys = platform.system()
+  autoinstallableLilypondItems = getAutoinstallableLilyPondList()
+  supportedLilypondItems = getSupportedLilyPondList()
+
+  if version not in supportedLilypondItems:
+    raise Exception("Version " + version + " not supported")
+
+  if version in supportedLilypondItems and version not in autoinstallableLilypondItems:
+    raise Exception("Can't install " + version + " version automatically. Please install it manually")
+
+  lilyExecPath = getPathOfInstalledLilyPond(version, installBaseDir)
+  if lilyExecPath != "":
+    return lilyExecPath
+
+  Path(installBaseDir).mkdir(parents=True, exist_ok=True)
+
+  if not os.path.exists(os.path.join(installBaseDir, version)):
+    extension = ".tar.gz"
+    if ".sh" in autoinstallableLilypondItems[version][platSys]:
+      extension = ".sh"
+    if ".zip" in autoinstallableLilypondItems[version][platSys]:
+      extension = ".zip"
+    if ".tar.bz2"  in autoinstallableLilypondItems[version][platSys]:
+      extension = ".tar.bz2"
+
+    ssl._create_default_https_context = ssl._create_unverified_context
+    #ctx = ssl.create_default_context()
+    #ctx.check_hostname = False
+    #ctx.verify_mode = ssl.CERT_NONE
+    archiveFile = None
+    url = autoinstallableLilypondItems[version][platSys]
+    try:
+      archiveFile = request.urlopen(request.Request(url)).info().get_filename()
     except:
       pass
 
-    if venvExists:
-      logFunc("A virtual environment for python3 already exists inside "+venvDir, "I")
-    else:
-      logFunc("", "I")
-      logFunc("----------------------------------------------", "I")
-      logFunc("Spontini Server is completing its installation", "I")
-      logFunc("This can take some time: please wait", "I")
-      logFunc("----------------------------------------------", "I")
-      logFunc("", "I")
-      logFunc("Virtual environment missing. Creating a new one...", "I")
-      try:
-        createVenvCmd = None
-        if os.name == "nt":
-          createVenvCmd = ["py", "-3", "-m", "venv", venvDir]
-        else:
-          createVenvCmd = ["python3", "-m", "venv", venvDir]
-        p = subprocess.run(createVenvCmd, encoding='utf-8',
-                                        stderr=subprocess.PIPE, stdout=subprocess.PIPE)
-        if p.returncode == 0:
-          if p.stdout != '':
-            logFunc(p.stdout, "I")
-          logFunc("Venv Created", "S")
-          venvExists = True
-        else:
-          logFunc("Could not create venv", "E")
-          logFunc(p.stderr, "E")
-          logFunc(p.stdout, "E")
-          venvExists = False
-      except:
-        logFunc("Could not create venv", "E")
-        logFunc(traceback.format_exc(), "E")
-        venvExists = False
+    if not archiveFile:
+      response = urlopen(autoinstallableLilypondItems[version][platSys])
+      archiveFile = basename(response.url)
 
-  return [pip3Exists, venvExists, venvedExecDir, venvedPyCmd]
+    archiveFile = os.path.join(installBaseDir, archiveFile)
+
+    urllib.request.urlretrieve(autoinstallableLilypondItems[version][platSys], archiveFile)
+
+    if extension == ".sh":
+      ret = os.system("echo '\n' | sh " + archiveFile + " --prefix " + os.path.join(installBaseDir, "lilypond-"+version))
+    elif extension == ".tar.gz" or extension == ".tar.bz2":
+      archive = tarfile.open(archiveFile)
+      extractDir = installBaseDir
+      if platSys == "Darwin":
+        extractDir = os.path.join(installBaseDir, "lilypond-" + version)
+      archive.extractall(extractDir)
+      archive.close()
+    else: #zip
+      with zipfile.ZipFile(archiveFile, 'r') as zipRef:
+          zipRef.extractall(installBaseDir)
+
+    os.remove(archiveFile)
+
+  lilyExecPath = getPathOfInstalledLilyPond(version, installBaseDir)
+  if lilyExecPath != "":
+    return lilyExecPath
+
+  return ""
+
+def uninstallLilyPond(version, installBaseDir):
+  lilyDir = ""
+  for file in os.listdir(installBaseDir):
+    d = os.path.join(installBaseDir, file)
+    if os.path.isdir(d) and d.endswith(version):
+      lilyDir = d
+      break
+  shutil.rmtree(lilyDir)
+  for filename in glob.glob(lilyDir + "*"):
+    os.remove(filename)
+  if len(os.listdir(installBaseDir)) == 0:
+    shutil.rmtree(installBaseDir)
+
+  return "OK"

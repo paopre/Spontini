@@ -1,673 +1,672 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0 0 119.5016 169.0094">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0.0000 -0.0000 119.5016 169.0094">
 <style type="text/css">
 <![CDATA[
 tspan { white-space: pre; }
 ]]>
 </style>
-<!-- Page: 1/1 -->
-<g transform="translate(14.2264, 9.6243)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
-</g>
-<g transform="translate(14.2264, 8.6243)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
-</g>
-<g transform="translate(14.2264, 7.6243)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
-</g>
-<g transform="translate(14.2264, 6.6243)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
-</g>
-<g transform="translate(14.2264, 5.6243)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
-</g>
-<g transform="translate(43.6787, 3.8453)">
-<rect x="0.0000" y="5.8290" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(43.6787, 16.6243)">
-<rect x="0.0000" y="-2.0500" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(64.5163, 3.8453)">
-<rect x="0.0000" y="5.8290" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(83.1329, 3.8453)">
-<rect x="0.0000" y="5.8290" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
+<rect x="0.0000" y="5.8260" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(64.5163, 16.6243)">
+<g transform="translate(83.1329, 16.6213)">
 <rect x="0.0000" y="-2.0500" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(83.1329, 16.6243)">
+<g transform="translate(43.6787, 16.6213)">
 <rect x="0.0000" y="-2.0500" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(103.0483, 7.6243)">
+<g transform="translate(64.5163, 7.6213)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(43.6787, 7.6243)">
+<g transform="translate(83.1329, 7.6213)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(103.0483, 16.6243)">
+<g transform="translate(43.6787, 7.6213)">
+<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(64.5163, 16.6213)">
 <rect x="0.0000" y="-2.0500" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(83.1329, 7.6243)">
-<rect x="0.0000" y="-2.0000" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
 <g transform="translate(103.0483, 3.8453)">
-<rect x="0.0000" y="5.8290" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
+<rect x="0.0000" y="5.8260" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(64.5163, 7.6243)">
+<g transform="translate(64.5163, 3.8453)">
+<rect x="0.0000" y="5.8260" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(43.6787, 3.8453)">
+<rect x="0.0000" y="5.8260" width="0.1900" height="4.9500" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(103.0483, 16.6213)">
+<rect x="0.0000" y="-2.0500" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(103.0483, 7.6213)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0500" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(14.2264, 18.6243)">
+<g transform="translate(14.2264, 18.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-<g transform="translate(14.2264, 17.6243)">
+<g transform="translate(14.2264, 17.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-<g transform="translate(14.2264, 16.6243)">
+<g transform="translate(14.2264, 16.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-<g transform="translate(14.2264, 15.6243)">
+<g transform="translate(14.2264, 15.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-<g transform="translate(14.2264, 14.6243)">
+<g transform="translate(14.2264, 14.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="85.5105" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="81.9105" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="78.2063" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="73.2323" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="70.7281" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="66.9981" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="55.8169" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="53.3127" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="50.9127" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="38.7521" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="35.1579" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="32.6537" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="30.2537" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="18.9161" y="-0.1000" width="1.9063" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 19.6243)">
+<g transform="translate(5.6906, 19.6213)">
 <rect x="16.9098" y="-0.1000" width="1.9063" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="85.5105" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="81.9105" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="78.2063" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="73.2323" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="69.3981" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="65.6681" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="63.2681" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="48.5606" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="46.1606" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="43.6564" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="41.2564" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="27.8745" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="25.4745" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 10.6243)">
+<g transform="translate(5.6906, 10.6213)">
 <rect x="22.9703" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:25:26">
-<g transform="translate(79.2489, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+<g transform="translate(14.2264, 9.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
 </g>
-</a>
-<g transform="translate(74.2539, 16.6243)">
+<g transform="translate(14.2264, 8.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
+</g>
+<g transform="translate(14.2264, 7.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
+</g>
+<g transform="translate(14.2264, 6.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
+</g>
+<g transform="translate(14.2264, 5.6213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="88.9619" y2="0"/>
+</g>
+<g transform="translate(74.2539, 16.6213)">
 <rect x="-0.0650" y="-1.2223" width="0.1300" height="4.0362" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:71:17:18">
-<g transform="translate(73.0147, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:70:8:9">
+<g transform="translate(71.6847, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:71:17:18">
-<g transform="translate(73.0147, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:71:17:18">
+<g transform="translate(73.0147, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:25:26">
-<g transform="translate(79.2489, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:71:17:18">
+<g transform="translate(73.0147, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(71.7497, 7.6243)">
+<g transform="translate(71.7497, 7.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="3.3462" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:70:8:9">
-<g transform="translate(71.6847, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:25:26">
+<g transform="translate(79.2489, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:17:18">
-<g transform="translate(76.7447, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:17:18">
+<g transform="translate(76.7447, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:17:18">
-<g transform="translate(76.7447, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:25:26">
+<g transform="translate(79.2489, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(75.4797, 7.6243)">
-<rect x="-0.0650" y="3.1861" width="0.1300" height="3.3462" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:25:26">
+<g transform="translate(79.2489, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
-<g transform="translate(77.9839, 16.6243)">
+</a>
+<g transform="translate(77.9839, 16.6213)">
 <rect x="-0.0650" y="-1.2223" width="0.1300" height="4.0362" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:8:9">
-<g transform="translate(75.4147, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:8:9">
+<g transform="translate(75.4147, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:8:9">
-<g transform="translate(75.4147, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:17:18">
+<g transform="translate(76.7447, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:25:26">
-<g transform="translate(79.2489, 10.6243)">
+<g transform="translate(75.4797, 7.6213)">
+<rect x="-0.0650" y="3.1861" width="0.1300" height="3.3462" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:8:9">
+<g transform="translate(75.4147, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:66:13:14">
-<g transform="translate(65.6063, 15.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:13:14">
+<g transform="translate(65.6063, 15.1213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:66:9:10">
-<g transform="translate(65.6063, 16.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:9:10">
+<g transform="translate(65.6063, 16.1213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:66:13:14">
-<g transform="translate(65.6063, 15.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:13:14">
+<g transform="translate(65.6063, 15.1213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:66:9:10">
-<g transform="translate(65.6063, 16.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:9:10">
+<g transform="translate(65.6063, 16.1213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(63.0727, 16.6243)">
+<g transform="translate(63.0727, 16.6213)">
 <rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:61:17:18">
-<g transform="translate(61.8335, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:17:18">
+<g transform="translate(61.8335, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(60.5685, 16.6243)">
+<g transform="translate(60.5685, 16.6213)">
 <rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:61:8:9">
-<g transform="translate(59.3293, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:8:9">
+<g transform="translate(59.3293, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(58.1685, 3.8453)">
-<rect x="-0.0650" y="3.3540" width="0.1300" height="12.2389" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="3.3510" width="0.1300" height="12.2389" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(69.3497, 7.6243)">
+<g transform="translate(69.3497, 7.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.6039" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:65:24:25">
-<g transform="translate(69.2847, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:65:24:25">
+<g transform="translate(69.2847, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:65:24:25">
-<g transform="translate(69.2847, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:65:24:25">
+<g transform="translate(69.2847, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:70:8:9">
-<g transform="translate(71.6847, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:70:8:9">
+<g transform="translate(71.6847, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(66.8455, 16.6243)">
+<g transform="translate(66.8455, 16.6213)">
 <rect x="-0.0650" y="-3.9800" width="0.1300" height="3.2939" ry="0.0400" fill="currentColor"/>
 </g>
 <g transform="translate(91.5921, 3.8453)">
-<rect x="-0.0650" y="6.9651" width="0.1300" height="11.3139" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="6.9621" width="0.1300" height="11.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:83:1:2">
-<g transform="translate(96.6870, 28.4578)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:83:1:2">
+<g transform="translate(96.6870, 28.3870)">
 <path transform="scale(0.0040, -0.0040)" d="M166 194c0 -16 12 -28 28 -28s29 12 29 28s-13 29 -29 29s-28 -13 -28 -29zM92 347c23 0 42 -19 42 -46v-11c0 -20 11 -45 35 -35c9 4 15 13 15 22c0 27 -38 37 -38 64c0 32 24 48 48 48s49 -16 49 -48c0 -27 -39 -37 -39 -64c0 -18 26 -32 41 -17c8 8 10 19 10 30
 c0 4 -1 7 -1 11c0 27 20 46 43 46c26 0 50 -24 50 -50c0 -23 -18 -43 -45 -43c-4 0 -8 1 -12 1c-20 0 -45 -11 -35 -35c4 -9 13 -16 22 -16c27 0 37 39 64 39c32 0 48 -25 48 -49s-16 -48 -48 -48c-27 0 -37 38 -64 38c-18 0 -32 -26 -17 -41c8 -8 19 -9 30 -9h12
 c27 0 45 -19 45 -42c0 -26 -24 -50 -50 -50c-23 0 -43 18 -43 45c0 4 1 8 1 12c0 20 -11 45 -35 35c-9 -4 -16 -13 -16 -22c0 -27 39 -37 39 -64c0 -32 -25 -48 -49 -48s-48 16 -48 48c0 27 38 37 38 64c0 18 -26 32 -41 17c-8 -8 -9 -19 -9 -30v-12c0 -27 -19 -45 -42 -45
 c-26 0 -50 24 -50 50c0 23 18 42 45 42h12c20 0 45 11 35 35c-4 9 -13 15 -22 15c-27 0 -37 -38 -64 -38c-32 0 -48 24 -48 48s16 49 48 49c27 0 37 -39 64 -39c18 0 32 26 17 41c-8 8 -19 10 -30 10c-4 0 -8 -1 -12 -1c-27 0 -45 20 -45 43c0 26 24 50 50 50z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:97:20:21">
-<g transform="translate(97.4648, 16.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:97:20:21">
+<g transform="translate(97.4648, 16.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M-23 -116c0 28 11 42 40 42c33 0 78 -13 119 -31l-132 158c-7 9 -10 17 -10 25c0 34 50 66 87 99c25 22 37 52 37 83c0 24 -8 49 -25 69l-35 42c-3 3 -4 7 -4 10c0 9 9 15 17 15c4 0 8 -1 11 -5l151 -180c7 -9 10 -17 10 -25c0 -34 -50 -66 -87 -99
-c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c7 -8 -5 -19 -12 -11c-45 54 -92 148 -92 202z" fill="currentColor"/>
+c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -16 -16c-4 0 -9 2 -12 6c-18 21 -63 38 -97 38c-41 0 -53 -26 -53 -67c0 -35 11 -74 28 -94c5 -6 0 -13 -6 -13c-2 0 -4 0 -6 2c-45 54 -92 148 -92 202z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(91.5921, 7.6243)">
+<g transform="translate(91.5921, 7.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:87:1:2">
-<g transform="translate(92.9831, 28.4578)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:1:2">
+<g transform="translate(92.9831, 28.3870)">
 <path transform="scale(0.0040, -0.0040)" d="M0 35c0 19 16 35 35 35s35 -16 35 -35s-16 -35 -35 -35s-35 16 -35 35z" fill="currentColor"/>
 </g>
-<g transform="translate(89.7911, 28.4578)">
+<g transform="translate(89.7911, 28.3870)">
 <path transform="scale(0.0040, -0.0040)" d="M43 339c0 -19 13 -48 39 -48c22 0 43 28 43 59c0 8 18 8 18 0c0 -63 -41 -125 -83 -125c-41 0 -61 44 -61 78c0 82 90 197 251 197c108 0 166 -82 166 -144c0 -30 -17 -67 -52 -67s-68 49 -87 90c-3 7 13 14 16 7c8 -18 28 -32 46 -32c21 0 32 18 32 36
-c0 39 -44 92 -121 92h-7c-10 -20 -39 -91 -39 -108c0 -46 100 -114 100 -164c0 -24 -28 -52 -58 -90c29 -3 83 -28 102 -44c13 -11 48 24 57 31c-4 19 -6 29 -6 48c0 60 32 132 96 132c25 0 49 -17 49 -45c0 -37 -43 -80 -79 -110l-11 -9c13 -24 33 -57 47 -69
-c4 -4 13 -3 18 0c9 5 47 33 63 47c-4 14 -6 28 -6 42c0 55 45 112 97 137c-51 71 -129 126 -208 140c-8 1 -5 19 3 18c142 -25 305 -134 329 -272c1 -8 3 -16 3 -24c0 -70 -50 -142 -113 -142c-43 0 -81 37 -99 82c-24 -22 -73 -64 -85 -72c-8 -6 -19 -9 -30 -9
-c-39 0 -51 46 -62 85c-27 -20 -90 -73 -106 -82c-6 -3 -12 -4 -17 0c-19 16 -28 89 -57 98c-25 -30 -47 -57 -56 -66c-11 -11 -64 -36 -65 -36h1c-7 0 -14 5 -14 12c0 13 21 38 30 47c18 19 67 57 95 61c18 21 30 29 30 49c0 47 -88 111 -88 150c0 24 43 134 60 162
-c-113 -10 -181 -88 -181 -142zM475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c26 22 63 54 63 83c0 19 -16 32 -34 32zM683 265c-37 -21 -55 -77 -55 -122c0 -48 18 -108 59 -108c32 0 45 39 45 81c0 61 -20 105 -49 149z" fill="currentColor"/>
+c0 39 -44 92 -121 92h-7c-10 -20 -39 -91 -39 -108c0 -46 100 -114 100 -164c0 -24 -28 -52 -58 -90c29 -3 83 -28 102 -44c13 -11 48 24 57 31c-4 19 -6 29 -6 48c0 60 32 132 96 132c25 0 49 -17 49 -45c0 -42 -53 -88 -90 -119c13 -24 33 -57 47 -69c4 -4 13 -3 18 0
+c9 5 47 33 63 47c-4 14 -6 28 -6 42c0 55 45 112 97 137c-51 71 -129 126 -208 140c-8 1 -5 19 3 18c142 -25 305 -134 329 -272c1 -8 3 -16 3 -24c0 -70 -50 -142 -113 -142c-43 0 -81 37 -99 82c-24 -22 -73 -64 -85 -72c-8 -6 -19 -9 -30 -9c-39 0 -51 46 -62 85
+c-27 -20 -90 -73 -106 -82c-6 -3 -12 -4 -17 0c-19 16 -28 89 -57 98c-25 -30 -47 -57 -56 -66c-12 -12 -47 -36 -64 -36c-7 0 -14 5 -14 12c0 13 21 38 30 47c18 19 67 57 95 61c18 21 30 29 30 49c0 47 -88 111 -88 150c0 24 43 134 60 162c-113 -10 -181 -88 -181 -142z
+M475 254c-30 0 -43 -27 -43 -55c0 -20 6 -42 14 -60c26 22 63 54 63 83c0 19 -16 32 -34 32zM683 265c-37 -21 -55 -77 -55 -122c0 -48 18 -108 59 -108c32 0 45 39 45 81c0 61 -20 105 -49 149z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:66:18:19">
-<g transform="translate(66.7805, 12.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 0.6100 2.5942 1.0100 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:29:30">
-<g transform="translate(22.9264, 22.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:29:30">
+<g transform="translate(22.9264, 22.1213)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.1505 -0.5100 4.1505 -0.1100 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:8:9">
-<g transform="translate(22.9264, 23.4641)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="4.3900" y1="-0.3147" x2="4.3900" y2="-1.0147"/>
-</g>
-<g transform="translate(22.9264, 23.4641)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="-0.1995" y1="0.0143" x2="-0.1995" y2="-0.6857"/>
-</g>
-<g transform="translate(22.9264, 23.4641)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="4.3900" y1="-0.3147" x2="3.2557" y2="-0.2334"/>
-</g>
-<g transform="translate(22.9264, 23.4641)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="-0.1995" y1="0.0143" x2="1.1344" y2="-0.0813"/>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:11:12">
+<g transform="translate(75.4147, 14.1213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 1.1100 2.5942 1.5100 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:8:9">
-<g transform="translate(24.4583, 23.9456)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:70:11:12">
+<g transform="translate(71.6847, 14.1213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 1.1100 2.5942 1.5100 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:18:19">
+<g transform="translate(66.7805, 12.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 0.6100 2.5942 1.0100 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:11:12">
+<g transform="translate(60.5035, 16.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:55:11:12">
+<g transform="translate(55.7514, 7.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.4421 -0.3900 2.4421 0.0100 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:50:11:12">
+<g transform="translate(50.8472, 7.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:45:10:11">
+<g transform="translate(45.9430, 7.4313)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.0100 2.5942 0.3900 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:11:12">
+<g transform="translate(38.6703, 22.1213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:36:10:11">
+<g transform="translate(33.8911, 20.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.4692 1.3000 2.4692 1.7000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:30:11:12">
+<g transform="translate(30.1611, 7.6213)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:8:9">
+<g transform="translate(24.4583, 23.9465)">
 <text font-family="serif" font-style="italic" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:30:11:12">
-<g transform="translate(30.1611, 7.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:8:9">
+<g transform="translate(22.9264, 23.4611)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="4.3900" y1="-0.3147" x2="4.3900" y2="-1.0147"/>
+</g>
+<g transform="translate(22.9264, 23.4611)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="-0.1995" y1="0.0143" x2="-0.1995" y2="-0.6857"/>
+</g>
+<g transform="translate(22.9264, 23.4611)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="4.3900" y1="-0.3147" x2="3.2557" y2="-0.2334"/>
+</g>
+<g transform="translate(22.9264, 23.4611)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1600" stroke="currentColor" x1="-0.1995" y1="0.0143" x2="1.1344" y2="-0.0813"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:36:10:11">
-<g transform="translate(33.8911, 20.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.4692 1.3000 2.4692 1.7000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:41:11:12">
-<g transform="translate(38.6703, 22.1243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:45:10:11">
-<g transform="translate(45.9430, 7.4343)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.0100 2.5942 0.3900 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:50:11:12">
-<g transform="translate(50.8472, 7.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:55:11:12">
-<g transform="translate(55.7514, 7.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.4421 -0.3900 2.4421 0.0100 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:61:11:12">
-<g transform="translate(60.5035, 16.6243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 -0.2000 2.5942 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:87:1:2">
-<g transform="translate(90.6769, 23.9514)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:1:2">
+<g transform="translate(90.7281, 23.9173)">
 <g>
 <path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
-c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -16 -41 -33l-62 -182
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
 c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
 
-<path transform="translate(1.7413, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
 c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
 </g>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:70:11:12">
-<g transform="translate(71.6847, 14.1243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 1.1100 2.5942 1.5100 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:11:12">
-<g transform="translate(75.4147, 14.1243)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.5942 1.1100 2.5942 1.5100 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:33:34">
-<g transform="translate(84.2229, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:33:34">
+<g transform="translate(84.2229, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(84.2879, 7.6243)">
+<g transform="translate(84.2879, 7.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:33:34">
-<g transform="translate(84.2229, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:33:34">
+<g transform="translate(84.2229, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:33:34">
-<g transform="translate(84.2229, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:33:34">
+<g transform="translate(84.2229, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(80.4881, 3.8453)">
-<rect x="-0.0650" y="3.2790" width="0.1300" height="12.3139" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="3.2760" width="0.1300" height="12.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(80.4881, 16.6243)">
+<g transform="translate(80.4881, 16.6213)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:75:40:41">
-<g transform="translate(87.9271, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:75:40:41">
+<g transform="translate(87.9271, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:87:1:2">
-<g transform="translate(91.5271, 26.3094)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:87:1:2">
+<g transform="translate(91.5271, 26.2424)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>espressivo</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:97:8:9">
-<g transform="translate(91.5271, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:97:8:9">
+<g transform="translate(91.5271, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:96:8:9">
-<g transform="translate(91.5271, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:96:8:9">
+<g transform="translate(91.5271, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:96:8:9">
-<g transform="translate(91.5271, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:96:8:9">
+<g transform="translate(91.5271, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(89.1663, 16.6243)">
+<g transform="translate(89.1663, 16.6213)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(89.1663, 7.6243)">
+<g transform="translate(89.1663, 7.6213)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:76:40:41">
-<g transform="translate(87.9271, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:76:40:41">
+<g transform="translate(87.9271, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(84.2879, 3.8453)">
-<rect x="-0.0650" y="6.9651" width="0.1300" height="11.3139" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="6.9621" width="0.1300" height="11.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(33.9561, 7.6243)">
+<g transform="translate(33.9561, 7.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
 <g color="rgb(100.0000%, 0.0000%, 0.0000%)">
 </g>
 <g color="rgb(100.0000%, 0.0000%, 0.0000%)">
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:35:8:9">
-<g transform="translate(33.8911, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:35:8:9">
+<g transform="translate(33.8911, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:35:8:9">
-<g transform="translate(33.8911, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:35:8:9">
+<g transform="translate(33.8911, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(32.7303, 7.6243)">
+<g transform="translate(32.7303, 7.6213)">
 <rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:30:17:18">
-<g transform="translate(31.4911, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:30:17:18">
+<g transform="translate(31.4911, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(30.2261, 7.6243)">
+<g transform="translate(30.2261, 7.6213)">
 <rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:30:8:9">
-<g transform="translate(28.9869, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:30:8:9">
+<g transform="translate(28.9869, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(38.7353, 16.6243)">
+<g transform="translate(38.7353, 16.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:41:8:9">
-<g transform="translate(38.6703, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<g transform="translate(36.3353, 16.6243)">
+<g transform="translate(36.3353, 16.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.2750" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:36:16:17">
-<g transform="translate(36.2703, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:36:16:17">
+<g transform="translate(36.2703, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(33.9561, 3.8453)">
-<rect x="-0.0650" y="6.9651" width="0.1300" height="10.0928" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="6.9621" width="0.1300" height="10.0928" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(19.2264, 16.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
-c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c1 -5 1 -10 1 -14c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
-</g>
-<g transform="translate(22.9914, 16.6243)">
+<g transform="translate(22.9914, 16.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.3091" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(15.0264, 17.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M266 -635h-6c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65h4zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247
-c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM335 -262
-c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c6 5 14 5 20 0c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207c4 0 9 1 13 1c155 0 256 -128 256 -261
-c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
-c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
+<g transform="translate(19.2264, 16.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
+c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -64 175 -150c1 -5 1 -9 1 -13c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:26:27">
-<g transform="translate(22.9264, 19.6243)">
+<g transform="translate(15.0264, 17.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:26:27">
+<g transform="translate(22.9264, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(19.2264, 7.6243)">
+<g transform="translate(19.2264, 7.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
-c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -63 175 -149c1 -5 1 -10 1 -14c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
+c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -64 175 -150c1 -5 1 -9 1 -13c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
 </g>
-<g transform="translate(15.0264, 8.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M266 -635h-6c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65h4zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247
-c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM335 -262
-c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 125 -45 190c-6 52 -7 104 -7 156c0 115 55 224 149 292c6 5 14 5 20 0c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207c4 0 9 1 13 1c155 0 256 -128 256 -261
-c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -119 -88 -225 -202 -228l1 43c93 2 153 92 159 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8zM428 916c0 55 -4 79 -20 129c-99 -48 -162 -149 -162 -259
-c0 -74 18 -133 36 -194c80 97 146 198 146 324z" fill="currentColor"/>
+<g transform="translate(15.0264, 8.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<g transform="translate(14.1664, 12.1243)">
+<g transform="translate(14.1664, 12.1213)">
 <rect x="0.0000" y="-6.5500" width="0.1600" height="13.1000" ry="0.0500" fill="currentColor"/>
 </g>
-<g transform="translate(13.8664, 12.1243)">
-<path transform="scale(0.0040, -0.0040)" d="M-189 -1146c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360c0 252 -108 513 -108 780c0 189 45 366 177 501c15 15 39 -9 24 -24c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765c0 -186 -45 -363 -174 -498
-c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c15 -15 -9 -39 -24 -24c-132 135 -177 312 -177 501z" fill="currentColor"/>
+<g transform="translate(13.8664, 12.1213)">
+<path transform="scale(0.0040, -0.0040)" d="M-189 -1146c0 267 108 528 108 780c0 135 -33 261 -129 360c-3 3 -3 3 -3 6s0 3 3 6c96 99 129 225 129 360c0 252 -108 513 -108 780c0 189 45 366 177 501c3 3 9 6 12 6c9 0 15 -9 15 -18c0 -3 0 -9 -3 -12c-99 -99 -129 -225 -129 -360c0 -249 102 -504 102 -765
+c0 -186 -45 -363 -174 -498c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765c0 -135 30 -261 129 -360c3 -3 3 -9 3 -12c0 -9 -6 -18 -15 -18c-3 0 -9 3 -12 6c-132 135 -177 312 -177 501z" fill="currentColor"/>
 </g>
-<g transform="translate(27.0519, 16.6243)">
+<g transform="translate(27.0519, 16.6213)">
 <rect x="-0.0650" y="2.6861" width="0.1300" height="2.5087" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:42:43">
-<g transform="translate(26.9869, 19.1243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:42:43">
+<g transform="translate(26.9869, 19.1213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
 <g transform="translate(24.9477, 3.8453)">
-<rect x="-0.0650" y="5.9651" width="0.1300" height="12.4044" ry="0.0400" fill="currentColor"/>
+<rect x="-0.0650" y="5.9621" width="0.1300" height="12.4044" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(24.9477, 7.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:8:9">
+<g transform="translate(38.6703, 19.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(24.9477, 7.6213)">
 <rect x="-0.0650" y="2.1861" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:26:35:36">
-<g transform="translate(24.8827, 19.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:26:35:36">
+<g transform="translate(24.8827, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:25:35:36">
-<g transform="translate(24.8827, 9.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:25:35:36">
+<g transform="translate(24.8827, 9.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:25:35:36">
-<g transform="translate(24.8827, 9.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:25:35:36">
+<g transform="translate(24.8827, 9.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(55.8164, 7.6243)">
-<rect x="-0.0650" y="-0.0050" width="0.1300" height="2.8189" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:55:8:9">
-<g transform="translate(54.5772, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:18:19">
+<g transform="translate(41.1745, 19.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(53.4164, 7.6243)">
+<g transform="translate(50.9122, 7.6213)">
 <rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:50:17:18">
-<g transform="translate(52.1772, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:50:8:9">
+<g transform="translate(49.6730, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(50.9122, 7.6243)">
-<rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
-</g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:50:8:9">
-<g transform="translate(49.6730, 10.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<g transform="translate(48.5122, 7.6243)">
+<g transform="translate(48.5122, 7.6213)">
 <rect x="-0.0650" y="-0.0047" width="0.1300" height="2.8186" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:45:16:17">
-<g transform="translate(47.2730, 10.6243)">
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:45:16:17">
+<g transform="translate(47.2730, 10.6213)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(58.1685, 16.6243)">
+<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
+</g>
+<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:17:18">
+<g transform="translate(56.9293, 19.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(55.8164, 7.6213)">
+<rect x="-0.0650" y="-0.0050" width="0.1300" height="2.8189" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:55:8:9">
+<g transform="translate(54.5772, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:17:18">
+<g transform="translate(56.9293, 19.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(53.4164, 7.6213)">
+<rect x="-0.0650" y="0.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:50:17:18">
+<g transform="translate(52.1772, 10.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(58.1685, 16.6213)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:56:17:18">
-<g transform="translate(56.9293, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:56:17:18">
-<g transform="translate(56.9293, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
-</g>
-<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
-</g>
-<g transform="translate(46.0080, 16.6243)">
-<rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
-</g>
-<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
-</g>
-<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
-</g>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:46:8:9">
-<g transform="translate(44.7687, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:46:8:9">
-<g transform="translate(44.7687, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini-master/tests/../examples/easy-cross-staff-example-2.ly:41:18:19">
-<g transform="translate(41.1745, 19.6243)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
-</g>
-</a>
-<g transform="translate(41.2395, 16.6243)">
+<g transform="translate(41.2395, 16.6213)">
 <rect x="-0.0650" y="3.1861" width="0.1300" height="2.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(46.0080, 3.8453)">
-<rect x="-0.0650" y="3.3537" width="0.1300" height="12.2392" ry="0.0400" fill="currentColor"/>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:8:9">
+<g transform="translate(44.7687, 19.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
-<g transform="translate(28.9194, 165.1170)">
+</a>
+<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:8:9">
+<g transform="translate(44.7687, 19.6213)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
+</g>
+<g color="rgb(100.0000%, 0.0000%, 0.0000%)">
+</g>
+<g transform="translate(46.0080, 3.8453)">
+<rect x="-0.0650" y="3.3507" width="0.1300" height="12.2392" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(46.0080, 16.6213)">
+<rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(28.8852, 165.1062)">
 <a xlink:href="https://lilypond.org/">
-<rect x="0.0000" y="-0.4780" width="61.6628" height="2.1510" fill="none" stroke="none" stroke-width="0.0"/>
+<rect x="0.0000" y="-0.4888" width="61.7311" height="2.1604" fill="none" stroke="none" stroke-width="0.0"/>
 </a>
 </g>
-<g transform="translate(28.9194, 165.1170)">
+<g transform="translate(28.8852, 165.1062)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.22.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>

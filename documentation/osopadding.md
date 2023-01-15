@@ -16,11 +16,8 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 # Outside-Staff-Ordered (OSO) Padding
-<br></br>
 
 ![img](images/OSOPadding.gif)
-
-<br></br>
 
 In addition to the standard Lilypond avoid-collision positioning properties (X/Y-offset, padding, staff-padding and outside-staff-padding) Spontini-Editor supports vertical and horizontal padding done with boxed barriers around graphic objects. These boxes, made with the **\jsOSOPadder** command, can be edited using the mouse. They also allow you to vertically sort the enclosed objects.
 

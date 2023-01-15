@@ -17,12 +17,14 @@
 % HOW TO:
 % (This example requires that Inkscape is installed on your OS)
 % Engrave this example in PDF MODE. A python script called
-% pdf-manipulate-example-afterpdf.py, inside the example's directory, will be executed
+% pdf-manipulate-example-postengraving.py, inside the example's directory, will be executed
 % and it will add a string + a vector image + a raster image on the generated PDF page.
+%
+% NOTE: don't engrave this example in SVG MODE, otherwise the python script will fail. 
 %
 % In general, given a FILENAME.ly file, You can associate to it two scripts that will be executed
 % before and after the creation of the PDF: their filename must be in the form FILENAME-beforepdf.suffix
-% and FILENAME-afterpdf.suffix.
+% and FILENAME-postengraving.suffix.
 %
 
 \version "2.19.84"

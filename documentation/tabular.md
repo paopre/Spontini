@@ -16,11 +16,9 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 # Tabular piano functions
-<br></br>
 
 ![img](images/easyCrossStaff.gif)
 
-<br></br>
 ### 1) Basic how-to
 
 The **\easyCrossStaff**, and **\tabularTwoStavesPoly[...]** functions are particularly useful for creating piano scores, or any score for instruments with two staves; they allow you to insert the notes of both staves of the instrument into a table that is automatically formatted during insertion.
