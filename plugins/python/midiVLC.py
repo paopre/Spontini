@@ -65,8 +65,6 @@ def checkAndGetExecutableWithPath() :
 
   raise Exception("Could not find VLC executable nor in sys nor in configured path")
 
-
-
 # TODO: create a common lib for these two funcs
 def readSharedInfo(infoFileName):
   ret = None
