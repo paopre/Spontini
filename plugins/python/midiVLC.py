@@ -59,11 +59,9 @@ def checkAndGetExecutableWithPath() :
     elif platform.system() == "Darwin" and line.lower().startswith("macos="):
       execPath = line[6:].rstrip()
       break
-  try:
-    subprocess.Popen([execPath, "--version"], stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+
+  if which(execPath):
     return execPath
-  except:
-    pass
 
   raise Exception("Could not find VLC executable nor in sys nor in configured path")
 
