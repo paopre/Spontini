@@ -9,6 +9,7 @@ import time
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import os
+import platform
 import pathlib
 import traceback
 import sys
@@ -32,39 +33,49 @@ def HTTPCmd(cmd, port):
   conn.close()
   return res
 
-def checkAndGetExecutableWithPath(execName, winExecName, pathAfterProgramFiles, testOption) :
-  ret = execName
-  if os.name == "nt":
-    ret = winExecName
-    programFilesEnv = os.environ.get('ProgramFiles', 'C:\\Program Files')
+def checkAndGetExecutableWithPath() :
 
-    if which(winExecName) is not None:
-        return winExecName
+  #Check if VLC is in path
+  foundInSysPath  = False
+  foundInConfPath = False
+
+  try:
+    subprocess.Popen(["vlc", "--version"], stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+    foundInSysPath = True
+    return "vlc"
+  except:
+    pass
+
+  if not foundInSysPath:
+    VLCPathsFilename ="VLCPaths.txt"
+    if getattr(sys, 'frozen', False):
+      VLCPathsFilename = os.path.join(os.path.dirname(sys.executable), 'plugins', 'python', VLCPathsFilename)
     else:
-        path = glob.glob(os.path.join(programFilesEnv,  pathAfterProgramFiles[0], pathAfterProgramFiles[1]))
-        if not path:
-            programFilesEnvX86 = os.environ.get('ProgramFiles(x86)', 'C:\\Program Files (x86)')
-            path = glob.glob(os.path.join(programFilesEnvX86,  pathAfterProgramFiles[0], pathAfterProgramFiles[1]))
-            if path:
-                ret = os.path.join(path[0], ret)
-        else:
-            ret = os.path.join(path[0], ret)
+      VLCPathsFilename =  os.path.join(os.path.dirname(__file__), VLCPathsFilename)
 
-        try:
-            if os.path.isfile(ret) and os.access(ret, os.X_OK):
-                return ret
-            else:
-                raise Exception("Bad "+ret+" executable")
-            return None
-        except:
-            raise Exception("Bad "+ret+" executable")
-            return None
-  #linux, osx
-  elif which(execName) is not None:
-    return execName
-  else:
-    raise Exception("Could not find "+execName+" executable")
-    return None
+    VLCPathsFile = open(VLCPathsFilename)
+    lines = VLCPathsFile.readlines()
+    VLCPathsFile.close()
+    execPath = ""
+    for line in lines:
+      if platform.system() == "Windows" and line.lower().startswith("windows="):
+        execPath = line[8:].rstrip()
+        break
+      elif platform.system() == "Linux" and line.lower().startswith("linux="):
+        execPath = line[6:].rstrip()
+        break
+      elif platform.system() == "Darwin" and line.lower().startswith("macos="):
+        execPath = line[6:].rstrip()
+        break
+    try:
+      subprocess.Popen([execPath, "--version"], stderr=subprocess.PIPE, stdout=subprocess.PIPE)
+      return execPath
+    except:
+      pass
+
+  raise Exception("Could not find VLC executable nor in sys nor in configured path")
+
+
 
 # TODO: create a common lib for these two funcs
 def readSharedInfo(infoFileName):
@@ -96,7 +107,7 @@ def removeSharedInfo(infoFileName):
 
 def checkAndLaunchVLCWithHTTPServer():
   global vlcProc
-  vlcExec = checkAndGetExecutableWithPath('vlc', 'vlc.exe', ['VideoLAN*', 'VLC'], "--version")
+  vlcExec = checkAndGetExecutableWithPath()
   if vlcExec:
     try:
       HTTPCmd("/requests/status.xml", HTTPPORT)
@@ -109,13 +120,16 @@ def checkAndLaunchVLCWithHTTPServer():
       pass
 
     try:
-      cmdArr = [vlcExec, "-I", "skins2", "--extraintf", "http", "--http-password",
-                "midivlc", "--http-port", str(HTTPPORT), "--no-playlist-autostart"]
-
+      cmdArr = [vlcExec]
+      if platform.system() == "Linux":
+        cmdArr += ["-I"]
+        cmdArr += ["skins2"]
+      cmdArr += ["--extraintf", "http", "--http-password",
+                 "midivlc", "--http-port", str(HTTPPORT), "--no-playlist-autostart"]
       midiFile = readSharedInfo('CURRENT_LY_FILE')
       if midiFile:
         midiFile = midiFile.replace(".ly", ".midi")
-        cmdArr.append(midiFile)
+        cmdArr += [midiFile]
       vlcProc = subprocess.Popen(cmdArr, stderr=subprocess.PIPE, stdout=subprocess.PIPE)
     except:
       raise Exception("Could not run VLC: " + traceback.format_exc())

@@ -20,7 +20,7 @@ along with Spontini-Editor. If not, see If not, see http://www.gnu.org/licenses/
 <plugins>
 
   <plugin>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
     <displayedname>Midi VLC</displayedname>
     <input>none</input>
     <output>none</output>
