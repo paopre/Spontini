@@ -51,7 +51,7 @@ With the following tools:
 
 By choosing ***FILE ---> FORK***, you can create a copy of the current document, with a random generated name, and make it automatically available on the www for collaborative editing (just copy and share the generated link).
 
-You can run the web-server in **"fork-access-only"** mode as well, which is an option included in **[saved-config.txt](../lib/saved-config.txt)**: if set to **"yes"**, the **"OPEN"** and **"DELETE"** options of the menu will be disabled, so that the forked files won't be seen/deleted by users connected to the same web server's host.
+You can run the web-server in **"fork-access-only"** mode as well, which is an option included in **saved-config.txt**: if set to **"yes"**, the **"OPEN"** and **"DELETE"** options of the menu will be disabled, so that the forked files won't be seen/deleted by users connected to the same web server's host.
 
 ### GENERATE PDF
 
@@ -60,7 +60,7 @@ There are two ways to create a PDF from the edited score:
   1) Compile the score while in PDF mode then choose FILE ---> DOWNLOAD PDF
   2) Compile the score while in SVG mode then choose FILE ---> EXPORT SVG TO PDF
 
-Option 2) is automatically enabled if **[Inkscape](https://inkscape.org/)** is currently installed. If it is not installed in the default installation directory, you have to manually set the path of the executable in the 'inkscape-exec' parameter of the **[saved-config.txt](../lib/saved-config.txt)** file.
+Option 2) is automatically enabled if **[Inkscape](https://inkscape.org/)** is currently installed. If it is not installed in the default installation directory, you have to manually set the path of the executable in the 'inkscape-exec' parameter of the saved-config.txt file.
 
 The generated PDF file can be further modified through a script that is executed by SpontiniServer. Check **[THIS](../examples/pdf-manipulate-example.ly)** example to see how to add objects (like strings, vector or raster images and others) to the generated page (a little bit of Python knowledge is required).
 
@@ -79,7 +79,7 @@ On Windows, and probably on macOS too, a running virtual loopback MIDI program i
 
 This plugin can be launched on the web server's host. You can enable it by setting the **&lt;enabled&gt;** tag to **"true"**, inside **[plugins.xml](../plugins/plugins.xml)** and installing **[VLC](https://www.videolan.org/vlc/index.html)** with MIDI support. Check **[https://wiki.videolan.org/Midi/](https://wiki.videolan.org/Midi)** for more infos.
 
-A minimal skin, which is good for a MIDI player (it doesn't show the default video panel) is included into the plugins directory (mpui.vlt): you can set it by following **[THESE](https://www.videolan.org/vlc/skins.html)** instructions.
+**NOTE**: Spontini-Editor will check if the VLC executable is in the system path. If not, it will try to use the path defined for the current operating system inside the **[VLCPaths.txt](../plugins/python/VLCPaths.txt)** file.
 
 ### MOBILE DEVICES
 

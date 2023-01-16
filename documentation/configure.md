@@ -19,12 +19,12 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 
 Many options of Spontini-Editor can be configured and their configuration is permanently saved. Configuration parameters are grouped into two distinct files and their names are (...I hope so...) self-explanatory:
 
-  1. **[saved-config.txt](../lib/saved-config.txt)**
+  1. **saved-config.txt** (inside the "lib" directory)
   2. **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)**
 
 All the options inside **[global-custom-vars.js](../lib/webgui/js/global-custom-vars.js)** are mostly layout options and they should be changed **only if really necessary** (in any case: note that this is a js "core" file, and any bad configuration will prevent the editor to work)
   
-All the options inside **[saved-config.txt](../lib/saved-config.txt)** can be set with the Spontini-Server GUI or the Spontini-Editor GUI; if they are not exposed by these two GUIs, they can be edited:
+All the options inside **saved-config.txt** can be set with the Spontini-Server GUI or the Spontini-Editor GUI; if they are not exposed by these two GUIs, they can be edited:
 
   1. By manually modifying the previous file.
   2. By sending to the web server, on the /cgi subaddress, a POST request with a JSON content in the form:
