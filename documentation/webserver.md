@@ -22,10 +22,10 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
     uvicorn_cli.txt uses the interface provided by Uvicorn: therefore you have to refer to the documentation of the two tools for setting the parameters you need.
     
       
-  * If you want to run the web server in text-only mode (no tkinter GUI) launch it with the "nogui" parameter
+  * If you want to run the web server in text-only mode (no tkinter GUI) launch it with the "nogui" parameter (in case of Windows, use the SpontiniServer.exe executable)
   
     ```
-    python3 SpontiniServer.py nogui
+    SpontiniServer nogui
     ```
   
   * You can enable HTTPS(SSL), after creating cert.pem and key.pem certificates by uncommenting the #"ssl_keyfile":"key.pem" and #"ssl_certfile":"cert.pem" lines in **[uvicorn_cli.txt](../lib/python/uvicorn_cli.txt)**
