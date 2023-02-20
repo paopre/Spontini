@@ -1,22 +1,12 @@
-<<<<<<< HEAD
-/lib/python/__pycache__
-/lib/python/spontinivenv
-=======
 lib/python/__pycache__
 lib/python/spontinivenv
 lib/saved-config.txt
->>>>>>> paolop-dev
 lib/python/protocolAndPort
 lib/spontini_plugin_output
 lib/spontini_plugin_output.ly
 lib/spontini_plugin_output~
-<<<<<<< HEAD
-lilyponds
-plugins/shared/CURRENT_LY_FILE
-=======
 lib/spontini_plugin_output.ly~
 lilyponds
->>>>>>> paolop-dev
 tests/cypress
 plugins/python/__pycache__
 plugins/shared

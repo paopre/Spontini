@@ -44,7 +44,7 @@ Thanks to [Aaron Hill](https://github.com/seraku24), Thomas Morley, Martin Taren
 
 # QUICK START
 
-  **1)** Download and extract Spontini-Editor wherever you want. Click on "SpontiniServer" (or SpontiniServer.exe on Windows)
+  **1)** Download the latest **[release](https://github.com/paopre/Spontini/releases)** and extract Spontini-Editor wherever you want. Click on "SpontiniServer" (or SpontiniServer.exe on Windows)
 
   **2)** Open the page: ***http://localhost:8000/spontini-editor*** with your browser (currently compatible and tested on: **Chrome**, **Chromium**, **Firefox** and **Brave**. Not compatible with **Pale Moon**, nor with **Safari**, nor with **Edge**).
 

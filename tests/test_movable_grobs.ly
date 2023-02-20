@@ -88,6 +88,7 @@ $(set! cpDiameter 0.5)
 \paper {
   indent = 0\cm
   system-system-spacing.basic-distance = #20
+  top-margin = 5\mm
 }
 
 \header {
@@ -101,3 +102,4 @@ $(set! cpDiameter 0.5)
       \override StaffSymbol.output-attributes.gridstep = "4"
   }
 }
+

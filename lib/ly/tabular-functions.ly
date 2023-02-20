@@ -17,6 +17,22 @@
 
 \version "2.19.84"
 
+% WORKAROUND FOR https://gitlab.com/lilypond/lilypond/-/issues/6482
+% See: https://lists.gnu.org/archive/html/lilypond-user/2023-02/msg00367.html (thanks to J. A. Samra!)
+noSkipTuplets =
+\musicMap
+#(lambda (m)
+   (if (and (ly:version? >= '(2 25 0))
+            (music-is-of-type? m 'time-scaled-music)
+            (every (lambda (e)
+                     (music-is-of-type? e 'skip-event))
+                   (extract-typed-music m 'rhythmic-event)))
+       (ly:music-property m 'element)
+       m))
+\etc
+toplevel-music-functions = #(cons noSkipTuplets toplevel-music-functions)
+% END OF WORKAROUND
+
 #(define smartBeams "false")
 
 #(define-public (spontiniRgbColor? x)

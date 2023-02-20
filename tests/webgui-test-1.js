@@ -158,6 +158,8 @@ for refSvg in sorted(os.listdir(os.path.join(perceptualRefsDir))):\n\
     perceptualMatchRes = 'OK'\n\
     break\n\
 \n\
+if perceptualMatchRes == 'KO':\n\
+  raise Exception(\"Could not find a SVG image, in perceptualrefs dir, that matches the SVG output\")\n\
 print(perceptualMatchRes)\n\
 "
 
@@ -169,10 +171,6 @@ function doTestStep5() {
   {
     if (statusTxt1 == "KO") {
       throw new Error("Error... (check webserver console)")
-      return
-    }
-    if (responseTxt1.includes("KO")) {
-      throw new Error(responseTxt1)
       return
     }
     logInfo((step_++) + ": delete files associated with " + lyModFileNameWOExt_)

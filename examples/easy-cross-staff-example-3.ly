@@ -40,7 +40,7 @@ upper = {
 \setOSPosition #UP 2 Slur
 \once \override TupletBracket.positions = #'(2 . 0)
 \jsOSOPadder "106" "pads" #'(0 0.04 0.047 0) TupletBracket
-\jsOSOPadder "82" "pads" #'(0 0 0.012 0) Staff.OttavaBracket
+\jsOSOPadder "82" "pads" #'(0 4.945 0.012 0) Staff.OttavaBracket
 #})
 
 #(define lU2 #{
