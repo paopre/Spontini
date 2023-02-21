@@ -4,658 +4,658 @@
 tspan { white-space: pre; }
 ]]>
 </style>
-<g transform="translate(5.6906, 6.6056)">
+<g transform="translate(8.5358, 10.4793)">
 <rect x="-0.3000" y="-0.1000" width="47.0008" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 3.9453)">
+<g transform="translate(8.5358, 7.8190)">
 <rect x="-0.3000" y="-0.1000" width="47.0008" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.3906, 5.8168)">
+<g transform="translate(8.2358, 9.6906)">
 <rect x="0" y="-1.8716" width="0.1000" height="2.5603" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(52.2913, 5.8168)">
+<g transform="translate(55.1366, 9.6906)">
 <rect x="0" y="-1.8716" width="0.1000" height="2.5603" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 5.8168)">
+<g transform="translate(8.5358, 9.6906)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>This is visible only if section 1 is included</tspan>
 </text>
 </g>
-<g transform="translate(14.2264, 14.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="99.5346" y2="0"/>
+<g transform="translate(17.0717, 18.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="93.8441" y2="0"/>
 </g>
-<g transform="translate(14.2264, 13.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="99.5346" y2="0"/>
+<g transform="translate(17.0717, 17.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="93.8441" y2="0"/>
 </g>
-<g transform="translate(14.2264, 12.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="99.5346" y2="0"/>
+<g transform="translate(17.0717, 16.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="93.8441" y2="0"/>
 </g>
-<g transform="translate(14.2264, 11.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="99.5346" y2="0"/>
+<g transform="translate(17.0717, 15.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="93.8441" y2="0"/>
 </g>
-<g transform="translate(14.2264, 10.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="99.5346" y2="0"/>
+<g transform="translate(17.0717, 14.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="93.8441" y2="0"/>
 </g>
-<g transform="translate(113.6210, 12.7561)">
+<g transform="translate(110.7757, 16.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 15.7561)">
+<g transform="translate(8.5358, 19.6298)">
 <rect x="16.9098" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:7:8">
-<g transform="translate(68.1553, 14.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:41:7:8">
+<g transform="translate(68.1553, 18.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(69.3946, 12.7561)">
+<g transform="translate(69.3946, 16.6298)">
 <rect x="-0.0650" y="-1.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:10:11">
-<g transform="translate(90.7698, 14.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:41:10:11">
+<g transform="translate(89.3472, 18.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(92.0090, 12.7561)">
+<g transform="translate(90.5864, 16.6298)">
 <rect x="-0.0650" y="-2.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:0:1">
-<g transform="translate(22.9264, 15.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:41:0:1">
+<g transform="translate(25.7716, 19.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(15.0264, 13.7561)">
+<g transform="translate(17.8717, 17.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<g transform="translate(19.2264, 12.7561)">
+<g transform="translate(22.0717, 16.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M359 27c-49 0 -75 42 -75 75c0 38 27 77 72 77c4 0 9 0 14 -1c-28 37 -72 59 -120 59c-106 0 -113 -73 -113 -186v-51v-51c0 -113 7 -187 113 -187c80 0 139 70 158 151c2 7 7 10 12 10c6 0 13 -4 13 -12c0 -94 -105 -174 -183 -174c-68 0 -137 21 -184 70
 c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -64 175 -150c1 -5 1 -9 1 -13c0 -40 -30 -72 -67 -72z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:40:0:1">
-<g transform="translate(17.9434, 9.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:40:0:1">
+<g transform="translate(20.7887, 13.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(17.9434, 7.2056)">
+<g transform="translate(20.7887, 11.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(17.5914, 9.5149)">
+<g transform="translate(20.4367, 13.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(31.4088, 9.5149)">
+<g transform="translate(34.2541, 13.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(17.9434, 9.5149)">
+<g transform="translate(20.7887, 13.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 1</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(24.1656, 12.7561)">
+<g transform="translate(27.0109, 16.6298)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:41:4:5">
-<g transform="translate(45.5409, 15.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:41:4:5">
+<g transform="translate(46.9635, 19.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(46.7801, 12.7561)">
+<g transform="translate(48.2027, 16.6298)">
 <rect x="-0.0650" y="-1.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 26.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 30.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 25.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 29.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 24.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 28.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 23.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 27.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 22.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 26.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(113.6210, 24.7561)">
+<g transform="translate(110.7757, 28.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 27.7561)">
-<rect x="81.9379" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
+<g transform="translate(8.5358, 31.6298)">
+<rect x="77.6700" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:6:7">
-<g transform="translate(62.4665, 27.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:46:6:7">
+<g transform="translate(62.4665, 31.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(63.7057, 24.7561)">
+<g transform="translate(63.7057, 28.6298)">
 <rect x="-0.0650" y="-1.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:9:10">
-<g transform="translate(87.9545, 27.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:46:9:10">
+<g transform="translate(86.5318, 31.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(89.1937, 24.7561)">
+<g transform="translate(87.7711, 28.6298)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(6.4906, 25.7561)">
+<g transform="translate(9.3358, 29.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:45:0:1">
-<g transform="translate(9.4076, 21.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:45:0:1">
+<g transform="translate(12.2528, 25.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 19.2056)">
+<g transform="translate(12.2528, 23.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 21.5149)">
+<g transform="translate(11.9008, 25.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 21.5149)">
+<g transform="translate(25.7183, 25.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 21.5149)">
+<g transform="translate(12.2528, 25.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 2</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(4.5638, 21.7061)">
+<g transform="translate(7.4091, 25.5798)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
 </g>
-<g transform="translate(38.2177, 24.7561)">
+<g transform="translate(39.6404, 28.6298)">
 <rect x="-0.0650" y="-1.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:0:1">
-<g transform="translate(11.4906, 26.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:46:0:1">
+<g transform="translate(14.3358, 30.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(12.7298, 24.7561)">
+<g transform="translate(15.5750, 28.6298)">
 <rect x="-0.0650" y="-2.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:46:3:4">
-<g transform="translate(36.9785, 26.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:46:3:4">
+<g transform="translate(38.4012, 30.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(5.6906, 38.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 42.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 37.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 41.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 36.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 40.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 35.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 39.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 34.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 38.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(60.8740, 36.7561)">
+<g transform="translate(60.9706, 40.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(113.6210, 36.7561)">
+<g transform="translate(110.7757, 40.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:13:14">
-<g transform="translate(88.8222, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:13:14">
+<g transform="translate(87.3512, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:7:8">
-<g transform="translate(76.5299, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:7:8">
+<g transform="translate(75.7461, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(77.7691, 36.7561)">
+<g transform="translate(76.9853, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:10:11">
-<g transform="translate(82.6760, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:10:11">
+<g transform="translate(81.5486, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(83.9152, 36.7561)">
+<g transform="translate(82.7879, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:0:1">
-<g transform="translate(64.2376, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:0:1">
+<g transform="translate(64.1409, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(89.9964, 35.9461)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="18.5284 -0.2000 18.5284 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(88.5254, 39.8198)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="17.4977 -0.2000 17.4977 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(65.4768, 36.7561)">
+<g transform="translate(65.3802, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(71.6229, 36.7561)">
+<g transform="translate(71.1827, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:4:5">
-<g transform="translate(70.3837, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:4:5">
+<g transform="translate(69.9435, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(108.4998, 36.7561)">
+<g transform="translate(105.9981, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(12.6648, 35.9461)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="18.5284 -0.2000 18.5284 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(15.5100, 39.8198)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="17.4977 -0.2000 17.4977 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(37.2493, 35.9461)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="18.5284 -0.2000 18.5284 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(38.7203, 39.8198)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="17.4977 -0.2000 17.4977 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(65.4118, 35.9461)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="18.5284 -0.2000 18.5284 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(65.3152, 39.8198)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="17.4977 -0.2000 17.4977 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:16:17">
-<g transform="translate(94.9683, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:16:17">
+<g transform="translate(93.1538, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(96.2075, 36.7561)">
+<g transform="translate(94.3930, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(90.0614, 36.7561)">
+<g transform="translate(88.5904, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:19:20">
-<g transform="translate(101.1144, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:19:20">
+<g transform="translate(98.9563, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(102.3537, 36.7561)">
+<g transform="translate(100.1955, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:52:22:23">
-<g transform="translate(107.2606, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:52:22:23">
+<g transform="translate(104.7589, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:4:5">
-<g transform="translate(17.6367, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:4:5">
+<g transform="translate(20.1384, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(18.8759, 36.7561)">
+<g transform="translate(21.3776, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(12.7298, 36.7561)">
+<g transform="translate(15.5750, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:7:8">
-<g transform="translate(23.7828, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:7:8">
+<g transform="translate(25.9410, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(25.0221, 36.7561)">
+<g transform="translate(27.1802, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:10:11">
-<g transform="translate(29.9290, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:10:11">
+<g transform="translate(31.7435, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(31.1682, 36.7561)">
+<g transform="translate(32.9827, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(4.5638, 33.6813)">
+<g transform="translate(7.4091, 37.5551)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(6.4906, 37.7561)">
+<g transform="translate(9.3358, 41.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:50:0:1">
-<g transform="translate(9.4076, 33.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:50:0:1">
+<g transform="translate(12.2528, 37.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 31.2056)">
+<g transform="translate(12.2528, 35.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 33.5149)">
+<g transform="translate(11.9008, 37.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 33.5149)">
+<g transform="translate(25.7183, 37.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 33.5149)">
+<g transform="translate(12.2528, 37.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 3</tspan>
 </text>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:0:1">
-<g transform="translate(11.4906, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:0:1">
+<g transform="translate(14.3358, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:19:20">
-<g transform="translate(48.3674, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:19:20">
+<g transform="translate(49.1512, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(49.6066, 36.7561)">
+<g transform="translate(50.3904, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(43.4605, 36.7561)">
+<g transform="translate(44.5879, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:16:17">
-<g transform="translate(42.2213, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:16:17">
+<g transform="translate(43.3486, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:22:23">
-<g transform="translate(54.5136, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:22:23">
+<g transform="translate(54.9538, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(55.7528, 36.7561)">
+<g transform="translate(56.1930, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(37.3143, 36.7561)">
+<g transform="translate(38.7853, 40.6298)">
 <rect x="-0.0650" y="-0.8100" width="0.1300" height="3.1239" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:51:13:14">
-<g transform="translate(36.0751, 39.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:51:13:14">
+<g transform="translate(37.5461, 43.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(5.6906, 50.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 54.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 49.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 53.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 48.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 52.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 47.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 51.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 46.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 50.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(113.6210, 48.7561)">
+<g transform="translate(110.7757, 52.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(59.2228, 48.7561)">
+<g transform="translate(59.3709, 52.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(5.6906, 51.7561)">
+<g transform="translate(8.5358, 55.6298)">
 <rect x="5.3095" y="-0.1000" width="2.9430" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(6.4906, 49.7561)">
+<g transform="translate(9.3358, 53.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:0:1">
-<g transform="translate(9.4076, 45.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:56:0:1">
+<g transform="translate(12.2528, 49.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 43.2056)">
+<g transform="translate(12.2528, 47.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 45.5149)">
+<g transform="translate(11.9008, 49.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 45.5149)">
+<g transform="translate(25.7183, 49.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 45.5149)">
+<g transform="translate(12.2528, 49.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 4</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(4.5638, 45.6814)">
+<g transform="translate(7.4091, 49.5551)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>5</tspan>
 </text>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:57:0:1">
-<g transform="translate(11.4906, 51.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:57:0:1">
+<g transform="translate(14.3358, 55.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M213 112c-50 0 -69 -43 -69 -88c0 -77 57 -136 134 -136c50 0 69 43 69 88c0 77 -57 136 -134 136zM491 0c0 -43 -34 -75 -72 -96c-53 -29 -114 -40 -174 -40s-120 11 -173 40c-38 21 -72 53 -72 96s34 75 72 96c53 29 113 40 173 40s121 -11 174 -40
 c38 -21 72 -53 72 -96z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:57:4:5">
-<g transform="translate(65.8888, 51.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:57:4:5">
+<g transform="translate(65.7407, 55.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M213 112c-50 0 -69 -43 -69 -88c0 -77 57 -136 134 -136c50 0 69 43 69 88c0 77 -57 136 -134 136zM491 0c0 -43 -34 -75 -72 -96c-53 -29 -114 -40 -174 -40s-120 11 -173 40c-38 21 -72 53 -72 96s34 75 72 96c53 29 113 40 173 40s121 -11 174 -40
 c38 -21 72 -53 72 -96z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(5.6906, 62.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 66.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 61.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 65.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 60.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 64.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 59.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 63.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 58.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 62.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(113.6210, 60.7561)">
+<g transform="translate(110.7757, 64.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:62:0:1">
-<g transform="translate(11.4906, 62.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:62:0:1">
+<g transform="translate(14.3358, 66.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M213 112c-50 0 -69 -43 -69 -88c0 -77 57 -136 134 -136c50 0 69 43 69 88c0 77 -57 136 -134 136zM491 0c0 -43 -34 -75 -72 -96c-53 -29 -114 -40 -174 -40s-120 11 -173 40c-38 21 -72 53 -72 96s34 75 72 96c53 29 113 40 173 40s121 -11 174 -40
 c38 -21 72 -53 72 -96z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(4.5638, 57.7061)">
+<g transform="translate(7.4091, 61.5798)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>7</tspan>
 </text>
 </g>
-<g transform="translate(6.4906, 61.7561)">
+<g transform="translate(9.3358, 65.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:61:0:1">
-<g transform="translate(9.4076, 57.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:61:0:1">
+<g transform="translate(12.2528, 61.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 55.2056)">
+<g transform="translate(12.2528, 59.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 57.5149)">
+<g transform="translate(11.9008, 61.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 57.5149)">
+<g transform="translate(25.7183, 61.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 57.5149)">
+<g transform="translate(12.2528, 61.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 5</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(5.6906, 74.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 78.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 73.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 77.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 72.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 76.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 71.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 75.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 70.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 74.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(113.6210, 72.7561)">
+<g transform="translate(110.7757, 76.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(59.1988, 72.7561)">
+<g transform="translate(59.3468, 76.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(6.4906, 73.7561)">
+<g transform="translate(9.3358, 77.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:66:0:1">
-<g transform="translate(9.4076, 69.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:66:0:1">
+<g transform="translate(12.2528, 73.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 67.2056)">
+<g transform="translate(12.2528, 71.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 69.5149)">
+<g transform="translate(11.9008, 73.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 69.5149)">
+<g transform="translate(25.7183, 73.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 69.5149)">
+<g transform="translate(12.2528, 73.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 6</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(4.5638, 69.6813)">
+<g transform="translate(7.4091, 73.5551)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>8</tspan>
 </text>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:67:0:1">
-<g transform="translate(11.4906, 71.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:67:0:1">
+<g transform="translate(14.3358, 75.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:67:3:4">
-<g transform="translate(65.9128, 71.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:67:3:4">
+<g transform="translate(65.7647, 75.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(5.6906, 86.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 90.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 85.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 89.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 84.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 88.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 83.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 87.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 82.7561)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="108.0705" y2="0"/>
+<g transform="translate(8.5358, 86.6298)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="102.3799" y2="0"/>
 </g>
-<g transform="translate(5.6906, 87.7561)">
+<g transform="translate(8.5358, 91.6298)">
 <rect x="5.4739" y="-0.1000" width="1.9563" height="0.2000" ry="0.1000" fill="currentColor"/>
 </g>
-<g transform="translate(113.6210, 84.7561)">
+<g transform="translate(110.7757, 88.6298)">
 <rect x="0.0000" y="-2.0000" width="0.1900" height="4.0000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(38.2032, 84.7561)">
+<g transform="translate(39.6258, 88.6298)">
 <rect x="-0.0650" y="-1.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:7:8">
-<g transform="translate(62.4374, 86.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:72:7:8">
+<g transform="translate(62.4374, 90.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(63.6766, 84.7561)">
+<g transform="translate(63.6766, 88.6298)">
 <rect x="-0.0650" y="-1.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:10:11">
-<g transform="translate(87.9109, 86.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:72:10:11">
+<g transform="translate(86.4882, 90.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(89.1501, 84.7561)">
+<g transform="translate(87.7274, 88.6298)">
 <rect x="-0.0650" y="-2.0000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(6.4906, 85.7561)">
+<g transform="translate(9.3358, 89.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
 c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
 c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:71:0:1">
-<g transform="translate(9.4076, 81.9061)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:71:0:1">
+<g transform="translate(12.2528, 85.7798)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 79.2056)">
+<g transform="translate(12.2528, 83.0793)">
 <rect x="-0.3520" y="-0.1000" width="13.9174" height="0.1000" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.0556, 81.5149)">
+<g transform="translate(11.9008, 85.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(22.8730, 81.5149)">
+<g transform="translate(25.7183, 85.3886)">
 <rect x="0" y="-2.3093" width="0.1000" height="2.6005" ry="0.0000" fill="currentColor"/>
 </g>
-<g transform="translate(9.4076, 81.5149)">
+<g transform="translate(12.2528, 85.3886)">
 <text font-family="serif" font-size="2.7719" text-anchor="start" fill="currentColor">
 <tspan>Section 7</tspan>
 </text>
 </g>
 </a>
-<g transform="translate(3.4371, 81.6813)">
+<g transform="translate(6.2824, 85.5551)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>10</tspan>
 </text>
 </g>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:4:5">
-<g transform="translate(36.9640, 87.2561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:72:4:5">
+<g transform="translate(38.3866, 91.1298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:0:1">
-<g transform="translate(11.4906, 87.7561)">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/tests/../examples/filter-example-1.ly:72:0:1">
+<g transform="translate(14.3358, 91.6298)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(12.7298, 84.7561)">
+<g transform="translate(15.5750, 88.6298)">
 <rect x="-0.0650" y="-0.5000" width="0.1300" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(28.8852, 162.8300)">
 <a xlink:href="https://lilypond.org/">
 <rect x="0.0000" y="-0.4888" width="61.7311" height="2.1604" fill="none" stroke="none" stroke-width="0.0"/>
 </a>
 </g>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(28.8852, 162.8300)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.25.1—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>

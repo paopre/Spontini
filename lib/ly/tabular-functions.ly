@@ -22,7 +22,7 @@
 noSkipTuplets =
 \musicMap
 #(lambda (m)
-   (if (and (ly:version? >= '(2 25 0))
+   (if (and (eq? (list-ref (ly:version) 1) 25)
             (music-is-of-type? m 'time-scaled-music)
             (every (lambda (e)
                      (music-is-of-type? e 'skip-event))
