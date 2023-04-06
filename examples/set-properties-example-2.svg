@@ -359,7 +359,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(97.6588, 27.6213)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(4.5638, 24.5713)">
+<g transform="translate(4.7004, 24.5713)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>2</tspan>
 </text>
@@ -595,7 +595,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <g transform="translate(97.6588, 47.6213)">
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(4.5638, 44.5465)">
+<g transform="translate(4.7004, 44.5538)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
@@ -619,7 +619,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </a>
 <g staffspace="1.00000000" extra-offset-propid="13" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:56:5:6">
-<g transform="translate(13.7226, 56.8927)">
+<g transform="translate(13.7226, 56.8461)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>text</tspan>
 </text>
@@ -636,7 +636,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </a>
 <g staffspace="1.00000000" x-offset-propid="14" editcommand="Tweak" editableclass="Dummy" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:57:5:6">
-<g transform="translate(19.6782, 51.6346)">
+<g transform="translate(19.6782, 51.5880)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>text</tspan>
 </text>
@@ -665,21 +665,21 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(98.5796, -48.1817)">
+<g transform="translate(98.4260, -48.2283)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(98.0796, -48.1817)">
+<g transform="translate(97.9260, -48.2283)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-7.4000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(98.5796, 55.5817)">
+<g transform="translate(98.4260, 55.6283)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -688,49 +688,49 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
 <g staffspace="1.00000000" outside-staff-padding-propid="17" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:60:5:6">
-<g transform="translate(79.4410, 56.9627)">
+<g transform="translate(79.4410, 56.9161)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>text</tspan>
 </text>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(81.5920, -51.1663)">
+<g transform="translate(81.4384, -51.1663)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(81.0920, -51.1663)">
+<g transform="translate(80.9384, -51.1663)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.3000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(81.5920, 55.4663)">
+<g transform="translate(81.4384, 55.4663)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(81.5920, -56.9939)">
+<g transform="translate(81.4384, -56.9381)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(81.0920, -56.9939)">
+<g transform="translate(80.9384, -56.9381)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-4.3000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(81.5920, 61.2939)">
+<g transform="translate(81.4384, 61.2381)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -739,28 +739,28 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
 <g staffspace="1.00000000" padding-propid="16" editcommand="Tweak" editableclass="Dummy" spontinieditable="true" y-direction="-1">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:59:5:6">
-<g transform="translate(62.4534, 56.8746)">
+<g transform="translate(62.4534, 56.8280)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>text</tspan>
 </text>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(64.6044, -49.6782)">
+<g transform="translate(64.4508, -49.6782)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, -1.0000)">
-<g transform="translate(64.1044, -49.6782)">
+<g transform="translate(63.9508, -49.6782)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-5.7000"/>
 </g>
 </g>
 </g>
 <g color="rgb(12.3000%, 45.6000%, 78.9000%)">
 <g transform="scale(1.0000, 1.0000)">
-<g transform="translate(64.6044, 55.3782)">
+<g transform="translate(64.4508, 55.3782)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="-1" y2="0"/>
 </g>
 </g>
@@ -835,37 +835,37 @@ c-25 -22 -37 -52 -37 -83c0 -24 7 -49 24 -69l84 -99c3 -3 4 -7 4 -10c0 -9 -8 -16 -
 </a>
 <g staffspace="1.00000000" extra-offset-propid="21" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:72:2:3">
-<g transform="translate(57.0557, 60.8951)">
+<g transform="translate(57.0557, 60.8797)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8va</tspan>
 </text>
 </g>
-<g transform="translate(61.2821, 60.0943)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="15.6132" y1="-0.0000" x2="15.6132" y2="0.8000"/>
+<g transform="translate(61.0431, 60.0943)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="15.8522" y1="-0.0000" x2="15.8522" y2="0.8000"/>
 </g>
-<g transform="translate(61.2821, 60.0943)">
+<g transform="translate(61.0431, 60.0943)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(61.2821, 60.0943)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.6132" y2="-0.0000" stroke-dasharray="0.306140698059801,0.7143282954728691"/>
+<g transform="translate(61.0431, 60.0943)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.8522" y2="-0.0000" stroke-dasharray="0.29175789111637096,0.6807684126048656"/>
 </g>
 </a>
 </g>
 <g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true" y-offset-propid="19" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="true">
 <a style="color:inherit;" xlink:href="textedit:///dummy/path/file.ly:65:2:3">
-<g transform="translate(9.2446, 60.8221)">
+<g transform="translate(9.2446, 60.8067)">
 <text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>8va</tspan>
 </text>
 </g>
-<g transform="translate(13.4710, 60.0213)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="25.4542" y1="-0.0000" x2="25.4542" y2="0.8000"/>
+<g transform="translate(13.2320, 60.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="25.6932" y1="-0.0000" x2="25.6932" y2="0.8000"/>
 </g>
-<g transform="translate(13.4710, 60.0213)">
+<g transform="translate(13.2320, 60.0213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
-<g transform="translate(13.4710, 60.0213)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="25.4542" y2="-0.0000" stroke-dasharray="0.3018281691824095,0.7042657280922889"/>
+<g transform="translate(13.2320, 60.0213)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="25.6932" y2="-0.0000" stroke-dasharray="0.30466219862438143,0.7108784634568901"/>
 </g>
 </a>
 </g>
@@ -887,7 +887,7 @@ c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<g transform="translate(4.5638, 64.5713)">
+<g transform="translate(4.7004, 64.5713)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>4</tspan>
 </text>
@@ -1102,7 +1102,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
 </a>
 </g>
-<g transform="translate(4.5638, 84.5466)">
+<g transform="translate(4.7004, 84.5538)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>5</tspan>
 </text>
@@ -1291,7 +1291,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(4.5638, 104.5465)">
+<g transform="translate(4.7004, 104.5538)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>6</tspan>
 </text>
@@ -1409,7 +1409,7 @@ c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 
 c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
 c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
-<g transform="translate(4.5638, 124.5713)">
+<g transform="translate(4.7004, 124.5713)">
 <text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
 <tspan>7</tspan>
 </text>
@@ -1441,21 +1441,21 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3139" ry="0.0400" fill="currentColor"/>
 </g>
 <g x-ref-of-28="true" spontinimarker="true">
-<g transform="translate(28.4434, 123.2984)">
+<g transform="translate(28.4434, 123.3246)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
 </g>
 </g>
 <g x-ref-of-29="true" spontinimarker="true">
-<g transform="translate(79.4063, 123.2984)">
+<g transform="translate(79.4063, 123.3246)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="0" y2="-1"/>
 </g>
 </g>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(30.6607, 165.0670)">
 <a xlink:href="https://lilypond.org/">
-<rect x="0.0000" y="-0.4888" width="61.7311" height="2.1604" fill="none" stroke="none" stroke-width="0.0"/>
+<rect x="0.0000" y="-0.5280" width="58.1802" height="2.2001" fill="none" stroke="none" stroke-width="0.0"/>
 </a>
 </g>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(30.6607, 165.0670)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
 </text>

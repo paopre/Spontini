@@ -148,12 +148,12 @@ c-49 51 -66 122 -66 193s17 142 66 193c47 49 116 69 184 69c87 0 160 -64 175 -150c
 <path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
 </g>
 </a>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(30.6607, 165.0670)">
 <a xlink:href="https://lilypond.org/">
-<rect x="0.0000" y="-0.4888" width="61.7311" height="2.1604" fill="none" stroke="none" stroke-width="0.0"/>
+<rect x="0.0000" y="-0.5280" width="58.1802" height="2.2001" fill="none" stroke="none" stroke-width="0.0"/>
 </a>
 </g>
-<g transform="translate(28.8852, 165.1062)">
+<g transform="translate(30.6607, 165.0670)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
 <tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
 </text>
