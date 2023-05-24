@@ -25,6 +25,6 @@ This GUI also provides a menu with some options:
   4. **Reset LilyPond:** it configures Spontini-Editor to work with its default version of LilyPond, which is listed with "[D]" mark on the server's log.
   5. **Clear screen:** it clears the visible log of the editor
 
-**NOTE** SpotiniServer can be launched also by a python3 interpreter; all the required dependencies are listed in **[requirements.txt](../lib/python/requirements.txt) and must be installed with pip (pip install -r requirements.txt).
+**NOTE** SpotiniServer can be launched also by a python3 interpreter; all the required dependencies are listed in **[requirements.txt](../lib/python/requirements.txt)** and must be installed with pip (pip install -r requirements.txt).
 
 ### [TABLE OF CONTENTS](toc.md)
