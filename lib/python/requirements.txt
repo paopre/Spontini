@@ -5,7 +5,7 @@ colorlog==4.6.2
 fastapi==0.70.0
 httpx==0.23.0
 natsort==8.0.1
-PyPDF2==1.27.5
+PyPDF2==1.27.9
 python-ly==0.9.7
 psutil==5.9.4
 wheel==0.38.1
