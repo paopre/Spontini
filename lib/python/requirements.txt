@@ -10,7 +10,7 @@ python-ly==0.9.7
 psutil==5.9.4
 wheel==0.38.1
 svglib==1.1.0
-reportlab==3.6.12
+reportlab==3.6.13
 testresources==2.0.1
 requests==2.31.0
 uvicorn==0.20.0
