@@ -1,7 +1,7 @@
 --------------
 Development
 --------------
-* Compatible with LilyPond 2.25.3 to 10
+* Compatible with LilyPond 2.25.3 to 14
 * Compatible with LilyPond 2.24.2 and 2.24.3
 
 --------------
