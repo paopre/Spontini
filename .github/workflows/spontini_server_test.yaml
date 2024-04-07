@@ -58,6 +58,6 @@ jobs:
         with:
           python-version: ${{ inputs.python_version }}
       - run: >
-          brew install --cask inkscape;
+          brew install --cask inkscape@8.4.4;
           python3 tests/spontini_server_test.py run_exec ${{ inputs.lily_additional_version }} ;
           python3 -V;
