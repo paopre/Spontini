@@ -1,0 +1,714 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="210.00mm" height="297.00mm" viewBox="0.0000 -0.0000 119.5016 169.0094">
+<style type="text/css">
+<![CDATA[
+tspan { white-space: pre; }
+]]>
+</style>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 10.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 9.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 8.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 7.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 6.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(110.7495, 8.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="85.6699" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="69.6307" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="53.5915" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="37.5523" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="21.5131" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 11.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(79.7228, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(95.7620, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:40:5:6">
+<g transform="translate(93.7328, 20.5902)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:40:2:3">
+<g transform="translate(94.5318, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:39:5:6">
+<g transform="translate(77.6936, 20.5743)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:39:2:3">
+<g transform="translate(78.4926, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(63.6836, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:38:5:6">
+<g transform="translate(61.6544, 20.5953)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:38:2:3">
+<g transform="translate(62.4534, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" outside-staff-padding-propid="5" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" padding-propid="4" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" y-offset-propid="3" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g staffspace="1.00000000" staff-padding-propid="6" editcommand="Tweak" editableclass="DynamicLineSpanner" spontinieditable="false">
+</g>
+<g transform="translate(15.5660, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(9.3358, 9.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" extra-offset-propid="1" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:35:5:6">
+<g transform="translate(7.9998, 20.0003)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:35:2:3">
+<g transform="translate(14.3358, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(47.6444, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:37:5:6">
+<g transform="translate(45.6152, 20.6453)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:37:2:3">
+<g transform="translate(46.4142, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(31.6052, 8.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="2" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:36:5:6">
+<g transform="translate(15.9750, 15.3349)">
+<g>
+<path transform="scale(0.0040, -0.0040)" d="M-41 146c26 76 82 153 149 153c22 0 36 -20 41 -45c22 26 51 45 81 45c23 0 38 -21 44 -46c22 27 51 46 80 46c33 0 59 -35 59 -69c0 -5 -1 -10 -2 -15l-35 -149c0 -2 -1 -4 -1 -5c0 -5 2 -8 7 -8c9 0 27 11 48 31c4 4 9 6 13 6c6 0 11 -4 11 -10c0 -4 -3 -8 -7 -12
+c-40 -38 -85 -75 -131 -75c-20 0 -32 13 -32 32c0 4 0 7 1 11l39 165c1 5 2 9 2 14c0 10 -4 18 -14 18c-16 0 -33 -16 -39 -32l-53 -183c-3 -10 -12 -18 -22 -18h-41c-10 0 -16 8 -13 18l52 183c2 6 3 11 3 16c0 9 -4 16 -13 16c-16 0 -35 -15 -41 -32l-62 -183
+c-3 -10 -14 -18 -24 -18h-41c-10 0 -15 8 -12 18l63 183c2 5 2 10 2 15c0 10 -3 17 -13 17c-29 0 -54 -53 -66 -87c-4 -11 -15 -17 -23 -17c-7 0 -12 4 -12 11c0 2 1 4 2 6z" fill="currentColor"/>
+
+<path transform="translate(1.6389, 0.0000) scale(0.0040, -0.0040)" d="M253 245l-50 -163c-30 -99 -121 -255 -218 -255c-45 0 -87 27 -87 69c0 39 17 77 52 77c24 0 44 -20 44 -44c0 -30 -38 -24 -38 -54c0 -10 11 -11 23 -11h6c48 0 61 58 73 108l68 273h-49c-11 0 -19 8 -19 19s8 19 19 19h60c32 96 118 191 213 191c45 0 87 -27 87 -69
+c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-7c-62 0 -70 -88 -86 -154h55c11 0 19 -8 19 -19s-8 -19 -19 -19h-66z" fill="currentColor"/>
+</g>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:36:2:3">
+<g transform="translate(30.3750, 11.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 30.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 29.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 28.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 27.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 26.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="85.8325" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="69.9559" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="54.0793" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="38.2027" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="22.3261" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 31.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(110.7495, 28.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(48.2948, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(80.0480, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" outside-staff-padding-propid="11" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:51:5:6">
+<g transform="translate(79.4698, 40.0053)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:51:2:3">
+<g transform="translate(78.8177, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(64.1714, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" padding-propid="10" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:47:5:6">
+<g transform="translate(63.5932, 40.0103)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:47:2:3">
+<g transform="translate(62.9411, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:52:2:3">
+<g transform="translate(94.6943, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" staff-padding-propid="12" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:52:5:6">
+<g transform="translate(95.3464, 40.0022)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(95.9246, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(7.4091, 25.7953)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>2</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:44:2:3">
+<g transform="translate(14.3358, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:46:2:3">
+<g transform="translate(47.0645, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(9.3358, 29.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:45:2:3">
+<g transform="translate(31.1879, 31.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" y-offset-propid="9" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:46:5:6">
+<g transform="translate(47.7166, 40.0453)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(32.4181, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="8" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:45:5:6">
+<g transform="translate(16.7879, 31.5222)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" extra-offset-y-propid="7" editcommand="Tweak" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:44:5:6">
+<g transform="translate(14.9879, 40.0003)">
+<path transform="scale(0.0040, -0.0040)" d="M-173 68c-8 2 -15 9 -15 18c0 10 9 19 19 19c2 0 3 -1 5 -1l337 -86c8 -2 15 -9 15 -18s-7 -16 -15 -18l-337 -86c-2 0 -3 -1 -5 -1c-10 0 -19 9 -19 19c0 9 7 16 15 18l206 53l109 15l-109 15z" fill="currentColor"/>
+</g>
+</a>
+</g>
+<g transform="translate(15.5660, 28.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 50.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 49.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 48.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 47.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 46.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(8.5358, 44.8453)">
+<rect x="27.6930" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 45.8453)">
+<rect x="27.6930" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 44.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 45.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(110.7495, 48.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:60:2:3">
+<g transform="translate(36.5549, 44.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" shorten-pair-propid="20" editcommand="OnceOverride" editableclass="OttavaBracket" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:56:2:3">
+<g transform="translate(20.1998, 42.0461)">
+<text font-family="serif" font-style="italic" font-size="2.2001" text-anchor="start" fill="currentColor">
+<tspan>8va</tspan>
+</text>
+</g>
+<g transform="translate(24.4263, 41.2453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="15.5737" y1="-0.0000" x2="15.5737" y2="0.8000"/>
+</g>
+<g transform="translate(24.4263, 41.2453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
+</g>
+<g transform="translate(24.4263, 41.2453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.5737" y2="-0.0000" stroke-dasharray="0.3053675366572693,0.712524252200295"/>
+</g>
+</a>
+</g>
+<g transform="translate(36.6288, 48.8453)">
+<rect x="-0.0740" y="-3.8138" width="0.1480" height="3.8138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:61:2:3">
+<g transform="translate(58.7739, 47.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(9.3358, 49.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(7.4091, 45.7705)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:59:2:3">
+<g transform="translate(14.3358, 44.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(14.4098, 48.8453)">
+<rect x="-0.0740" y="-3.8138" width="0.1480" height="3.8138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 70.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 69.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 68.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 67.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 66.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(8.5358, 64.8453)">
+<rect x="56.5739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 65.8453)">
+<rect x="56.5739" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 64.8453)">
+<rect x="39.5644" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 65.8453)">
+<rect x="39.5644" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 71.8453)">
+<rect x="22.4835" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 71.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(110.7495, 68.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:67:2:3">
+<g transform="translate(48.4263, 64.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:69:2:3">
+<g transform="translate(82.4453, 68.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(65.5098, 68.8453)">
+<rect x="-0.0740" y="-3.8138" width="0.1480" height="3.8138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:68:2:3">
+<g transform="translate(65.4358, 64.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(48.5003, 68.8453)">
+<rect x="-0.0740" y="-3.8138" width="0.1480" height="3.8138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" cpts-propid="23" editcommand="Shape" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:67:7:8">
+<g transform="translate(48.4263, 68.8453)">
+<path stroke-width="0.0910" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M-4.4259 -4.8450C-4.4264 -12.9138 19.5741 -12.9138 19.5736 -4.8450L19.5736 -4.8450C19.5741 -12.7772 -4.4264 -12.7772 -4.4259 -4.8450z"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" cpts-propid="22" editcommand="Shape" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:65:6:7">
+<g transform="translate(14.3358, 68.8453)">
+<path stroke-width="0.0910" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="currentColor" d="M-2.3359 3.1550C-10.3354 11.2229 21.6641 11.2229 13.6646 3.1550L13.6646 3.1550C21.6641 11.0863 -10.3354 11.0863 -2.3359 3.1550z"/>
+</g>
+</a>
+</g>
+<g transform="translate(9.3358, 69.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(7.4091, 65.7953)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>4</tspan>
+</text>
+</g>
+<g transform="translate(32.5756, 68.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:66:2:3">
+<g transform="translate(31.3453, 71.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(15.5660, 68.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:65:2:3">
+<g transform="translate(14.3358, 71.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 90.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 89.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 88.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 87.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 86.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="84.6025" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="76.0961" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="67.3397" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 92.8453)">
+<rect x="67.3397" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 93.8453)">
+<rect x="67.3397" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="50.3270" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="41.8206" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 91.8453)">
+<rect x="33.0642" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 92.8453)">
+<rect x="33.0642" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 93.8453)">
+<rect x="33.0642" y="-0.1069" width="1.9563" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(110.7495, 88.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(94.6946, 88.8453)">
+<rect x="-0.0740" y="-8.9758" width="0.1480" height="11.7896" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:74:61:62">
+<g transform="translate(67.9452, 88.3453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:75:58:59">
+<g transform="translate(93.4643, 91.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(86.1882, 88.8453)">
+<rect x="-0.0740" y="-10.2682" width="0.1480" height="13.0820" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:75:55:56">
+<g transform="translate(84.9580, 91.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(77.4318, 88.8453)">
+<rect x="-0.0740" y="-11.5987" width="0.1480" height="16.4125" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:75:2:3">
+<g transform="translate(76.2016, 93.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(69.1754, 88.8453)">
+<rect x="-0.0740" y="-11.7067" width="0.1480" height="11.0205" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" positions-propid="27" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:75:4:5">
+<g transform="translate(77.3578, 77.2354)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="26.1271 3.7758 26.1271 4.1758 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g staffspace="1.00000000" positions-propid="26" editcommand="OnceOffset" editableclass="Dummy" spontinieditable="false">
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:74:4:5">
+<g transform="translate(43.0824, 81.0783)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="26.1271 -4.1509 26.1271 -3.7509 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+</a>
+</g>
+<g transform="translate(103.4509, 88.8453)">
+<rect x="-0.0740" y="-7.6453" width="0.1480" height="5.9591" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:75:61:62">
+<g transform="translate(102.2207, 87.3453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:74:2:3">
+<g transform="translate(41.9261, 93.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:73:2:3">
+<g transform="translate(14.3358, 88.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M365 0h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(7.4091, 85.7706)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>5</tspan>
+</text>
+</g>
+<g transform="translate(9.3358, 89.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(43.1563, 88.8453)">
+<rect x="-0.0740" y="-7.7782" width="0.1480" height="12.5920" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(51.9127, 88.8453)">
+<rect x="-0.0740" y="-9.1003" width="0.1480" height="11.9141" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(60.4191, 88.8453)">
+<rect x="-0.0740" y="-10.3846" width="0.1480" height="13.1984" ry="0.0400" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:74:55:56">
+<g transform="translate(50.6825, 91.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:74:58:59">
+<g transform="translate(59.1889, 91.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g staffspace="1.00000000" gridstep="4" gridify="false" lilypondversion="2.25.12" isstaff="true">
+<g transform="translate(8.5358, 110.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 109.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 108.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 107.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+<g transform="translate(8.5358, 106.8453)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="102.3730" y2="0"/>
+</g>
+</g>
+<g transform="translate(8.5358, 111.8453)">
+<rect x="7.4802" y="-0.1069" width="1.9063" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(8.5358, 111.8453)">
+<rect x="5.4740" y="-0.1069" width="1.9063" height="0.2138" ry="0.1069" fill="currentColor"/>
+</g>
+<g transform="translate(110.7495, 108.8453)">
+<rect x="0.0000" y="-2.0000" width="0.2162" height="4.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:82:64:65">
+<g transform="translate(16.2921, 111.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(17.5223, 108.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+<g staffspace="1.00000000" x-offset-propid="28" editcommand="OnceOverride" editableclass="NoteColumn" spontinieditable="false">
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:83:2:3">
+<g transform="translate(58.8680, 107.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M365 -156h-355c-6 0 -10 4 -10 10v136c0 6 4 10 10 10h355c6 0 10 -4 10 -10v-136c0 -6 -4 -10 -10 -10z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(9.3358, 109.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M376 262c4 0 9 1 13 1c155 0 256 -128 256 -261c0 -76 -33 -154 -107 -210c-22 -17 -47 -28 -73 -36c3 -35 5 -70 5 -105c0 -19 -1 -39 -2 -58c-7 -120 -90 -228 -208 -228c-108 0 -195 88 -195 197c0 58 53 103 112 103c54 0 95 -47 95 -103c0 -52 -43 -95 -95 -95
+c-11 0 -21 2 -31 6c26 -39 68 -65 117 -65c96 0 157 92 163 191c1 18 2 37 2 55c0 31 -1 61 -4 92c-29 -5 -58 -8 -89 -8c-188 0 -333 172 -333 374c0 177 131 306 248 441c-19 62 -37 126 -45 191c-6 52 -7 103 -7 155c0 115 55 224 149 292c3 2 7 3 10 3c4 0 7 0 10 -3
+c71 -84 133 -245 133 -358c0 -143 -86 -255 -180 -364c21 -68 39 -138 56 -207zM461 -203c68 24 113 95 113 164c0 90 -66 179 -173 190c24 -116 46 -231 60 -354zM74 28c0 -135 129 -247 264 -247c28 0 55 2 82 6c-14 127 -37 245 -63 364c-79 -8 -124 -61 -124 -119
+c0 -44 25 -91 81 -123c5 -5 7 -10 7 -15c0 -11 -10 -22 -22 -22c-3 0 -6 1 -9 2c-80 43 -117 115 -117 185c0 88 58 174 160 197c-14 58 -29 117 -46 175c-107 -121 -213 -243 -213 -403zM408 1045c-99 -48 -162 -149 -162 -259c0 -74 18 -133 36 -194
+c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
+</g>
+<g transform="translate(7.4091, 105.7705)">
+<text font-family="serif" font-size="1.7461" text-anchor="start" fill="currentColor">
+<tspan>6</tspan>
+</text>
+</g>
+<a style="color:inherit;" xlink:href="textedit:///home/paolo/programmi/SPONTINI/Spontini/lib/../tests/test_movable_grobs_copy.ly:79:2:3">
+<g transform="translate(14.3358, 111.8453)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c55 0 108 -28 108 -89c0 -71 -55 -121 -102 -149c-35 -21 -75 -34 -116 -34c-55 0 -108 28 -108 89c0 71 55 121 102 149c35 21 75 34 116 34z" fill="currentColor"/>
+</g>
+</a>
+<g transform="translate(15.5660, 108.8453)">
+<rect x="-0.0740" y="-0.5000" width="0.1480" height="3.3138" ry="0.0400" fill="currentColor"/>
+</g>
+</svg>
