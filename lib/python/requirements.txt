@@ -2,7 +2,7 @@ aiofiles==0.6.0
 asgiref==3.3.1
 colorama==0.4.4
 colorlog==4.6.2
-fastapi==0.70.0
+fastapi==0.109.1
 httpx==0.23.0
 natsort==8.0.1
 PyPDF2==1.27.9
