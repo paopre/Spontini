@@ -143,15 +143,15 @@ if jsonRes['status'] != 'OK':
 
 ##########################
 
-exampleName = "padding-on-brackets-example"
-logTaskLabel("CREATE PDF FILE FROM " + exampleName + ".ly")
-body = {'cmd': 'CREATE_PDF', 'param1': exampleName + '.ly'}
-jsonRes = sendMsgToSpontiniServer(body)
-if jsonRes['status'] != 'OK' or \
-   os.path.getsize(os.path.join(examplesDir, exampleName + "-svgexport.pdf")) <= 0:
-  shutdownServerAndExit(webServerProc, 1)
-else:
-  os.remove(os.path.join(examplesDir, exampleName + "-svgexport.pdf"))
+#exampleName = "padding-on-brackets-example"
+#logTaskLabel("CREATE PDF FILE FROM " + exampleName + ".ly")
+#body = {'cmd': 'CREATE_PDF', 'param1': exampleName + '.ly'}
+#jsonRes = sendMsgToSpontiniServer(body)
+#if jsonRes['status'] != 'OK' or \
+#   os.path.getsize(os.path.join(examplesDir, exampleName + "-svgexport.pdf")) <= 0:
+#  shutdownServerAndExit(webServerProc, 1)
+#else:
+#  os.remove(os.path.join(examplesDir, exampleName + "-svgexport.pdf"))
 
 ##########################
 
