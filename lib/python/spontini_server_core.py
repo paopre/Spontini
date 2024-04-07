@@ -1129,7 +1129,8 @@ def doPostSync(message, request):
             log(clientInfo + err, "E")
             return sendCompleteResponse(status, err.encode("utf8"))
 
-      merger = PdfFileMerger()
+      # see: https://stackoverflow.com/questions/49939085/xref-table-not-zero-indexed-id-numbers-for-objects-will-be-corrected-wont-con
+      merger = PdfFileMerger(strict=False)
 
       # process afterpdfexp script
       for currFile in sorted(os.listdir(wsDirPath)):
