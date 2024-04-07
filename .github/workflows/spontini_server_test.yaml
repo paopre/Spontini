@@ -58,6 +58,6 @@ jobs:
         with:
           python-version: ${{ inputs.python_version }}
       - run: >
-          brew install caskformula/caskformula/inkscape --HEAD --branch-0.92;
+          brew install --cask inkscape;
           python3 tests/spontini_server_test.py run_exec ${{ inputs.lily_additional_version }} ;
           python3 -V;
