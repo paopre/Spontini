@@ -11,7 +11,10 @@ This scripts pulls a docker image of an old version of ubuntu, set with $UBUNTU_
 ----------------------------
 *) Steps to make a release and upload binary artifacts for win/lin/macos:
 
-1) Given versionNumber inside version.txt, exec: git tag versionNumber; git push repoUrl --tags
-2) The previous git command will trigger a GitHub action (make_release.yaml) that will create a GitHub release with "versionNumber" version and with binary artifacts for win/macos/linux.
-3) Add changelog in the release description from NEWS.txt, test it and remove the "draft" flag
+1) Update the release number (releaseNumber) inside lib/version.txt.
+2) Update NEWS.txt by putting all the stuff withing the "Development" section inside a new releaseNumber section
+3) Create a tag which corresponds to releaseNumber: git tag releaseNumber; git push repoUrl --tags
+4) The previous git command will trigger a GitHub action (make_release.yaml) that will create a GitHub release with "releaseNumber" version and with binary artifacts for win/macos/linux.
+5) (should be done automagically from GitHub) add changelog in the release description by picking the content of "releaseNumber" from NEWS.txt,
+6) test it and remove the "draft" flag
 

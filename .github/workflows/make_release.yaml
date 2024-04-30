@@ -41,7 +41,7 @@ jobs:
           files: bin/Spontini-Editor-${{ github.ref_name }}-windows_x86_64.zip
 
   build-macos:
-    runs-on: macos-latest
+    runs-on: macos-12
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
