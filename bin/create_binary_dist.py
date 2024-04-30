@@ -25,7 +25,6 @@ import shutil
 from pathlib import Path
 import tarfile
 import os.path
-from distutils.dir_util import copy_tree
 import glob
 import re
 
@@ -56,12 +55,12 @@ subprocess.run([sys.executable, "-m", "PyInstaller", os.path.join(HERE, "create_
 
 os.rename('dist', execDirName)
 
-copy_tree(os.path.join(HERE, '..','tests'), os.path.join(execDirName, 'tests'))
-copy_tree(os.path.join(HERE, '..','lib'), os.path.join(execDirName, 'lib'))
-copy_tree(os.path.join(HERE, '..','documentation'), os.path.join(execDirName, 'documentation'))
-copy_tree(os.path.join(HERE, '..', 'examples'), os.path.join(execDirName, 'examples'))
-copy_tree(os.path.join(HERE, '..', 'plugins'), os.path.join(execDirName, 'plugins'))
-copy_tree(os.path.join(HERE, '..', 'templates'), os.path.join(execDirName, 'templates'))
+shutil.copytree(os.path.join(HERE, '..','tests'), os.path.join(execDirName, 'tests'))
+shutil.copytree(os.path.join(HERE, '..','lib'), os.path.join(execDirName, 'lib'))
+shutil.copytree(os.path.join(HERE, '..','documentation'), os.path.join(execDirName, 'documentation'))
+shutil.copytree(os.path.join(HERE, '..', 'examples'), os.path.join(execDirName, 'examples'))
+shutil.copytree(os.path.join(HERE, '..', 'plugins'), os.path.join(execDirName, 'plugins'))
+shutil.copytree(os.path.join(HERE, '..', 'templates'), os.path.join(execDirName, 'templates'))
 shutil.copyfile(os.path.join(HERE, '..', 'LICENSE'), os.path.join(execDirName,  'LICENSE'))
 shutil.copyfile(os.path.join(HERE, '..', 'NEWS.txt'), os.path.join(execDirName, 'NEWS.txt'))
 shutil.copyfile(os.path.join(HERE, '..', 'README.md'), os.path.join(execDirName, 'README.md'))

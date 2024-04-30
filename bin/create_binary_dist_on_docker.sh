@@ -17,8 +17,8 @@
 
 #!/bin/bash
 
-PYTHON_VERSION=3.9.1
-PYENV_VERSION=2.3.11
+PYTHON_VERSION=3.11.0
+PYENV_VERSION=2.4.0
 UBUNTU_VERSION=18.04
 
 SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
@@ -30,6 +30,8 @@ setfacl -m u:1000:rwx $SCRIPTPATH/..
 docker create ubuntu:$UBUNTU_VERSION
 
 # run the container with mounting Spontini src tree mapped as /Spontini
+docker stop ubuntu_for_pyinstaller
+docker rm ubuntu_for_pyinstaller
 docker run -v $SCRIPTPATH/..:/Spontini -d --name ubuntu_for_pyinstaller -it ubuntu:$UBUNTU_VERSION
 
 docker exec ubuntu_for_pyinstaller bash -c "\
@@ -43,6 +45,9 @@ usermod -aG sudo dummyuser &&
 su dummyuser &&
 curl -LO https://github.com/pyenv/pyenv/archive/refs/tags/v$PYENV_VERSION.tar.gz &&
 tar zxvf v$PYENV_VERSION.tar.gz &&
+# workaround for this issue: https://github.com/pyenv/pyenv/issues/2499
+export TCLTK_LIBS=\"-L/usr/lib/x86_64-linux-gnu -ltcl -ltk\" &&
+export TCLTK_CFLAGS=\"-I/usr/include/tk\" &&
 pyenv-$PYENV_VERSION/bin/./pyenv install -v $PYTHON_VERSION &&
 cd /Spontini/bin/ &&
 ~/.pyenv/versions/$PYTHON_VERSION/bin/python3 create_binary_dist.py &&
