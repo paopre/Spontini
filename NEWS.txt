@@ -1,13 +1,9 @@
 --------------
-Development
+Version 1.23
 --------------
-* Compatible with LilyPond 2.25.3 to 14
-* Compatible with LilyPond 2.24.2 and 2.24.3
-
---------------
-Version 1.21
---------------
-* Compatible with LilypPond 2.25.0 to 2
+* Compatible with LilyPond 2.25.0 to 14
+* Compatible with LilyPond 2.24.1 to 2.24.3
+* Libs updated, bugfixes
 
 --------------
 Version 1.20
