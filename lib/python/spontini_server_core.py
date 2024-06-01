@@ -834,6 +834,14 @@ def doPostSync(message, request):
       log(clientInfo + traceback.format_exc(), "E")
       return sendCompleteResponse("KO", traceback.format_exc().encode("utf8"))
 
+  if message['cmd'] == 'LOG':
+    if not checkMsgStructure(message, 2):
+      return sendMalformedMsgResponse()
+    text = message['param1']
+    level = message['param2']
+    log(clientInfo + text, level)
+    return sendCompleteResponse("OK", "")
+
   if message['cmd'] == 'EXEC_PLUGIN':
     if not checkMsgStructure(message, 5):
       return sendMalformedMsgResponse()
