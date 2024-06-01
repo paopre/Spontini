@@ -1,4 +1,10 @@
 --------------
+Version 1.24
+--------------
+* add config param for command-line options for LilyPond
+* enhancement on handling MIDI input init failure
+
+--------------
 Version 1.23
 --------------
 * Compatible with LilyPond 2.25.0 to 14
