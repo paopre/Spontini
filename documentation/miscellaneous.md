@@ -17,6 +17,12 @@ along with Spontini-Editor. If not, see <http://www.gnu.org/licenses/>.
 
 # Miscellaneous
 
+### ADDITIONAL COMPILE OPTIONS/FLAGS
+
+You can add them by setting "compile-additional-opts" configuration parameter:
+click on "TOOLS--->Set configuration parameter", then insert "compile-additional-opts" as parameter, then insert all the additional options you need in the same entry. For example: "-I /my/include/directory -l WARN".
+Don't forget to restart the SpontiniServer after the parameter is set.
+
 ### AXES
 
 Once a score is loaded and rendered, four draggable axes, useful for graphically aligning objects, can be activated by selecting "TOOLS--->Toggle axes"

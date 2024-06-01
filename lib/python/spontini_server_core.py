@@ -83,6 +83,7 @@ inkscapeExecutableCmd = ""
 inkscapeVersion = ""
 defaultMode = "svg"
 defaultMidiInputChannel = "-1"
+compileAdditionalOpts="compile-additional-opts"
 WORKSPACE_PARAM = "workspace"
 VERSION_PARAM = "version"
 CAN_CONFIG_FROM_NON_LOCALHOST_PARAM = "can-config-from-non-localhost"
@@ -93,8 +94,9 @@ INKSCAPE_EXEC_PARAM = "inkscape-exec"
 MIDI_ENABLED_PARAM = "midi-enabled"
 SOUNDFONT_URL_PARAM = "soundfont-url"
 DEFAULT_MODE_PARAM = "default-mode"
+COMPILE_ADDITIONAL_OPTS_PARAM = "compile-additional-opts"
 DEFAULT_MIDI_INPUT_CHANNEL_PARAM = "default-midi-input-channel"
-configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, DEFAULT_MIDI_INPUT_CHANNEL_PARAM, SOUNDFONT_URL_PARAM, DEFAULT_MODE_PARAM]
+configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, DEFAULT_MIDI_INPUT_CHANNEL_PARAM, SOUNDFONT_URL_PARAM, DEFAULT_MODE_PARAM, COMPILE_ADDITIONAL_OPTS_PARAM]
 
 debug = True
 savedConFilename = "saved-config.txt"
@@ -186,6 +188,7 @@ def readConfigParams():
   global spontiniVersion
   global forkAccessOnly
   global defaultMode
+  global compileAdditionalOpts
   global WORKSPACE_PARAM
   global VERSION_PARAM
   global CAN_CONFIG_FROM_NON_LOCALHOST_PARAM
@@ -197,6 +200,7 @@ def readConfigParams():
   global DEFAULT_MIDI_INPUT_CHANNEL_PARAM
   global DEFAULT_MODE_PARAM
   global SOUNDFONT_URL_PARAM
+  global COMPILE_ADDITIONAL_OPTS_PARAM
   global configurableParams
 
   try:
@@ -211,6 +215,7 @@ def readConfigParams():
       setConfigParam(DEBUG_PARAM, "no")
       setConfigParam(MIDI_ENABLED_PARAM, "yes")
       setConfigParam(SOUNDFONT_URL_PARAM, "")
+      setConfigParam(COMPILE_ADDITIONAL_OPTS_PARAM, "")
       setConfigParam(CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, "no")
       setConfigParam(FORK_ACCESS_ONLY_PARAM, "no")
       setConfigParam(WORKSPACE_PARAM, "")
@@ -264,6 +269,9 @@ def readConfigParams():
 
           if parm == LILYPOND_EXEC_PARAM:
             lilyExecutableCmd = val
+
+          if parm == COMPILE_ADDITIONAL_OPTS_PARAM:
+            compileAdditionalOpts = val
 
           if parm == DEFAULT_MIDI_INPUT_CHANNEL_PARAM:
             defaultMidiInputChannel = val
@@ -442,6 +450,7 @@ def doPostSync(message, request):
   global lilyExecutableCmd
   global sepTkn
   global inkscapeVersion
+  global compileAdditionalOpts
 
   clientInfo = "["+host+":"+clPort+"] "
 
@@ -615,6 +624,12 @@ def doPostSync(message, request):
       cliArr.insert(2, "-dbackend="+param3)
     if param3.strip() == "null":
       cliArr.insert(2, "-dno-print-pages")
+    if compileAdditionalOpts:
+      for opt in reversed(compileAdditionalOpts.split()):
+        cliArr.insert(2, opt)
+
+    log(clientInfo + "Executing: " + ' '.join(cliArr), "I")
+
     try:
       p = subprocess.run(cliArr, encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
       if p.returncode == 0:
