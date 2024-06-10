@@ -1,4 +1,9 @@
 --------------
+Version 1.25
+--------------
+* fix SVG to PDF export Windows issue
+
+--------------
 Version 1.24
 --------------
 * add config param for command-line options for LilyPond

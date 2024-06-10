@@ -1171,6 +1171,12 @@ def doPostSync(message, request):
       merger.close()
       for pdf in pdfList:
         os.remove(os.path.join(wsDirPath, pdf))
+
+      try:
+        os.remove(os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"))
+      except:
+        pass
+
       os.rename(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"))
       log(clientInfo + "[generating PDF] Generated: " + os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"), "S")
 
