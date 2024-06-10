@@ -17,7 +17,7 @@ jobs:
         run: >
           python3 bin/create_binary_dist.py
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           draft: true
           body_path: bin/releaseNotes.txt
@@ -34,7 +34,7 @@ jobs:
         run: >
           python3 bin/create_binary_dist.py
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           draft: true
           body_path: bin/releaseNotes.txt
@@ -51,7 +51,7 @@ jobs:
         run: >
           python3 bin/create_binary_dist.py
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           draft: true
           body_path: bin/releaseNotes.txt
