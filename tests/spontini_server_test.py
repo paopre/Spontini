@@ -384,10 +384,10 @@ checkStatusAndContent(jsonRes, "<reb'' fad>4 solb'")
 
 ##########################
 
-f = open("snippet-to-format.ly", "r")
+f = open(os.path.join(os.path.dirname(__file__), "snippet-to-format.ly"), "r")
 snippetToFormat = f.read()
 f.close()
-f = open("snippet-expected-format.ly", "r")
+f = open(os.path.join(os.path.dirname(__file__), "snippet-expected-format.ly"), "r")
 snippetExpectedFormat = f.read()
 f.close()
 logTaskLabel("FORMAT")
