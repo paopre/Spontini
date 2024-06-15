@@ -1,18 +1,18 @@
 --------------
 Version 1.30
 --------------
-* add autoformat/indent
+* Added autoformat/indent
 
 --------------
 Version 1.25
 --------------
-* fix SVG to PDF export Windows issue
+* Fix SVG to PDF export Windows issue
 
 --------------
 Version 1.24
 --------------
-* add config param for command-line options for LilyPond
-* enhancement on handling MIDI input init failure
+* Added config param for command-line options for LilyPond
+* Enhancement on handling MIDI input init failure
 
 --------------
 Version 1.23
