@@ -61,6 +61,7 @@ try:
   from lib.python.python_ly_utils import translatePitches
   from lib.python.python_ly_utils import orderPitchesInChord
   from lib.python.python_ly_utils import convertPitchesToEnharmonic
+  from lib.python.python_ly_utils import formatOrIndentOnlyScore
   from lib.python.spontini_server_utils import *
 except:
   # if the above imports fail, we are calling the ASGI server trhough CLI, then the following imports are valid:
@@ -69,6 +70,7 @@ except:
   from python_ly_utils import translatePitches
   from python_ly_utils import orderPitchesInChord
   from python_ly_utils import convertPitchesToEnharmonic
+  from python_ly_utils import formatOrIndentOnlyScore
   from spontini_server_utils import *
 
 os.chdir(os.path.join(getLibPythonPath(), '..'))
@@ -96,7 +98,10 @@ SOUNDFONT_URL_PARAM = "soundfont-url"
 DEFAULT_MODE_PARAM = "default-mode"
 COMPILE_ADDITIONAL_OPTS_PARAM = "compile-additional-opts"
 DEFAULT_MIDI_INPUT_CHANNEL_PARAM = "default-midi-input-channel"
-configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM, LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, DEFAULT_MIDI_INPUT_CHANNEL_PARAM, SOUNDFONT_URL_PARAM, DEFAULT_MODE_PARAM, COMPILE_ADDITIONAL_OPTS_PARAM]
+DEFAULT_AUTOFORMAT_PARAM = "default-autoformat"
+DEFAULT_AUTOINDENT_PARAM = "default-autoindent"
+configurableParams = [WORKSPACE_PARAM, VERSION_PARAM, CAN_CONFIG_FROM_NON_LOCALHOST_PARAM, FORK_ACCESS_ONLY_PARAM, DEBUG_PARAM,
+                      LILYPOND_EXEC_PARAM, INKSCAPE_EXEC_PARAM, MIDI_ENABLED_PARAM, DEFAULT_MIDI_INPUT_CHANNEL_PARAM, SOUNDFONT_URL_PARAM, DEFAULT_MODE_PARAM, COMPILE_ADDITIONAL_OPTS_PARAM, DEFAULT_AUTOFORMAT_PARAM, DEFAULT_AUTOINDENT_PARAM]
 
 debug = True
 savedConFilename = "saved-config.txt"
@@ -198,6 +203,8 @@ def readConfigParams():
   global INKSCAPE_EXEC_PARAM
   global MIDI_ENABLED_PARAM
   global DEFAULT_MIDI_INPUT_CHANNEL_PARAM
+  global DEFAULT_AUTOFORMAT_PARAM
+  global DEFAULT_AUTOINDENT_PARAM
   global DEFAULT_MODE_PARAM
   global SOUNDFONT_URL_PARAM
   global COMPILE_ADDITIONAL_OPTS_PARAM
@@ -223,6 +230,8 @@ def readConfigParams():
       setConfigParam(INKSCAPE_EXEC_PARAM, "")
       setConfigParam(DEFAULT_MODE_PARAM, "svg")
       setConfigParam(DEFAULT_MIDI_INPUT_CHANNEL_PARAM, "-1")
+      setConfigParam(DEFAULT_AUTOFORMAT_PARAM, "off")
+      setConfigParam(DEFAULT_AUTOINDENT_PARAM, "off")
       confFile.close()
 
     with open(savedConFilenameWithPath) as fp:
@@ -1520,6 +1529,21 @@ def doPostSync(message, request):
     except:
       pass
     return sendCompleteResponse("OK", ret)
+
+  if message['cmd'] == 'FORMAT' or message['cmd'] == 'INDENT':
+    ret = ""
+    if not checkMsgStructure(message, 2):
+      return sendMalformedMsgResponse()
+    try:
+      indentOnly = False
+      if message['cmd'] == "INDENT":
+        indentOnly = True
+      editorCurs = editorCursorList = [int(x) for x in message['param2'].split(',')]
+      ret, curs, badLine = formatOrIndentOnlyScore(message['param1'], editorCursorList, indentOnly)
+    except:
+      log(clientInfo + traceback.format_exc(), "E")
+
+    return sendCompleteResponse("OK", ret + sepTkn + str(curs[0])+","+str(curs[1]) + sepTkn + str(badLine))
 
   if message['cmd'] == 'MERGE_TABLE_CELLS':
     ret = ""

@@ -384,6 +384,24 @@ checkStatusAndContent(jsonRes, "<reb'' fad>4 solb'")
 
 ##########################
 
+f = open("snippet-to-format.ly", "r")
+snippetToFormat = f.read()
+f.close()
+f = open("snippet-expected-format.ly", "r")
+snippetExpectedFormat = f.read()
+f.close()
+logTaskLabel("FORMAT")
+body = {'cmd': 'FORMAT', \
+        'param1': snippetToFormat, \
+        'param2': "0,0"}
+jsonRes = sendMsgToSpontiniServer(body)
+# FIXME: unsafe, use global tokens
+snippetFormatted = jsonRes['content'].split(";;::;;")[0]
+if snippetExpectedFormat != snippetFormatted:
+  shutdownServerAndExit(webServerProc, 1)
+
+##########################
+
 logTaskLabel("SET WORKSPACE TO INITIAL VALUE: " + initialWorkspace)
 body = {'cmd': 'SET_WORKSPACE', 'param1': initialWorkspace}
 jsonRes = sendMsgToSpontiniServer(body)

@@ -23,6 +23,16 @@ You can add them by setting "compile-additional-opts" configuration parameter:
 click on "TOOLS--->Set configuration parameter", then insert "compile-additional-opts" as parameter, then insert all the additional options you need in the same entry. For example: "-I /my/include/directory -l WARN".
 Don't forget to restart the SpontiniServer after the parameter is set.
 
+### AUTOFORMAT/INDENT
+
+It is possible to format or simply auto-indent LilyPond code through various options:
+
+  * By selecting a code snippet and clicking on "TOOLS--->Format/Indent selection"
+  * By enabling/disabling the auto-format/auto-indent option from the "TOOLS" menu ("TOOLS--->Enable/Disable autoformat", "TOOLS--->Enable/Disable autoindent"). Each time the file being edited is saved, the code will automatically be auto-formatted/auto-indented.
+  * By configuring the editor to have auto-format/auto-indent enabled/disabled by default: click on "TOOLS->Set configuration parameter", and enter "default-autoformat" (or "default-autoindent") as the parameter to configure and "on" or "off" as the value. Remember to restart SpontiniServer.
+  * If auto-format is enabled by default, it can be avoided for one or more sections of code that are between two lines starting with "% set autoformat off" and "% set autoformat on" (or "% set autoindent off" and "% set autoindent on"). If a line containing "% set autoformat off" (or "% set autoindent off") is placed at the beginning of the file, then auto-formatting/auto-indenting will be avoided for the entire file without needing to use the closing line ("% set autoformat on" or "% set autoindent on").
+  Be careful to insert a space between "%" and "set" for each of these lines.
+
 ### AXES
 
 Once a score is loaded and rendered, four draggable axes, useful for graphically aligning objects, can be activated by selecting "TOOLS--->Toggle axes"
@@ -105,7 +115,7 @@ Then the svg drop-down menu is displayed after a double click on the left mouse 
 
 You can check the LilyPond compiling output in two ways:
 
-  * On the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium).
+  * On the Javascript console of your browser (open "Web developer" ---> "Web console" on Firefox and "More tools" ---> "Developer tools" on Chrome/Chromium)
   * On the Spontini-Server's window or on the Spontini-Server's output (if the server is launched with "nogui" option)
   
 ### PAN-ZOOM

@@ -32,7 +32,7 @@ scriptOutput = argv[1]
 expr = ' '
 for i in range (8):
 	expr +='a '
-    
+
 scriptOutput[0] = expr
 
 %}
@@ -44,5 +44,5 @@ scriptOutput[0] = expr
 \version "2.19.84"
 
 {
-%{__BLOCK__1%} a a a a a a a a %{%}
+  %{__BLOCK__1%} a a a a a a a a %{%}
 }

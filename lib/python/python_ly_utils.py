@@ -22,6 +22,9 @@ import ly.pitch.translate
 import ly.words
 import ly.lex.lilypond
 import ly.pitch.transpose
+import ly.indent
+import ly.reformat
+import re
 
 def removeUnwantedSpacesInChord(text):
 
@@ -71,6 +74,115 @@ def removeChordOnSingleNote(text, lang):
     ret = ''.join(c for idx, c in enumerate(text) if idx not in posSet)
 
   return ret
+
+def formatOrIndentOnlyScore(scoreToFormat, editorCurs, justIndent=False):
+
+  def updateEditorCurs(i, editorCurs, editorCursOffs):
+    editorCursInside = ""
+    if i == editorCurs[0]:
+      editorCursInside = [editorCursOffs, editorCurs[1]]
+    editorCursOffs += 1
+    return editorCursInside, editorCursOffs
+
+  errorLine = -1
+  if scoreToFormat.strip().startswith("% set autoformat off"):
+    return [scoreToFormat, editorCurs, errorLine]
+
+  lines = scoreToFormat.split('\n')
+
+  blocks = []
+  modScoreLines = []
+  editorCursOffs = 0
+  obscureKey = "% __oOo__DONOTTOUCH__oOo__ %"
+  i = 0
+  modBlocks = 0
+
+  editorCursInside = ""
+
+  while i < len(lines):
+    line = lines[i]
+    if re.match(r'^\s*\\easyCrossStaff', line) or\
+       re.match(r'^\s*\% set autoformat off', line) or\
+       re.match(r'^\s*\% set autoindent off', line):
+      endReg = r'^\s*#\'\('
+      if re.match(r'^\s*\% set autoformat off', line):
+        endReg = r'^\s*\% set autoformat on'
+      if re.match(r'^\s*\% set autoindent off', line):
+        endReg = r'^\s*\% set autoindent on'
+      iTemp = i
+      endRegFound = False
+      while i < len(lines):
+        if re.match(endReg, lines[i]):
+          endRegFound = True
+        i += 1
+      if not endRegFound:
+        return [scoreToFormat, editorCurs, iTemp + 1]
+
+      i = iTemp
+      blockStart = i
+      if i == editorCurs[0]:
+        editorCursInside = [editorCursOffs, editorCurs[1]]
+      editorCursOffs += 1
+      # Trovare il blocco che termina con la riga che inizia con "#'("
+      while i < len(lines) and not re.match(endReg, lines[i]):
+        editorCursInside, editorCursOffs = updateEditorCurs(i, editorCurs, editorCursOffs)
+        i += 1
+      if i < len(lines):
+        blockEnd = i
+        editorCursInside, editorCursOffs = updateEditorCurs(i, editorCurs, editorCursOffs)
+        blocks.append((blockStart, blockEnd, lines[blockStart:blockEnd + 1], obscureKey, editorCursInside))
+        if editorCursInside:
+          editorCursInside = ""
+        modScoreLines.append([obscureKey, False])
+        modBlocks += 1
+    elif re.match(r'^\s*\\tabularTwoStavesPoly', line):
+      blockStart = i
+      editorCursInside, editorCursOffs = updateEditorCurs(i, editorCurs, editorCursOffs)
+      i += 1
+      while i < len(lines) and re.match(r'^\s*\{', lines[i]):
+        editorCursInside, editorCursOffs = updateEditorCurs(i, editorCurs, editorCursOffs)
+        i += 1
+      i -= 1
+      if i < len(lines):
+        blockEnd = i
+        blocks.append((blockStart, blockEnd, lines[blockStart:blockEnd + 1], obscureKey, editorCursInside))
+        if editorCursInside:
+          editorCursInside = ""
+        modScoreLines.append([obscureKey, False])
+        modBlocks += 1
+    else:
+        modScoreLines.append([line, False])
+    i += 1
+
+  modScore = '\n'.join([item[0] for item in modScoreLines])
+
+  doc = ly.document.Document(modScore)
+  curs = ly.document.Cursor(doc)
+  indenter = ly.indent.Indenter()
+  if justIndent:
+    indenter.indent(curs)
+  else:
+    ly.reformat.reformat(curs, indenter)
+
+  restoredLines = doc.plaintext().split('\n')
+
+  blockCtr = 0
+  for i in range(0, len(restoredLines)):
+    if restoredLines[i].strip().startswith(obscureKey):
+
+      if blocks[blockCtr][4][0:]:
+        editorCurs = [blocks[blockCtr][4][0:][0] + i, editorCurs[1]]
+
+      restoredLines[i] = '\n'.join(blocks[blockCtr][2][0:])
+      blockCtr += 1
+
+  formattedScore = '\n'.join(restoredLines)
+
+  # guard
+  if formattedScore.strip() == "" or obscureKey in formattedScore:
+    formattedScore = scoreToFormat
+
+  return [formattedScore, editorCurs, errorLine]
 
 def orderPitchesInChord(text, lang):
 

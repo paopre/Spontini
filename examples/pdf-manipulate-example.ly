@@ -20,7 +20,7 @@
 % pdf-manipulate-example-postengraving.py, inside the example's directory, will be executed
 % and it will add a string + a vector image + a raster image on the generated PDF page.
 %
-% NOTE: don't engrave this example in SVG MODE, otherwise the python script will fail. 
+% NOTE: don't engrave this example in SVG MODE, otherwise the python script will fail.
 %
 % In general, given a FILENAME.ly file, You can associate to it two scripts that will be executed
 % before and after the creation of the PDF: their filename must be in the form FILENAME-beforepdf.suffix

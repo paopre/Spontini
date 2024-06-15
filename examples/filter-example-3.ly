@@ -1,3 +1,4 @@
+% set autoformat off
 %
 % Created (16/10/2021) by Paolo-Prete.
 % This file is part of Spontini-Editor project.

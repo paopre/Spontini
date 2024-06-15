@@ -1,4 +1,9 @@
 --------------
+Version 1.30
+--------------
+* add autoformat/indent
+
+--------------
 Version 1.25
 --------------
 * fix SVG to PDF export Windows issue
