@@ -2,6 +2,8 @@
 Version 1.30
 --------------
 * Added autoformat/indent
+* Fix os.rename() Windows issue
+* Compatible with LilyPond 2.25.15 to 2.25.19
 
 --------------
 Version 1.25

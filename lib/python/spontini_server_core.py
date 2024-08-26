@@ -163,7 +163,7 @@ def addMaskToPdf(mask, pdf):
   maskPdf.stream.close()
   generatedPdf.stream.close()
   os.remove(pdf)
-  os.rename(pdf+"BAK", pdf)
+  os.replace(pdf+"BAK", pdf)
 
 def executeScript(clientInfo, scriptFile):
 
@@ -445,7 +445,7 @@ def removeFilteredTknFromOutputFiles(fileName):
        checkIfIsChildFile(currFile, fileName, ".pdf") or \
        checkIfIsChildFile(currFile, fileName, ".midi"):
       currFileRenamed = currFile[::-1].replace('DERETLIF-', '', 1)[::-1]
-      os.rename(os.path.join(wsDirPath, currFile), os.path.join(wsDirPath, currFileRenamed))
+      os.replace(os.path.join(wsDirPath, currFile), os.path.join(wsDirPath, currFileRenamed))
   try:
     os.remove(os.path.join(wsDirPath, fileName))
   except:
@@ -621,7 +621,7 @@ def doPostSync(message, request):
     if param3.strip() != "pdf":
       for currFile in os.listdir(wsDirPath):
         if checkIfIsChildFile(currFile, inputFileName, ".svg") or checkIfIsChildFile(currFile, inputFileNameNotFiltered, ".svg"):
-          os.rename(os.path.join(wsDirPath, currFile),
+          os.replace(os.path.join(wsDirPath, currFile),
                     os.path.join(wsDirPath, currFile.replace(".svg", ".ljssvgswap")))
 
     global lilyExecutableCmd
@@ -677,7 +677,7 @@ def doPostSync(message, request):
       else:
         for currFile in os.listdir(wsDirPath):
           if checkIfIsChildFile(currFile, inputFileName, ".ljssvgswap") :
-            os.rename(os.path.join(wsDirPath, currFile),
+            os.replace(os.path.join(wsDirPath, currFile),
               os.path.join(wsDirPath, currFile.replace(".ljssvgswap", ".svg")))
         status = "KO"
         log(clientInfo + p.stdout, "E")
@@ -1186,7 +1186,7 @@ def doPostSync(message, request):
       except:
         pass
 
-      os.rename(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"))
+      os.replace(os.path.join(wsDirPath, fileNameWOSuffix+"-cpy.pdf"), os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"))
       log(clientInfo + "[generating PDF] Generated: " + os.path.join(wsDirPath, fileNameWOSuffix+"-svgexport.pdf"), "S")
 
     return sendCompleteResponse("OK")
