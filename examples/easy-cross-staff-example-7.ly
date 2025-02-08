@@ -31,7 +31,7 @@
 %-----------------%
 
 "j25" = #(define-music-function (parser location mus) (ly:music?) #{
-\jsTweak "25" "Y-offset" #'(-4.5) DynamicLineSpanner $mus
+\jsTweak "25" "Y-offset" #'(-4.6) DynamicLineSpanner $mus
 #})
 
 "j24" = #(define-music-function (parser location mus) (ly:music?) #{
@@ -153,7 +153,7 @@ upper = {
 (padding . -9)
 (stretchability . 0))
 $(set! cpDiameter 0.4)
-\set Score.proportionalNotationDuration = #(ly:make-moment 1/8)
+\set Score.proportionalNotationDuration = #(ly:make-moment 1 8)
 \override Score.Script.padding = 0.4
 \override Score.Stem.thickness = #1
 \override Score.StaffSymbol.thickness = #0.55

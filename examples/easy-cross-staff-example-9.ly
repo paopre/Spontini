@@ -136,7 +136,7 @@ upper = {
 
 \setStavesSpacing
 $(set! cpDiameter 0.3)
-\set Score.proportionalNotationDuration = #(ly:make-moment 1/8)
+\set Score.proportionalNotationDuration = #(ly:make-moment 1 8)
 \override Score.Script.padding = 0.4
 \override Score.Stem.thickness = #1
 \override Score.StaffSymbol.thickness = #0.55

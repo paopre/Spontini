@@ -1,4 +1,9 @@
 --------------
+Version 1.31
+--------------
+* Compatible with Lilypond 2.25.20 to 2.25.23
+
+--------------
 Version 1.30
 --------------
 * Added autoformat/indent
