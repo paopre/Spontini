@@ -28,6 +28,8 @@ jobs:
           sudo apt-get install ghostscript;
           sudo apt-get install fonts-freefont-otf;
           sudo apt install imagemagick;
+          echo "Print ImageMagick version";
+          convert -version;
           npm install cypress --save-dev;
           cd tests;
           python3 webgui_tests.py run_exec npx cypress run --env testnum=1,timeout=1200000,removelilyinstall=true --config specPattern=. --browser chrome --spec run-webgui-test.cy.js
