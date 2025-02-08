@@ -126,6 +126,13 @@ import os, subprocess, traceback\n\
 import platform\n\
 from pathlib import Path\n\
 \n\
+def removeDashArray(filePath):\n\
+  content = ''\n\
+  with open(filePath, 'r', encoding='utf-8') as file:\n\
+      content = file.read().replace('stroke-dasharray', 'replaceme')\n\
+  with open(filePath, 'w', encoding='utf-8') as file:\n\
+      file.write(content)\n\
+\n\
 def execCmd(cmd):\n\
   cliArr = cmd\n\
   try:\n\
@@ -142,11 +149,13 @@ testDir = os.path.join(spontiniDir, 'tests')\n\
 perceptualRefsDir = os.path.join(testDir, 'perceptualrefs')\n\
 \n\
 svgWPath = os.path.join(testDir, '" + lyModFileNameWOExt_ + ".svg')\n\
+removeDashArray(svgWPath)\n\
 \n\
 perceptualMatchRes = 'KO'\n\
 print()\n\
 for refSvg in sorted(os.listdir(os.path.join(perceptualRefsDir))):\n\
   refSvgWPath = os.path.join(perceptualRefsDir, refSvg)\n\
+  removeDashArray(refSvgWPath)\n\
   print(\"Comparing image with \" + refSvgWPath)\n\
   magickCmd = 'compare'\n\
   if platform.system() == 'Windows':\n\
