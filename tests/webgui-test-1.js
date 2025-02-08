@@ -152,8 +152,9 @@ for refSvg in sorted(os.listdir(os.path.join(perceptualRefsDir))):\n\
   if platform.system() == 'Windows':\n\
     magickCmd = 'compare.exe'\n\
   res = execCmd([magickCmd, '-metric', 'phash', svgWPath, refSvgWPath, 'NULL:'])\n\
+  print(\"Res0=\" + str(res))\n\
   res = round(float(res),5)\n\
-  #print(\"Res=\" + str(res))\n\
+  print(\"Res1=\" + str(res))\n\
   if res == 0:\n\
     perceptualMatchRes = 'OK'\n\
     break\n\
