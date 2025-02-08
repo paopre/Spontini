@@ -114,12 +114,15 @@ function doTestStep6() {
 
 }
 
+
 export let pythonScript2 = "\
 import os, glob\n\
 testDir=os.path.join(os.getcwd(), '..', 'tests')\n\
 os.remove(os.path.join(testDir,\"" + lyModFileNameWOExt_ + ".svg\"))\n\
 os.remove(os.path.join(testDir,\"" + lyModFileName_ + "\"))\n\
 "
+
+// FIXME: remove removeDashArray(filePath) when https://github.com/Imagick/imagick/issues/568 is fixed
 
 export let pythonScript1 = "\
 import os, subprocess, traceback\n\
