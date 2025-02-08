@@ -54,6 +54,9 @@ $(set! cpDiameter 0.5)
 
   % OttavaBrackets
   \ottava #1
+  % FIXME: remove when https://github.com/dagmike/BinPacking/issues/15 is solved. And uncomment dasharrays
+  % in perceptualrefs *.svg
+  \once \override Staff.OttavaBracket.dash-fraction = 1
   \once \override Staff.OttavaBracket.Y-offset = 7.6
   \jsOnceOverride "20" "shorten-pair" #'(-2.246 . -8.995) Staff.OttavaBracket
   c''''
@@ -102,4 +105,3 @@ $(set! cpDiameter 0.5)
       \override StaffSymbol.output-attributes.gridstep = "4"
   }
 }
-
