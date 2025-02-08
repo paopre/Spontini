@@ -54,7 +54,7 @@ $(set! cpDiameter 0.5)
 
   % OttavaBrackets
   \ottava #1
-  % FIXME: remove when https://github.com/dagmike/BinPacking/issues/15 is solved. And uncomment dasharrays
+  % FIXME: remove when https://github.com/dagmike/BinPacking/issues/15 is solved. And restore dasharrays
   % in perceptualrefs *.svg
   \once \override Staff.OttavaBracket.dash-fraction = 1
   \once \override Staff.OttavaBracket.Y-offset = 7.6
