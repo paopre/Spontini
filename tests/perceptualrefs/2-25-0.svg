@@ -372,7 +372,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0000" y1="-0.0000" x2="0.0000" y2="-0.0000"/>
 </g>
 <g transform="translate(24.4263, 41.2453)">
-<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.5738" y2="-0.0000" />
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0" y1="0" x2="15.5738" y2="-0.0000" stroke-dasharray="0.3053679006181219,0.7125251014422845"/>
 </g>
 </a>
 </g>
