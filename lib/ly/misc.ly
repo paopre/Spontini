@@ -76,3 +76,20 @@ LINKPAGEBREAK = #(define-scheme-function (parser location pbNum) (number?) (set!
 SECTIONEND = #(define-scheme-function (parser location) () (set! dummyNum 0))
 UNLINKPAGEBREAK = #(define-scheme-function (parser location) () (set! dummyNum 0))
 pageBreakDummy = {}
+
+requireVersion =
+#(define-scheme-function (version then else)
+   (string? scheme? scheme?)
+   (define (list< x y)
+     (if (null? x)
+         #f
+         (cond ((< (car x) (car y)) #t)
+               ((> (car x) (car y)) #f)
+               (else (list< (cdr x) (cdr y))))))
+   (let* ((split (string-split version #\.))
+          (nversion (map string->number split))
+          (tversion (ly:version)))
+     (if (list< tversion nversion)
+         else
+         then)))
+

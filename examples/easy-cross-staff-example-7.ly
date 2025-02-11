@@ -18,6 +18,7 @@
 
 \include "../lib/ly/jssvg.ly"
 \include "../lib/ly/tabular-functions.ly"
+\include "../lib/ly/misc.ly"
 \include "nederlands.ly"
 \version "2.19.84"
 
@@ -153,7 +154,7 @@ upper = {
 (padding . -9)
 (stretchability . 0))
 $(set! cpDiameter 0.4)
-\set Score.proportionalNotationDuration = #(ly:make-moment 1 8)
+\set Score.proportionalNotationDuration = \requireVersion "2.25.23" #1/8 #(ly:make-moment 1 8)
 \override Score.Script.padding = 0.4
 \override Score.Stem.thickness = #1
 \override Score.StaffSymbol.thickness = #0.55
