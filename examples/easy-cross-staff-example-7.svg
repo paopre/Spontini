@@ -4,7 +4,7 @@
 tspan { white-space: pre; }
 ]]>
 </style>
-<g staffspace="0.85000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="0.85000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 10.2562)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -48,7 +48,7 @@ tspan { white-space: pre; }
 <g transform="translate(82.1059, 3.8453)">
 <rect x="0.0000" y="6.4422" width="0.2162" height="8.5687" ry="0.0000" fill="currentColor"/>
 </g>
-<g staffspace="0.85000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="0.85000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 22.2562)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -1062,7 +1062,7 @@ v154z" fill="currentColor"/>
 <path transform="scale(0.0032, -0.0032)" d="M-50 0c0 28 22 50 50 50s50 -22 50 -50s-22 -50 -50 -50s-50 22 -50 50z" fill="currentColor"/>
 </g>
 </a>
-<g staffspace="0.85000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="0.85000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 52.2562)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -1115,7 +1115,7 @@ v154z" fill="currentColor"/>
 <g transform="translate(52.5294, 42.0847)">
 <rect x="0.0000" y="10.2028" width="0.2162" height="8.5687" ry="0.0000" fill="currentColor"/>
 </g>
-<g staffspace="0.85000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="0.85000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 64.2562)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0626" stroke="currentColor" x1="0.0313" y1="0" x2="108.0892" y2="0"/>
 </g>
@@ -2529,7 +2529,7 @@ c46 0 75 46 75 95v5h-163c-24 0 -33 15 -33 24c0 3 1 6 2 7c80 92 134 205 134 327c0
 </g>
 <g transform="translate(28.8852, 165.1062)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.24.4—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>

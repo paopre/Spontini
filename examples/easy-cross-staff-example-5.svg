@@ -4,7 +4,7 @@
 tspan { white-space: pre; }
 ]]>
 </style>
-<g staffspace="1.00000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(14.2264, 11.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
@@ -21,7 +21,7 @@ tspan { white-space: pre; }
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
 </g>
-<g staffspace="1.00000000" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(14.2264, 20.2802)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="16.5411" y2="0"/>
 </g>
@@ -180,7 +180,7 @@ c0 -186 -45 -363 -174 -498c129 -135 174 -312 174 -498c0 -261 -102 -516 -102 -765
 </g>
 <g transform="translate(28.8852, 165.1062)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.24.4—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>

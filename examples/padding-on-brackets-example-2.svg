@@ -9,7 +9,7 @@ tspan { white-space: pre; }
 <tspan>2</tspan>
 </text>
 </g>
-<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" gridstep="3" gridify="true" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 19.0232)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -406,7 +406,7 @@ c80 97 146 198 146 324c0 55 -4 79 -20 129z" fill="currentColor"/>
 </g>
 <g transform="translate(28.8852, 165.1062)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.24.4—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>

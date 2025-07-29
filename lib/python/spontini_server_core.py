@@ -1139,6 +1139,7 @@ def doPostSync(message, request):
           inkscapeCmd = [inkscapeExecutableCmd, svgFile, "--export-text-to-path", "--export-filename="+fileWOSuffix+".pdf"]
           if inkscapeVersion.startswith("0."):
             inkscapeCmd = [inkscapeExecutableCmd, svgFile, "--export-text-to-path", "--export-pdf", fileWOSuffix+".pdf"]
+          log(clientInfo + str(inkscapeCmd))
           p = subprocess.run(inkscapeCmd, encoding='utf-8', stderr=subprocess.STDOUT, stdout=subprocess.PIPE)
           if p.returncode == 0:
             status = "OK"

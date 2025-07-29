@@ -79,7 +79,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 </g>
 </a>
 </g>
-<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(14.2264, 9.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -123,7 +123,7 @@ c-7 0 -14 -3 -16 -9l-29 -86c-1 -2 -1 -5 -1 -7c0 -20 21 -26 44 -28c9 -1 13 -8 13 
 <g transform="translate(49.6457, 3.8453)">
 <rect x="0.0000" y="5.8329" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
 </g>
-<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(14.2264, 18.6213)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="99.5277" y2="0"/>
 </g>
@@ -372,7 +372,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(41.4695, 47.2792)">
 <rect x="0.0000" y="-2.0569" width="0.2162" height="4.0569" ry="0.0000" fill="currentColor"/>
 </g>
-<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 40.2792)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -401,7 +401,7 @@ c0 -39 -17 -77 -52 -77c-24 0 -44 19 -44 43c0 30 38 25 38 55c0 10 -10 11 -22 11h-
 <g transform="translate(41.4695, 33.9333)">
 <rect x="0.0000" y="6.4028" width="0.2162" height="4.9431" ry="0.0000" fill="currentColor"/>
 </g>
-<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.0" isstaff="true">
+<g staffspace="1.00000000" gridcolor="#f0eee9" gridstep="1" gridify="true" lilypondversion="2.24.4" isstaff="true">
 <g transform="translate(5.6906, 49.2792)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1138" stroke="currentColor" x1="0.0569" y1="0" x2="108.0636" y2="0"/>
 </g>
@@ -503,7 +503,7 @@ c-12 -37 -32 -72 -64 -94c-53 -36 -113 -50 -187 -50c-46 0 -83 21 -83 71c0 19 5 39
 </g>
 <g transform="translate(28.8852, 165.1062)">
 <text font-family="serif" font-size="2.2001" text-anchor="start" fill="currentColor">
-<tspan>Music engraving by LilyPond 2.24.0—www.lilypond.org</tspan>
+<tspan>Music engraving by LilyPond 2.24.4—www.lilypond.org</tspan>
 </text>
 </g>
 </svg>
