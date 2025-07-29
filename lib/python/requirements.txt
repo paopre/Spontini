@@ -12,5 +12,5 @@ wheel==0.38.1
 svglib==1.1.0
 reportlab==3.6.13
 testresources==2.0.1
-requests==2.32.0
+requests==2.32.4
 uvicorn==0.20.0
